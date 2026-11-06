@@ -80,9 +80,13 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | Using Date Command In Bash Script | date-command-bash-script | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Core Tech & Programming / Linux | Most Useful Vi Text Editor Commands | most-useful-vi-text-editor-commands | Published | Pending | Pending | Pending |
 | Held (source content mismatch — WP body duplicates permission-ownership-linux) | 2026-11-06 | Core Tech & Programming / Shell Scripting | Arrays in Bash Scripts | arrays-bash-script | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | Permission and Ownership on Linux | permission-ownership-linux | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | List Files and Directories on Linux | list-files-directories-linux | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | How can anyone Navigate on Linux using CD Command? | navigating-linux | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | Permission and Ownership on Linux | permission-ownership-linux | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | List Files and Directories on Linux | list-files-directories-linux | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | How can anyone Navigate on Linux using CD Command? | navigating-linux | Published | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | Understanding the World of Linux Operating Systems | linux-operating-system | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | What are Paths on Linux Platform? | linux-paths | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | What is Bash Script? A Beginner's Guide to Bash Scripts | bash-script | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Data Observability | Data Observability and Its Importance in Modern Data Tech Stack | data-observability-modern-data-tech-stack | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
