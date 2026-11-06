@@ -51,10 +51,14 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Data Engineering / Databases | What is Database Normalization? | database-normalizations | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Data Warehouse | What is Slowly Changing Dimensions? | slowly-changing-dimensions | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / SQL | What are Joins in SQL? | sql-joins | Published | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Data Warehouse | What is Enterprise Data Warehouse(EDW)? | enterprise-data-warehouse | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What is an ACID property in the Database? | acid-property-database | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / SQL | What is Structured Query Language(SQL)? Definitions of SQL | learn-sql | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / SQL | Most Useful Database Queries | learn-database-queries | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Data Warehouse | What is Enterprise Data Warehouse(EDW)? | enterprise-data-warehouse | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Databases | What is an ACID property in the Database? | acid-property-database | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / SQL | What is Structured Query Language(SQL)? Definitions of SQL | learn-sql | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / SQL | Most Useful Database Queries | learn-database-queries | Published | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What is a Relational Database Management System(RDBMS)? Definitions and Types | relational-database | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What is a Database and Why it is Important? Facts and Types | learn-database | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | How to Manage Directories in Linux Platform? | manage-directories-linux-platform | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | How to Kill a Process in Linux? | kill-process-linux | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
