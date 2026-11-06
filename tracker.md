@@ -15,10 +15,14 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Data Engineering / SQL | Difference between SQL GROUP By and HAVING Clause | sql-group-by-having | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / SQL | What is the Fill factor in SQL Server? | fill-factor | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / SQL | SQL INSERT INTO STATEMENT | sql-insert-into | Published | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / SQL | SQL LIKE Operator | sql-like | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / SQL | SQL CREATE Table Statement | sql-create-table-statement | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / SQL | What are SQL Transactions? | sql-transactions | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What is a Distributed Database? | what-is-a-distributed-database | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / SQL | SQL LIKE Operator | sql-like | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / SQL | SQL CREATE Table Statement | sql-create-table-statement | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / SQL | What are SQL Transactions? | sql-transactions | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Databases | What is a Distributed Database? | what-is-a-distributed-database | Published | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / ETL | What is ETL Testing and its Importance? | etl-testing | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What is Metadata and why it's important? | metadata-data-applications | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What are Database Keys? | database-table-keys | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / SQL | SQL IN Operator | sql-in-operator | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
