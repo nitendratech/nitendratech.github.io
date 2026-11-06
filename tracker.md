@@ -71,10 +71,14 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Core Tech & Programming / Linux | File Movement in Linux | file-movement-linux | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | Bash Control Characters | bash-control-characters | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | How to use Command Line Arguments in Bash Script? | command-line-arguments-bash-script | Published | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | Loops in Bash Scripting | loops-bash-scripting | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | How to Run Bash Script in Background? | bash-script-background | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | Linux Networking Commands | linux-networking-commands | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | Linux Admin Commands | linux-admin-commands | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | Loops in Bash Scripting | loops-bash-scripting | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | How to Run Bash Script in Background? | bash-script-background | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | Linux Networking Commands | linux-networking-commands | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | Linux Admin Commands | linux-admin-commands | Published | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | Functions in Bash Script | functions-bash-script | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | How to Send Email from Linux Command Line on Linux? | email-linux-command-line | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | Using Date Command In Bash Script | date-command-bash-script | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | Most Useful Vi Text Editor Commands | most-useful-vi-text-editor-commands | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
