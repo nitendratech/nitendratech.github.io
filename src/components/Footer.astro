@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content';
+import { profile, categories } from '../data/site.js';
+
+// The one and only site footer. "Recent Post" fills itself from the
+// newest blog posts, so it never needs hand-editing.
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 5);
+---
+<footer>
+  <div class="footgrid">
+    <div>
+      <h4>Categories</h4>
+      <ul>
+        {categories.map((c) => <li><a href="/blog/">{c.name}</a></li>)}
+      </ul>
+    </div>
+    <div>
+      <h4>Recent Post</h4>
+      <ul>
+        {posts.map((p) => <li><a href={`/blog/${p.id}/`}>{p.data.title}</a></li>)}
+      </ul>
+      <p class="small">More WordPress articles will be added here in batches by category.</p>
+    </div>
+    <div>
+      <h4>Get in Touch</h4>
+      <ul>
+        <li>{profile.email}</li>
+        <li><a href={profile.linkedin}>LinkedIn</a></li>
+        <li><a href={profile.facebook}>Facebook</a></li>
+        <li><a href={profile.instagram}>Instagram</a></li>
+        <li>{profile.location}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footbar">
+    <span>© 2026 {profile.name} · {profile.motto}</span>
+    <span>
+      <a href="/">Home</a> · <a href="/#timeline">About</a> ·{' '}
+      <a href="/#contact">Contact</a> · <a href="/feed.xml">RSS</a> ·{' '}
+      <a href="#top">Back to top ↑</a>
+    </span>
+  </div>
+</footer>

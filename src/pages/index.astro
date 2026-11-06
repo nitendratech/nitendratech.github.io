@@ -1,0 +1,124 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SkillBar from '../components/SkillBar.astro';
+import PostCard from '../components/PostCard.astro';
+import { profile, stats, skills, timeline, education } from '../data/site.js';
+
+const latest = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+---
+<BaseLayout
+  title="Nitendra Gautam — Lead Data Engineer"
+  description="Portfolio of Nitendra Gautam, Lead Data Engineer: scalable data and AI/ML platforms. Sharing knowledge with the world."
+  schema={{
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Nitendra Gautam',
+    jobTitle: 'Lead Data Engineer',
+    worksFor: { '@type': 'Organization', name: 'JPMorgan Chase' },
+    url: 'https://nitendratech.github.io/',
+    email: 'mailto:nitendratech@gmail.com',
+    address: { '@type': 'PostalAddress', addressLocality: 'Little Elm', addressRegion: 'TX', addressCountry: 'US' },
+    sameAs: [
+      'https://www.linkedin.com/in/nitendragautam',
+      'https://www.facebook.com/nitendratech',
+      'https://www.instagram.com/nitendratech/',
+    ],
+    knowsAbout: ['Data Engineering', 'Apache Spark', 'Databricks', 'Data Lakehouse', 'AI/ML Platforms', 'AWS', 'Cloud Data Architecture'],
+  }}
+>
+  <section class="hero">
+    <span class="pill">PORTFOLIO</span>
+    <h1>Hi, I'm <span>Nitendra Gautam</span></h1>
+    <p class="sub">{profile.headline}</p>
+    <p class="lead">{profile.summary}</p>
+    <p class="small">{profile.motto}</p>
+    <div class="btns">
+      <a class="btn primary" href="#timeline">View Career Timeline</a>
+      <a class="btn secondary" href="#contact">Get in Touch</a>
+    </div>
+    <p class="small">{profile.email} · {profile.linkedinLabel} · {profile.location}</p>
+    <p class="small"><a href="#stats">Scroll down ↓</a></p>
+  </section>
+
+  <main>
+    <section id="stats">
+      <div class="stats">
+        {stats.map((s) => (
+          <div class="stat">
+            <b data-end={s.end} data-prefix={s.prefix ?? ''} data-suffix={s.suffix}>0</b>
+            <p class="small">{s.label}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section id="timeline">
+      <h2>Career Timeline</h2>
+      <p class="center">Fourteen years across telecom, healthcare, and financial services — most recent first.</p>
+      <div class="timeline">
+        {timeline.map((job) => (
+          <div class="titem">
+            <div class="card">
+              <span class="date">{job.dates}</span>
+              <h3>{job.title}</h3>
+              <p class="small">{job.org}</p>
+              <ul>{job.points.map((pt) => <li>{pt}</li>)}</ul>
+              <p>{job.tags.map((t) => <span class="tag">{t}</span>)}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <p class="center">The platforms and tools behind the work above.</p>
+      <div class="skills">
+        {skills.map((s) => <SkillBar name={s.name} level={s.level} />)}
+      </div>
+      <p class="small center">Skill levels are indicative, from the earlier portfolio site — tell me if you want any adjusted.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="grid2">
+        {education.map((e) => (
+          <div class="card">
+            <p style="color:#22d3ee">{e.year}</p>
+            <h3>{e.title}</h3>
+            <p class="small">{e.org}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section id="blog">
+      <h2>Blog</h2>
+      <p class="center">Notes on data engineering, AI/ML platforms, and leadership.</p>
+      <div class="grid2">
+        {latest.map((post) => <PostCard post={post} />)}
+      </div>
+      <p class="center"><a class="btn secondary" href="/blog/">View all posts</a></p>
+    </section>
+
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <p class="center">Open to conversations about data platforms, AI/ML infrastructure, and engineering leadership.</p>
+      <div class="grid2">
+        <div class="card"><p class="small">EMAIL</p><strong>{profile.email}</strong></div>
+        <div class="card"><p class="small">LINKEDIN</p><strong>{profile.linkedinLabel}</strong></div>
+        <div class="card"><p class="small">PHONE</p><strong>{profile.phone}</strong></div>
+        <div class="card"><p class="small">LOCATION</p><strong>{profile.location}</strong></div>
+      </div>
+      <p class="center small">
+        Brand channels: <a href={profile.facebook}>Facebook</a> ·{' '}
+        <a href={profile.instagram}>Instagram</a>
+      </p>
+    </section>
+  </main>
+
+  <script src="/js/countup.js" defer></script>
+</BaseLayout>

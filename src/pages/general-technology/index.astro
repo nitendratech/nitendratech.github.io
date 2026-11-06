@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft && data.category === 'General Technology'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<BaseLayout
+  title="General Technology | NitendraTech"
+  description="General technology topics by Nitendra Gautam that do not fit the other categories."
+>
+  <main>
+    <h1>General Technology</h1>
+    <p>General technology topics that don't fit the other categories — everyday tech, tools, gadgets, and how-to pieces outside data engineering.</p>
+
+    {posts.length === 0 ? (
+      <p class="small">No posts here yet — the first General Technology post will appear in this list automatically when it's published.</p>
+    ) : (
+      posts.map((post) => <PostCard post={post} />)
+    )}
+  </main>
+</BaseLayout>

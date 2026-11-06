@@ -1,0 +1,73 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content, headings } = await render(post);
+const d = post.data;
+const dateLabel = d.pubDate.toLocaleDateString('en-US', {
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric',
+  timeZone: 'UTC',
+});
+// Estimated reading time from the raw Markdown body (~200 words/minute)
+const words = (post.body ?? '').split(/\s+/).filter(Boolean).length;
+const readingTime = Math.max(1, Math.round(words / 200));
+// Table of contents from the article's H2 headings, for longer posts
+const toc = headings.filter((h) => h.depth === 2);
+const showToc = toc.length >= 2;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: d.title,
+  description: d.description,
+  image: 'https://nitendratech.github.io/images/og-default.png',
+  author: { '@type': 'Person', name: 'Nitendra Gautam', url: 'https://nitendratech.github.io/' },
+  publisher: { '@type': 'Person', name: 'Nitendra Gautam' },
+  datePublished: d.pubDate.toISOString().slice(0, 10),
+  articleSection: d.category,
+  mainEntityOfPage: `https://nitendratech.github.io/blog/${post.id}/`,
+};
+---
+<BaseLayout title={`${d.title} | NitendraTech`} description={d.description}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonLd)} />
+  <main>
+    <p class="postmeta">
+      <a href="/blog/">← Blog</a>
+    </p>
+    <h1 style="max-width:760px;margin-left:auto;margin-right:auto">{d.title}</h1>
+    <p class="postmeta">
+      {dateLabel} · {readingTime} min read · {d.category}
+      {d.subcategory ? ` / ${d.subcategory}` : ''}
+    </p>
+
+    {showToc && (
+      <nav class="toc" aria-label="Table of contents">
+        <h4>Contents</h4>
+        <ol>
+          {toc.map((h) => (
+            <li><a href={`#${h.slug}`}>{h.text}</a></li>
+          ))}
+        </ol>
+      </nav>
+    )}
+
+    <article class="prose">
+      <Content />
+    </article>
+
+    <p class="postmeta" style="margin-top:32px">
+      Related: <a href="/blog/">All blog categories</a> ·{' '}
+      <a href="/#timeline">My career timeline</a>
+    </p>
+  </main>
+</BaseLayout>

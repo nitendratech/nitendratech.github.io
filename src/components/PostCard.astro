@@ -1,0 +1,15 @@
+---
+const { post } = Astro.props;
+const d = post.data;
+const monthYear = d.pubDate.toLocaleDateString('en-US', {
+  month: 'short',
+  year: 'numeric',
+  timeZone: 'UTC',
+});
+---
+<div class="card">
+  <p class="small">{monthYear.toUpperCase()} · {d.category}</p>
+  <h3><a href={`/blog/${post.id}/`}>{d.title}</a></h3>
+  <p class="small">{d.description}</p>
+  <a href={`/blog/${post.id}/`}>Read more →</a>
+</div>

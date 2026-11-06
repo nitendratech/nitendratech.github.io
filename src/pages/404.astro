@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { categories } from '../data/site.js';
+---
+<BaseLayout
+  title="Page not found | NitendraTech"
+  description="That page does not exist on NitendraTech — find articles by category, search the blog, or head home."
+>
+  <main>
+    <h1>Page not found</h1>
+    <p>That link doesn't lead anywhere on this site — the page may have moved during the migration from the old site. Try one of these instead:</p>
+    <div class="grid" style="margin-top:20px">
+      <a class="card cardlink" href="/blog/">
+        <p class="small">Start here</p>
+        <h3>All articles</h3>
+        <p>Browse every post on the blog.</p>
+      </a>
+      <a class="card cardlink" href="/search/">
+        <p class="small">Find it fast</p>
+        <h3>Search</h3>
+        <p>Full-text search across all articles, with topic filters.</p>
+      </a>
+      <a class="card cardlink" href="/">
+        <p class="small">Home</p>
+        <h3>Portfolio</h3>
+        <p>Career timeline, skills, and education.</p>
+      </a>
+    </div>
+    <p class="small" style="margin-top:24px">Or jump straight to a category:</p>
+    <p>
+      {categories.map((c, i) => (
+        <span>{i > 0 ? ' · ' : ''}<a href="/blog/">{c.name}</a></span>
+      ))}
+    </p>
+  </main>
+</BaseLayout>

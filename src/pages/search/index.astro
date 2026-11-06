@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { categories } from '../../data/site.js';
+---
+<BaseLayout
+  title="Search | NitendraTech"
+  description="Search all articles on NitendraTech by keyword or category."
+>
+  <main>
+    <h1>Search</h1>
+    <p class="center">Full-text search across every article. Filter by category, or just type.</p>
+
+    <p style="text-align:center">
+      <input
+        id="q"
+        class="searchbox"
+        type="search"
+        placeholder="Search articles — try “Spark”, “lakehouse”, “vector”…"
+        aria-label="Search articles"
+      />
+    </p>
+
+    <div class="chips" id="chips" role="group" aria-label="Filter by category">
+      <button class="chip on" data-cat="" type="button">All categories</button>
+      {categories.map((c) => (
+        <button class="chip" data-cat={c.name} type="button">{c.name}</button>
+      ))}
+    </div>
+
+    <div id="results"><p class="small">Loading the index…</p></div>
+  </main>
+
+  <script is:inline>
+    (function () {
+      var q = document.getElementById('q');
+      var chips = document.getElementById('chips');
+      var results = document.getElementById('results');
+      var posts = [];
+      var cat = '';
+
+      function esc(s) {
+        return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      }
+      function render() {
+        var term = q.value.trim().toLowerCase();
+        var hits = posts.filter(function (p) {
+          if (cat && p.category !== cat) return false;
+          if (!term) return true;
+          var hay = (p.title + ' ' + p.description + ' ' + p.category + ' ' + p.subcategory + ' ' + p.text).toLowerCase();
+          return term.split(/\s+/).every(function (w) { return hay.indexOf(w) !== -1; });
+        });
+        if (!hits.length) {
+          results.innerHTML = '<p class="small">No articles match. Try a different keyword or category.</p>';
+          return;
+        }
+        results.innerHTML = hits.map(function (p) {
+          return '<div class="card" style="margin-bottom:16px"><p class="small">' +
+            esc(p.date) + ' · ' + esc(p.category) + '</p><h3><a href="' + p.url + '">' +
+            esc(p.title) + '</a></h3><p class="small">' + esc(p.description) + '</p></div>';
+        }).join('');
+      }
+      q.addEventListener('input', render);
+      chips.addEventListener('click', function (e) {
+        var b = e.target.closest('.chip');
+        if (!b) return;
+        chips.querySelectorAll('.chip').forEach(function (c) { c.classList.remove('on'); });
+        b.classList.add('on');
+        cat = b.dataset.cat;
+        render();
+      });
+      fetch('/search-index.json')
+        .then(function (r) { return r.json(); })
+        .then(function (data) { posts = data; render(); })
+        .catch(function () { results.innerHTML = '<p class="small">Search index could not be loaded.</p>'; });
+    })();
+  </script>
+</BaseLayout>
