@@ -90,6 +90,9 @@ const latest = (await getCollection('blog', ({ data }) => !data.draft))
             <p style="color:#22d3ee">{e.year}</p>
             <h3>{e.title}</h3>
             <p class="small">{e.org}</p>
+            {e.link && (
+              <p class="small"><a href={e.link}>{e.linkLabel ?? 'View certificate'}</a></p>
+            )}
           </div>
         ))}
       </div>

@@ -5,7 +5,12 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Status | Date | Category / Subcategory | Title | Slug | Website | TikTok | Instagram | Facebook |
 |---|---|---|---|---|---|---|---|---|
 | Published | 2026-10-01 | Data Engineering / Intro | Welcome to my blog | welcome | Published | Pending | Pending | Pending |
-| Imported (draft, in build — site not live yet) | 2026-11-05 | Data Engineering / Hive | Essential Hive Query Language (HQL) Interview Questions | hql-interview-questions | Draft | Pending | Pending | Pending |
+| Published | 2026-11-05 | Data Engineering / Hive | Essential Hive Query Language (HQL) Interview Questions | hql-interview-questions | Published | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Hadoop | Hadoop YARN and Its Commands | hadoop-yarn-commands | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Hadoop | Most Useful Apache Hadoop HDFS Commands | apache-hadoop-hdfs-commands | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / SQL | How to Run SQL Query Using Bash Script and Command-Line? | sql-query-bash-script | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | Introduction to curl Command on Linux | curl-command-linux | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | What are Exit Codes on Linux? | exit-codes-linux | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 

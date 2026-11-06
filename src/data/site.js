@@ -131,9 +131,12 @@ export const education = [
   {
     year: '2026',
     title: 'Artificial Intelligence: Implications for Business Strategy',
-    org: 'MIT Sloan School of Management, Cambridge, MA ',
-  }
+    org: 'MIT Sloan School of Management, Cambridge, MA',
+    link: '/docs/mit-certificate.pdf',
+    linkLabel: 'View certificate (PDF)',
+  },
 ];
+
 // The six stable top-level categories. Slugs are used in URLs.
 export const categories = [
   { name: 'Data Engineering', slug: 'data-engineering', sub: 'Spark, Lakehouse, Pipelines, Streaming, Observability' },
