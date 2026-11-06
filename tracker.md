@@ -75,10 +75,14 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | How to Run Bash Script in Background? | bash-script-background | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Core Tech & Programming / Linux | Linux Networking Commands | linux-networking-commands | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Core Tech & Programming / Linux | Linux Admin Commands | linux-admin-commands | Published | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | Functions in Bash Script | functions-bash-script | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | How to Send Email from Linux Command Line on Linux? | email-linux-command-line | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | Using Date Command In Bash Script | date-command-bash-script | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | Most Useful Vi Text Editor Commands | most-useful-vi-text-editor-commands | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | Functions in Bash Script | functions-bash-script | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | How to Send Email from Linux Command Line on Linux? | email-linux-command-line | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | Using Date Command In Bash Script | date-command-bash-script | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | Most Useful Vi Text Editor Commands | most-useful-vi-text-editor-commands | Published | Pending | Pending | Pending |
+| Held (source content mismatch — WP body duplicates permission-ownership-linux) | 2026-11-06 | Core Tech & Programming / Shell Scripting | Arrays in Bash Scripts | arrays-bash-script | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | Permission and Ownership on Linux | permission-ownership-linux | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | List Files and Directories on Linux | list-files-directories-linux | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | How can anyone Navigate on Linux using CD Command? | navigating-linux | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
