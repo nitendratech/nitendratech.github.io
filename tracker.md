@@ -43,10 +43,14 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Data Engineering / Databases | What is the CAP Theorem? | cap-theorem | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Data Quality | How to Improve Data Quality in an Organization? | improving-data-quality | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Databases | What is Entity and Table Relationship in Database? | entity-table-relationship | Published | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What are Database Constraints? | database-constraints | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Data Warehouse | Enterprise Data Warehouse Layers | enterprise-data-warehouse-layers | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Data Warehouse | What is Metadata in a Data Warehouse? | metadata-data-warehouse | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / SQL | Analyze retail DB using Structured Query Language(SQL) | retail-data-sql | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Databases | What are Database Constraints? | database-constraints | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Data Warehouse | Enterprise Data Warehouse Layers | enterprise-data-warehouse-layers | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Data Warehouse | What is Metadata in a Data Warehouse? | metadata-data-warehouse | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / SQL | Analyze retail DB using Structured Query Language(SQL) | retail-data-sql | Published | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Data Quality | What is Data Quality? | data-quality | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What is Database Normalization? | database-normalizations | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Data Warehouse | What is Slowly Changing Dimensions? | slowly-changing-dimensions | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / SQL | What are Joins in SQL? | sql-joins | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
