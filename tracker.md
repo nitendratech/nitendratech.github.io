@@ -91,10 +91,14 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Data Engineering / Modern Data Stack | The Modern Data Stack: Empowering Data-Driven Organizations | modern-data-stack | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Data Platforms | What is a Data Platform? | data-platform | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Data Ingestion | What is the Data Ingestion Process? Key Concepts Needed for Data Strategy | data-ingestion | Published | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Big Data | Big Data Tutorial | big-data-tutorial | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Big Data | What is an Edge Node? Hadoop Cluster, Database, and Applications | edge-node | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Big Data | Important Big Data Terms Everyone Should Know | important-big-data-terms | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Engineering Leadership / Data Careers | Why Do Organizations Need Data Analysts? | organizations-data-analysts | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Big Data | Big Data Tutorial | big-data-tutorial | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Big Data | What is an Edge Node? Hadoop Cluster, Database, and Applications | edge-node | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Big Data | Important Big Data Terms Everyone Should Know | important-big-data-terms | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Engineering Leadership / Data Careers | Why Do Organizations Need Data Analysts? | organizations-data-analysts | Published | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Big Data | Big Data Technology in Agriculture | big-data-agriculture | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Data Formats | What is Columnar Data Storage and its Types? | columnar-data-storage | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / HBase | Apache HBase Data Model | apache-hbase-data-model | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / HBase | What is Apache HBase? Architecture and Features | apache-hbase | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
