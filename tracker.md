@@ -59,10 +59,14 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Data Engineering / Databases | What is a Database and Why it is Important? Facts and Types | learn-database | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Core Tech & Programming / Linux | How to Manage Directories in Linux Platform? | manage-directories-linux-platform | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Core Tech & Programming / Linux | How to Kill a Process in Linux? | kill-process-linux | Published | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | How to List Running Processes in Linux? | list-running-processes-linux | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | What is Linux File System? | linux-file-system | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | How to Use Word Count(wc) Command In Linux? | linux-wc-command | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | What is Inode in Linux? | inode-linux | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | How to List Running Processes in Linux? | list-running-processes-linux | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | What is Linux File System? | linux-file-system | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | How to Use Word Count(wc) Command In Linux? | linux-wc-command | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | What is Inode in Linux? | inode-linux | Published | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | Linux Tutorials | linux-tutorials | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | What is MAC Address? | mac-address | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | What are Linux Processes? | linux-processes | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | Arithmetic Operators in Bash | arithmetic-operators-bash | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
