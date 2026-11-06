@@ -87,10 +87,14 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Core Tech & Programming / Linux | What are Paths on Linux Platform? | linux-paths | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | What is Bash Script? A Beginner's Guide to Bash Scripts | bash-script | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Data Observability | Data Observability and Its Importance in Modern Data Tech Stack | data-observability-modern-data-tech-stack | Published | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Data Formats | What is a Flat File ? And Why is It Important? | flat-file | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Modern Data Stack | The Modern Data Stack: Empowering Data-Driven Organizations | modern-data-stack | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Data Platforms | What is a Data Platform? | data-platform | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Data Ingestion | What is the Data Ingestion Process? Key Concepts Needed for Data Strategy | data-ingestion | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Data Formats | What is a Flat File ? And Why is It Important? | flat-file | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Modern Data Stack | The Modern Data Stack: Empowering Data-Driven Organizations | modern-data-stack | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Data Platforms | What is a Data Platform? | data-platform | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Data Ingestion | What is the Data Ingestion Process? Key Concepts Needed for Data Strategy | data-ingestion | Published | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Big Data | Big Data Tutorial | big-data-tutorial | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Big Data | What is an Edge Node? Hadoop Cluster, Database, and Applications | edge-node | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Big Data | Important Big Data Terms Everyone Should Know | important-big-data-terms | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Engineering Leadership / Data Careers | Why Do Organizations Need Data Analysts? | organizations-data-analysts | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
