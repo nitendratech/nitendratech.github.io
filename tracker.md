@@ -63,10 +63,14 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Core Tech & Programming / Linux | What is Linux File System? | linux-file-system | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Core Tech & Programming / Linux | How to Use Word Count(wc) Command In Linux? | linux-wc-command | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Core Tech & Programming / Linux | What is Inode in Linux? | inode-linux | Published | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | Linux Tutorials | linux-tutorials | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | What is MAC Address? | mac-address | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | What are Linux Processes? | linux-processes | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | Arithmetic Operators in Bash | arithmetic-operators-bash | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | Linux Tutorials | linux-tutorials | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | What is MAC Address? | mac-address | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | What are Linux Processes? | linux-processes | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | Arithmetic Operators in Bash | arithmetic-operators-bash | Published | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | What are Bash Variables? | bash-variables | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | File Movement in Linux | file-movement-linux | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | Bash Control Characters | bash-control-characters | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | How to use Command Line Arguments in Bash Script? | command-line-arguments-bash-script | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
