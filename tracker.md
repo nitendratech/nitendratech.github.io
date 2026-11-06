@@ -31,10 +31,14 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Data Engineering / Databases | Transaction Isolation Level in Database | isolation-level-database | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Databases | Database Tutorials | database-tutorials | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / ETL | What is ETL (Extract, Transform and Load) Process? | etl-process | Published | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / SQL | What is SQL Alias? | sql-alias | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What is Database View? | database-view | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What are Database Indexes? | database-indexes | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What is Polyglot Persistence? | polyglot-persistence | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / SQL | What is SQL Alias? | sql-alias | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Databases | What is Database View? | database-view | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Databases | What are Database Indexes? | database-indexes | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Databases | What is Polyglot Persistence? | polyglot-persistence | Published | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | Important difference between SQL and NoSQL Database | sql-nosql-database-difference | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / SQL | SQL SELECT Operator | select-operator-sql | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What is NoSQL Database? NoSQL Database Explained | nosql-databases | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | Stored Procedure in Database | stored-procedure-database | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
