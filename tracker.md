@@ -67,10 +67,14 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Core Tech & Programming / Linux | What is MAC Address? | mac-address | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Core Tech & Programming / Linux | What are Linux Processes? | linux-processes | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | Arithmetic Operators in Bash | arithmetic-operators-bash | Published | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | What are Bash Variables? | bash-variables | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | File Movement in Linux | file-movement-linux | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | Bash Control Characters | bash-control-characters | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | How to use Command Line Arguments in Bash Script? | command-line-arguments-bash-script | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | What are Bash Variables? | bash-variables | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | File Movement in Linux | file-movement-linux | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | Bash Control Characters | bash-control-characters | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | How to use Command Line Arguments in Bash Script? | command-line-arguments-bash-script | Published | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | Loops in Bash Scripting | loops-bash-scripting | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Shell Scripting | How to Run Bash Script in Background? | bash-script-background | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | Linux Networking Commands | linux-networking-commands | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Core Tech & Programming / Linux | Linux Admin Commands | linux-admin-commands | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
