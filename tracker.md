@@ -39,10 +39,14 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Data Engineering / SQL | SQL SELECT Operator | select-operator-sql | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Databases | What is NoSQL Database? NoSQL Database Explained | nosql-databases | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Databases | Stored Procedure in Database | stored-procedure-database | Published | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / SQL | What are SQL Unions? | sql-unions | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What is the CAP Theorem? | cap-theorem | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Data Quality | How to Improve Data Quality in an Organization? | improving-data-quality | Draft | Pending | Pending | Pending |
-| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What is Entity and Table Relationship in Database? | entity-table-relationship | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / SQL | What are SQL Unions? | sql-unions | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Databases | What is the CAP Theorem? | cap-theorem | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Data Quality | How to Improve Data Quality in an Organization? | improving-data-quality | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Databases | What is Entity and Table Relationship in Database? | entity-table-relationship | Published | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Databases | What are Database Constraints? | database-constraints | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Data Warehouse | Enterprise Data Warehouse Layers | enterprise-data-warehouse-layers | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / Data Warehouse | What is Metadata in a Data Warehouse? | metadata-data-warehouse | Draft | Pending | Pending | Pending |
+| Imported (draft, in build) | 2026-11-06 | Data Engineering / SQL | Analyze retail DB using Structured Query Language(SQL) | retail-data-sql | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
