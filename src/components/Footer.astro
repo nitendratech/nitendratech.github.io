@@ -21,7 +21,6 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
       <ul>
         {posts.map((p) => <li><a href={`/blog/${p.id}/`}>{p.data.title}</a></li>)}
       </ul>
-      <p class="small">More WordPress articles will be added here in batches by category.</p>
     </div>
     <div>
       <h4>Get in Touch</h4>

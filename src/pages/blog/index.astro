@@ -25,7 +25,5 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
 
     <h2>Latest posts</h2>
     {posts.map((post) => <PostCard post={post} />)}
-
-    <p class="small">More WordPress articles will appear here in batches by category, once the inventory and import (Phase 4 of the migration plan) is complete. The tracker in content/tracker.md records every article, so no topic is repeated or lost.</p>
   </main>
 </BaseLayout>
