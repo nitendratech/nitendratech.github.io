@@ -1,0 +1,27 @@
+---
+const { currentPage, lastPage } = Astro.props;
+const pageUrl = (n) => (n === 1 ? '/blog/' : `/blog/page/${n}/`);
+const nums = [...new Set([1, lastPage, currentPage - 1, currentPage, currentPage + 1])]
+  .filter((n) => n >= 1 && n <= lastPage)
+  .sort((a, b) => a - b);
+const items = [];
+nums.forEach((n, i) => {
+  if (i > 0 && n - nums[i - 1] > 1) items.push('…');
+  items.push(n);
+});
+---
+{lastPage > 1 && (
+  <nav class="pager" aria-label="Blog pages">
+    {currentPage > 1
+      ? <a class="pager-link" href={pageUrl(currentPage - 1)}>← Newer</a>
+      : <span class="pager-link disabled">← Newer</span>}
+    {items.map((it) => it === '…'
+      ? <span class="pager-ellipsis">…</span>
+      : it === currentPage
+        ? <span class="pager-link current" aria-current="page">{it}</span>
+        : <a class="pager-link" href={pageUrl(it)}>{it}</a>)}
+    {currentPage < lastPage
+      ? <a class="pager-link" href={pageUrl(currentPage + 1)}>Older →</a>
+      : <span class="pager-link disabled">Older →</span>}
+  </nav>
+)}

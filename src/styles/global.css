@@ -71,3 +71,11 @@ img{max-width:100%}
   .btns{gap:10px}
   .btn{padding:11px 20px}
 }
+
+/* Blog pager */
+.pager{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;margin:36px 0 8px}
+.pager-link{border:1px solid #334155;border-radius:999px;padding:6px 14px;color:#cbd5e1;font-size:15px}
+a.pager-link:hover{border-color:#22d3ee;color:#22d3ee}
+.pager-link.current{background:linear-gradient(90deg,#22d3ee,#3b82f6);color:#0f172a;font-weight:700;border-color:transparent}
+.pager-link.disabled{opacity:.35}
+.pager-ellipsis{color:#64748b;padding:0 2px}

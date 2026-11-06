@@ -2,10 +2,14 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PostCard from '../../components/PostCard.astro';
+import Pager from '../../components/Pager.astro';
 import { categories } from '../../data/site.js';
 
-const posts = (await getCollection('blog', ({ data }) => !data.draft))
+const allPosts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const pageSize = 10;
+const lastPage = Math.max(1, Math.ceil(allPosts.length / pageSize));
+const posts = allPosts.slice(0, pageSize);
 ---
 <BaseLayout
   title="Blog | NitendraTech"
@@ -25,5 +29,9 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
 
     <h2>Latest posts</h2>
     {posts.map((post) => <PostCard post={post} />)}
+
+    <Pager currentPage={1} lastPage={lastPage} />
+
+    <p class="small">Showing 10 of {allPosts.length} articles per page. Articles are migrated in batches from the WordPress site; the tracker records every article, so no topic is repeated or lost.</p>
   </main>
 </BaseLayout>

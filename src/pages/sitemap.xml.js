@@ -4,7 +4,10 @@ import { getCollection } from 'astro:content';
 // so the sitemap can never drift out of sync with the site.
 export async function GET({ site }) {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
-  const staticPaths = ['', 'blog/', 'general-technology/', 'non-technical/'];
+  const lastPage = Math.ceil(posts.length / 10);
+  const pagerPaths = [];
+  for (let n = 2; n <= lastPage; n++) pagerPaths.push(`blog/page/${n}/`);
+  const staticPaths = ['', 'blog/', ...pagerPaths, 'general-technology/', 'non-technical/'];
   const urls = [
     ...staticPaths.map((p) => new URL(p, site).href),
     ...posts.map((p) => new URL(`blog/${p.id}/`, site).href),
