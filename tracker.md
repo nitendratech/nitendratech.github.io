@@ -99,10 +99,21 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Data Engineering / Data Formats | What is Columnar Data Storage and its Types? | columnar-data-storage | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / HBase | Apache HBase Data Model | apache-hbase-data-model | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / HBase | What is Apache HBase? Architecture and Features | apache-hbase | Published | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Data Engineering / Apache Pig | What are Apache Pig execution Modes? | apache-pig-execution-modes | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Data Engineering / Apache Flume | Introduction to Apache Flume: Components and Channels | apache-flume | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Data Engineering / Stream Processing | What is Complex Event Processing(CEP)? | complex-event-processing | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Data Engineering / Apache Sqoop | Apache Sqoop Tutorial | apache-sqoop-tutorial | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Apache Pig | What are Apache Pig execution Modes? | apache-pig-execution-modes | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Apache Flume | Introduction to Apache Flume: Components and Channels | apache-flume | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Stream Processing | What is Complex Event Processing(CEP)? | complex-event-processing | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Apache Sqoop | Apache Sqoop Tutorial | apache-sqoop-tutorial | Published | Pending | Pending | Pending |
+| Converted locally, not pushed | 2026-11-06 | Data Engineering / Data Lake | What is Data Lake? Feature and Architecture | learn-datalake | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2026-11-06 | Data Engineering / Data Governance | Metadata Governance for Big Data Clusters | metadata-governance-bigdata | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2026-11-06 | Data Engineering / Apache Pig | What is Apache Pig? Architecture and Components | apache-pig | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2026-11-06 | Data Engineering / Apache NiFi | What is Apache NiFi? An Introduction | apache-nifi | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2026-11-06 | Data Engineering / Big Data Security | What is the Best Way to Secure a Big Data cluster? | security-bigdata | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2026-11-06 | Data Engineering / Metadata | What is Metadata For Big Data Applications and Why it is important? | metadata-big-data-applications | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2026-11-06 | Data Engineering / File Formats | How do we Choose File Format in Big Data Framework? | file-format-big-data | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2026-11-06 | Data Engineering / File Formats | What are Big Data File Storage Formats? | big-data-storage-formats | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2026-11-06 | Data Engineering / Big Data Analytics | Big Data Analytics in Cancer Research | big-data-cancer | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2026-11-06 | Data Engineering / Big Data Fundamentals | What are the Sources of Big Data and How it gets generated? | big-data-sources | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2026-11-06 | Data Engineering / Big Data Fundamentals | What is Big Data and Why it is important to understand? Introduction and Properties | big-data | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
