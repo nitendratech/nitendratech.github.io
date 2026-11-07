@@ -22,7 +22,7 @@ Hadoop security is about securing the below items.
 
 Any such insights in the hands of the competitor, individual hacker, or any unauthorized personnel could be disastrous as they could steal personal or corporate data and use it for unlawful purposes. That's why all these data must be fully secured
 
-Sensitive data stored in Hadoop or any big data frameworks are subject to privacy standards such as HIPPA (Health Insurance Portability and Accountability Act), HITECH (Health Information Technology for Economic and Clinical Health Act), etc, and security regulations and audits. In addition to bringing benefits to the enterprise, the Hadoop framework is also introducing new dimensions to the cyber-attack landscape. In a time when attackers are constantly looking for which system to target, Hadoop has become a starting point as all data are stored on top of HDFS.
+Sensitive data stored in Hadoop or any big data frameworks are subject to privacy standards such as HIPAA (Health Insurance Portability and Accountability Act), HITECH (Health Information Technology for Economic and Clinical Health Act), etc, and security regulations and audits. In addition to bringing benefits to the enterprise, the Hadoop framework is also introducing new dimensions to the cyber-attack landscape. In a time when attackers are constantly looking for which system to target, Hadoop has become a starting point as all data are stored on top of HDFS.
 
 Data security strategy is one of the most widely discussed topics among executives, business stakeholders, data scientists, and developers when working with data-based solutions at the enterprise level.
 
@@ -36,7 +36,7 @@ Sensitive data like Credit card information, SSN(Social Security Number), Financ
 
 - **Data is Subject to Regulatory Compliance**
 
-Certain Countries/Regions like the USA/EU have different data protection policies like HIPPA, FISMA, and GDPR to protect sensitive data. This compliance differs based on the data types and the region in which a company is conducting the Business.
+Certain Countries/Regions like the USA/EU have different data protection policies like HIPAA, FISMA, and GDPR to protect sensitive data. This compliance differs based on the data types and the region in which a company is conducting the Business.
 
 - **Secured data can Enable one's Business**
 
@@ -53,7 +53,7 @@ A single point of authentication is needed for enterprise identity and access ma
 - **Active Directory(AD)**: The use of an Active Directory has many advantages on the part of the organization and the users. From the organization's perspective, Re-usage of existing services reduces maintenance efforts and costs. From the user perspective use of a Single Sign-On service is important to simplify access and to increase security in the cluster as password hashes do not get repeatedly transmitted over the wire.
 - **Use of Kerberos and LDAP:** Kerberos provides Single Sign-On(SSO) via a ticket-based authentication mechanism. The Simple and Protected GSSAPI Negotiation Mechanism (**SPNEGO**) protocol, which is supported by all major browsers, extends Kerberos authentication to web applications and portals.
 - **SAML(Security Assertion Markup Language)**
-- **Outh (Open Authentication)**
+- **OAuth (Open Authorization)**
 - **HTTP Authentication**: REST API-based authentication is mainly used for JDBC connection
 
 ### 2. Authorization
@@ -90,7 +90,7 @@ Security-Enhanced Linux (SELinux) is a Linux kernel security module that provide
 
 Enterprises should have a proper audit trail indicating any changes to the data ecosystem and also provide audit reports for any data access and data processing that occurs within the ecosystem.
 
-As part of following government regulations, companies are often required to keep an audit trail of log-related cluster access and cluster configuration changes. Most of the Hadoop distributions like Cloudera, Mapr, and Hortonwokrs offer audit capabilities to ensure that platform administrators and users' activities can be logged.
+As part of following government regulations, companies are often required to keep an audit trail of log-related cluster access and cluster configuration changes. Most of the Hadoop distributions like Cloudera, Mapr, and Hortonworks offer audit capabilities to ensure that platform administrators and users' activities can be logged.
 
 Logging for audits should include at least the below items.
 

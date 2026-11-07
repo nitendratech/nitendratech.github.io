@@ -80,7 +80,7 @@ Here are the popular tools for Data ingestion.
 - Apache Samza
 - Apache Storm
 - Fluentd
-- Apache Gobblin
+- Apache Goblin
 
 ### Commercial Software
 

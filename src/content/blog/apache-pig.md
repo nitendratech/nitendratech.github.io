@@ -9,7 +9,7 @@ draft: false
 
 Apache Pig is a platform for analyzing [Big data sets](https://www.nitendratech.com/bigdata/big-data/) that consists of a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs. The data flow in a pipeline step by step and data can be stored at any point in the pipeline, It allows users to analyze large unstructured data sets by transforming and applying functions on the data set.
 
-It can be used to process complex data flows and extend them with custom code. A job can be written to collect web server logs, use external programs to fetch geolocation data for the users' IP addresses, and join the new set of Geo-located web traffic to click maps stored as JSON, web analytic data in CSV (Comma comma-separated values) format, and spreadsheets from the advertising department to build a rich view of user behavior overlaid with advertising effectiveness.
+It can be used to process complex data flows and extend them with custom code. A job can be written to collect web server logs, use external programs to fetch geolocation data for the users' IP addresses, and join the new set of Geo-located web traffic to click maps stored as JSON, web analytic data in CSV (comma-separated values) format, and spreadsheets from the advertising department to build a rich view of user behavior overlaid with advertising effectiveness.
 
 ## Apache Pig Architecture and Phases
 

@@ -43,7 +43,7 @@ import org.apache.spark.sql.SparkSession
 // Get Spark session
 val sparkSession = SparkSession
    .builder()
-   .appName("SPark SQL Session")
+   .appName("Spark SQL Session")
    .config("spark.config.option","config-value")
    .getOrCreate()
 

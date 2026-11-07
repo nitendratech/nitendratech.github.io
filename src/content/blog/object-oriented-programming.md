@@ -37,7 +37,7 @@ System.out.println("Bark");
 
 An object is an instance of a class. It is a physical and logical entity that has a state and behavior. A class is defined in source code whereas an object exists at runtime.
 
-Let's consider `Dog` a class that has the dog traits represented by a function `bark()`. We can have a separate object for German Shepard and Labrador having the same behavior (`bark()` in this case).
+Let's consider `Dog` a class that has the dog traits represented by a function `bark()`. We can have a separate object for German Shepherd and Labrador having the same behavior (`bark()` in this case).
 
 ```java
 class Dog {
@@ -61,7 +61,7 @@ A field is a variable used to store data.
 class Dog {
 public static void main(String[] args){
 
-     String dogName = "German Sheppard"; // String Variable or Field
+     String dogName = "German Shepherd"; // String Variable or Field
     int dogAge = 2;  // Numeric Variable or Field
     System.out.println("Dog Name: "+dogName);
     System.out.println("Dog Age: "+dogAge);

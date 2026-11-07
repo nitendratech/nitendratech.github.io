@@ -40,7 +40,7 @@ The below table shows the different agricultural areas along with the source of 
 
 [2]
 
-KMC = K-Means Clustering, SVM = Scalable Vector Machines
+KMC = K-Means Clustering, SVM = Support Vector Machines
 
 ## Software tools used for Big data analysis in Agriculture
 

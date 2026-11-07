@@ -143,7 +143,7 @@ val aggDF =
                   .agg(FoodAnalyticsUDAF(col("foodType"),
                                   col("sellerCode"),col("paidItem"),
                                   col("unpaidItem"))
-                  .as("food_agg_result")) // Get the Aggregrated Results from Food Analytics
+                  .as("food_agg_result")) // Get the Aggregated Results from Food Analytics
                   .select(
       col("productId"),
       col("foodCode"),
@@ -156,7 +156,7 @@ val aggDF =
       col("food_agg_result.ngmoPaidItem").as("ngmoPaidItem"),
       col("food_agg_result.ngmoUnpaidItem").as("ngmoUnpaidItem")
     )
-println("Printing Aggregrated Food Data ")
+println("Printing Aggregated Food Data ")
 
   print(aggDF.show())
 ```
@@ -321,7 +321,7 @@ $ pwd
 ~$ ./spark_submit_food_analytics.sh
 Starting the Food Analytics Job
 Input HDFS Path: /user/maria_dev/fooditems/online_food_items.csv
-Printing Aggregrated Food Data
+Printing Aggregated Food Data
 +---------+--------+---------+----------+------------+-------------+-----------+-------------+------------+--------------+
 |productId|foodCode|orderDate|sellerCode|gmoIndicator|ngmoIndicator|gmoPaidItem|gmoUnpaidItem|ngmoPaidItem|ngmoUnpaidItem|
 +---------+--------+---------+----------+------------+-------------+-----------+-------------+------------+--------------+

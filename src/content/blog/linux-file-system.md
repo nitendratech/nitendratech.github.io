@@ -78,7 +78,7 @@ bin/ boot/ dev/ etc/ home/ lib/ lost+found/ proc/ root/ sbin/ usr/ var/
 | `/home` | This directory contains all the user folders of that Linux system. This folder can include Documents, Music, Public, and Videos. |
 | `/opt` | This contains any packages that are an add-on to that Linux system |
 | /mnt | This directory includes subdirectories that are the access point for mounting devices like CD-ROMs or external hard drives. |
-| /proc | This is a virtual files system in Linux that contains information about the processes that are running currently. It’s created when the system is up and running and gets deleted when the Linux system is shit down. |
+| /proc | This is a virtual files system in Linux that contains information about the processes that are running currently. It’s created when the system is up and running and gets deleted when the Linux system is shut down. |
 | /media | This directory contains files for removable devices such as USB drivers. |
 
 ---

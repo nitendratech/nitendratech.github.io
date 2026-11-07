@@ -7,7 +7,7 @@ subcategory: "LLM"
 draft: false
 ---
 
-Large Language models or LLMs are Artificial Intelligence(AI) software that uses machine learning and other models to generate and recognize text and similar content. They use neural network models called transformation models that can learn context and meaning by tracking relationships in sequential data. They are trained in large columns of data with millions or billions of parameters.
+Large Language models or LLMs are Artificial Intelligence(AI) software that uses machine learning and other models to generate and recognize text and similar content. They use neural network models called transformer models that can learn context and meaning by tracking relationships in sequential data. They are trained in large columns of data with millions or billions of parameters.
 
 ## Why is the Large Language Model(LLM) Important?
 
@@ -31,7 +31,7 @@ The previous form of the Machine learning model uses a numerical table to repres
 Below are some of the examples of LLM Models
 
 - Open AI GPT-3 Model
-- AI21 Lab's Jurasic-1 Model
+- AI21 Lab's Jurassic-1 Model
 - LightOne's Paradigm Models
 
 ---

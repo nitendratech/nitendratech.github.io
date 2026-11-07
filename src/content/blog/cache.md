@@ -39,7 +39,7 @@ Below are some of the common cache eviction policies
 - First In First Out (FIFO): In this cache policy, those blocks that are accessed first are evicted first, regardless of frequency or number of times it was accessed before.
 - Last In First Out (LIFO): In this cache, those blocks that are accessed most recently are evicted first. It does not matter how often or how many times this block was accessed before.
 - Least Recently Used (LRU): It disregards that item first which was least recently used.
-- Most Recently Used (LRU): It discards the most recently used items first.
+- Most Recently Used (MRU): It discards the most recently used items first.
 - Least Frequently Used (LFU): It counts how often an item is accessed and discard those items which are least frequently used,
 - Random Replacement(RR): It randomly selects the candidate item and discards it to make space when needed.
 

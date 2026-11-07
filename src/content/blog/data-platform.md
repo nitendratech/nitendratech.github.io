@@ -85,7 +85,7 @@ AWS provides a variety of cloud-based services for big data processing and analy
 - Amazon Redshift for Data Warehousing
 - Amazon Kinesis for Real-time Analytics
 - Amazon QuickSight for Dashboard
-- AWS Lake Foundation for Data Lake
+- AWS Lake Formation for Data Lake
 
 ### Microsoft Azure Data Platform
 

@@ -30,7 +30,7 @@ val conf = new SparkConf()
    val sparkContext = new SparkContext(sc)
 ```
 
-## Parallellized Collections
+## Parallelized Collections
 
 Parallelized collections are created by calling Spark Context's parallelize method on an existing collection in your driver program (a Scala Seq). The elements of the collection are copied to form a distributed dataset that can be operated on in parallel.
 

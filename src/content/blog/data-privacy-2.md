@@ -64,7 +64,7 @@ Some examples of compliance or regulations are given below.
 
 - General Data Protection Regulation (GDPR — European Union)
 - Personal Information Protection and Electronic Documents Act (PIPEDA — Canada)
-- Health Information Portability and Accountability Act (HIPAA)
+- Health Insurance Portability and Accountability Act (HIPAA)
 - Health Information Technology for Economic and Clinical Health (HITECH)
 - Payment Card Industry Data Security Standards (PCI DSS).
 

@@ -59,7 +59,7 @@ When a client holds a representation of a resource, including any metadata attac
 
 - Self-descriptive messages
 
-Each message includes enough information to describe how to process the message. For example, which parser to invoke may be specified by an Internet media type (previously known as a MIME type). Responses also explicitly indicate their cacheablity.
+Each message includes enough information to describe how to process the message. For example, which parser to invoke may be specified by an Internet media type (previously known as a MIME type). Responses also explicitly indicate their cacheability.
 
 - Hypermedia as the engine of application state (HATEOAS)
 

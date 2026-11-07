@@ -20,7 +20,7 @@ With the increase in this data collection, organizations have been facing new ch
 
 Data Privacy for an individual means the ability of that individual to determine how, when, and to what extent their personal information is shared, among others. Data Privacy for an organization is the ability to handle sensitive data, including personal and confidential data. These confidential data can be listed below.
 
-- Personal Identifiable Information (PII) data
+- Personally Identifiable Information (PII) data
 - Financial Data
 - Intellectual property
 - Personal data.

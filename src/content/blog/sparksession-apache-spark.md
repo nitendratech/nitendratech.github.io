@@ -49,7 +49,7 @@ Let's see some important and commonly used SparkSession methods.
 | Method | Description |
 | --- | --- |
 | `version` | It returns a Spark Version of the application is running. Example: 2.4.0 |
-| `createDataFrame()` | It Creates a Daraframe from the collection and an RDD. |
+| `createDataFrame()` | It Creates a DataFrame from the collection and an RDD. |
 | `emptyDataFrame()` | It creates an empty DataFrame. |
 | `emptyDataset()` | It creates a Dataset from the collection. |
 | `createDataset()` | It creates a Dataset from the collection, DataFrame, and RDD. |
