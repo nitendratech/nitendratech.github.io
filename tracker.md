@@ -114,33 +114,43 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Data Engineering / Big Data Analytics | Big Data Analytics in Cancer Research | big-data-cancer | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Big Data Fundamentals | What are the Sources of Big Data and How it gets generated? | big-data-sources | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Big Data Fundamentals | What is Big Data and Why it is important to understand? Introduction and Properties | big-data | Published | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Cloud & Architecture / System Design | Understanding difference between Stateless and Stateful Systems | stateless-stateful-systems | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Data Engineering / Data Migration | What is Data Migration? | data-migration | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | AI & ML Platforms / LLM | What is Large Language Models(LLM)? | what-is-large-language-modelsllm | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | General Technology / Precision Agriculture | Connection between Technology and Precision Agriculture | technology-precision-agriculture | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Cloud & Architecture / DevOps | Essence and Application of Jenkins Software | jenkins-software | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Non-Technical / Marketing | What is Precision Marketing? | precision-marketing | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Cloud & Architecture / Serverless | Exploring the Power of Serverless Architecture: Advantages and Benefits | serverless-architecture | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Cloud & Architecture / Kubernetes | What is Kubernetes? | learn-kubernetes | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | General Technology / Tech Concepts | What is Disruptive Technology? | disruptive-technology | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Engineering Leadership / Production Support | Production Support Models in Software Companies | production-support-models | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Cloud & Architecture / Cloud Networking | What do Egress and Ingress Mean? | egress-ingress-cloud | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | General Technology / GIS | What is GIS (Geographical Information System)? | gis-geographical-information-system | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Data Engineering / Data Integration | What is Electronic Data Interchange (EDI)? | electronic-data-interchange-edi | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | General Technology / Enterprise Software | What is Enterprise Software? | enterprise-software | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | General Technology / IoT | What is the Internet of Things (IoT)? | internet-of-things | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Core Tech & Programming / Logging | What are Access Logs? | access-logs | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Core Tech & Programming / Spring Boot | Running Spring Boot Application from a Command Line | spring-boot-app-command-line | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Cloud & Architecture / Containers | What is Containerization? | learn-containerization | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Cloud & Architecture / Cloud Computing | What is Cloud Computing? Explained in Detail | cloud-computing | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Core Tech & Programming / Logging | Log Levels in Application | log-levels | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Core Tech & Programming / Logging | What are Log Files? Log Files Explained | log-files | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Cloud & Architecture / Docker | Installing Oracle Database using Docker on macOS | oracle-database-docker-macos | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Core Tech & Programming / macOS Tools | Important Homebrew Commands | important-homebrew-commands | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Cloud & Architecture / AWS | What is Amazon Web Services(AWS)? | learn-aws | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Cloud & Architecture / Docker | Install Docker on Mac OS X | install-docker-macosx | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | General Technology / Blockchain | Blockchain Technology | blockchain-technology | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-11-06 | Cloud & Architecture / DevOps | What is Continuous Integration? An Important DevOps tools | continuous-integration | Draft | Pending | Pending | Pending |
+| Published | 2026-11-06 | Cloud & Architecture / System Design | Understanding difference between Stateless and Stateful Systems | stateless-stateful-systems | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Data Migration | What is Data Migration? | data-migration | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | AI & ML Platforms / LLM | What is Large Language Models(LLM)? | what-is-large-language-modelsllm | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | General Technology / Precision Agriculture | Connection between Technology and Precision Agriculture | technology-precision-agriculture | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Cloud & Architecture / DevOps | Essence and Application of Jenkins Software | jenkins-software | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Non-Technical / Marketing | What is Precision Marketing? | precision-marketing | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Cloud & Architecture / Serverless | Exploring the Power of Serverless Architecture: Advantages and Benefits | serverless-architecture | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Cloud & Architecture / Kubernetes | What is Kubernetes? | learn-kubernetes | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | General Technology / Tech Concepts | What is Disruptive Technology? | disruptive-technology | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Engineering Leadership / Production Support | Production Support Models in Software Companies | production-support-models | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Cloud & Architecture / Cloud Networking | What do Egress and Ingress Mean? | egress-ingress-cloud | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | General Technology / GIS | What is GIS (Geographical Information System)? | gis-geographical-information-system | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Data Integration | What is Electronic Data Interchange (EDI)? | electronic-data-interchange-edi | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | General Technology / Enterprise Software | What is Enterprise Software? | enterprise-software | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | General Technology / IoT | What is the Internet of Things (IoT)? | internet-of-things | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Logging | What are Access Logs? | access-logs | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Spring Boot | Running Spring Boot Application from a Command Line | spring-boot-app-command-line | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Cloud & Architecture / Containers | What is Containerization? | learn-containerization | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Cloud & Architecture / Cloud Computing | What is Cloud Computing? Explained in Detail | cloud-computing | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Logging | Log Levels in Application | log-levels | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Logging | What are Log Files? Log Files Explained | log-files | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Cloud & Architecture / Docker | Installing Oracle Database using Docker on macOS | oracle-database-docker-macos | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / macOS Tools | Important Homebrew Commands | important-homebrew-commands | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Cloud & Architecture / AWS | What is Amazon Web Services(AWS)? | learn-aws | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Cloud & Architecture / Docker | Install Docker on Mac OS X | install-docker-macosx | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | General Technology / Blockchain | Blockchain Technology | blockchain-technology | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Cloud & Architecture / DevOps | What is Continuous Integration? An Important DevOps tools | continuous-integration | Live | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-15 | Data Engineering / Interview Questions | Important Data Warehouse Interview Questions | data-warehouse-interview | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-15 | Data Engineering / Interview Questions | Important AWS Glue Interview Questions | aws-glue-interview | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-15 | Core Tech & Programming / Interview Questions | Bash Scripts Interview Questions | bash-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-15 | Data Engineering / Interview Questions | Essential AWS EMR Interview questions | amazon-emr | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-15 | Data Engineering / Interview Questions | Most Important Data Engineering Interview Questions | data-engineering-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-15 | Cloud & Architecture / Interview Questions | Top Docker Interview Questions | docker-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-15 | Cloud & Architecture / Interview Questions | Important Kubernetes Interview Questions | kubernetes-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-15 | Core Tech & Programming / Interview Questions | Important Git Interview Questions | git-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-15 | Cloud & Architecture / Interview Questions | Essential DevOps Interview Questions | dev-ops-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-15 | Engineering Leadership / Career | Technical Interviews | technical-interviews | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
