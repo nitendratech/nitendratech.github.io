@@ -83,9 +83,9 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Core Tech & Programming / Linux | Permission and Ownership on Linux | permission-ownership-linux | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Core Tech & Programming / Linux | List Files and Directories on Linux | list-files-directories-linux | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Core Tech & Programming / Linux | How can anyone Navigate on Linux using CD Command? | navigating-linux | Published | Pending | Pending | Pending |
-| Published | 2026-11-06 | Core Tech & Programming / Linux | Understanding the World of Linux Operating Systems | linux-operating-system | Published | Pending | Pending | Pending |
-| Published | 2026-11-06 | Core Tech & Programming / Linux | What are Paths on Linux Platform? | linux-paths | Published | Pending | Pending | Pending |
-| Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | What is Bash Script? A Beginner's Guide to Bash Scripts | bash-script | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | Understanding the World of Linux Operating Systems | linux-operating-system | Published | Pending | Pending | Scheduled 2026-12-04 |
+| Published | 2026-11-06 | Core Tech & Programming / Linux | What are Paths on Linux Platform? | linux-paths | Published | Pending | Pending | Scheduled 2026-11-11 |
+| Published | 2026-11-06 | Core Tech & Programming / Shell Scripting | What is Bash Script? A Beginner's Guide to Bash Scripts | bash-script | Published | Pending | Pending | Scheduled 2026-11-09 |
 | Published | 2026-11-06 | Data Engineering / Data Observability | Data Observability and Its Importance in Modern Data Tech Stack | data-observability-modern-data-tech-stack | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Data Formats | What is a Flat File ? And Why is It Important? | flat-file | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Modern Data Stack | The Modern Data Stack: Empowering Data-Driven Organizations | modern-data-stack | Published | Pending | Pending | Pending |
@@ -112,8 +112,8 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Data Engineering / File Formats | How do we Choose File Format in Big Data Framework? | file-format-big-data | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / File Formats | What are Big Data File Storage Formats? | big-data-storage-formats | Published | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Big Data Analytics | Big Data Analytics in Cancer Research | big-data-cancer | Published | Pending | Pending | Pending |
-| Published | 2026-11-06 | Data Engineering / Big Data Fundamentals | What are the Sources of Big Data and How it gets generated? | big-data-sources | Published | Pending | Pending | Pending |
-| Published | 2026-11-06 | Data Engineering / Big Data Fundamentals | What is Big Data and Why it is important to understand? Introduction and Properties | big-data | Published | Pending | Pending | Pending |
+| Published | 2026-11-06 | Data Engineering / Big Data Fundamentals | What are the Sources of Big Data and How it gets generated? | big-data-sources | Published | Pending | Pending | Scheduled 2026-12-02 |
+| Published | 2026-11-06 | Data Engineering / Big Data Fundamentals | What is Big Data and Why it is important to understand? Introduction and Properties | big-data | Published | Pending | Pending | Scheduled 2026-11-23 |
 | Published | 2026-11-06 | Cloud & Architecture / System Design | Understanding difference between Stateless and Stateful Systems | stateless-stateful-systems | Live | Pending | Pending | Pending |
 | Published | 2026-11-06 | Data Engineering / Data Migration | What is Data Migration? | data-migration | Live | Pending | Pending | Pending |
 | Published | 2026-11-06 | AI & ML Platforms / LLM | What is Large Language Models(LLM)? | what-is-large-language-modelsllm | Live | Pending | Pending | Pending |
@@ -140,7 +140,7 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Cloud & Architecture / AWS | What is Amazon Web Services(AWS)? | learn-aws | Live | Pending | Pending | Pending |
 | Published | 2026-11-06 | Cloud & Architecture / Docker | Install Docker on Mac OS X | install-docker-macosx | Live | Pending | Pending | Pending |
 | Published | 2026-11-06 | General Technology / Blockchain | Blockchain Technology | blockchain-technology | Live | Pending | Pending | Pending |
-| Published | 2026-11-06 | Cloud & Architecture / DevOps | What is Continuous Integration? An Important DevOps tools | continuous-integration | Live | Pending | Pending | Pending |
+| Published | 2026-11-06 | Cloud & Architecture / DevOps | What is Continuous Integration? An Important DevOps tools | continuous-integration | Live | Pending | Pending | Scheduled 2026-11-13 |
 | Published | 2023-11-15 | Data Engineering / Interview Questions | Important Data Warehouse Interview Questions | data-warehouse-interview | Live | Pending | Pending | Pending |
 | Published | 2023-11-15 | Data Engineering / Interview Questions | Important AWS Glue Interview Questions | aws-glue-interview | Live | Pending | Pending | Pending |
 | Published | 2023-11-15 | Core Tech & Programming / Interview Questions | Bash Scripts Interview Questions | bash-interview-questions | Live | Pending | Pending | Pending |
@@ -177,7 +177,7 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2018-05-28 | Data Engineering / MapReduce | Introduction to Hadoop Mapreduce framework | hadoop-mapreduce-framework | Live | Pending | Pending | Pending |
 | Published | 2018-05-28 | Data Engineering / Hadoop | What are Hadoop Execution Modes? | hadoop-execution-modes | Live | Pending | Pending | Pending |
 | Published | 2018-05-28 | Data Engineering / HDFS | Introduction to Hadoop Distributed File System(HDFS) | hadoop-hdfs | Live | Pending | Pending | Pending |
-| Published | 2018-05-28 | Data Engineering / Hadoop | What is Apache Hadoop? An In-depth Look at This Big Data Tool | apache-hadoop | Live | Pending | Pending | Pending |
+| Published | 2018-05-28 | Data Engineering / Hadoop | What is Apache Hadoop? An In-depth Look at This Big Data Tool | apache-hadoop | Live | Pending | Pending | Scheduled 2026-11-30 |
 | Published | 2024-03-30 | Core Tech & Programming / Caching | What is Cache? And How Does it Work? | cache | Live | Pending | Pending | Pending |
 | Published | 2022-09-18 | Core Tech & Programming / Programming Languages | Programming Languages | programming-langauge | Live | Pending | Pending | Pending |
 | Published | 2022-06-11 | Engineering Leadership / Career | How to Start a Career in Computer Science and get Jobs for Computer Science Majors? | career-computer-science | Live | Pending | Pending | Pending |
@@ -191,9 +191,9 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2018-12-27 | Core Tech & Programming / REST APIs | Restful (REST) Web Services | restful-web-services | Live | Pending | Pending | Pending |
 | Published | 2018-08-09 | Core Tech & Programming / R Programming | Data Types and Variables in R | data-types-variables-r | Live | Pending | Pending | Pending |
 | Published | 2017-08-10 | Core Tech & Programming / REST APIs | Atlassian Jira REST API | atlassian-jira-rest-api | Live | Pending | Pending | Pending |
-| Published | 2017-06-25 | Core Tech & Programming / Git | Important Git Command Cheat Sheet | git-command-cheatsheet | Live | Pending | Pending | Pending |
-| Published | 2017-05-22 | Cloud & Architecture / Microservices | Introduction to MicroServices | learn-microservices | Live | Pending | Pending | Pending |
-| Published | 2017-04-28 | Core Tech & Programming / Programming Concepts | What are Object-Oriented Programming concepts? OOP Explained | object-oriented-programming | Live | Pending | Pending | Pending |
+| Published | 2017-06-25 | Core Tech & Programming / Git | Important Git Command Cheat Sheet | git-command-cheatsheet | Live | Pending | Pending | Scheduled 2026-11-27 |
+| Published | 2017-05-22 | Cloud & Architecture / Microservices | Introduction to MicroServices | learn-microservices | Live | Pending | Pending | Scheduled 2026-11-20 |
+| Published | 2017-04-28 | Core Tech & Programming / Programming Concepts | What are Object-Oriented Programming concepts? OOP Explained | object-oriented-programming | Live | Pending | Pending | Scheduled 2026-11-16 |
 | Published | 2023-11-26 | Data Engineering / Spark | Starting Apache Spark Application | starting-apache-spark-application | Live | Pending | Pending | Pending |
 | Published | 2023-04-20 | Data Engineering / Spark | What is Parallelism in Apache Spark? | parallelism-apache-spark | Live | Pending | Pending | Pending |
 | Published | 2022-02-15 | Data Engineering / Spark | What are the types of Cluster Manager in Spark? | cluster-managers-spark | Live | Pending | Pending | Pending |
@@ -208,8 +208,8 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2017-10-04 | Data Engineering / Spark Streaming | Introduction to Apache Spark Streaming | apache-spark-streaming | Live | Pending | Pending | Pending |
 | Published | 2017-09-30 | Data Engineering / Spark | Spark Resilient Distributed Dataset(RDD) | spark-rdd | Live | Pending | Pending | Pending |
 | Published | 2017-09-05 | Data Engineering / Spark | What is  Spark Shared Variables? | shared-variables-spark | Live | Pending | Pending | Pending |
-| Published | 2017-06-18 | Data Engineering / Spark | Installing Apache Spark on Linux | installing-apache-spark-linux | Live | Pending | Pending | Pending |
-| Published | 2017-05-10 | Data Engineering / Spark | What is  Apache Spark? The Unified engine for large-scale data analytics. | apache-spark | Live | Pending | Pending | Pending |
+| Published | 2017-06-18 | Data Engineering / Spark | Installing Apache Spark on Linux | installing-apache-spark-linux | Live | Pending | Pending | Scheduled 2026-11-25 |
+| Published | 2017-05-10 | Data Engineering / Spark | What is  Apache Spark? The Unified engine for large-scale data analytics. | apache-spark | Live | Pending | Pending | Scheduled 2026-11-18 |
 | Published | 2026-03-25 | AI & ML Platforms / Artificial Intelligence | Unlocking the Future: How Artificial Intelligence is Revolutionizing Our World ? | artificial-intelligence | Live | Pending | Pending | Pending |
 | Published | 2025-11-02 | Data Engineering / Data Quality | Data Profiling: Foundation for Reliable Data Engineering and Analytics | learn-data-profiling | Live | Pending | Pending | Pending |
 | Published | 2024-08-03 | Data Engineering / Guides | Data Engineering User Guide | data-engineering-user-guide | Live | Pending | Pending | Pending |
