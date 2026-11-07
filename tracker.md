@@ -178,22 +178,38 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2018-05-28 | Data Engineering / Hadoop | What are Hadoop Execution Modes? | hadoop-execution-modes | Live | Pending | Pending | Pending |
 | Published | 2018-05-28 | Data Engineering / HDFS | Introduction to Hadoop Distributed File System(HDFS) | hadoop-hdfs | Live | Pending | Pending | Pending |
 | Published | 2018-05-28 | Data Engineering / Hadoop | What is Apache Hadoop? An In-depth Look at This Big Data Tool | apache-hadoop | Live | Pending | Pending | Pending |
-| Converted locally, not pushed | 2024-03-30 | Core Tech & Programming / Caching | What is Cache? And How Does it Work? | cache | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-09-18 | Core Tech & Programming / Programming Languages | Programming Languages | programming-langauge | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-06-11 | Engineering Leadership / Career | How to Start a Career in Computer Science and get Jobs for Computer Science Majors? | career-computer-science | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-06-04 | Core Tech & Programming / Build Tools | What is Apache Maven ? | apache-maven | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-02-15 | Cloud & Architecture / System Design | What is a Load Balancer? How does load balancing work? | load-balancer | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-01-17 | Core Tech & Programming / Computer Science | What is Computer and Computer Science? | learn-computer-science | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-12-17 | Core Tech & Programming / REST APIs | Restful Web service URI | restful-webservice-uri | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-11-29 | Core Tech & Programming / REST APIs | Understanding HTTP methods in REST | http-methods-rest | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-11-03 | Core Tech & Programming / REST APIs | Rest API HTTP Response and Request Codes | rest-api-http-response-codes | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-07-25 | Core Tech & Programming / JDBC | Introduction to JDBC | learn-jdbc | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-12-27 | Core Tech & Programming / REST APIs | Restful (REST) Web Services | restful-web-services | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-08-09 | Core Tech & Programming / R Programming | Data Types and Variables in R | data-types-variables-r | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-08-10 | Core Tech & Programming / REST APIs | Atlassian Jira REST API | atlassian-jira-rest-api | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-06-25 | Core Tech & Programming / Git | Important Git Command Cheat Sheet | git-command-cheatsheet | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-05-22 | Cloud & Architecture / Microservices | Introduction to MicroServices | learn-microservices | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-04-28 | Core Tech & Programming / Programming Concepts | What are Object-Oriented Programming concepts? OOP Explained | object-oriented-programming | Draft | Pending | Pending | Pending |
+| Published | 2024-03-30 | Core Tech & Programming / Caching | What is Cache? And How Does it Work? | cache | Live | Pending | Pending | Pending |
+| Published | 2022-09-18 | Core Tech & Programming / Programming Languages | Programming Languages | programming-langauge | Live | Pending | Pending | Pending |
+| Published | 2022-06-11 | Engineering Leadership / Career | How to Start a Career in Computer Science and get Jobs for Computer Science Majors? | career-computer-science | Live | Pending | Pending | Pending |
+| Published | 2022-06-04 | Core Tech & Programming / Build Tools | What is Apache Maven ? | apache-maven | Live | Pending | Pending | Pending |
+| Published | 2022-02-15 | Cloud & Architecture / System Design | What is a Load Balancer? How does load balancing work? | load-balancer | Live | Pending | Pending | Pending |
+| Published | 2022-01-17 | Core Tech & Programming / Computer Science | What is Computer and Computer Science? | learn-computer-science | Live | Pending | Pending | Pending |
+| Published | 2019-12-17 | Core Tech & Programming / REST APIs | Restful Web service URI | restful-webservice-uri | Live | Pending | Pending | Pending |
+| Published | 2019-11-29 | Core Tech & Programming / REST APIs | Understanding HTTP methods in REST | http-methods-rest | Live | Pending | Pending | Pending |
+| Published | 2019-11-03 | Core Tech & Programming / REST APIs | Rest API HTTP Response and Request Codes | rest-api-http-response-codes | Live | Pending | Pending | Pending |
+| Published | 2019-07-25 | Core Tech & Programming / JDBC | Introduction to JDBC | learn-jdbc | Live | Pending | Pending | Pending |
+| Published | 2018-12-27 | Core Tech & Programming / REST APIs | Restful (REST) Web Services | restful-web-services | Live | Pending | Pending | Pending |
+| Published | 2018-08-09 | Core Tech & Programming / R Programming | Data Types and Variables in R | data-types-variables-r | Live | Pending | Pending | Pending |
+| Published | 2017-08-10 | Core Tech & Programming / REST APIs | Atlassian Jira REST API | atlassian-jira-rest-api | Live | Pending | Pending | Pending |
+| Published | 2017-06-25 | Core Tech & Programming / Git | Important Git Command Cheat Sheet | git-command-cheatsheet | Live | Pending | Pending | Pending |
+| Published | 2017-05-22 | Cloud & Architecture / Microservices | Introduction to MicroServices | learn-microservices | Live | Pending | Pending | Pending |
+| Published | 2017-04-28 | Core Tech & Programming / Programming Concepts | What are Object-Oriented Programming concepts? OOP Explained | object-oriented-programming | Live | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-26 | Data Engineering / Spark | Starting Apache Spark Application | starting-apache-spark-application | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-04-20 | Data Engineering / Spark | What is Parallelism in Apache Spark? | parallelism-apache-spark | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-02-15 | Data Engineering / Spark | What are the types of Cluster Manager in Spark? | cluster-managers-spark | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2021-09-11 | Data Engineering / Spark | Spark Tutorials | spark-tutorials | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2020-05-24 | Data Engineering / Spark | SparkSession in Apache Spark | sparksession-apache-spark | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-10-01 | Data Engineering / Spark | Caching and Persisting Mechanism in Spark | caching-persisting-mechanism-spark | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-09-24 | Data Engineering / Spark | Data Locality in Spark | data-locality-spark | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-07-15 | Data Engineering / Spark | Accessing Hive in HDP3 using Apache Spark | hive-hdp3-apache-spark | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-05-31 | Data Engineering / Spark | User-Defined Aggregate Functions(UDAF) Using Apache Spark | udaf-apache-spark | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-04-29 | Data Engineering / Spark | Submit Apache Spark Job with REST API | apache-spark-job-rest-api | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-10-10 | Data Engineering / Spark SQL | Introduction to Apache Spark SQL | apache-spark-sql | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-10-04 | Data Engineering / Spark Streaming | Introduction to Apache Spark Streaming | apache-spark-streaming | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-09-30 | Data Engineering / Spark | Spark Resilient Distributed Dataset(RDD) | spark-rdd | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-09-05 | Data Engineering / Spark | What is  Spark Shared Variables? | shared-variables-spark | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-06-18 | Data Engineering / Spark | Installing Apache Spark on Linux | installing-apache-spark-linux | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-05-10 | Data Engineering / Spark | What is  Apache Spark? The Unified engine for large-scale data analytics. | apache-spark | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
