@@ -161,16 +161,23 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2022-02-04 | Data Engineering / Interview Questions | Top 60 + Apache Hive Interview Questions | apache-hive-interview-questions | Live | Pending | Pending | Pending |
 | Published | 2022-02-04 | Data Engineering / Interview Questions | Important Apache Hadoop Interview Questions | apache-hadoop-interview-questions | Live | Pending | Pending | Pending |
 | Published | 2022-02-04 | Data Engineering / Interview Questions | Top Big Data Interview Questions | big-data-interview-questions | Live | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-27 | Data Engineering / Hadoop | What is Job Tracker in Apache Hadoop? | job-tracker-hadoop | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-27 | Data Engineering / Hadoop | What is Hadoop Task Tracker? | hadoop-task-tracker | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-27 | Data Engineering / Hadoop | Hadoop Tutorials | hadoop-tutorials | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-27 | Data Engineering / HDFS | What is Heartbeat in Hadoop Framework? | heartbeat-hadoop-hdfs | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-27 | Data Engineering / Hadoop | What is Speculative Execution in Hadoop? | speculative-execution-hadoop | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-27 | Data Engineering / HDFS | What are HDFS Data Blocks? | hdfs-data-blocks | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-27 | Data Engineering / HDFS | Rack Awareness in Hadoop HDFS | rack-awareness-hadoop-hdfs | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-27 | Data Engineering / Hadoop | Difference between Apache Hadoop/HDFS and HBase | apache-hadoop-hdfs-hbase | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-27 | Data Engineering / Hadoop | Apache Hadoop 3 Changes | apache-hadoop-3-changes | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-27 | Data Engineering / Hadoop | Finding Right hardware for Hadoop Cluster | right-hardware-hadoop-cluster | Draft | Pending | Pending | Pending |
+| Published | 2023-11-27 | Data Engineering / Hadoop | What is Job Tracker in Apache Hadoop? | job-tracker-hadoop | Live | Pending | Pending | Pending |
+| Published | 2023-11-27 | Data Engineering / Hadoop | What is Hadoop Task Tracker? | hadoop-task-tracker | Live | Pending | Pending | Pending |
+| Published | 2023-11-27 | Data Engineering / Hadoop | Hadoop Tutorials | hadoop-tutorials | Live | Pending | Pending | Pending |
+| Published | 2023-11-27 | Data Engineering / HDFS | What is Heartbeat in Hadoop Framework? | heartbeat-hadoop-hdfs | Live | Pending | Pending | Pending |
+| Published | 2023-11-27 | Data Engineering / Hadoop | What is Speculative Execution in Hadoop? | speculative-execution-hadoop | Live | Pending | Pending | Pending |
+| Published | 2023-11-27 | Data Engineering / HDFS | What are HDFS Data Blocks? | hdfs-data-blocks | Live | Pending | Pending | Pending |
+| Published | 2023-11-27 | Data Engineering / HDFS | Rack Awareness in Hadoop HDFS | rack-awareness-hadoop-hdfs | Live | Pending | Pending | Pending |
+| Published | 2023-11-27 | Data Engineering / Hadoop | Difference between Apache Hadoop/HDFS and HBase | apache-hadoop-hdfs-hbase | Live | Pending | Pending | Pending |
+| Published | 2023-11-27 | Data Engineering / Hadoop | Apache Hadoop 3 Changes | apache-hadoop-3-changes | Live | Pending | Pending | Pending |
+| Published | 2023-11-27 | Data Engineering / Hadoop | Finding Right hardware for Hadoop Cluster | right-hardware-hadoop-cluster | Live | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-05-28 | Data Engineering / Hadoop | Data Compression Techniques in Hadoop Framework | data-compression-hadoop | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-05-28 | Data Engineering / YARN | Hadoop Yarn and Its Commands | hadoop-yarn | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-05-28 | Data Engineering / MapReduce | Joins using MapReduce Framework | mapreduce-joins | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-05-28 | Data Engineering / MapReduce | Introduction to Hadoop Mapreduce framework | hadoop-mapreduce-framework | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-05-28 | Data Engineering / Hadoop | What are Hadoop Execution Modes? | hadoop-execution-modes | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-05-28 | Data Engineering / HDFS | Introduction to Hadoop Distributed File System(HDFS) | hadoop-hdfs | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-05-28 | Data Engineering / Hadoop | What is Apache Hadoop? An In-depth Look at This Big Data Tool | apache-hadoop | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
