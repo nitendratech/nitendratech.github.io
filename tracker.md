@@ -141,16 +141,26 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2026-11-06 | Cloud & Architecture / Docker | Install Docker on Mac OS X | install-docker-macosx | Live | Pending | Pending | Pending |
 | Published | 2026-11-06 | General Technology / Blockchain | Blockchain Technology | blockchain-technology | Live | Pending | Pending | Pending |
 | Published | 2026-11-06 | Cloud & Architecture / DevOps | What is Continuous Integration? An Important DevOps tools | continuous-integration | Live | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-15 | Data Engineering / Interview Questions | Important Data Warehouse Interview Questions | data-warehouse-interview | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-15 | Data Engineering / Interview Questions | Important AWS Glue Interview Questions | aws-glue-interview | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-15 | Core Tech & Programming / Interview Questions | Bash Scripts Interview Questions | bash-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-15 | Data Engineering / Interview Questions | Essential AWS EMR Interview questions | amazon-emr | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-15 | Data Engineering / Interview Questions | Most Important Data Engineering Interview Questions | data-engineering-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-15 | Cloud & Architecture / Interview Questions | Top Docker Interview Questions | docker-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-15 | Cloud & Architecture / Interview Questions | Important Kubernetes Interview Questions | kubernetes-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-15 | Core Tech & Programming / Interview Questions | Important Git Interview Questions | git-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-15 | Cloud & Architecture / Interview Questions | Essential DevOps Interview Questions | dev-ops-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-15 | Engineering Leadership / Career | Technical Interviews | technical-interviews | Draft | Pending | Pending | Pending |
+| Published | 2023-11-15 | Data Engineering / Interview Questions | Important Data Warehouse Interview Questions | data-warehouse-interview | Live | Pending | Pending | Pending |
+| Published | 2023-11-15 | Data Engineering / Interview Questions | Important AWS Glue Interview Questions | aws-glue-interview | Live | Pending | Pending | Pending |
+| Published | 2023-11-15 | Core Tech & Programming / Interview Questions | Bash Scripts Interview Questions | bash-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2023-11-15 | Data Engineering / Interview Questions | Essential AWS EMR Interview questions | amazon-emr | Live | Pending | Pending | Pending |
+| Published | 2023-11-15 | Data Engineering / Interview Questions | Most Important Data Engineering Interview Questions | data-engineering-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2023-11-15 | Cloud & Architecture / Interview Questions | Top Docker Interview Questions | docker-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2023-11-15 | Cloud & Architecture / Interview Questions | Important Kubernetes Interview Questions | kubernetes-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2023-11-15 | Core Tech & Programming / Interview Questions | Important Git Interview Questions | git-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2023-11-15 | Cloud & Architecture / Interview Questions | Essential DevOps Interview Questions | dev-ops-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2023-11-15 | Engineering Leadership / Career | Technical Interviews | technical-interviews | Live | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-02-04 | Core Tech & Programming / Interview Questions | Important Linux Interview Questions | linux-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-02-04 | Core Tech & Programming / Interview Questions | Most asked  Java Interview Questions | java-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-02-04 | Data Engineering / Interview Questions | Important SQL Interview Questions | sql-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-02-04 | Cloud & Architecture / Interview Questions | Most asked System Design Interview Questions | system-design-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-02-04 | Data Engineering / Interview Questions | Top and Essential Apache Spark Interview Questions | apache-spark-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-02-04 | Data Engineering / Interview Questions | Important Database Interview Questions | database-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-02-04 | Cloud & Architecture / Interview Questions | Important Amazon Web Services(AWS) Interview Questions | aws-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-02-04 | Data Engineering / Interview Questions | Top 60 + Apache Hive Interview Questions | apache-hive-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-02-04 | Data Engineering / Interview Questions | Important Apache Hadoop Interview Questions | apache-hadoop-interview-questions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-02-04 | Data Engineering / Interview Questions | Top Big Data Interview Questions | big-data-interview-questions | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
