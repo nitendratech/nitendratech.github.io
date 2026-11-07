@@ -232,26 +232,26 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2018-02-10 | Data Engineering / Hive | Partitions in Apache Hive | partitions-apache-hive | Live | Pending | Pending | Pending |
 | Published | 2018-01-28 | Data Engineering / Hive | Introduction to Hive Query Language(HQL) | hive-query-language | Live | Pending | Pending | Pending |
 | Published | 2017-12-28 | Data Engineering / Hive | Introduction to Apache Hive | apache-hive | Live | Pending | Pending | Pending |
-| Converted locally, not pushed | 2021-09-11 | Core Tech & Programming / Java | Java Tutorials | java-tutorials | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2021-04-25 | Core Tech & Programming / Java | How to Set Up Proxy in JVM-based Applications? | proxy-jvm-based-applications | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2021-03-02 | Core Tech & Programming / Java | What are Java Variables? | java-variables | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2020-03-25 | Core Tech & Programming / Java | Atlassian JIRA REST Java Client(JRJC) Library | atlassian-jira-rest-jrjc-library | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2020-03-22 | Core Tech & Programming / Java | JVM Monitoring tools | jvm-monitoring-tools | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2020-02-09 | Core Tech & Programming / Java | HashTable vs HashMap in Java | hashtable-hashmap-java | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-10-20 | Core Tech & Programming / Java | Difference between Overloading Vs Overriding in Java | overloading-overriding-java | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-10-13 | Core Tech & Programming / Java | Difference between Abstract Class and Interfaces in Java | abstract-class-interfaces-java | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-11-01 | Core Tech & Programming / Java | Java Data Types | java-data-types | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-10-28 | Core Tech & Programming / Java | Introduction to Java Programming Language | java-programming-language | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2021-09-11 | Core Tech & Programming / Scala | Scala Tutorials | scala-tutorials | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-11-27 | Core Tech & Programming / Scala | Understanding Scala Collections | understanding-scala-collections | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-05-08 | Core Tech & Programming / Scala | Options in Scala | options-scala | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-03-29 | Core Tech & Programming / Scala | Scala Case Classes And Pattern Matching | scala-case-classes-pattern-matching | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-01-21 | Core Tech & Programming / Scala | Scala Class and Objects | scala-class-objects | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-05-16 | Core Tech & Programming / Scala | Scala Functions and Methods | scala-functions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-11-10 | Core Tech & Programming / Scala | Scala Variables | scala-variables | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-09-16 | Core Tech & Programming / Scala | Scala Programming Language | scala-programming-language | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2020-06-01 | Data Engineering / Kafka | Apache Kafka Important Components | apache-kafka-important-components | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-11-25 | Data Engineering / Kafka | Introduction to Apache Kafka | apache-kafka | Draft | Pending | Pending | Pending |
+| Published | 2021-09-11 | Core Tech & Programming / Java | Java Tutorials | java-tutorials | Live | Pending | Pending | Pending |
+| Published | 2021-04-25 | Core Tech & Programming / Java | How to Set Up Proxy in JVM-based Applications? | proxy-jvm-based-applications | Live | Pending | Pending | Pending |
+| Published | 2021-03-02 | Core Tech & Programming / Java | What are Java Variables? | java-variables | Live | Pending | Pending | Pending |
+| Published | 2020-03-25 | Core Tech & Programming / Java | Atlassian JIRA REST Java Client(JRJC) Library | atlassian-jira-rest-jrjc-library | Live | Pending | Pending | Pending |
+| Published | 2020-03-22 | Core Tech & Programming / Java | JVM Monitoring tools | jvm-monitoring-tools | Live | Pending | Pending | Pending |
+| Published | 2020-02-09 | Core Tech & Programming / Java | HashTable vs HashMap in Java | hashtable-hashmap-java | Live | Pending | Pending | Pending |
+| Published | 2019-10-20 | Core Tech & Programming / Java | Difference between Overloading Vs Overriding in Java | overloading-overriding-java | Live | Pending | Pending | Pending |
+| Published | 2019-10-13 | Core Tech & Programming / Java | Difference between Abstract Class and Interfaces in Java | abstract-class-interfaces-java | Live | Pending | Pending | Pending |
+| Published | 2017-11-01 | Core Tech & Programming / Java | Java Data Types | java-data-types | Live | Pending | Pending | Pending |
+| Published | 2017-10-28 | Core Tech & Programming / Java | Introduction to Java Programming Language | java-programming-language | Live | Pending | Pending | Pending |
+| Published | 2021-09-11 | Core Tech & Programming / Scala | Scala Tutorials | scala-tutorials | Live | Pending | Pending | Pending |
+| Published | 2019-11-27 | Core Tech & Programming / Scala | Understanding Scala Collections | understanding-scala-collections | Live | Pending | Pending | Pending |
+| Published | 2019-05-08 | Core Tech & Programming / Scala | Options in Scala | options-scala | Live | Pending | Pending | Pending |
+| Published | 2019-03-29 | Core Tech & Programming / Scala | Scala Case Classes And Pattern Matching | scala-case-classes-pattern-matching | Live | Pending | Pending | Pending |
+| Published | 2019-01-21 | Core Tech & Programming / Scala | Scala Class and Objects | scala-class-objects | Live | Pending | Pending | Pending |
+| Published | 2018-05-16 | Core Tech & Programming / Scala | Scala Functions and Methods | scala-functions | Live | Pending | Pending | Pending |
+| Published | 2017-11-10 | Core Tech & Programming / Scala | Scala Variables | scala-variables | Live | Pending | Pending | Pending |
+| Published | 2017-09-16 | Core Tech & Programming / Scala | Scala Programming Language | scala-programming-language | Live | Pending | Pending | Pending |
+| Published | 2020-06-01 | Data Engineering / Kafka | Apache Kafka Important Components | apache-kafka-important-components | Live | Pending | Pending | Pending |
+| Published | 2017-11-25 | Data Engineering / Kafka | Introduction to Apache Kafka | apache-kafka | Live | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
