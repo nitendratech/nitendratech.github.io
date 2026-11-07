@@ -171,13 +171,29 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2023-11-27 | Data Engineering / Hadoop | Difference between Apache Hadoop/HDFS and HBase | apache-hadoop-hdfs-hbase | Live | Pending | Pending | Pending |
 | Published | 2023-11-27 | Data Engineering / Hadoop | Apache Hadoop 3 Changes | apache-hadoop-3-changes | Live | Pending | Pending | Pending |
 | Published | 2023-11-27 | Data Engineering / Hadoop | Finding Right hardware for Hadoop Cluster | right-hardware-hadoop-cluster | Live | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-05-28 | Data Engineering / Hadoop | Data Compression Techniques in Hadoop Framework | data-compression-hadoop | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-05-28 | Data Engineering / YARN | Hadoop Yarn and Its Commands | hadoop-yarn | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-05-28 | Data Engineering / MapReduce | Joins using MapReduce Framework | mapreduce-joins | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-05-28 | Data Engineering / MapReduce | Introduction to Hadoop Mapreduce framework | hadoop-mapreduce-framework | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-05-28 | Data Engineering / Hadoop | What are Hadoop Execution Modes? | hadoop-execution-modes | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-05-28 | Data Engineering / HDFS | Introduction to Hadoop Distributed File System(HDFS) | hadoop-hdfs | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-05-28 | Data Engineering / Hadoop | What is Apache Hadoop? An In-depth Look at This Big Data Tool | apache-hadoop | Draft | Pending | Pending | Pending |
+| Published | 2018-05-28 | Data Engineering / Hadoop | Data Compression Techniques in Hadoop Framework | data-compression-hadoop | Live | Pending | Pending | Pending |
+| Published | 2018-05-28 | Data Engineering / YARN | Hadoop Yarn and Its Commands | hadoop-yarn | Live | Pending | Pending | Pending |
+| Published | 2018-05-28 | Data Engineering / MapReduce | Joins using MapReduce Framework | mapreduce-joins | Live | Pending | Pending | Pending |
+| Published | 2018-05-28 | Data Engineering / MapReduce | Introduction to Hadoop Mapreduce framework | hadoop-mapreduce-framework | Live | Pending | Pending | Pending |
+| Published | 2018-05-28 | Data Engineering / Hadoop | What are Hadoop Execution Modes? | hadoop-execution-modes | Live | Pending | Pending | Pending |
+| Published | 2018-05-28 | Data Engineering / HDFS | Introduction to Hadoop Distributed File System(HDFS) | hadoop-hdfs | Live | Pending | Pending | Pending |
+| Published | 2018-05-28 | Data Engineering / Hadoop | What is Apache Hadoop? An In-depth Look at This Big Data Tool | apache-hadoop | Live | Pending | Pending | Pending |
+| Converted locally, not pushed | 2024-03-30 | Core Tech & Programming / Caching | What is Cache? And How Does it Work? | cache | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-09-18 | Core Tech & Programming / Programming Languages | Programming Languages | programming-langauge | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-06-11 | Engineering Leadership / Career | How to Start a Career in Computer Science and get Jobs for Computer Science Majors? | career-computer-science | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-06-04 | Core Tech & Programming / Build Tools | What is Apache Maven ? | apache-maven | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-02-15 | Cloud & Architecture / System Design | What is a Load Balancer? How does load balancing work? | load-balancer | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-01-17 | Core Tech & Programming / Computer Science | What is Computer and Computer Science? | learn-computer-science | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-12-17 | Core Tech & Programming / REST APIs | Restful Web service URI | restful-webservice-uri | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-11-29 | Core Tech & Programming / REST APIs | Understanding HTTP methods in REST | http-methods-rest | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-11-03 | Core Tech & Programming / REST APIs | Rest API HTTP Response and Request Codes | rest-api-http-response-codes | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-07-25 | Core Tech & Programming / JDBC | Introduction to JDBC | learn-jdbc | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-12-27 | Core Tech & Programming / REST APIs | Restful (REST) Web Services | restful-web-services | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-08-09 | Core Tech & Programming / R Programming | Data Types and Variables in R | data-types-variables-r | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-08-10 | Core Tech & Programming / REST APIs | Atlassian Jira REST API | atlassian-jira-rest-api | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-06-25 | Core Tech & Programming / Git | Important Git Command Cheat Sheet | git-command-cheatsheet | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-05-22 | Cloud & Architecture / Microservices | Introduction to MicroServices | learn-microservices | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-04-28 | Core Tech & Programming / Programming Concepts | What are Object-Oriented Programming concepts? OOP Explained | object-oriented-programming | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
