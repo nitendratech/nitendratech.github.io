@@ -1,6 +1,6 @@
 ---
-const { currentPage, lastPage } = Astro.props;
-const pageUrl = (n) => (n === 1 ? '/blog/' : `/blog/page/${n}/`);
+const { currentPage, lastPage, base = '/blog/' } = Astro.props;
+const pageUrl = (n) => (n === 1 ? base : `${base}page/${n}/`);
 const nums = [...new Set([1, lastPage, currentPage - 1, currentPage, currentPage + 1])]
   .filter((n) => n >= 1 && n <= lastPage)
   .sort((a, b) => a - b);

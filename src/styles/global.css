@@ -79,3 +79,11 @@ a.pager-link:hover{border-color:#22d3ee;color:#22d3ee}
 .pager-link.current{background:linear-gradient(90deg,#22d3ee,#3b82f6);color:#0f172a;font-weight:700;border-color:transparent}
 .pager-link.disabled{opacity:.35}
 .pager-ellipsis{color:#64748b;padding:0 2px}
+
+/* Category cards on the redesigned blog index */
+.catcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;margin:24px 0 8px}
+.catcard{display:flex;flex-direction:column;gap:8px;text-decoration:none;color:#e2e8f0}
+.catcard strong{color:#fff;font-size:18px}
+.catcard:hover{border-color:#22d3ee}
+.catcard .tag{align-self:flex-start}
+.postcard a{text-decoration:none}

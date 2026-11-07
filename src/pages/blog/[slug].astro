@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { categories } from '../../data/site.js';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
@@ -13,6 +14,7 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content, headings } = await render(post);
 const d = post.data;
+const catSlug = categories.find((c) => c.name === d.category)?.slug;
 const dateLabel = d.pubDate.toLocaleDateString('en-US', {
   month: 'long',
   day: 'numeric',
@@ -46,7 +48,8 @@ const jsonLd = {
     </p>
     <h1 style="max-width:760px;margin-left:auto;margin-right:auto">{d.title}</h1>
     <p class="postmeta">
-      {dateLabel} · {readingTime} min read · {d.category}
+      {dateLabel} · {readingTime} min read ·{' '}
+      {catSlug ? <a href={`/blog/category/${catSlug}/`}>{d.category}</a> : d.category}
       {d.subcategory ? ` / ${d.subcategory}` : ''}
     </p>
 

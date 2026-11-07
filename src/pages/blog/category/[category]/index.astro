@@ -1,0 +1,50 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import PostCard from '../../../../components/PostCard.astro';
+import Pager from '../../../../components/Pager.astro';
+import { categories } from '../../../../data/site.js';
+
+// One archive page per category, generated from the categories list in
+// site.js. Each page lists ONLY that category's posts, newest first,
+// paginated 10 per page (further pages live under page/[page].astro).
+export async function getStaticPaths() {
+  const pageSize = 10;
+  const all = (await getCollection('blog', ({ data }) => !data.draft))
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  return categories.map((c) => {
+    const posts = all.filter((p) => p.data.category === c.name);
+    return {
+      params: { category: c.slug },
+      props: {
+        cat: c,
+        posts: posts.slice(0, pageSize),
+        total: posts.length,
+        lastPage: Math.max(1, Math.ceil(posts.length / pageSize)),
+      },
+    };
+  });
+}
+
+const { cat, posts, total, lastPage } = Astro.props;
+const base = `/blog/category/${cat.slug}/`;
+---
+<BaseLayout
+  title={`${cat.name} | NitendraTech Blog`}
+  description={`${cat.name} articles by Nitendra Gautam — ${cat.sub}.`}
+>
+  <main>
+    <p class="postmeta"><a href="/blog/">← All categories</a></p>
+    <h1>{cat.name}</h1>
+    <p>{cat.sub}</p>
+    <p class="small">{total} {total === 1 ? 'article' : 'articles'} in this category.</p>
+
+    {posts.length === 0 ? (
+      <p class="small">No posts here yet — the first one will appear in this list automatically when it's published.</p>
+    ) : (
+      posts.map((post) => <PostCard post={post} />)
+    )}
+
+    <Pager currentPage={1} lastPage={lastPage} base={base} />
+  </main>
+</BaseLayout>

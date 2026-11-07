@@ -13,7 +13,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
     <div>
       <h4>Categories</h4>
       <ul>
-        {categories.map((c) => <li><a href="/blog/">{c.name}</a></li>)}
+        {categories.map((c) => <li><a href={`/blog/category/${c.slug}/`}>{c.name}</a></li>)}
       </ul>
     </div>
     <div>
@@ -21,6 +21,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
       <ul>
         {posts.map((p) => <li><a href={`/blog/${p.id}/`}>{p.data.title}</a></li>)}
       </ul>
+      <p class="small">Every article from the old WordPress site now lives here — browse by category or use search.</p>
     </div>
     <div>
       <h4>Get in Touch</h4>

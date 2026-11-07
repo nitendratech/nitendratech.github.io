@@ -1,0 +1,49 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../../../layouts/BaseLayout.astro';
+import PostCard from '../../../../../components/PostCard.astro';
+import Pager from '../../../../../components/Pager.astro';
+import { categories } from '../../../../../data/site.js';
+
+// Pages 2..N of each category archive (page 1 is the category index).
+export async function getStaticPaths() {
+  const pageSize = 10;
+  const all = (await getCollection('blog', ({ data }) => !data.draft))
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  const paths = [];
+  for (const c of categories) {
+    const posts = all.filter((p) => p.data.category === c.name);
+    const lastPage = Math.ceil(posts.length / pageSize);
+    for (let n = 2; n <= lastPage; n++) {
+      paths.push({
+        params: { category: c.slug, page: String(n) },
+        props: {
+          cat: c,
+          posts: posts.slice((n - 1) * pageSize, n * pageSize),
+          currentPage: n,
+          lastPage,
+          total: posts.length,
+        },
+      });
+    }
+  }
+  return paths;
+}
+
+const { cat, posts, currentPage, lastPage, total } = Astro.props;
+const base = `/blog/category/${cat.slug}/`;
+---
+<BaseLayout
+  title={`${cat.name} – Page ${currentPage} | NitendraTech Blog`}
+  description={`${cat.name} articles by Nitendra Gautam — ${cat.sub}.`}
+>
+  <main>
+    <p class="postmeta"><a href="/blog/">← All categories</a> · <a href={base}>{cat.name}</a></p>
+    <h1>{cat.name}</h1>
+    <p class="small">Page {currentPage} of {lastPage} · {total} articles in this category</p>
+
+    {posts.map((post) => <PostCard post={post} />)}
+
+    <Pager currentPage={currentPage} lastPage={lastPage} base={base} />
+  </main>
+</BaseLayout>

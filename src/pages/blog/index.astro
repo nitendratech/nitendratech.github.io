@@ -10,6 +10,7 @@ const allPosts = (await getCollection('blog', ({ data }) => !data.draft))
 const pageSize = 10;
 const lastPage = Math.max(1, Math.ceil(allPosts.length / pageSize));
 const posts = allPosts.slice(0, pageSize);
+const countFor = (name) => allPosts.filter((p) => p.data.category === name).length;
 ---
 <BaseLayout
   title="Blog | NitendraTech"
@@ -17,21 +18,25 @@ const posts = allPosts.slice(0, pageSize);
 >
   <main>
     <h1>Blog</h1>
-    <p>Polished, reader-focused articles. Each one ends with a takeaway you can use. Broader technology topics live under <a href="/general-technology/">General Technology</a>, and non-technical posts under <a href="/non-technical/">Non-Technical</a>.</p>
+    <p>Polished, reader-focused articles. Each one ends with a takeaway you can use. Pick a category to see only its articles, or browse the latest posts below.</p>
     <p><a class="btn secondary" href="/search/">🔍 Search all articles</a></p>
 
-    <h2>Categories</h2>
-    <ul>
+    <h2>Browse by category</h2>
+    <div class="catcards">
       {categories.map((c) => (
-        <li><strong>{c.name}</strong> — {c.sub}</li>
+        <a class="card catcard" href={`/blog/category/${c.slug}/`}>
+          <strong>{c.name}</strong>
+          <span class="small">{c.sub}</span>
+          <span class="tag">{countFor(c.name)} articles</span>
+        </a>
       ))}
-    </ul>
+    </div>
 
     <h2>Latest posts</h2>
     {posts.map((post) => <PostCard post={post} />)}
 
     <Pager currentPage={1} lastPage={lastPage} />
 
-    <p class="small">Showing 10 of {allPosts.length} articles per page. Articles are migrated in batches from the WordPress site; the tracker records every article, so no topic is repeated or lost.</p>
+    <p class="small">Showing 10 of {allPosts.length} articles per page. Every article from the old WordPress site is now published here; the tracker records every article, so no topic is repeated or lost.</p>
   </main>
 </BaseLayout>
