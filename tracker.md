@@ -194,22 +194,44 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2017-06-25 | Core Tech & Programming / Git | Important Git Command Cheat Sheet | git-command-cheatsheet | Live | Pending | Pending | Pending |
 | Published | 2017-05-22 | Cloud & Architecture / Microservices | Introduction to MicroServices | learn-microservices | Live | Pending | Pending | Pending |
 | Published | 2017-04-28 | Core Tech & Programming / Programming Concepts | What are Object-Oriented Programming concepts? OOP Explained | object-oriented-programming | Live | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-11-26 | Data Engineering / Spark | Starting Apache Spark Application | starting-apache-spark-application | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-04-20 | Data Engineering / Spark | What is Parallelism in Apache Spark? | parallelism-apache-spark | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-02-15 | Data Engineering / Spark | What are the types of Cluster Manager in Spark? | cluster-managers-spark | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2021-09-11 | Data Engineering / Spark | Spark Tutorials | spark-tutorials | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2020-05-24 | Data Engineering / Spark | SparkSession in Apache Spark | sparksession-apache-spark | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-10-01 | Data Engineering / Spark | Caching and Persisting Mechanism in Spark | caching-persisting-mechanism-spark | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-09-24 | Data Engineering / Spark | Data Locality in Spark | data-locality-spark | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-07-15 | Data Engineering / Spark | Accessing Hive in HDP3 using Apache Spark | hive-hdp3-apache-spark | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-05-31 | Data Engineering / Spark | User-Defined Aggregate Functions(UDAF) Using Apache Spark | udaf-apache-spark | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-04-29 | Data Engineering / Spark | Submit Apache Spark Job with REST API | apache-spark-job-rest-api | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-10-10 | Data Engineering / Spark SQL | Introduction to Apache Spark SQL | apache-spark-sql | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-10-04 | Data Engineering / Spark Streaming | Introduction to Apache Spark Streaming | apache-spark-streaming | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-09-30 | Data Engineering / Spark | Spark Resilient Distributed Dataset(RDD) | spark-rdd | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-09-05 | Data Engineering / Spark | What is  Spark Shared Variables? | shared-variables-spark | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-06-18 | Data Engineering / Spark | Installing Apache Spark on Linux | installing-apache-spark-linux | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-05-10 | Data Engineering / Spark | What is  Apache Spark? The Unified engine for large-scale data analytics. | apache-spark | Draft | Pending | Pending | Pending |
+| Published | 2023-11-26 | Data Engineering / Spark | Starting Apache Spark Application | starting-apache-spark-application | Live | Pending | Pending | Pending |
+| Published | 2023-04-20 | Data Engineering / Spark | What is Parallelism in Apache Spark? | parallelism-apache-spark | Live | Pending | Pending | Pending |
+| Published | 2022-02-15 | Data Engineering / Spark | What are the types of Cluster Manager in Spark? | cluster-managers-spark | Live | Pending | Pending | Pending |
+| Published | 2021-09-11 | Data Engineering / Spark | Spark Tutorials | spark-tutorials | Live | Pending | Pending | Pending |
+| Published | 2020-05-24 | Data Engineering / Spark | SparkSession in Apache Spark | sparksession-apache-spark | Live | Pending | Pending | Pending |
+| Published | 2019-10-01 | Data Engineering / Spark | Caching and Persisting Mechanism in Spark | caching-persisting-mechanism-spark | Live | Pending | Pending | Pending |
+| Published | 2019-09-24 | Data Engineering / Spark | Data Locality in Spark | data-locality-spark | Live | Pending | Pending | Pending |
+| Published | 2019-07-15 | Data Engineering / Spark | Accessing Hive in HDP3 using Apache Spark | hive-hdp3-apache-spark | Live | Pending | Pending | Pending |
+| Published | 2019-05-31 | Data Engineering / Spark | User-Defined Aggregate Functions(UDAF) Using Apache Spark | udaf-apache-spark | Live | Pending | Pending | Pending |
+| Published | 2018-04-29 | Data Engineering / Spark | Submit Apache Spark Job with REST API | apache-spark-job-rest-api | Live | Pending | Pending | Pending |
+| Published | 2017-10-10 | Data Engineering / Spark SQL | Introduction to Apache Spark SQL | apache-spark-sql | Live | Pending | Pending | Pending |
+| Published | 2017-10-04 | Data Engineering / Spark Streaming | Introduction to Apache Spark Streaming | apache-spark-streaming | Live | Pending | Pending | Pending |
+| Published | 2017-09-30 | Data Engineering / Spark | Spark Resilient Distributed Dataset(RDD) | spark-rdd | Live | Pending | Pending | Pending |
+| Published | 2017-09-05 | Data Engineering / Spark | What is  Spark Shared Variables? | shared-variables-spark | Live | Pending | Pending | Pending |
+| Published | 2017-06-18 | Data Engineering / Spark | Installing Apache Spark on Linux | installing-apache-spark-linux | Live | Pending | Pending | Pending |
+| Published | 2017-05-10 | Data Engineering / Spark | What is  Apache Spark? The Unified engine for large-scale data analytics. | apache-spark | Live | Pending | Pending | Pending |
+| Converted locally, not pushed | 2026-03-25 | AI & ML Platforms / Artificial Intelligence | Unlocking the Future: How Artificial Intelligence is Revolutionizing Our World ? | artificial-intelligence | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2025-11-02 | Data Engineering / Data Quality | Data Profiling: Foundation for Reliable Data Engineering and Analytics | learn-data-profiling | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2024-08-03 | Data Engineering / Guides | Data Engineering User Guide | data-engineering-user-guide | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2024-01-20 | Data Engineering / Data Pipelines | What do you understand by Data Pipeline in Data Engineering? | data-pipeline | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-12-17 | Data Engineering / Data Privacy | Safeguarding Data Privacy: The Vital Role of Computer Security | data-privacy-2 | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-02-04 | AI & ML Platforms / Data Analysis | What is Data Analysis ? | data-analysis | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-05-26 | Data Engineering / Data Privacy | What is Data Privacy, and Why is it important? | data-privacy | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-05-20 | Data Engineering / Introduction | What is Data Engineering and Why It is Important? A Guide for a career in Data Engineering | data-engineering | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2021-12-23 | Data Engineering / Data Fundamentals | What is Data and its Types? | data-explained | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2021-02-20 | AI & ML Platforms / Data Science | Skills Needed For Data Scientist | skills-data-scientist | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-08-23 | AI & ML Platforms / Data Mining | What is Data Mining? | data-mining | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-04-08 | AI & ML Platforms / Machine Learning | What is Machine Learning and why it is important? | machine-learning | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2022-07-05 | Data Engineering / Hive | What are User Defined Functions(UDF) in Apache Hive? | user-defined-functions-udf-hive | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2021-09-11 | Data Engineering / Hive | Hive Tutorials | hive-tutorials | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2021-06-15 | Data Engineering / Hive | Types of Table in Apache Hive | apache-hive-tables | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-10-17 | Data Engineering / Hive | Hive Vectorization Technique | hive-vectorization-technique | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-05-21 | Data Engineering / Hive | Apache Hive 3 Architecture | apache-hive-3-architecture | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-11-04 | Data Engineering / Hive | Running Hive Queries using Shell scripts | hive-queries-shell-scripts | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-03-25 | Data Engineering / Hive | Installing Apache Hive on Ubuntu | apache-hive-ubuntu | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-02-10 | Data Engineering / Hive | Partitions in Apache Hive | partitions-apache-hive | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-01-28 | Data Engineering / Hive | Introduction to Hive Query Language(HQL) | hive-query-language | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-12-28 | Data Engineering / Hive | Introduction to Apache Hive | apache-hive | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
