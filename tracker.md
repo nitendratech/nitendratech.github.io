@@ -210,28 +210,48 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2017-09-05 | Data Engineering / Spark | What is  Spark Shared Variables? | shared-variables-spark | Live | Pending | Pending | Pending |
 | Published | 2017-06-18 | Data Engineering / Spark | Installing Apache Spark on Linux | installing-apache-spark-linux | Live | Pending | Pending | Pending |
 | Published | 2017-05-10 | Data Engineering / Spark | What is  Apache Spark? The Unified engine for large-scale data analytics. | apache-spark | Live | Pending | Pending | Pending |
-| Converted locally, not pushed | 2026-03-25 | AI & ML Platforms / Artificial Intelligence | Unlocking the Future: How Artificial Intelligence is Revolutionizing Our World ? | artificial-intelligence | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2025-11-02 | Data Engineering / Data Quality | Data Profiling: Foundation for Reliable Data Engineering and Analytics | learn-data-profiling | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2024-08-03 | Data Engineering / Guides | Data Engineering User Guide | data-engineering-user-guide | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2024-01-20 | Data Engineering / Data Pipelines | What do you understand by Data Pipeline in Data Engineering? | data-pipeline | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-12-17 | Data Engineering / Data Privacy | Safeguarding Data Privacy: The Vital Role of Computer Security | data-privacy-2 | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2023-02-04 | AI & ML Platforms / Data Analysis | What is Data Analysis ? | data-analysis | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-05-26 | Data Engineering / Data Privacy | What is Data Privacy, and Why is it important? | data-privacy | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-05-20 | Data Engineering / Introduction | What is Data Engineering and Why It is Important? A Guide for a career in Data Engineering | data-engineering | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2021-12-23 | Data Engineering / Data Fundamentals | What is Data and its Types? | data-explained | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2021-02-20 | AI & ML Platforms / Data Science | Skills Needed For Data Scientist | skills-data-scientist | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-08-23 | AI & ML Platforms / Data Mining | What is Data Mining? | data-mining | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-04-08 | AI & ML Platforms / Machine Learning | What is Machine Learning and why it is important? | machine-learning | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-07-05 | Data Engineering / Hive | What are User Defined Functions(UDF) in Apache Hive? | user-defined-functions-udf-hive | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2021-09-11 | Data Engineering / Hive | Hive Tutorials | hive-tutorials | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2021-06-15 | Data Engineering / Hive | Types of Table in Apache Hive | apache-hive-tables | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-10-17 | Data Engineering / Hive | Hive Vectorization Technique | hive-vectorization-technique | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2019-05-21 | Data Engineering / Hive | Apache Hive 3 Architecture | apache-hive-3-architecture | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-11-04 | Data Engineering / Hive | Running Hive Queries using Shell scripts | hive-queries-shell-scripts | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-03-25 | Data Engineering / Hive | Installing Apache Hive on Ubuntu | apache-hive-ubuntu | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-02-10 | Data Engineering / Hive | Partitions in Apache Hive | partitions-apache-hive | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2018-01-28 | Data Engineering / Hive | Introduction to Hive Query Language(HQL) | hive-query-language | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2017-12-28 | Data Engineering / Hive | Introduction to Apache Hive | apache-hive | Draft | Pending | Pending | Pending |
+| Published | 2026-03-25 | AI & ML Platforms / Artificial Intelligence | Unlocking the Future: How Artificial Intelligence is Revolutionizing Our World ? | artificial-intelligence | Live | Pending | Pending | Pending |
+| Published | 2025-11-02 | Data Engineering / Data Quality | Data Profiling: Foundation for Reliable Data Engineering and Analytics | learn-data-profiling | Live | Pending | Pending | Pending |
+| Published | 2024-08-03 | Data Engineering / Guides | Data Engineering User Guide | data-engineering-user-guide | Live | Pending | Pending | Pending |
+| Published | 2024-01-20 | Data Engineering / Data Pipelines | What do you understand by Data Pipeline in Data Engineering? | data-pipeline | Live | Pending | Pending | Pending |
+| Published | 2023-12-17 | Data Engineering / Data Privacy | Safeguarding Data Privacy: The Vital Role of Computer Security | data-privacy-2 | Live | Pending | Pending | Pending |
+| Published | 2023-02-04 | AI & ML Platforms / Data Analysis | What is Data Analysis ? | data-analysis | Live | Pending | Pending | Pending |
+| Published | 2022-05-26 | Data Engineering / Data Privacy | What is Data Privacy, and Why is it important? | data-privacy | Live | Pending | Pending | Pending |
+| Published | 2022-05-20 | Data Engineering / Introduction | What is Data Engineering and Why It is Important? A Guide for a career in Data Engineering | data-engineering | Live | Pending | Pending | Pending |
+| Published | 2021-12-23 | Data Engineering / Data Fundamentals | What is Data and its Types? | data-explained | Live | Pending | Pending | Pending |
+| Published | 2021-02-20 | AI & ML Platforms / Data Science | Skills Needed For Data Scientist | skills-data-scientist | Live | Pending | Pending | Pending |
+| Published | 2018-08-23 | AI & ML Platforms / Data Mining | What is Data Mining? | data-mining | Live | Pending | Pending | Pending |
+| Published | 2018-04-08 | AI & ML Platforms / Machine Learning | What is Machine Learning and why it is important? | machine-learning | Live | Pending | Pending | Pending |
+| Published | 2022-07-05 | Data Engineering / Hive | What are User Defined Functions(UDF) in Apache Hive? | user-defined-functions-udf-hive | Live | Pending | Pending | Pending |
+| Published | 2021-09-11 | Data Engineering / Hive | Hive Tutorials | hive-tutorials | Live | Pending | Pending | Pending |
+| Published | 2021-06-15 | Data Engineering / Hive | Types of Table in Apache Hive | apache-hive-tables | Live | Pending | Pending | Pending |
+| Published | 2019-10-17 | Data Engineering / Hive | Hive Vectorization Technique | hive-vectorization-technique | Live | Pending | Pending | Pending |
+| Published | 2019-05-21 | Data Engineering / Hive | Apache Hive 3 Architecture | apache-hive-3-architecture | Live | Pending | Pending | Pending |
+| Published | 2018-11-04 | Data Engineering / Hive | Running Hive Queries using Shell scripts | hive-queries-shell-scripts | Live | Pending | Pending | Pending |
+| Published | 2018-03-25 | Data Engineering / Hive | Installing Apache Hive on Ubuntu | apache-hive-ubuntu | Live | Pending | Pending | Pending |
+| Published | 2018-02-10 | Data Engineering / Hive | Partitions in Apache Hive | partitions-apache-hive | Live | Pending | Pending | Pending |
+| Published | 2018-01-28 | Data Engineering / Hive | Introduction to Hive Query Language(HQL) | hive-query-language | Live | Pending | Pending | Pending |
+| Published | 2017-12-28 | Data Engineering / Hive | Introduction to Apache Hive | apache-hive | Live | Pending | Pending | Pending |
+| Converted locally, not pushed | 2021-09-11 | Core Tech & Programming / Java | Java Tutorials | java-tutorials | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2021-04-25 | Core Tech & Programming / Java | How to Set Up Proxy in JVM-based Applications? | proxy-jvm-based-applications | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2021-03-02 | Core Tech & Programming / Java | What are Java Variables? | java-variables | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2020-03-25 | Core Tech & Programming / Java | Atlassian JIRA REST Java Client(JRJC) Library | atlassian-jira-rest-jrjc-library | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2020-03-22 | Core Tech & Programming / Java | JVM Monitoring tools | jvm-monitoring-tools | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2020-02-09 | Core Tech & Programming / Java | HashTable vs HashMap in Java | hashtable-hashmap-java | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-10-20 | Core Tech & Programming / Java | Difference between Overloading Vs Overriding in Java | overloading-overriding-java | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-10-13 | Core Tech & Programming / Java | Difference between Abstract Class and Interfaces in Java | abstract-class-interfaces-java | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-11-01 | Core Tech & Programming / Java | Java Data Types | java-data-types | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-10-28 | Core Tech & Programming / Java | Introduction to Java Programming Language | java-programming-language | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2021-09-11 | Core Tech & Programming / Scala | Scala Tutorials | scala-tutorials | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-11-27 | Core Tech & Programming / Scala | Understanding Scala Collections | understanding-scala-collections | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-05-08 | Core Tech & Programming / Scala | Options in Scala | options-scala | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-03-29 | Core Tech & Programming / Scala | Scala Case Classes And Pattern Matching | scala-case-classes-pattern-matching | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2019-01-21 | Core Tech & Programming / Scala | Scala Class and Objects | scala-class-objects | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2018-05-16 | Core Tech & Programming / Scala | Scala Functions and Methods | scala-functions | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-11-10 | Core Tech & Programming / Scala | Scala Variables | scala-variables | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-09-16 | Core Tech & Programming / Scala | Scala Programming Language | scala-programming-language | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2020-06-01 | Data Engineering / Kafka | Apache Kafka Important Components | apache-kafka-important-components | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2017-11-25 | Data Engineering / Kafka | Introduction to Apache Kafka | apache-kafka | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
