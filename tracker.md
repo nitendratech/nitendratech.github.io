@@ -151,16 +151,26 @@ Rule: check this file and existing slugs before starting a new post. If a topic 
 | Published | 2023-11-15 | Core Tech & Programming / Interview Questions | Important Git Interview Questions | git-interview-questions | Live | Pending | Pending | Pending |
 | Published | 2023-11-15 | Cloud & Architecture / Interview Questions | Essential DevOps Interview Questions | dev-ops-interview-questions | Live | Pending | Pending | Pending |
 | Published | 2023-11-15 | Engineering Leadership / Career | Technical Interviews | technical-interviews | Live | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-02-04 | Core Tech & Programming / Interview Questions | Important Linux Interview Questions | linux-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-02-04 | Core Tech & Programming / Interview Questions | Most asked  Java Interview Questions | java-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-02-04 | Data Engineering / Interview Questions | Important SQL Interview Questions | sql-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-02-04 | Cloud & Architecture / Interview Questions | Most asked System Design Interview Questions | system-design-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-02-04 | Data Engineering / Interview Questions | Top and Essential Apache Spark Interview Questions | apache-spark-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-02-04 | Data Engineering / Interview Questions | Important Database Interview Questions | database-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-02-04 | Cloud & Architecture / Interview Questions | Important Amazon Web Services(AWS) Interview Questions | aws-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-02-04 | Data Engineering / Interview Questions | Top 60 + Apache Hive Interview Questions | apache-hive-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-02-04 | Data Engineering / Interview Questions | Important Apache Hadoop Interview Questions | apache-hadoop-interview-questions | Draft | Pending | Pending | Pending |
-| Converted locally, not pushed | 2022-02-04 | Data Engineering / Interview Questions | Top Big Data Interview Questions | big-data-interview-questions | Draft | Pending | Pending | Pending |
+| Published | 2022-02-04 | Core Tech & Programming / Interview Questions | Important Linux Interview Questions | linux-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2022-02-04 | Core Tech & Programming / Interview Questions | Most asked  Java Interview Questions | java-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2022-02-04 | Data Engineering / Interview Questions | Important SQL Interview Questions | sql-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2022-02-04 | Cloud & Architecture / Interview Questions | Most asked System Design Interview Questions | system-design-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2022-02-04 | Data Engineering / Interview Questions | Top and Essential Apache Spark Interview Questions | apache-spark-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2022-02-04 | Data Engineering / Interview Questions | Important Database Interview Questions | database-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2022-02-04 | Cloud & Architecture / Interview Questions | Important Amazon Web Services(AWS) Interview Questions | aws-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2022-02-04 | Data Engineering / Interview Questions | Top 60 + Apache Hive Interview Questions | apache-hive-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2022-02-04 | Data Engineering / Interview Questions | Important Apache Hadoop Interview Questions | apache-hadoop-interview-questions | Live | Pending | Pending | Pending |
+| Published | 2022-02-04 | Data Engineering / Interview Questions | Top Big Data Interview Questions | big-data-interview-questions | Live | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-27 | Data Engineering / Hadoop | What is Job Tracker in Apache Hadoop? | job-tracker-hadoop | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-27 | Data Engineering / Hadoop | What is Hadoop Task Tracker? | hadoop-task-tracker | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-27 | Data Engineering / Hadoop | Hadoop Tutorials | hadoop-tutorials | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-27 | Data Engineering / HDFS | What is Heartbeat in Hadoop Framework? | heartbeat-hadoop-hdfs | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-27 | Data Engineering / Hadoop | What is Speculative Execution in Hadoop? | speculative-execution-hadoop | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-27 | Data Engineering / HDFS | What are HDFS Data Blocks? | hdfs-data-blocks | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-27 | Data Engineering / HDFS | Rack Awareness in Hadoop HDFS | rack-awareness-hadoop-hdfs | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-27 | Data Engineering / Hadoop | Difference between Apache Hadoop/HDFS and HBase | apache-hadoop-hdfs-hbase | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-27 | Data Engineering / Hadoop | Apache Hadoop 3 Changes | apache-hadoop-3-changes | Draft | Pending | Pending | Pending |
+| Converted locally, not pushed | 2023-11-27 | Data Engineering / Hadoop | Finding Right hardware for Hadoop Cluster | right-hardware-hadoop-cluster | Draft | Pending | Pending | Pending |
 | Planned | — | AI & ML Platforms / RAG & Vector Search | How vector search actually works | vector-search-basics | Pending | Pending | Pending | Pending |
 | To inventory | — | (WordPress import, Phase 4) | All nitendratech.com articles — see inventory step | — | Pending | Pending | Pending | Pending |
 
