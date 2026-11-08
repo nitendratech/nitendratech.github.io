@@ -305,4 +305,4 @@ In this blog post, we have read how to use a Unix shell script to connect to the
 
 ---
 
-*Originally published on nitendratech.com on 2019-01-20, updated 2024-08-03. Migrated to nitendratech.github.io as part of the WordPress migration, in GA4 view order.*
+*Originally published on nitendratech.com on 2019-01-20, updated 2024-08-03 in GA4 view order.*

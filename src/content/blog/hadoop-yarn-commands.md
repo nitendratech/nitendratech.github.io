@@ -134,4 +134,4 @@ yarn logs -help
 
 ---
 
-*Originally published on nitendratech.com on 2018-02-08, updated 2024-02-18. Migrated to nitendratech.github.io as the second WordPress import, in GA4 view order.*
+*Originally published on nitendratech.com on 2018-02-08, updated 2024-02-18 in GA4 view order.*

@@ -64,4 +64,4 @@ Exit Code is 0
 
 ---
 
-*Originally published on nitendratech.com on 2019-04-06, updated 2022-06-06. Migrated to nitendratech.github.io from the WordPress site.*
+*Originally published on nitendratech.com on 2019-04-06, updated 2022-06-06.*

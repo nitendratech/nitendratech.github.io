@@ -275,4 +275,4 @@ hdfs dfs -cat </path_to_hdfs_directory/*> |wc -l
 
 ---
 
-*Originally published on nitendratech.com on 2017-08-25, updated 2023-07-19. Migrated to nitendratech.github.io as the third WordPress import, in GA4 view order.*
+*Originally published on nitendratech.com on 2017-08-25, updated 2023-07-19 in GA4 view order.*

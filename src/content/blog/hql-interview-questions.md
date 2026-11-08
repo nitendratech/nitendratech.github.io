@@ -278,4 +278,4 @@ These settings work well for the below directory structure.
 
 ---
 
-*Originally published on nitendratech.com on 2022-03-07, updated 2024-01-07. Migrated to nitendratech.github.io as the first WordPress import, in GA4 view order.*
+*Originally published on nitendratech.com on 2022-03-07, updated 2024-01-07 in GA4 view order.*
