@@ -8,7 +8,7 @@ subcategory: "Databases"
 
 The CAP theorem is also known as Brewer's theorem. It states that it is impossible for a distributed computer system to simultaneously provide all three (Consistency, Availability, and Partition tolerance) guarantees. A distributed computer system can only guarantee/strongly support two of these properties.
 
-![Cap Theorem](https://www.nitendratech.com/wp-content/uploads/2020/01/cap_theorem.png)
+![Cap Theorem](/images/cap_theorem.png)
 
 **Fig: Cap Theorem**
 

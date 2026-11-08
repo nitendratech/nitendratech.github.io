@@ -27,7 +27,7 @@ Apache Pig mainly has an intermediate layer that converts the Pig Latin Scripts 
 
 **(f)Logical validation:** It is not possible in pig, but semantic checking is possible in Pig
 
-![Pig Architecture](https://www.nitendratech.com/wp-content/uploads/2019/04/pig-architecture.jpg)
+![Pig Architecture](/images/pig-architecture.jpg)
 
 Figure: Pig Architecture
 

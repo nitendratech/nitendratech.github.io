@@ -9,7 +9,7 @@ draft: false
 
 In this blog post, we will install Apache Hive in Ubuntu Machine(`Ubuntu 16.04.5 LTS (GNU/Linux 4.4.0-36-generic x86_64)`). Once installation is complete, we will run Hive queries using Hive Query Language(HQL) to verify the installation.
 
-![Ubuntu Version](https://www.nitendratech.com/wp-content/uploads/2018/12/ubuntu_version.jpg)
+![Ubuntu Version](/images/ubuntu_version.jpg)
 
 Figure: Ubuntu Version
 
@@ -130,7 +130,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 Now use the `jps` and `hadoop version` command to check if Apache Hadoop is running or not.
 
-![Check Hadoop](https://www.nitendratech.com/wp-content/uploads/2018/12/check_hadoop.jpg)
+![Check Hadoop](/images/check_hadoop.jpg)
 
 Figure: Check Hadoop and Hive Version
 
@@ -154,7 +154,7 @@ Now let's inform hive about the database that it should use for its schema defin
 $HIVE_HOME/bin/schematool -initSchema -dbType derby
 ```
 
-![Init Derby](https://www.nitendratech.com/wp-content/uploads/2018/12/init_derby.jpg)
+![Init Derby](/images/init_derby.jpg)
 
 Figure: Initialize Derby database
 
@@ -166,7 +166,7 @@ Figure: Initialize Derby database
 hive
 ```
 
-![Hive Shell](https://www.nitendratech.com/wp-content/uploads/2018/12/hive_shell.jpg)
+![Hive Shell](/images/hive_shell.jpg)
 
 Figure: Hive Shell
 
@@ -180,7 +180,7 @@ CREATE DATABASE IF NOT EXISTS niten_test;
 SHOW DATABASES;
 ```
 
-![Create Database](https://www.nitendratech.com/wp-content/uploads/2018/12/create_database.jpg)
+![Create Database](/images/create_database.jpg)
 
 Figure: Create Hive Database
 
@@ -204,7 +204,7 @@ last_name String,
 website String);
 ```
 
-![Create Hive Table](https://www.nitendratech.com/wp-content/uploads/2018/12/create_hive_table.jpg)
+![Create Hive Table](/images/create_hive_table.jpg)
 
 Figure: Create Hive Table
 
@@ -216,7 +216,7 @@ show tables;
 desc niten_table;
 ```
 
-![Show Describe Hive TTable](https://www.nitendratech.com/wp-content/uploads/2018/12/show_describe_hive_table.jpg)
+![Show Describe Hive TTable](/images/show_describe_hive_table.jpg)
 
 Figure: Show and Describe Hive Table
 
@@ -226,7 +226,7 @@ Figure: Show and Describe Hive Table
 INSERT INTO TABLE niten_table VALUES(1,'Nitendra','Gautam','nitendragautam.com');
 ```
 
-![Insert Record Hive](https://www.nitendratech.com/wp-content/uploads/2018/12/insert_record_hive.jpg)
+![Insert Record Hive](/images/insert_record_hive.jpg)
 
 Figure: Insert Record Hive Table
 
@@ -236,7 +236,7 @@ Figure: Insert Record Hive Table
 SELECT * FROM niten_test;
 ```
 
-![Display record Hive](https://www.nitendratech.com/wp-content/uploads/2018/12/display_records_hive.jpg)
+![Display record Hive](/images/display_records_hive.jpg)
 
 Figure: Display Record
 

@@ -71,7 +71,7 @@ In this phase, the `reduce(MapOutKeyType, Iterable, Context)` the method is call
 (input) –>map(K1,V1) –> list(K2,V2) –>Shuffle/Sort–>reduce (k2,list(v2))–>list(k3,v3)–>(Output)
 ```
 
-![MapReduce Hadoop in Action](https://www.nitendratech.com/wp-content/uploads/2019/04/mapreduce_hadoop_in_action_book.png)
+![MapReduce Hadoop in Action](/images/mapreduce_hadoop_in_action_book.png)
 
 Figure: Hadoop MapReduce Framework (Hadoop in Action)
 

@@ -48,7 +48,7 @@ USE testdb;
 SHOW DATABASES;
 ```
 
-![Create Database](https://www.nitendratech.com/wp-content/uploads/2019/04/create_database.jpg)
+![Create Database](/images/2019-04-create_database.jpg)
 
 ### SELECT Unique Records in Hive
 
@@ -86,9 +86,9 @@ Upload the `drivers.csv` and timesheet data into HDFS(/user/maria-dev/) from the
 
 Now Upload the Files
 
-![Upload File First Step](https://www.nitendratech.com/wp-content/uploads/2019/04/upload_files_1st_step.png)
+![Upload File First Step](/images/upload_files_1st_step.png)
 
-![Upload File Second Step](https://www.nitendratech.com/wp-content/uploads/2019/04/upload_files_2nd_step.png)
+![Upload File Second Step](/images/upload_files_2nd_step.png)
 
 ## Create an Internal Table for the Driver's Data
 
@@ -99,7 +99,7 @@ As the database is recently created, no tables exist in the new database. The fo
 SHOW TABLES;
 ```
 
-![Show tables](https://www.nitendratech.com/wp-content/uploads/2019/04/show_tables.png)
+![Show tables](/images/show_tables.png)
 
 Now create a Table using the Hive DDL statement.
 
@@ -123,7 +123,7 @@ In this DDL statement notice the following things
 - `ROW FORMAT DELIMITED`
 - `TBLPROPERTIES`
 
-![](https://www.nitendratech.com/wp-content/uploads/2019/04/create_table.png)
+![](/images/create_table.png)
 
 ### Table Definition in Hive
 
@@ -143,7 +143,7 @@ describe extended <tablename>;
 DESCRIBE EXTENDED drivers_int;
 ```
 
-![Describe Table](https://www.nitendratech.com/wp-content/uploads/2019/04/describe_table.png)
+![Describe Table](/images/describe_table.png)
 
 ## Load the data by overwriting the existing data
 
@@ -155,7 +155,7 @@ LOAD DATA INPATH '/user/maria_dev/drivers.csv' OVERWRITE INTO TABLE drivers_int;
 SELECT * FROM temp_drivers LIMIT 10;
 ```
 
-![Load Data](https://www.nitendratech.com/wp-content/uploads/2019/04/load_data.png)
+![Load Data](/images/load_data.png)
 
 After executing `LOAD DATA` we can see the table `drivers_int` was populated with data from `drivers.csv`.
 
@@ -176,7 +176,7 @@ TBLPROPERTIES('skip.header.line.count' = '1');
 SHOW TABLES;
 ```
 
-![Create Table TimeSheet](https://www.nitendratech.com/wp-content/uploads/2019/04/create_table_timesheet.png)
+![Create Table TimeSheet](/images/create_table_timesheet.png)
 
 ## Load CSV data into the Table timesheet
 
@@ -188,7 +188,7 @@ LOAD DATA INPATH '/user/maria_dev/timesheet.csv' OVERWRITE INTO TABLE timesheet_
 SELECT * FROM timesheet_int LIMIT 10;
 ```
 
-![Load Data TimeSheet](https://www.nitendratech.com/wp-content/uploads/2019/04/load_data_timesheets.png)
+![Load Data TimeSheet](/images/load_data_timesheets.png)
 
 ## Find the sum of hours and miles logged score for a year for each driver
 
@@ -196,7 +196,7 @@ SELECT * FROM timesheet_int LIMIT 10;
 SELECT driverId ,sum(hours_logged) ,sum(miles_loggged) FROM timesheet_int GROUP BY driverId LIMIT 10;
 ```
 
-![Drivers hourly mile run](https://www.nitendratech.com/wp-content/uploads/2019/04/drivers_yearly_miles_hours_sum.png)
+![Drivers hourly mile run](/images/drivers_yearly_miles_hours_sum.png)
 
 ## Join the two tables to get the driver Name for aggregated data
 
@@ -214,7 +214,7 @@ JOIN
  LIMIT 10;
 ```
 
-![Join two tables](https://www.nitendratech.com/wp-content/uploads/2019/04/join_two_tables.png)
+![Join two tables](/images/join_two_tables.png)
 
 ### Change Column Data Type in Hive
 

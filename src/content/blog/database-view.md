@@ -10,7 +10,7 @@ subcategory: "Databases"
 
 Views are mainly used to implement table and field-level security and hide complicated queries.
 
-![Database View](https://www.nitendratech.com/wp-content/uploads/2020/05/database_views.png)
+![Database View](/images/database_views.png)
 
 ## What is the use of Database View?
 

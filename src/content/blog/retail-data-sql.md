@@ -19,7 +19,7 @@ This retail database is obtained from the tutorial the Cloudera team provided as
 - Orders
 - Customers
 
-![Retail Data Model](https://www.nitendratech.com/wp-content/uploads/2019/04/retail_data_model.png)
+![Retail Data Model](/images/retail_data_model.png)
 
 ## Download the retail_db database
 
@@ -123,7 +123,7 @@ mysql> SELECT COUNT(*) as count FROM customers c JOIN orders o ON(c.customer_id=
 SELECT c.customer_fname,c.customer_lname,o.order_date,o.order_status FROM customers c JOIN orders o ON(c.customer_id=o.order_customer_id) WHERE c.customer_state='TX' LIMIT 20;
 ```
 
-![Customer Details](https://www.nitendratech.com/wp-content/uploads/2019/04/customer_details.jpg)
+![Customer Details](/images/customer_details.jpg)
 
 ## Completed version of the Script
 

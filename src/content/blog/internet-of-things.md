@@ -20,7 +20,7 @@ Many sources generate IoT data. Some common sources are given below.
 - **Controller:** It is an application that provides intelligence to the internet.
 - **Bridge:** As different devices have different protocols for data transfer, a bridge or gateway is needed to communicate with each other
 
-![Internet of Things](https://www.nitendratech.com/wp-content/uploads/2019/04/internet-of-things.jpg)
+![Internet of Things](/images/internet-of-things.jpg)
 
 Figure: [ARM and Open Internet of Things](https://www.slideshare.net/slideshow/embed_code/45755086)
 
@@ -36,7 +36,7 @@ In the current world, IOT-based technologies are used everywhere. Below is some 
 - **Intelligent Health Platform**
 - **Precision Agriculture**
 
-![Internet of Things 7 Layers](https://www.nitendratech.com/wp-content/uploads/2019/04/mk-iot-graphics.jpg)
+![Internet of Things 7 Layers](/images/mk-iot-graphics.jpg)
 
 Figure: [IOT Technology Layers](https://www.iotforall.com/iot-product-managers-guide-iot-technology-stack/)
 

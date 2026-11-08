@@ -35,7 +35,7 @@ vi -r <FILE_NAME>
 
 Here `-r` option means that we are trying to recover the File Name when the System is Crashed.
 
-![Vi New File](https://www.nitendratech.com/wp-content/uploads/2019/04/vi_newfile-1.png)
+![Vi New File](/images/vi_newfile-1.png)
 
 ## Closing and Savings Files using the Editor
 
@@ -55,7 +55,7 @@ Once we go to the command mode, we can press `SHIFT` & Colon `:` key to enter th
 
 An alternative way to save an edit is using the `ZZ` Key which is in uppercase.
 
-![Vi Save File](https://www.nitendratech.com/wp-content/uploads/2019/04/vi_savefile-2.png)
+![Vi Save File](/images/vi_savefile-2.png)
 
 ### Quitting without Saving Edits
 

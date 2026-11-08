@@ -13,7 +13,7 @@ Kafka uses Zookeeper to share and save states between brokers. Each broker maint
 
 While many brokered message queue systems have the broker maintain the state of its consumers, Kafka does not. This frees up resources for the broker to ingest data faster. For more information about Kafka’s performance, see the [Kafka’s official documentation](https://kafka.apache.org/)
 
-![Kafka Architecture](https://www.nitendratech.com/wp-content/uploads/2019/04/kafka_diagram.png)
+![Kafka Architecture](/images/kafka_diagram.png)
 
 Figure: [Apache Kafka](https://kafka.apache.org/intro)
 

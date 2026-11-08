@@ -21,7 +21,7 @@ In Unix/Linux-based systems, block size is defined as 8192 bytes. But in HDFS, t
 
 For Example: If a particular file is 50 MB, and the HDFS block is 64 MB as the default size, it will create a block of 50 MB for that file. The remaining 14 MB is free to do something else.
 
-![HDFS Block Size Configuration](https://www.nitendratech.com/wp-content/uploads/2021/07/HDFS_Data_blocks_drawio.png)
+![HDFS Block Size Configuration](/images/HDFS_Data_blocks_drawio.png)
 
 ## Benefits of Block Transfer
 

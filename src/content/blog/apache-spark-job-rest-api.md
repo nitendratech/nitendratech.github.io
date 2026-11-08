@@ -33,7 +33,7 @@ $SPARK_HOME/bin/spark-submit \
 
 In this post, I will explain how to trigger a Spark job with the help of the REST API. Please make sure that Spark Cluster is running before submitting Spark Job.
 
-![Spark Master](https://www.nitendratech.com/wp-content/uploads/2018/04/spark-master.png)
+![Spark Master](/images/spark-master.png)
 
 Figure: Apache Spark Master
 

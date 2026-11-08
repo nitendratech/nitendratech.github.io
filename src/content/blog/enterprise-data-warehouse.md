@@ -28,7 +28,7 @@ It is called a star schema because the diagram resembles a star, with points rad
 
 Below is an example of the Star Schema-based model for a Sales Department in a retail-based company.
 
-![Star Schema Data Model](https://www.nitendratech.com/wp-content/uploads/2021/08/Star_Schema_Data_Model_drawio.png)
+![Star Schema Data Model](/images/Star_Schema_Data_Model_drawio.png)
 
 ### Snowflake Schema
 
@@ -48,7 +48,7 @@ Ralph Kimball, the data warehousing guru, proposes three cases where snowflake i
 - Financial product dimensions for banks, brokerage houses, and insurance companies, because each of the individual products has a host of special attributes not shared by other products
 - Multi-enterprise calendar dimensions because each organization has idiosyncratic fiscal periods, seasons, and holidays
 
-![Data Warehouse](https://www.nitendratech.com/wp-content/uploads/2018/07/data_Warehouse.png)
+![Data Warehouse](/images/data_Warehouse.png)
 
 ## Data Integration in Data Warehouse
 

@@ -26,7 +26,7 @@ Enterprise software is the software developed to satisfy the needs of an organiz
 
 Enterprise software is mainly used for automated billing, online shopping, interactive product catalog, customer relationship management, human resource management, manufacturing, project management, business intelligence, and online payment processing.
 
-![Examples of Enterprise Softwares](https://www.nitendratech.com/wp-content/uploads/2021/07/enterprise_software_example.png)
+![Examples of Enterprise Softwares](/images/enterprise_software_example.png)
 
 ## Types of Enterprise Software
 

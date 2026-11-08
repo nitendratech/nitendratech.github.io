@@ -93,7 +93,7 @@ They are highly knowledgeable individuals with advanced computer science degrees
 
 UX designer or User Experience designer, the role is to create and design the application specifically for the needs of the user or customer, in terms of its use, quality and efficiency. Their job is to make sure that the user loves their favorite apps and interfaces. In order to be a good UX designer, it is preferred to have a degree in computer science, though it's not necessary. On average, they earn around $75K annually.
 
-![Computer Science Positions](https://www.nitendratech.com/wp-content/uploads/2022/07/Computer_Science_Positions_drawio.png)
+![Computer Science Positions](/images/Computer_Science_Positions_drawio.png)
 
 ## Conclusion
 

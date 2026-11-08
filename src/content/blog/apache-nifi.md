@@ -33,7 +33,7 @@ This project was classified by, United States National Security Agency (NSA) for
 
 NiFi is helpful in creating DataFlow. It means you can transfer data from one system to another system, as well as process the data in between.
 
-![Apache Nifi Architecture](https://www.nitendratech.com/wp-content/uploads/2019/04/apache-nifi-architecture.png)
+![Apache Nifi Architecture](/images/apache-nifi-architecture.png)
 
 Figure: [Apache NiFi Architecture](https://nifi.apache.org/docs/nifi-docs/html/overview.html)
 

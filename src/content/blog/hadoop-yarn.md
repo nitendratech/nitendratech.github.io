@@ -13,7 +13,7 @@ We can utilize the available resources efficiently and run multiple applications
 
 In the Hadoop Stack, Apache Yarn sits on top of [HDFS (Hadoop distributed File system)](https://www.nitendratech.com/hadoop/hadoop-hdfs/) and acts as a mediator between HDFS and processing engines(Tez and [Spark](https://www.nitendratech.com/spark/apache-spark/)).
 
-![yarn_architecture](https://www.nitendratech.com/wp-content/uploads/2018/02/yarn_arch.png)
+![yarn_architecture](/images/yarn_arch.png)
 
 ## Application and System Logs in HDFS
 

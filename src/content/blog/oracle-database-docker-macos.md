@@ -156,7 +156,7 @@ The Oracle database server exposes port 1521 for Oracle client connections over 
 
 Now try to connect to this database using `system/oracle`as Username and Password, `xe` as SID, 1521 as the port. I have used the DBeaver SQL client software application and a database administration tool to test the connection. It is a great GUI-based tool to connect to SQL as well as NoSQL databases. You need to make sure that the Oracle client jar is in the classpath before connecting to this database.
 
-![](https://www.nitendratech.com/wp-content/uploads/2020/05/DBWeaver_Connection_Test.png)
+![](/images/DBWeaver_Connection_Test.png)
 
 As you can see, the test is successful.
 

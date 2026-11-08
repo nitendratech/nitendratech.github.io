@@ -47,7 +47,7 @@ Many data scientists, analysts, and general business intelligence users rely on 
 
 Machine learning has quickly emerged as a critical piece in mining Big Data for actionable insights. Built on top of Spark, ML lib is a scalable machine learning library that delivers both high-quality algorithms (e.g., multiple iterations to increase accuracy) and blazing speed (up to 100x faster than MapReduce). The library is usable in Java, Scala, and Python as part of Spark applications, so that you can include it in complete workflows.
 
-![Spark Stack](https://www.nitendratech.com/wp-content/uploads/2017/09/spark-stack.png)
+![Spark Stack](/images/spark-stack.png)
 
 ## Key features of Spark
 

@@ -20,7 +20,7 @@ The modern data stack is a mixture of tools, technologies, and techniques that f
 - **Data Visualization:** Once the data collected from various platforms is transformed, data visualization tools help to create expressive and interactive visualizations. Platforms like Tableau, Power BI, or Looker allow users to perform exploratory analysis, uncover insights, and communicate findings through intuitive dashboards and reports. These dashboards are very popular among Product Owners(PO) and business owners.
 - **Data Governance and Security:** One of the key advantages of using a modern data stack is that it always emphasizes data governance and security to ensure compliance, privacy, and data protection. This includes implementing access controls, data encryption, auditing mechanisms, and sticking to various regulatory requirements.
 
-![](https://www.nitendratech.com/wp-content/uploads/2024/04/image-2.png)
+![](/images/2024-04-image-2.png)
 
 ## Importance of Modern Data Stack
 

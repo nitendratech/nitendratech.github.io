@@ -43,7 +43,7 @@ Generally, a DBMS has the following elements.
 - **Metadata Repository:** It is also called a data dictionary where you will find the information related to the data.
 - **Query Language:** It is the language that enables applications to access the data.
 
-![Database Management Systems](https://www.nitendratech.com/wp-content/uploads/2017/08/database_management_systems.png)
+![Database Management Systems](/images/database_management_systems.png)
 
 **Characteristics of Database System**
 

@@ -13,7 +13,7 @@ Object-Oriented Programming (OOP) is a programming methodology that organizes a 
 
 Before going into the four pillars of OOP, we need to understand the basic building blocks of OOP.
 
-![](https://www.nitendratech.com/wp-content/uploads/2017/04/OOP_Concept.png)
+![](/images/OOP_Concept.png)
 
 **Fig: OOP Concepts**
 

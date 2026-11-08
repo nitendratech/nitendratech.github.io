@@ -15,7 +15,7 @@ As a developer, we need to work on many virtual machines. I used mainly VMware a
 
 Go to the [docker hub page](https://hub.docker.com/editions/community/docker-ce-desktop-mac/) to get the community edition of the Docker.
 
-![](https://www.nitendratech.com/wp-content/uploads/2020/04/docker_hub_page.png)
+![](/images/docker_hub_page.png)
 
 Click the Get Docker link from the browser or use the command to download the files from Url in the downloads folder.
 
@@ -29,19 +29,19 @@ Click the Get Docker link from the browser or use the command to download the fi
 
 Once the file is downloaded you can install Docker by double-clicking the Docker.dmg file.
 
-![](https://www.nitendratech.com/wp-content/uploads/2020/04/docker_drag_drop.png)
+![](/images/docker_drag_drop.png)
 
 Once this installation is complete, you will see an icon of Docker in Launchpad and installed location through terminal. Click on the icon from the launchpad when you want to use it.
 
-![](https://www.nitendratech.com/wp-content/uploads/2020/04/docker_Launchpad.png)
+![](/images/docker_Launchpad.png)
 
 Once you start the docker it's menu will come up in the main title window. you can sign in using the docker user name and password or sign up for a new one if you don't have it. You need to sign in to use many of the images the docker provides.
 
-![](https://www.nitendratech.com/wp-content/uploads/2020/04/docker_logo.png)
+![](/images/docker_logo.png)
 
 Let's use the terminal to check the status of installation.
 
-![](https://www.nitendratech.com/wp-content/uploads/2020/04/docker_terminal.png)
+![](/images/docker_terminal.png)
 
 ## Test the Docker Installation
 

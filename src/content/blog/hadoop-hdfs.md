@@ -31,7 +31,7 @@ As we can have thousands of nodes in a Hadoop cluster made from commodity hardwa
 
 ## Hadoop Architecture
 
-![](https://www.nitendratech.com/wp-content/uploads/2019/04/hdfsarchitecture.png)
+![](/images/hdfsarchitecture.png)
 
 **Figure: HDFS Architecture**
 

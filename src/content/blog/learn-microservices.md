@@ -13,7 +13,7 @@ Microservices are a highly scalable architecture. This architecture is considere
 
 They are opposite to the monolithic architecture style, which is built upon a single autonomous unit. In a client-server model-based architecture, the server-side application is a monolith that handles the HTTP requests, executes logic, and retrieves/updates the data in the underlying database. A small change applied to a small section of the application might require building and deploying an entirely new version. If we want to scale up specific functions of an application, we have to scale the entire application instead of just desired components.
 
-![Microservice Architecture](https://www.nitendratech.com/wp-content/uploads/2019/04/monolithic-vs-microservices-architecture.png)
+![Microservice Architecture](/images/monolithic-vs-microservices-architecture.png)
 
 Figure: [Monothilic Vs MicroServices Architecture](https://howtodoinjava.com/microservices/microservices-definition-principles-benefits)
 

@@ -17,7 +17,7 @@ Data Lake stores information from multiple access points. This platform is a dis
 
 Data Lake can store a variety of data from web server logs, databases, social media, data from Customer Relationship Management (CRM), inventory data, sales transaction data, and third-party data in the batch and real-time fashion. We can apply different kinds of transformations to the data to create Business Ready Datasets (BRD) when needed. This type of architecture on Data Lake is known as "Schema on Read" architecture. In this, architecture, this schema is applied only when we want to read or use the data for a certain purpose. This is opposite to the "Schema on Write" approach used in traditional storage systems like Data Warehouse.
 
-![Data Lake Architecture](https://www.nitendratech.com/wp-content/uploads/2019/08/data_lake_architecture.png)
+![Data Lake Architecture](/images/data_lake_architecture.png)
 
 ## Features of Data Lake
 

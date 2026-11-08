@@ -13,7 +13,7 @@ The main idea behind parallelism is to split a large dataset into smaller partit
 
 Parallelism in Spark allows organizations to build highly scalable and fault-tolerant data processing pipelines using Spark that can achieve better performance. The organization can cut its costs by partitioning the data using spark, which creates minimal network traffic when sending data between executors. Apache Spark uses a partitioning algorithm to determine which worker node gets the particular record of RDD. If there are no partitions or is defined as none, Spark does not partition the data based on data characteristics but distributes the data randomly across the various nodes.
 
-![Spark Parallelism](https://www.nitendratech.com/wp-content/uploads/2023/05/Spark_Parallelism.drawio.png)
+![Spark Parallelism](/images/Spark_Parallelism.drawio.png)
 
 ## Advantage of Apache Spark parallelism
 

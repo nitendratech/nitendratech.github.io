@@ -31,7 +31,7 @@ Within a particular database, data in the tables is serialized, and each table h
 
 Hive supports all the common primitive data formats such as BIGINT, BINARY, BOOLEAN, CHAR, DECIMAL, DOUBLE, FLOAT, INT, SMALLINT, STRING, TIMESTAMP, and TINYINT. In addition, analysts can combine primitive data types to form complex data types, such as structs, maps, and arrays.
 
-![Hive Architecture](https://www.nitendratech.com/wp-content/uploads/2019/04/hive-architecture.png)
+![Hive Architecture](/images/hive-architecture.png)
 
 Figure: Hive Architecture
 

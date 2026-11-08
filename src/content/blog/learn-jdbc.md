@@ -16,7 +16,7 @@ There are two layers in JDBC Architecture.
 
 It follows a bridge design pattern in which the JDBC API provides the abstraction and the JDBC drivers provide the implementation. We can plug the new drivers into the JDBC API without changing the client code.
 
-![JDBC_API](https://www.nitendratech.com/wp-content/uploads/2019/07/JDBC_API.png)
+![JDBC_API](/images/JDBC_API.png)
 
 ## Common JDBC API components
 

@@ -43,7 +43,7 @@ sqoop list-databases --connect jdbc:mysql://localhost:3306/ --username root -pas
 sqoop list-tables --connect jdbc:mysql://localhost:3306/employees --username root -password admin
 ```
 
-![Sqoop List Tables](https://www.nitendratech.com/wp-content/uploads/2019/04/list_tables.png)
+![Sqoop List Tables](/images/list_tables.png)
 
 ## Import MySQL table in HDFS directory
 
@@ -79,7 +79,7 @@ Once the import is completed, you can verify by checking the GUI and `hadoop fs`
 
 Using the GUI
 
-![](https://www.nitendratech.com/wp-content/uploads/2019/04/sqoop_import_hdfs.png)
+![](/images/sqoop_import_hdfs.png)
 
 Using the Hadoop file system command
 
@@ -203,7 +203,7 @@ cat: Unable to write to output stream.
 
 As we can see, that the data from MySQL salaries table was imported into HDFS.
 
-![](https://www.nitendratech.com/wp-content/uploads/2019/04/sqoop_import_salary_table.png)
+![](/images/sqoop_import_salary_table.png)
 
 ## Importing RDBMS table in Hadoop using Sqoop with No primary key column
 

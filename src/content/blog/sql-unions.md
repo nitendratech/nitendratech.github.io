@@ -12,7 +12,7 @@ SQL Stands for Structured Query Language(SQL). SQL UNION combines the results of
 SELECT 1 AS [Column1], 2 AS [Column2] UNION SELECT 3 AS [Column1], 4 AS [Column2]
 ```
 
-![SQL Union](https://www.nitendratech.com/wp-content/uploads/2019/04/union.jpg)
+![SQL Union](/images/union.jpg)
 
 Figure: [Union](https://stackoverflow.com/questions/905379/what-is-the-difference-between-join-and-union)
 

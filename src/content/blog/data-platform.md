@@ -26,7 +26,7 @@ There are many reasons why organizations need a data platform. Below are some of
 
 **Analytics and Insight:** It helps in performing analytics and generating insights from given data. There are various tools provided by a data platform, that can be used to explore the data visualization report and enable organizations to make data-driven decisions.
 
-![Data Platform Importance](https://www.nitendratech.com/wp-content/uploads/2024/04/image-3.png)
+![Data Platform Importance](/images/image-3.png)
 
 ## Data Platform Layers
 
@@ -58,7 +58,7 @@ This layer enables the delivery of data-driven applications and services to end 
 
 When the data platform is designed properly, it provides organizations with a unified view of the data and enables them to make data-driven decisions.
 
-![Data Platform Layers](https://www.nitendratech.com/wp-content/uploads/2023/04/Data_Platform_Layers.drawio.png)
+![Data Platform Layers](/images/Data_Platform_Layers.drawio.png)
 
 ## Popular Data Platform
 

@@ -20,7 +20,7 @@ Organizations need to consider various factors when designing and optimizing a p
 - **Alerts:** regularly review logs and alerts to identify any issues that need to be addressed
 - **Maintenance:** upgrading software versions and optimizing pipeline performance.
 
-![](https://www.nitendratech.com/wp-content/uploads/2024/04/image.png)
+![](/images/image.png)
 
 ## Common Challenges When Building Data Pipeline
 

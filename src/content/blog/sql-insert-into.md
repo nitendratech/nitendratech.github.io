@@ -74,7 +74,7 @@ INSERT INTO OT.CUSTOMERS_DATA  VALUES
 
 When we execute these statements, the output looks like below.
 
-![Output Insert Into](https://i0.wp.com/www.nitendratech.com/wp-content/uploads/2023/07/Insert_Into_Table_output.png?resize=815%2C232&ssl=1)
+![Output Insert Into](/images/Insert_Into_Table_output.png)
 
 ## Inserting rows into a new table using an existing table
 

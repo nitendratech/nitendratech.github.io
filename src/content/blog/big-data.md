@@ -44,7 +44,7 @@ In other words, Big data refers to the problem of having data so big that one si
 
 Data that constitutes Big data has five characteristics namely Velocity, Variety, Volume, Veracity, and Value.
 
-![Big Data](https://www.nitendratech.com/wp-content/uploads/2019/04/big_data-3406108_1920.jpg)
+![Big Data](/images/big_data-3406108_1920.jpg)
 
 Figure: Big Data
 
@@ -86,7 +86,7 @@ These are data types that do not have a predefined schema or data model. With th
 
 Big data can be categorized based on five properties. There are five V's of Big Data V's namely Volume, Variety, Velocity, Veracity, and Value that are important to understand.
 
-![Five_V_Big_Data](https://www.nitendratech.com/wp-content/uploads/2017/07/five_Vs_Big_Data.png)
+![Five_V_Big_Data](/images/five_Vs_Big_Data.png)
 
 **Fig: Big Data Five V's**
 

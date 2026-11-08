@@ -46,7 +46,7 @@ All of these sources of data can be categorized into three main sections.
 - People
 - Organizations
 
-![Knowledge Wisdom Diagram](https://www.nitendratech.com/wp-content/uploads/2019/04/knowledge_wisdom_pyramid.png)
+![Knowledge Wisdom Diagram](/images/knowledge_wisdom_pyramid.png)
 
 **Knowledge Wisdom Diagram**
 

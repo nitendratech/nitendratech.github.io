@@ -17,7 +17,7 @@ The virtual machine runs a fully-fledged operating system like Linux/Windows on 
 
 Containers, on the other hand, use the same shared operating system kernel of the underlying host machine by implementing isolation of processes at the operating system level. While doing so, the container utilizes the resource better in comparison to virtual machines and has a short start-up process. Containers-based applications are to be started in seconds, whereas virtual machines take minutes to start.
 
-![](https://www.nitendratech.com/wp-content/uploads/2020/08/container_vs_vm.png)
+![](/images/container_vs_vm.png)
 
 ## Purpose of Containerization
 

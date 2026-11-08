@@ -58,7 +58,7 @@ If there is no matching row on the left side of the join, the result set will co
 
 This join creates the result set by combining the result of both the LEFT and RIGHT Joins. The result set will contain all the rows from both tables. If there is no match found for any rows, the result set will contain NULL values.
 
-![SQL Joins](https://www.nitendratech.com/wp-content/uploads/2019/04/joins.jpg)
+![SQL Joins](/images/joins.jpg)
 
 Figure: [Join](https://stackoverflow.com/questions/905379/what-is-the-difference-between-join-and-union)
 

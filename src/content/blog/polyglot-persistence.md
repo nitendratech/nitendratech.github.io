@@ -27,7 +27,7 @@ Let's take the example of e-commerce companies like amazon.com, eBay, Best Buy, 
 - **User Session Data:** These user session data can be stored in an in-memory cache database like Redis.
 - **Recommendation Data:** These recommendation data can be stored in a graph-based database such as Neo4j.
 
-![polyglot_persistence](https://www.nitendratech.com/wp-content/uploads/2020/06/polyglot_persistence-1.png)
+![polyglot_persistence](/images/polyglot_persistence-1.png)
 
 ---
 

@@ -58,7 +58,7 @@ An enterprise or a cloud user can use the Cloud computing model in three ways.
 - IaaS or Infrastructure
 - SaaS or Software as a Service
 
-![](https://www.nitendratech.com/wp-content/uploads/2020/07/cloud_service_models.png)
+![](/images/cloud_service_models.png)
 
 ### What is Platform as a Service (PaaS)?
 

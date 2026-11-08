@@ -29,7 +29,7 @@ Cloud Providers like Amazon AWS, Microsoft Azure, Google, Oracle, and IBM handle
 
 Using serverless architecture enables rapid development cycles as management is servers and another infrastructure is eliminated. Using this model, developers can focus on the development of the core business logic, and functionality of the application, solve business problems and build robust and innovative applications. This results in a shorter software development life cycle(SDLC) time. This enables the faster shipment of products to market and provides a competitive edge against the competitors in today's fast pace digital world.
 
-![](https://www.nitendratech.com/wp-content/uploads/2023/06/Serverless_Archiitecute.drawio-1.png)
+![](/images/Serverless_Archiitecute.drawio-1.png)
 
 ## Companies using Serverless Architecture
 

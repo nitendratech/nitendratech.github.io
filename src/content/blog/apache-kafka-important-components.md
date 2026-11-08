@@ -23,7 +23,7 @@ A topic is a category or feed name to which records are published. Topics in Kaf
 
 For each topic, the Kafka cluster maintains a partitioned log that looks like below.
 
-![Log Anatomy](https://www.nitendratech.com/wp-content/uploads/2019/04/log_anatomy.png)
+![Log Anatomy](/images/log_anatomy.png)
 
 Figure: [Log Anatomy](https://kafka.apache.org/intro#intro_topics)
 
@@ -31,7 +31,7 @@ Figure: [Log Anatomy](https://kafka.apache.org/intro#intro_topics)
 
 Partitions are the basic building block of the Kafka cluster, which is an ordered, immutable sequence of records that is continually appended to—a structured commit log. The partitions of the log are distributed over the servers in the Kafka cluster, with each server handling data and requests for a share of the partitions. Each partition is replicated across a configurable number of servers for fault tolerance.
 
-![Log Consumer](https://www.nitendratech.com/wp-content/uploads/2019/04/log_consumer.png)
+![Log Consumer](/images/log_consumer.png)
 
 Figure: [Kafka Partition](https://kafka.apache.org/intro#intro_topics)
 

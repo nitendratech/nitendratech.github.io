@@ -21,7 +21,7 @@ The core components of Flume are given below.
 - **Agent:** An Agent is any JVM (Java Virtual Machine) that runs Flume.
 - **Client:** The component that transmits the event to the source that operates with the agent.
 
-![](https://www.nitendratech.com/wp-content/uploads/2020/04/flume_diagram.png)
+![](/images/flume_diagram.png)
 
 ## Channels in Apache Flume
 

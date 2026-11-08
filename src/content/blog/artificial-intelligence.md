@@ -15,7 +15,7 @@ Artificial Intelligence is a broad field of computer science that focuses on cre
 
 Traditional software uses "If-Then" rules or Logic whereas AI analyzes the data to find the patterns and creates its own rules through learning using probabilistic framework.
 
-![](https://www.nitendratech.com/wp-content/uploads/2026/03/ai_image_1.jpg)
+![](/images/ai_image_1.jpg)
 
 ### Components of the AI Ecosystem
 

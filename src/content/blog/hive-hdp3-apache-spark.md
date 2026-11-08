@@ -15,7 +15,7 @@ In HDP 3.0 and later, Spark and Hive use independent catalogs for accessing Spar
 
 You can use the Hive Warehouse Connector (HWC) API to access any type of table in the Hive catalog from Spark. When you use SparkSQL, standard Spark APIs access tables in the Spark catalog.
 
-![Hive HWC](https://www.nitendratech.com/wp-content/uploads/2019/05/hive-hwc.png)
+![Hive HWC](/images/hive-hwc.png)
 
 We can read and write Apache Spark Data Frames and Streaming Data frames to and from Apache Hive using this Hive warehouse connector. It supports the following applications.
 

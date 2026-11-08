@@ -52,7 +52,7 @@ Other columns such as `NAME`, `ADDRESS` and `WEBSITE` are of type varchar and ho
 
 Once we create a table, it looks like the one below.
 
-![](https://www.nitendratech.com/wp-content/uploads/2023/03/image-1.png)
+![](/images/image-1.png)
 
 ## Create a Table from another table
 
@@ -77,7 +77,7 @@ SELECT CUS_ID, NAME, ADDRESS,WEBSITE,CRDT_LMT
 	FROM OT.CUSTOMERS_DATA;
 ```
 
-![](https://www.nitendratech.com/wp-content/uploads/2023/03/image-2.png)
+![](/images/image-2.png)
 
 ---
 

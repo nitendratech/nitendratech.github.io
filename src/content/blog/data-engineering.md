@@ -23,7 +23,7 @@ There is no typical role of a data engineer, as it varies in different organizat
 - Build and maintain the data pipeline
 - Makes sure the ingested data is compliant in terms of data governance and security policies
 
-![Data Engineer Resposnbility](https://www.nitendratech.com/wp-content/uploads/2022/05/Data_Engineer_Responsibility.png)
+![Data Engineer Resposnbility](/images/Data_Engineer_Responsibility.png)
 
 ## Why do we need Data Engineering?
 

@@ -49,7 +49,7 @@ KDD process has an iterative sequence of the below steps:
 
    Visualization and Knowledge representation techniques are used to present mined knowledge to Users.
 
-![KDD Process](https://www.nitendratech.com/wp-content/uploads/2019/04/kdd-process.png)
+![KDD Process](/images/kdd-process.png)
 
 Figure: KDD Process
 

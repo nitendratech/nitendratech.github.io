@@ -13,7 +13,7 @@ When you want to run Spark for development and testing activities locally, it is
 
 Apache Spark is agnostic to the underlying cluster manager. Also, data can not be shared across different Spark applications that have different SparkContext without writing to an external storage system.
 
-![Apache spark Cluster Manager](https://www.nitendratech.com/wp-content/uploads/2022/02/Apache_Spark_Cluster_Manager.drawio.png)
+![Apache spark Cluster Manager](/images/Apache_Spark_Cluster_Manager.drawio.png)
 
 ## Spark Modes for Running Applications
 

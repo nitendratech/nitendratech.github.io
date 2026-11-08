@@ -15,7 +15,7 @@ In today's time, we see computers everywhere around us. It's applicable in all t
 
 The below diagram shows the several ways in which computer is being used in today's world.
 
-![Computer Uses](https://www.nitendratech.com/wp-content/uploads/2022/01/Computer_Uses.png)
+![Computer Uses](/images/Computer_Uses.png)
 
 ## What is Computer Science?
 
@@ -85,7 +85,7 @@ There are mainly two types of software, System software and Application Software
 
 The below diagram shows the several parts of a computer that is explained above.
 
-![Computer Parts](https://www.nitendratech.com/wp-content/uploads/2022/01/Computer_Parts.png)
+![Computer Parts](/images/Computer_Parts.png)
 
 ## Types of Operating System
 
@@ -97,7 +97,7 @@ There are mainly three types of operating systems that are popular out there.
 - OSX for Mac Users
 - Linux
 
-![Operating System Types](https://www.nitendratech.com/wp-content/uploads/2022/01/Operating_System_Types.png)
+![Operating System Types](/images/Operating_System_Types.png)
 
 ## Computer Data Storage
 
