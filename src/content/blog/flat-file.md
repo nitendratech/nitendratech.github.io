@@ -8,9 +8,9 @@ subcategory: "Data Formats"
 
 ## What is a Flat File?
 
-A flat file or a sequential file is a type of file that stores data in the form of columns and rows to emulate a [database](https://www.nitendratech.com/database/learn-database/) table. It is like a table with a single record per line. It is also known as a text database, as it stores the data in the form of rows and columns as in [RDBMS](https://www.nitendratech.com/database/relational-database/). Furthermore, international Business Machines (IBM) developed and implemented this database in the early 1970s.
+A flat file or a sequential file is a type of file that stores data in the form of columns and rows to emulate a [database](/blog/learn-database/) table. It is like a table with a single record per line. It is also known as a text database, as it stores the data in the form of rows and columns as in [RDBMS](/blog/relational-database/). Furthermore, international Business Machines (IBM) developed and implemented this database in the early 1970s.
 
-Flat files use a standardized character code known as the American Standard Code for Information Exchange (ASCII) while writing data. Any type of [Extract, Transform, and Load(ETL)](https://www.nitendratech.com/database/etl-process/) tools or scripting language can be used to process and manipulate these ASCII-based flat files.
+Flat files use a standardized character code known as the American Standard Code for Information Exchange (ASCII) while writing data. Any type of [Extract, Transform, and Load(ETL)](/blog/etl-process/) tools or scripting language can be used to process and manipulate these ASCII-based flat files.
 
 A flat file is equivalent to a database table with a single record per line and does not have multiple tables unlike in a relational database. It does not have any information related to structure markup or associated paths or folders. It has first rows as field names that make it easier to determine which data is being read by the application. Rows in the flat files are in the form of tuples, which is an ordered list of elements.
 
@@ -36,7 +36,7 @@ Below are Some of the use cases.
 
 - Used for building applications
 - Easy to maintain for commonly accessed information such as names, addresses, phone numbers, membership lists, or Student lists.
-- Utilized on the [Internet of Things (IoT)](https://www.nitendratech.com/technology/internet-of-things/) and data warehouse/data lake environments.
+- Utilized on the [Internet of Things (IoT)](/blog/internet-of-things/) and data warehouse/data lake environments.
 - Spreadsheet-based applications like Microsoft Excel and Google Sheets is used to create and manipulate flat files based databases
 - Used in the management of Object oriented storage systems
 

@@ -7,7 +7,7 @@ subcategory: "REST APIs"
 draft: false
 ---
 
-URI stands for Uniform Resource Identifier. Each resource in a [REST](https://www.nitendratech.com/programming/restful-web-services/) architecture is identified by its URI. The purpose of a URI is to locate a resource(s) on the server hosting the web service.
+URI stands for Uniform Resource Identifier. Each resource in a [REST](/blog/restful-web-services/) architecture is identified by its URI. The purpose of a URI is to locate a resource(s) on the server hosting the web service.
 
 Below is the format of a URI in REST architecture.
 

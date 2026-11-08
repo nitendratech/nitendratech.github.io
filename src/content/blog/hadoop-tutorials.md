@@ -15,25 +15,25 @@ This page will guide you through different topics that are needed for learning H
 
 ## Hadoop Basics Topics
 
-- [What is Apache Hadoop?](https://www.nitendratech.com/hadoop/apache-hadoop/)
-- [Introduction to Hadoop HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/)
-- [Introduction to Hadoop Mapreduce framework](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/)
-- [Hadoop Execution Modes](https://www.nitendratech.com/hadoop/hadoop-execution-modes/)
-- [Most Useful Apache Hadoop HDFS Commands](https://www.nitendratech.com/hadoop/apache-hadoop-hdfs-commands/)
-- [What are HDFS Data Blocks?](https://www.nitendratech.com/hadoop/hdfs-data-blocks/)
+- [What is Apache Hadoop?](/blog/apache-hadoop/)
+- [Introduction to Hadoop HDFS](/blog/hadoop-hdfs/)
+- [Introduction to Hadoop Mapreduce framework](/blog/hadoop-mapreduce-framework/)
+- [Hadoop Execution Modes](/blog/hadoop-execution-modes/)
+- [Most Useful Apache Hadoop HDFS Commands](/blog/apache-hadoop-hdfs-commands/)
+- [What are HDFS Data Blocks?](/blog/hdfs-data-blocks/)
 
 ## Hadoop Advanced Topics
 
-- [Hadoop Yarn Commands](https://www.nitendratech.com/hadoop/hadoop-yarn/)
-- [Joins using MapReduce Framework](https://www.nitendratech.com/hadoop/mapreduce-joins/)
-- [Data Compression techniques in Hadoop Framework](https://www.nitendratech.com/hadoop/data-compression-hadoop/)
-- [Speculative Execution in Hadoop](https://www.nitendratech.com/hadoop/speculative-execution-hadoop/)
-- [Finding Right hardware for Hadoop Cluster](https://www.nitendratech.com/hadoop/right-hardware-hadoop-cluster/)
-- [Apache Hadoop 3 Changes](https://www.nitendratech.com/hadoop/apache-hadoop-3-changes/)
-- [Difference between Apache Hadoop/HDFS and HBase](https://www.nitendratech.com/hadoop/apache-hadoop-hdfs-hbase/)
-- [Rack Awareness in Hadoop HDFS](https://www.nitendratech.com/hadoop/rack-awareness-hadoop-hdfs/)
-- [What is Heartbeat in Hadoop Framework?](https://www.nitendratech.com/hadoop/heartbeat-hadoop-hdfs/)
-- [What is Hadoop Task Tracker?](https://www.nitendratech.com/hadoop/what-is-hadoop-task-tracker/)
-- [Hadoop Job Tracker](https://www.nitendratech.com/hadoop/job-tracker-hadoop/)
+- [Hadoop Yarn Commands](/blog/hadoop-yarn/)
+- [Joins using MapReduce Framework](/blog/mapreduce-joins/)
+- [Data Compression techniques in Hadoop Framework](/blog/data-compression-hadoop/)
+- [Speculative Execution in Hadoop](/blog/speculative-execution-hadoop/)
+- [Finding Right hardware for Hadoop Cluster](/blog/right-hardware-hadoop-cluster/)
+- [Apache Hadoop 3 Changes](/blog/apache-hadoop-3-changes/)
+- [Difference between Apache Hadoop/HDFS and HBase](/blog/apache-hadoop-hdfs-hbase/)
+- [Rack Awareness in Hadoop HDFS](/blog/rack-awareness-hadoop-hdfs/)
+- [What is Heartbeat in Hadoop Framework?](/blog/heartbeat-hadoop-hdfs/)
+- [What is Hadoop Task Tracker?](/blog/hadoop-task-tracker/)
+- [Hadoop Job Tracker](/blog/job-tracker-hadoop/)
 
 *Originally published on nitendratech.com on 2021-09-08, updated 2024-08-04.*

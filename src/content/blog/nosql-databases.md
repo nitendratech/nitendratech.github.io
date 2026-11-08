@@ -8,7 +8,7 @@ subcategory: "Databases"
 
 ## What is NoSQL Database?
 
-A non-relational or NoSQL Database is a data storage system that was designed for unstructured data, which does not follow an [ACID](https://www.nitendratech.com/database/acid-property-database/) property like a traditional Relational Database Management System ([RDBMS](https://www.nitendratech.com/database/relational-database/)). Many of the NoSQL databases provide flexibility to inconsistency in favor of availability and partition tolerance, as explained by the [CAP](https://www.nitendratech.com/database/cap-theorem/) theorem.
+A non-relational or NoSQL Database is a data storage system that was designed for unstructured data, which does not follow an [ACID](/blog/acid-property-database/) property like a traditional Relational Database Management System ([RDBMS](/blog/relational-database/)). Many of the NoSQL databases provide flexibility to inconsistency in favor of availability and partition tolerance, as explained by the [CAP](/blog/cap-theorem/) theorem.
 
 Instead of having a fixed schema structure like RDBMS, NoSQL provides flexible data models.
 

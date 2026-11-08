@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Linux"
 ---
 
-This post includes some of the useful and important [Linux](https://www.nitendratech.com/linux/bash-script/) networking commands.
+This post includes some of the useful and important [Linux](/blog/bash-script/) networking commands.
 
 ## Networking Commands
 

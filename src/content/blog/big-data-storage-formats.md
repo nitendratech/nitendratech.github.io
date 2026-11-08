@@ -7,7 +7,7 @@ subcategory: "File Formats"
 draft: false
 ---
 
-One of the most important aspects of architecting a Big Data solution is choosing proper Data Storage options in Hadoop/Spark. [Apache Hadoop](https://www.nitendratech.com/hadoop/apache-hadoop/) does not have a standard data storage format. So, users using Hadoop have complete control and numerous options for how data can be stored in [HDFS(Hadoop Distributed File System)](https://www.nitendratech.com/hadoop/hadoop-hdfs/).
+One of the most important aspects of architecting a Big Data solution is choosing proper Data Storage options in Hadoop/Spark. [Apache Hadoop](/blog/apache-hadoop/) does not have a standard data storage format. So, users using Hadoop have complete control and numerous options for how data can be stored in [HDFS(Hadoop Distributed File System)](/blog/hadoop-hdfs/).
 
 Since Apache Hadoop is a standard file system, it allows storing the data in any format, whether it's text, binary, image, or other. We can apply these options for both the raw data/ processed data and the intermediate data generated. So, users using Hadoop have complete control and numerous options for how data can be stored in HDFS.
 
@@ -19,7 +19,7 @@ Some standard file formats in Hadoop are text files (CSV, XML) or binary file ty
 
 **(a) Text Data**
 
-[Apache Hadoop](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) framework is commonly used for the storage and analysis of text files. Text files are ordinary files that can be structured in file formats like Comma comma-separated values (CSV), Tab Separated Values (TSV), weblogs, access logs, and server logs. Comma-separated values (CSVs) and Tab-separated values (TSVs) are common flat files that can be used with different data processing platforms like Hadoop, Spark, Pig, and Hive.
+[Apache Hadoop](/blog/hadoop-mapreduce-framework/) framework is commonly used for the storage and analysis of text files. Text files are ordinary files that can be structured in file formats like Comma comma-separated values (CSV), Tab Separated Values (TSV), weblogs, access logs, and server logs. Comma-separated values (CSVs) and Tab-separated values (TSVs) are common flat files that can be used with different data processing platforms like Hadoop, Spark, Pig, and Hive.
 
 CSV files are still quite common and often used for exchanging data between Hadoop and external systems. They are readable and ubiquitously parsable, and are commonly used to dump data from a database or bulk load data from Hadoop into an analytic database. However, CSV files do not support block compression. So compressing a CSV file in Hadoop often comes at a significant read performance cost.
 
@@ -33,9 +33,9 @@ JSON records are different from JSON Files in that each line is its own JSON dat
 
 **(c) Sequence Files**
 
-Sequence files store data in a binary format with a similar structure to CSV. Like CSV, sequence files do not store metadata with the data, so the only schema evolution option is appending new fields. However, unlike CSV, sequence files do support block compression. Due to the complexity of reading sequence files, they are often only used for in-flight data, such as intermediate data storage used within a sequence of [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) jobs.
+Sequence files store data in a binary format with a similar structure to CSV. Like CSV, sequence files do not store metadata with the data, so the only schema evolution option is appending new fields. However, unlike CSV, sequence files do support block compression. Due to the complexity of reading sequence files, they are often only used for in-flight data, such as intermediate data storage used within a sequence of [MapReduce](/blog/hadoop-mapreduce-framework/) jobs.
 
-Mainly, the text files are the most common source data format stored in [Hadoop HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/). But Hadoop can also be used to process binary files such as images. Sequence File is preferred to store and process binary files.
+Mainly, the text files are the most common source data format stored in [Hadoop HDFS](/blog/hadoop-hdfs/). But Hadoop can also be used to process binary files such as images. Sequence File is preferred to store and process binary files.
 
 ## Serialization Formats
 

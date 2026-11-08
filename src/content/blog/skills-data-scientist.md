@@ -7,7 +7,7 @@ subcategory: "Data Science"
 draft: false
 ---
 
-By the name “Data Scientist” itself, one needs to understand and feel the [data](https://www.nitendratech.com/datascience/data-explained/). For this, one needs a certain set of technical skills that will provide you with the technical expertise and intuition for analyzing data. Once you learn these skills, you can use your intuition and knowledge to discover trends in data and find patterns in it.
+By the name “Data Scientist” itself, one needs to understand and feel the [data](/blog/data-explained/). For this, one needs a certain set of technical skills that will provide you with the technical expertise and intuition for analyzing data. Once you learn these skills, you can use your intuition and knowledge to discover trends in data and find patterns in it.
 
 Below are some skills/concepts that you need to start your career as a Data Scientist.
 

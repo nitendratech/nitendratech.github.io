@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "Databases"
 ---
 
-A stored procedure is defined as a group of [SQL (Structured Query Language)](https://www.nitendratech.com/database/learn-sql/) statements or subroutines that are stored inside the [relational database management system (RDBMS)](https://www.nitendratech.com/database/relational-database/) that performs a particular task. They are stored in the database data dictionary and are used for operations such as deleting a database or indexing a table. In this blog post, we will read about how Stored Procedures can be used in the [Database](https://www.nitendratech.com/database/learn-database/).
+A stored procedure is defined as a group of [SQL (Structured Query Language)](/blog/learn-sql/) statements or subroutines that are stored inside the [relational database management system (RDBMS)](/blog/relational-database/) that performs a particular task. They are stored in the database data dictionary and are used for operations such as deleting a database or indexing a table. In this blog post, we will read about how Stored Procedures can be used in the [Database](/blog/learn-database/).
 
 They are stored inside the database and form a logical unit and perform a particular task. For example, operations such as hire, fire, promote, and lookup on an employee database could be coded as stored procedures and executed by application codes (hire, fire, promote, lookup) could be coded as stored procedures executed by application code.
 
@@ -37,7 +37,7 @@ EXEC SAMPLE_STORED_PROCEDURE;
 
 ## Calling Stored Procedure through Java
 
-We can use `CallableStatement` class in [JDBC (Java Database Connectivity)](https://www.nitendratech.com/programming/learn-jdbc/) API to call store procedure. Let's take an example to demonstrate this approach.
+We can use `CallableStatement` class in [JDBC (Java Database Connectivity)](/blog/learn-jdbc/) API to call store procedure. Let's take an example to demonstrate this approach.
 
 ```java
 CallableStatement cs = con.prepareCall("{call SAMPLE_STORED_PROCEDURE}");

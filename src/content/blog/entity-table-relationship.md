@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "Databases"
 ---
 
-When we design tables in a [relational database](https://www.nitendratech.com/database/relational-database/), different tables can hold different information. This information is held in the form of an entity. So an entity can be defined as a real-world object, either tangible or intangible, that can be easily identifiable.
+When we design tables in a [relational database](/blog/relational-database/), different tables can hold different information. This information is held in the form of an entity. So an entity can be defined as a real-world object, either tangible or intangible, that can be easily identifiable.
 
 If you take the example of an educational institute, you can have a separate entity for students, professors, departments, and staff. Each entity has associated properties that provide an identity. If you want to link these entities, you need to have a relationship between them.
 

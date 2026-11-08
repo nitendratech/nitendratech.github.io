@@ -7,7 +7,7 @@ subcategory: "Spark SQL"
 draft: false
 ---
 
-Spark SQL previously known as Shark (SQL on Spark)is an [Apache Spark](https://www.nitendratech.com/spark/apache-spark/) module for structured data processing. It provides a higher-level abstraction than the Spark core API for processing structured data. Structured data includes data stored in a database, NoSQL data store, Parquet, ORC, Avro, JSON, CSV, or any other structured format.
+Spark SQL previously known as Shark (SQL on Spark)is an [Apache Spark](/blog/apache-spark/) module for structured data processing. It provides a higher-level abstraction than the Spark core API for processing structured data. Structured data includes data stored in a database, NoSQL data store, Parquet, ORC, Avro, JSON, CSV, or any other structured format.
 
 Internally, Spark SQL uses this extra information to perform extra optimizations. Several ways exist to interact with Spark SQL, including SQL and the Dataset API. When computing a result, the same execution engine is used, independent of which API/language you are using to express the computation. This unification means that developers can easily switch back and forth between different APIs, which provides the most natural way to express a given transformation.
 
@@ -75,7 +75,7 @@ If no custom table path is specified, Spark will write data to a default table p
 
 ## Spark SQL Saving Modes
 
-When Apache Spark SQL is used to perform some aggregations, the aggregated Data Frame needs to be saved temporarily or permanently. Save operations in [Apache Spark](https://www.nitendratech.com/spark/apache-spark/) tell us how to handle existing data in DataFrame. These save modes do not utilize any locking and are not atomic.
+When Apache Spark SQL is used to perform some aggregations, the aggregated Data Frame needs to be saved temporarily or permanently. Save operations in [Apache Spark](/blog/apache-spark/) tell us how to handle existing data in DataFrame. These save modes do not utilize any locking and are not atomic.
 
 Below are some modes through which we can save Data Frame in Spark to a data source.
 

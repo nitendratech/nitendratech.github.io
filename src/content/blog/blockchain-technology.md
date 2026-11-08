@@ -11,7 +11,7 @@ In the current business model, each party keeps a record of all the transactions
 
 Blockchain provides a trusted and distributed ledger with a shared business process and parties. This ledger is distributed across the entire network of a computer system on blockchain. It allows any participant in the business network to see the one system of record or ledger. This concept makes businesses more efficient to transfer goods and services. Each block in the chain contains many transactions. If any new transaction executes on the blockchain, those transaction records are added to the ledger of all the participant's ledger that takes part in this transaction.
 
-There is a decentralized [database](https://www.nitendratech.com/database/learn-database/) called Distributed Ledger Technology(DLT) which is managed by multiple participants. Blockchain is a type of DLT whose transactions have an immutable cryptographic method.
+There is a decentralized [database](/blog/learn-database/) called Distributed Ledger Technology(DLT) which is managed by multiple participants. Blockchain is a type of DLT whose transactions have an immutable cryptographic method.
 
 ## Blockchain Use Cases
 

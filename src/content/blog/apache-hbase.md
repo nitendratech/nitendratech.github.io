@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "HBase"
 ---
 
-Apache HBase is an open-source, non-relational, distributed database modeled after Google's BigTable. It is developed as part of the Apache Software Foundation and is written in Java. It sits on top of [HDFS (Hadoop Distributed Filesystem)](https://www.nitendratech.com/hadoop/introduction-hadoop-hdfs/), providing BigTable-like capabilities for Hadoop. Furthermore, it is a column-oriented key-value data store and has been idolized widely because of its lineage with Hadoop and [HDFS](https://www.nitendratech.com/hadoop/introduction-hadoop-hdfs/).
+Apache HBase is an open-source, non-relational, distributed database modeled after Google's BigTable. It is developed as part of the Apache Software Foundation and is written in Java. It sits on top of [HDFS (Hadoop Distributed Filesystem)](/blog/hadoop-hdfs/), providing BigTable-like capabilities for Hadoop. Furthermore, it is a column-oriented key-value data store and has been idolized widely because of its lineage with Hadoop and [HDFS](/blog/hadoop-hdfs/).
 
 HBase is well-suited for faster read and write operations on large datasets with high throughput and low input/output latency. It is indexed by row key, column key, and timestamp. It stores structured, semi-structured, and unstructured data.
 

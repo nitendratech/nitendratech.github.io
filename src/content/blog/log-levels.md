@@ -11,7 +11,7 @@ Log levels or Logging Levels are processes to categorize the importance or sever
 
 Application logging is an important thing to consider when you write production-grade code. It helps in debugging the code as well as fixing any issues that come up in production. It provides an archaeological record of the application behavior in production.
 
-[A log](https://www.nitendratech.com/technology/log-file) file can tell you if an application has failed or faced a memory error in production. It can have important information like timestamps, messages, and logging levels of the logs.
+[A log](/blog/log-files/) file can tell you if an application has failed or faced a memory error in production. It can have important information like timestamps, messages, and logging levels of the logs.
 
 ## Common Logs Levels
 

@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "Databases"
 ---
 
-Most modern-day organizations consist of multiple data sources, which consist of multiple [databases](https://www.nitendratech.com/database/learn-database/) with complex data structures. It is very essential for an organization to break their table complexities and maintain a proper relationship between them.
+Most modern-day organizations consist of multiple data sources, which consist of multiple [databases](/blog/learn-database/) with complex data structures. It is very essential for an organization to break their table complexities and maintain a proper relationship between them.
 
 Normalization is the process of successively reducing relations with anomalies to produce smaller, well-structured relations between the data in the tables. It uses the logical data modeling technique for tables to organize the data in the database to avoid data redundancy, insertion anomaly, update anomaly & deletion anomaly. It makes no assumptions about how data will be used in displays, queries, or reports. Furthermore, it places no constraints on how data can or should be physically stored or, therefore, on processing performance.
 
@@ -43,7 +43,7 @@ These are shown in the table below:
 ## Disadvantage of Normalization
 
 - As data is spread out throughout the database, there are more tables to join
-- As tables do not contain duplicate data, joins are required to get the data across the tables. This increases the complexity of the [Structured Query Language(SQL)](https://www.nitendratech.com/database/learn-sql/) queries, making them slower to read from the database.
+- As tables do not contain duplicate data, joins are required to get the data across the tables. This increases the complexity of the [Structured Query Language(SQL)](/blog/learn-sql/) queries, making them slower to read from the database.
 
 ## References
 

@@ -7,13 +7,13 @@ subcategory: "Data Pipelines"
 draft: false
 ---
 
-A data pipeline is a process that extracts [data](https://www.nitendratech.com/datascience/data-explained/) from various sources, transforms it into a suitable format, and is loaded to a data warehouse or other data storage layer. The data pipeline in [Data engineering](https://www.nitendratech.com/datascience/data-engineering/) is an integral part that produces data suitable for data owners or downstream users to analyze and produce and business-ready datasets to consume. It enables organizations to collect, store, and analyze large volumes of data in a scalable and cost-effective manner.
+A data pipeline is a process that extracts [data](/blog/data-explained/) from various sources, transforms it into a suitable format, and is loaded to a data warehouse or other data storage layer. The data pipeline in [Data engineering](/blog/data-engineering/) is an integral part that produces data suitable for data owners or downstream users to analyze and produce and business-ready datasets to consume. It enables organizations to collect, store, and analyze large volumes of data in a scalable and cost-effective manner.
 
 ## Factors While designing a Data Pipeline
 
 Organizations need to consider various factors when designing and optimizing a pipeline to make sure it is scalable, reliable, secure, and performs well
 
-- **Data Quality:** Establish [data quality](https://www.nitendratech.com/database/data-quality/) metrics, perform profiling, and cleansing implement validation rules, and have a comprehensive data governance framework to ensure data quality.
+- **Data Quality:** Establish [data quality](/blog/data-quality/) metrics, perform profiling, and cleansing implement validation rules, and have a comprehensive data governance framework to ensure data quality.
 - **Error Handling:** implement error handling and logging mechanisms to identify and address any issues with data consistency.
 - **Performance:** use efficient data transfer protocols, minimize data transformations, utilize parallel processing techniques, and implement caching strategies to optimize data pipelines for performance and maintainability.
 - **Monitoring:** Use various tools to track the performance and health of data pipelines
@@ -35,12 +35,12 @@ Organizations face many challenges when building production-grade data pipelines
 
 There are no specific tools that every organization uses. Every organization has its own needs and requirements, depending upon which these tools are different. Some of the tools and technologies are listed below
 
-- [Apache NiFi](https://www.nitendratech.com/bigdata/apache-nifi/)
+- [Apache NiFi](/blog/apache-nifi/)
 - Apache Airflow
 - Google Cloud Data Flow
 - AWS Glue
 - Apache Kafka
-- [Apache Spark](https://www.nitendratech.com/spark/apache-spark/)
+- [Apache Spark](/blog/apache-spark/)
 
 ## Optimizing Data Flows
 

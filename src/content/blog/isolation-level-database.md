@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "Databases"
 ---
 
-Relational databases are one of the actively used applications in current Information technology-based companies. They are mainly used to retrieve, store, update and delete information for many verticals like financial systems, banks, airlines systems, travel, and tourism-based applications. The relational database follows certain properties known as an [ACID](https://www.nitendratech.com/database/acid-property-database/) when performing any transactions.
+Relational databases are one of the actively used applications in current Information technology-based companies. They are mainly used to retrieve, store, update and delete information for many verticals like financial systems, banks, airlines systems, travel, and tourism-based applications. The relational database follows certain properties known as an [ACID](/blog/acid-property-database/) when performing any transactions.
 
 ## What is Transaction in Database?
 

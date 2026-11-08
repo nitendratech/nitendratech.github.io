@@ -7,7 +7,7 @@ subcategory: "MapReduce"
 draft: false
 ---
 
-Hadoop MapReduce is a [Big data](https://www.nitendratech.com/bigdata/big-data/) processing/programming framework that consists of the MapReduce programming model and [Hadoop Distributed File System(HDFS)](https://www.nitendratech.com/hadoop/hadoop-hdfs/). It is mainly used for executing highly parallel and distributable algorithms across large data sets using many commodity hardware.
+Hadoop MapReduce is a [Big data](/blog/big-data/) processing/programming framework that consists of the MapReduce programming model and [Hadoop Distributed File System(HDFS)](/blog/hadoop-hdfs/). It is mainly used for executing highly parallel and distributable algorithms across large data sets using many commodity hardware.
 
 The Hadoop MapReduce framework is the parallel programming model for processing an enormous amount of data that splits the input dataset into independent chunks, which are processed by the map tasks in a completely parallel manner. The Hadoop framework sorts the outputs of the maps, which are then inputted into the reduced tasks. Typically, both the input and the output of the job are stored in a file system. The framework takes care of scheduling tasks, monitoring them, and re-executes the failed tasks.
 
@@ -33,7 +33,7 @@ This component determines how files are parsed into the MapReduce pipeline. Diff
 
 **Split Phase (Input Splits):**
 
-Input data are divided into input splits based on the InputFormat map task, which runs in parallel. In this phase, data stored in [HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/) are split and sent to the mappers. The default input format is the text format, which is broken up into line by line.
+Input data are divided into input splits based on the InputFormat map task, which runs in parallel. In this phase, data stored in [HDFS](/blog/hadoop-hdfs/) are split and sent to the mappers. The default input format is the text format, which is broken up into line by line.
 
 **Map Phase**
 

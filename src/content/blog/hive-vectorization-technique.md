@@ -7,7 +7,7 @@ subcategory: "Hive"
 draft: false
 ---
 
-The hive Vectorization technique is a feature (in both [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) and Tez Engine) that greatly reduces the CPU usage for typical query operations like scans, filters, aggregates, and joins. A standard query execution system processes one row at a time. This involves long code paths and significant metadata interpretation in the inner loop of execution. Vectorized query execution streamlines operations by processing a block of 1024 rows at a time.
+The hive Vectorization technique is a feature (in both [MapReduce](/blog/hadoop-mapreduce-framework/) and Tez Engine) that greatly reduces the CPU usage for typical query operations like scans, filters, aggregates, and joins. A standard query execution system processes one row at a time. This involves long code paths and significant metadata interpretation in the inner loop of execution. Vectorized query execution streamlines operations by processing a block of 1024 rows at a time.
 
 This technique is off by default, so your queries only utilize it if this variable is turned on to true. One must store the data in ORC format, and set the following variable as shown in Hive SQL to use vectorized query execution.
 

@@ -7,7 +7,7 @@ subcategory: "Big Data Analytics"
 draft: false
 ---
 
-A single cancer patient on average can generate 1 Terabyte of biomedical diagnostic and clinical data. According to a paper from GLOBOCAN 2018, there will be 18.1 million new cancer cases worldwide along with 18 Exabytes of data being generated annually. Data generated from Cancer has all fours Vs (speed, variety, volume, and veracity) of Big data. We will see how [Big Data](https://www.nitendratech.com/bigdata/big-data/) analytics can be used in the field of cancer research in this blog post.
+A single cancer patient on average can generate 1 Terabyte of biomedical diagnostic and clinical data. According to a paper from GLOBOCAN 2018, there will be 18.1 million new cancer cases worldwide along with 18 Exabytes of data being generated annually. Data generated from Cancer has all fours Vs (speed, variety, volume, and veracity) of Big data. We will see how [Big Data](/blog/big-data/) analytics can be used in the field of cancer research in this blog post.
 
 Researchers currently use this data to analyze the disease on [three levels](https://www.canwelivebetter.bayer.com/innovation/finding-cure-cancer-big-data-solution):
 
@@ -31,15 +31,15 @@ The real challenge with these huge data sets is to find the proper tool to store
 
 #### Storage:
 
-Since data sets are large and need to be archived for a long time, it needs to be stored in a distributed fashion so that no loss of data occurs. Some options available are [HDFS (Hadoop Distributed File System)](https://www.nitendratech.com/hadoop/hadoop-hdfs/), Amazon S3, Microsoft Azure, Google Cloud, IBM Cloud, and In-house servers
+Since data sets are large and need to be archived for a long time, it needs to be stored in a distributed fashion so that no loss of data occurs. Some options available are [HDFS (Hadoop Distributed File System)](/blog/hadoop-hdfs/), Amazon S3, Microsoft Azure, Google Cloud, IBM Cloud, and In-house servers
 
 #### Data Collection/Transport Mechanism:
 
-Organizations need to decide how they want to transport the data from the lab or on-site to their IT infrastructure. Some tools and mechanisms available are SFTP, Hadoop DistCp (Hadoop Distributed Copy), Apache Flume, Apache Sqoop, [Apache Kafka](https://www.nitendratech.com/kafka/apache-kafka/), and Apache NiFi.
+Organizations need to decide how they want to transport the data from the lab or on-site to their IT infrastructure. Some tools and mechanisms available are SFTP, Hadoop DistCp (Hadoop Distributed Copy), Apache Flume, Apache Sqoop, [Apache Kafka](/blog/apache-kafka/), and Apache NiFi.
 
 **Processes/Analyze:**
 
-Organizations also need to think about how they are going to process or analyze the data. Some tools available are Apache Hadoop/ MapReduce, Apache Hive, Apache Spark in ML Library, R Packages on top of Spark, Vertica, and [ETL](https://www.nitendratech.com/database/etl-process/) tools.
+Organizations also need to think about how they are going to process or analyze the data. Some tools available are Apache Hadoop/ MapReduce, Apache Hive, Apache Spark in ML Library, R Packages on top of Spark, Vertica, and [ETL](/blog/etl-process/) tools.
 
 **Visualization:**
 

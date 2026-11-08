@@ -7,7 +7,7 @@ subcategory: "Spark"
 draft: false
 ---
 
-Caching and persistence are optimization techniques for (iterative and interactive) [Apache Spark](https://www.nitendratech.com/spark/apache-spark/) computations. This technique helps to save interim partial results, which can be reused in subsequent stages. These results, in the form of Resilient Distributed Datasets(RDDs), are kept in memory (default) or more solid storage like disk and/or get replicated.
+Caching and persistence are optimization techniques for (iterative and interactive) [Apache Spark](/blog/apache-spark/) computations. This technique helps to save interim partial results, which can be reused in subsequent stages. These results, in the form of Resilient Distributed Datasets(RDDs), are kept in memory (default) or more solid storage like disk and/or get replicated.
 
 We can cache the RDDs using cache operation. We can also persist in the RDDs using the persist operation. Calling will persist each partition of the RDD in the executor’s memory. If an executor does not have enough memory to store the RDD partition, it will be re-computed instead of failing.
 

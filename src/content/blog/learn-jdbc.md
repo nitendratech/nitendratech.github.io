@@ -7,7 +7,7 @@ subcategory: "JDBC"
 draft: false
 ---
 
-JDBC stands for Java Database Connectivity. It is a standard Java API for interacting with a range of databases. We can access virtually any data source ranging from, [relational databases](https://www.nitendratech.com/database/relational-database/) to a spreadsheet using the JDBC API.
+JDBC stands for Java Database Connectivity. It is a standard Java API for interacting with a range of databases. We can access virtually any data source ranging from, [relational databases](/blog/relational-database/) to a spreadsheet using the JDBC API.
 
 There are two layers in JDBC Architecture.
 

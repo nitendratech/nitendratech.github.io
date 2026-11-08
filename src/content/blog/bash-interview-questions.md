@@ -7,7 +7,7 @@ subcategory: "Interview Questions"
 draft: false
 ---
 
-This blog post has the top Bash Interview questions and answers that will help you prepare for the next Bash scripts  Interview.  You can check this [Linux interview blog post ](https://www.nitendratech.com/interview/linux-interview-questions/)for interview questions related to Linux. We have divided the interview questions into various sections so that it is easier to follow.
+This blog post has the top Bash Interview questions and answers that will help you prepare for the next Bash scripts  Interview.  You can check this [Linux interview blog post ](/blog/linux-interview-questions/)for interview questions related to Linux. We have divided the interview questions into various sections so that it is easier to follow.
 
 **Question: What do you understand by Bash Script?**
 
@@ -15,11 +15,11 @@ This blog post has the top Bash Interview questions and answers that will help y
 
 **Question: What do you know about `cd` command in Linux?**
 
-**Answer:** `cd` command, also known as `chdir` (change directory),  is a command-line shell command.  It is used in navigating the Linux/Unix system and is widely used when writing[ Shell Script](https://www.nitendratech.com/linux/bash-script/).
+**Answer:** `cd` command, also known as `chdir` (change directory),  is a command-line shell command.  It is used in navigating the Linux/Unix system and is widely used when writing[ Shell Script](/blog/bash-script/).
 
 **Question: What do you know about the `date` command on Linux?**
 
-**Answer: **`date` command in Linux can be used to display the current time and date. It is one of the most useful tools when working with [bash script](https://www.nitendratech.com/linux/bash-script/) as it is available on all Linux Systems. It allows you to display and configure the current date and time in different formats as needed. According to the manual page of `date` command, it displays the current time in the given local format or sets the system date.
+**Answer: **`date` command in Linux can be used to display the current time and date. It is one of the most useful tools when working with [bash script](/blog/bash-script/) as it is available on all Linux Systems. It allows you to display and configure the current date and time in different formats as needed. According to the manual page of `date` command, it displays the current time in the given local format or sets the system date.
 
 Below is the Syntax of Date Command.
 
@@ -94,7 +94,7 @@ We can kill a Linux process using two ways.
 
 **Answer: **An exit code, sometimes known as a return code, is the number between 0 and 255 returned to a parent process by an executable or command when it returns control to its parent process. Every command returns an exit code which can be either a return status or an exit status of the application. A successful command returns 0(zero) as the exit code, whereas the failed command returns the non-zero value as the error code. Failure codes must be integers between 1 and 255.
 
-We use the special variable called  `$?` in Linux [bash scripts](https://www.nitendratech.com/linux/bash-script/) to check the exit code. When a program in shell terminates, it assigns an exit code to this environment variable.
+We use the special variable called  `$?` in Linux [bash scripts](/blog/bash-script/) to check the exit code. When a program in shell terminates, it assigns an exit code to this environment variable.
 
 **Question: What are the Commonly Used Important Exit Codes?**
 
@@ -112,7 +112,7 @@ We use the special variable called  `$?` in Linux [bash scripts](https://www.nit
 
 **Question: What do you know about  `Vi` editor in Linux?**
 
-**Answer: **`Vi` editor or Visual Editor is the default Text Editor that comes with the majority of Linux distributions. Vi text editor is available in the majority of the commercial and open-source versions of Linux Distributions. Once you learn this text editor, you can use it in many Linux distributions. Commands used in the Vi editor are case-sensitive. This blog post will show you the most useful Vi Text Editor Commands that one can use while writing a [bash script](https://www.nitendratech.com/linux/bash-script/).
+**Answer: **`Vi` editor or Visual Editor is the default Text Editor that comes with the majority of Linux distributions. Vi text editor is available in the majority of the commercial and open-source versions of Linux Distributions. Once you learn this text editor, you can use it in many Linux distributions. Commands used in the Vi editor are case-sensitive. This blog post will show you the most useful Vi Text Editor Commands that one can use while writing a [bash script](/blog/bash-script/).
 
 **Question: What are the Operation Modes of  `Vi`  Text Editor?**
 
@@ -132,11 +132,11 @@ If we want to switch to command mode and save the changes, we can press `ESC` 
 
 **Answer**: An array is a data structure or a variable that can store multiple values. It does not have any limit on the size or any requirements that say members variables be indexed or assigned contiguously. In Bash, the index of the first element starts with the number 0.
 
-When working with Arrays, we should be aware of the environmental variable called IFS or Input Field Separator. It is a character that separates elements in an Array whose default value is an empty space `IFS=''`. Let’s look at the basic concepts of Array in [Bash Script](https://www.nitendratech.com/linux/bash-script/)
+When working with Arrays, we should be aware of the environmental variable called IFS or Input Field Separator. It is a character that separates elements in an Array whose default value is an empty space `IFS=''`. Let’s look at the basic concepts of Array in [Bash Script](/blog/bash-script/)
 
 **Question: What are Access Permissions in Linux?**
 
-**Answer: **Once you start working in Linux and writing a [Shell script](https://www.nitendratech.com/linux/bash-script/), you will notice that all files and directories in Linux have a standard set of access permissions. These access permissions control who can access what files, and provide a fundamental level of security to the files and directories in a system.
+**Answer: **Once you start working in Linux and writing a [Shell script](/blog/bash-script/), you will notice that all files and directories in Linux have a standard set of access permissions. These access permissions control who can access what files, and provide a fundamental level of security to the files and directories in a system.
 
 In Linux, each file and directory have three owners: User, Group, and Other.
 
@@ -186,7 +186,7 @@ chmod 755 test1  # directory
 
 **Question: What is `ls` command on Linux?**
 
-**Answer: **The `ls` command is one of the basic and common commands that all [Linux](https://www.nitendratech.com/linux/basic-linux-commands/) users should know. It is mainly used to list information about files and directories within the Linux file system. The `ls` utility is a part of the GNU core utilities which are installed on all Linux distributions like  Ubuntu, Red Hat, Fedora, Mac OSX.  This command is the most commonly used command while writing a[ Bash script.](https://www.nitendratech.com/linux/bash-script/)
+**Answer: **The `ls` command is one of the basic and common commands that all Linux users should know. It is mainly used to list information about files and directories within the Linux file system. The `ls` utility is a part of the GNU core utilities which are installed on all Linux distributions like  Ubuntu, Red Hat, Fedora, Mac OSX.  This command is the most commonly used command while writing a[ Bash script.](/blog/bash-script/)
 
 ```bash
 ~$ cd ~
@@ -207,7 +207,7 @@ cars_json.json  hadoop-3.2.0-rat.txt  hadoop-3.2.0-src.tar.gz  tutorials
 
 **Question: What do you understand by Curl Command on Linux?**
 
-**Answer: **curl is a command or tool that can transfer data from or to a server using any of the supported protocols. Curl supports most of the major protocols and is mainly used for automating the file transfer task, as manual intervention is not needed by this command. In this blog post, we will learn about using the curl command using the command line and[ bash script](https://www.nitendratech.com/linux/bash-script/).
+**Answer: **curl is a command or tool that can transfer data from or to a server using any of the supported protocols. Curl supports most of the major protocols and is mainly used for automating the file transfer task, as manual intervention is not needed by this command. In this blog post, we will learn about using the curl command using the command line and[ bash script](/blog/bash-script/).
 
 **Question: What is the Protocol Supported by Curl on Linux?**
 
@@ -242,7 +242,7 @@ cars_json.json  hadoop-3.2.0-rat.txt  hadoop-3.2.0-src.tar.gz  tutorials
 
 **Question: What is a function in the Linux Platform?**
 
-** Answer: **The function is a small piece of code or command which can be used multiple times in a script. A function in bash can be created using the `function` keyword.  It is one of the best ways to make a [Bash scrip](https://www.nitendratech.com/linux/bash-script/)t modular as small chunks of code are easier to develop and maintain.
+** Answer: **The function is a small piece of code or command which can be used multiple times in a script. A function in bash can be created using the `function` keyword.  It is one of the best ways to make a [Bash scrip](/blog/bash-script/)t modular as small chunks of code are easier to develop and maintain.
 
 **Question: How do you define a function on Linux?**
 
@@ -306,7 +306,7 @@ The “**&**” symbol at the end of the function instructs bash to run** `print
 
 **Question: What are Loops in Bash Scripting?**
 
-**Answer: **Loops in[ Bash Scripting](https://www.nitendratech.com/linux/bash-script/) is the process of repeating the same script or logic many numbers times.  It works best when it is used for any of the below operations.
+**Answer: **Loops in[ Bash Scripting](/blog/bash-script/) is the process of repeating the same script or logic many numbers times.  It works best when it is used for any of the below operations.
 
 - Performing the same set of operations to a different number of input files (e.g. counting the number of records for all the files present in a certain directory)
 
@@ -394,7 +394,7 @@ wc [options] <filename>
 
 **Question: What are the different operators provided by Bash Script?**
 
-**Answer: **[Bash](https://www.nitendratech.com/linux/bash-script/) provides different operators that we can use in our Bash Script.
+**Answer: **[Bash](/blog/bash-script/) provides different operators that we can use in our Bash Script.
 
 - Arithmetic
 
@@ -408,7 +408,7 @@ wc [options] <filename>
 
 **Question: What is an Arithmetic Operator in Linux?**
 
-**Answer:** Bash provides multiple arithmetic operations through which we can perform Mathematical operations on [variables](https://www.nitendratech.com/linux/bash-variables/).
+**Answer:** Bash provides multiple arithmetic operations through which we can perform Mathematical operations on [variables](/blog/bash-variables/).
 
 | Operator | Description |
 | --- | --- |
@@ -476,7 +476,7 @@ wc [options] <filename>
 
 **Question: What are Bash Variables in Linux?**
 
-**Answer: **Even though BASH is not a typed language like other programming language, it provides different ways to create variables. Variables in [Bash scripts ](https://www.nitendratech.com/linux/bash-script/)can only contain string or numerical values.
+**Answer: **Even though BASH is not a typed language like other programming language, it provides different ways to create variables. Variables in [Bash scripts ](/blog/bash-script/)can only contain string or numerical values.
 
 ```bash
 my_name='Nitendra'
@@ -516,7 +516,7 @@ sh positionalVariablesEx.sh param1 param2 param3 param3
 
 **Question: What is the use of  `cp` utility on Linux?**
 
-**Answer: **CP utility is used to copy files and directories in a Linux-based operating system. It needs two mandatory arguments along with any optional parameters. Those two arguments are the source and destination location. This command is used most frequently while automating a task using [bash scripts](https://www.nitendratech.com/linux/bash-script/).
+**Answer: **CP utility is used to copy files and directories in a Linux-based operating system. It needs two mandatory arguments along with any optional parameters. Those two arguments are the source and destination location. This command is used most frequently while automating a task using [bash scripts](/blog/bash-script/).
 
 **Question: How to copy files from source to destination?**
 
@@ -543,7 +543,7 @@ This will copy the file `file1.txt` from `/home/user1/` location to `/home/user2
 
 **Question: How do you pass command line arguments to the Shell script?**
 
-**Answer:** [Shell script](https://www.nitendratech.com/linux/bash-script/) command line supports passing arguments(also called parameters) like any other scripting Language. Command-line arguments consist of one or more words, which are separated by balls blanks or TABS. In this blog post, we will see how arguments can be passed to scripts while calling and can be accessed within the script.
+**Answer:** [Shell script](/blog/bash-script/) command line supports passing arguments(also called parameters) like any other scripting Language. Command-line arguments consist of one or more words, which are separated by balls blanks or TABS. In this blog post, we will see how arguments can be passed to scripts while calling and can be accessed within the script.
 
 The basic syntax for passing the arguments is given below.
 

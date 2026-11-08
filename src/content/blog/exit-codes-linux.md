@@ -8,7 +8,7 @@ subcategory: "Linux"
 
 An exit code, sometimes known as a return code, is the number between 0 and 255 returned to a parent process by an executable or command when it returns control to its parent process. Every command returns an exit code, which can be either a return status or an exit status of the application. A successful command returns 0 (zero) as an exit code, whereas the failed command returns the non-zero value as an error code. Failure codes must be integers between 1 and 255.
 
-We use the special variable called `$?` in Linux [bash scripts](https://www.nitendratech.com/linux/bash-script/) to check the exit code. When a program in the shell terminates, it assigns an exit code to this environment variable.
+We use the special variable called `$?` in Linux [bash scripts](/blog/bash-script/) to check the exit code. When a program in the shell terminates, it assigns an exit code to this environment variable.
 
 We will first display all the files and directories in the present working directory using the ls command. After that, we will store the exit code of this ls command using the variable EXIT_CODE.
 

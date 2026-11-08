@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "HBase"
 ---
 
-Apache HBase is an open-source, distributed, versioned, non-relational(NoSQL) database modeled after Google's Big Table. Even though this terminology overlaps with [relational databases(RDBMS)](https://www.nitendratech.com/database/database-tutorials/), the HBase table, in reality, is a multidimensional map. It is column-oriented data storage, as we don't need to read all the values for specific queries. A column-oriented database saves its data by columns, and subsequent column values are stored contiguously on a disk. This is in contrast to the row-oriented traditional database, which stores entire rows contiguously.
+Apache HBase is an open-source, distributed, versioned, non-relational(NoSQL) database modeled after Google's Big Table. Even though this terminology overlaps with [relational databases(RDBMS)](/blog/database-tutorials/), the HBase table, in reality, is a multidimensional map. It is column-oriented data storage, as we don't need to read all the values for specific queries. A column-oriented database saves its data by columns, and subsequent column values are stored contiguously on a disk. This is in contrast to the row-oriented traditional database, which stores entire rows contiguously.
 
 ## HBase Data Model Terminology
 

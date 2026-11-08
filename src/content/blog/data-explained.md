@@ -9,7 +9,7 @@ draft: false
 
 ## What Exactly is Data?
 
-In the field of [computer science](https://www.nitendratech.com/programming/learn-computer-science/), data is information that has been translated into a form that is easier for movement and processing. It is also defined as facts or figures, that are stored or used by the computing device. We also have raw data, which is defined as data in its basic format. Data in its form does not carry any information or have a specific meaning. When we tag logical meaning with data, it is known as information.
+In the field of [computer science](/blog/learn-computer-science/), data is information that has been translated into a form that is easier for movement and processing. It is also defined as facts or figures, that are stored or used by the computing device. We also have raw data, which is defined as data in its basic format. Data in its form does not carry any information or have a specific meaning. When we tag logical meaning with data, it is known as information.
 
 A computer or a computing device treats data as information that can be processed to produce useful results. This information can be in the form of texts, documents, audio, images, or other software applications. As computer science stores data in binary format, it can be created processed, saved, or stored digitally.
 

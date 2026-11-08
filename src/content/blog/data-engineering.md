@@ -39,23 +39,23 @@ In the current day, data is critical to everyone, regardless of its size. Having
 
 The process of converting the collected data into knowledge is complex. Data processing and analysis processes have several levels in every organization. Data engineers play a crucial role in handling this complex process by designing and operating data pipelines to extract information from the data. When the data travels through the data pipeline, it is transformed, enriched, and summarized before businesses can derive value from it.
 
-When data is obtained from sources like [ERP(Enterprise Resource Planning)](https://www.nitendratech.com/technology/enterprise-software/) systems, supply chains, third-party vendors, and internal lines of business, it can be unstructured and unformatted. Data engineers collect these data by using various [ETL(Extract, Transform, and Load)](https://www.nitendratech.com/database/etl-process/) processes while automating, optimizing, and transforming data so that it becomes a usable business asset to the organizations. In addition to this ETL-based process, different monitoring tools need to be set up to monitor the job and trigger any alerts when there is any failure. For different validations, the reconciliation process is set up which validates the output data against the collected inputs.
+When data is obtained from sources like [ERP(Enterprise Resource Planning)](/blog/enterprise-software/) systems, supply chains, third-party vendors, and internal lines of business, it can be unstructured and unformatted. Data engineers collect these data by using various [ETL(Extract, Transform, and Load)](/blog/etl-process/) processes while automating, optimizing, and transforming data so that it becomes a usable business asset to the organizations. In addition to this ETL-based process, different monitoring tools need to be set up to monitor the job and trigger any alerts when there is any failure. For different validations, the reconciliation process is set up which validates the output data against the collected inputs.
 
 In today's market, organizations collect all kinds of data at various speeds that can be categorized as below.
 
 - **Batch Data**
 
-Batch data can be handled by tools like [Apache Spark](https://www.nitendratech.com/spark/apache-spark/), [Apache Hive](https://www.nitendratech.com/hive/apache-hive/), Teradata, Pentaho, and Ab Initio
+Batch data can be handled by tools like [Apache Spark](/blog/apache-spark/), [Apache Hive](/blog/apache-hive/), Teradata, Pentaho, and Ab Initio
 
 - **Stream Data or Real-Time Data**
 
-This data can be handled by tools like [Apache Spark](https://www.nitendratech.com/spark/apache-spark/), Apache Storm, Apache Kafka, Amazon Kinesis, Apache Flink, etc
+This data can be handled by tools like [Apache Spark](/blog/apache-spark/), Apache Storm, Apache Kafka, Amazon Kinesis, Apache Flink, etc
 
 - **Near Real-Time Data**
 
-This type of data can be handled by [Apache Spark](https://www.nitendratech.com/spark/apache-spark/), Amazon Kinesis, Apache Kafka, etc
+This type of data can be handled by [Apache Spark](/blog/apache-spark/), Amazon Kinesis, Apache Kafka, etc
 
-In addition to these tools, programming languages like Java, Scala, Python, and R can also be used to develop data pipelines to handle this data. Query language like [SQL (Structured Query Language)](https://www.nitendratech.com/database/learn-sql/) can be used to extract the data from the RDBMS like Oracle Database, Oracle Exadata, MS SQL Server, etc.
+In addition to these tools, programming languages like Java, Scala, Python, and R can also be used to develop data pipelines to handle this data. Query language like [SQL (Structured Query Language)](/blog/learn-sql/) can be used to extract the data from the RDBMS like Oracle Database, Oracle Exadata, MS SQL Server, etc.
 
 There are different tools and software that can handle these data. Data engineers must be aware of all these tools and techniques. They need to make sure this software integrates seamlessly into the existing system of the organizations.
 
@@ -71,7 +71,7 @@ One needs to be familiarized with Software Development Life Cycle (SDLC) Agile, 
 
 ### Big Data Technologies
 
-When one works as a data engineer, one works on many problems that can be solved by distributing the data or computing power. To do that, data engineers need to learn about different software patterns like publish-subscribe, big data access, and real-time data access. Some of this software includes big data technologies like Apache Spark, Hadoop, Hive, [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/), [NoSQL](https://www.nitendratech.com/database/nosql-databases/) databases, and others.
+When one works as a data engineer, one works on many problems that can be solved by distributing the data or computing power. To do that, data engineers need to learn about different software patterns like publish-subscribe, big data access, and real-time data access. Some of this software includes big data technologies like Apache Spark, Hadoop, Hive, [MapReduce](/blog/hadoop-mapreduce-framework/), [NoSQL](/blog/nosql-databases/) databases, and others.
 
 ### Relational and Non-Relational Database
 
@@ -92,7 +92,7 @@ Modern software follows the orchestration pattern that favors a centralized appl
 
 ### CICD Life Cycle
 
-Modern software follows the [Continuous Integration](https://www.nitendratech.com/technology/continuous-integration/) and Continuous Delivery (CICD) pattern that enables software to be delivered in a quick, safe, and repeatable manner. It enables software delivery workflows that involve multiple teams and functions spanning development, assurance, operations, security, and finance teams.
+Modern software follows the [Continuous Integration](/blog/continuous-integration/) and Continuous Delivery (CICD) pattern that enables software to be delivered in a quick, safe, and repeatable manner. It enables software delivery workflows that involve multiple teams and functions spanning development, assurance, operations, security, and finance teams.
 
 ### Data Storage and Formats
 
@@ -106,7 +106,7 @@ Top Information Technology companies are increasingly moving their infrastructur
 
 ### Data Warehouse
 
-Data engineers should be familiar with data warehousing concepts, including [ETL (Extract, Transform, Load)](https://www.nitendratech.com/database/etl-process/) processes, data modeling, data integration, and [Total Data Quality(TDQ).](https://www.nitendratech.com/database/data-quality/)
+Data engineers should be familiar with data warehousing concepts, including [ETL (Extract, Transform, Load)](/blog/etl-process/) processes, data modeling, data integration, and [Total Data Quality(TDQ).](/blog/data-quality/)
 
 ### Data Security
 

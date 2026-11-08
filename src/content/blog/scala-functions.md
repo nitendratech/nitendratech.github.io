@@ -7,7 +7,7 @@ subcategory: "Scala"
 draft: false
 ---
 
-A [Scala](https://www.nitendratech.com/scala/scala-programming-language/) function is a block of executable code that returns a value or a function by itself.
+A [Scala](/blog/scala-programming-language/) function is a block of executable code that returns a value or a function by itself.
 
 ```scala
 //add function in scala which takes two parameters of type Int and returns Int

@@ -7,19 +7,19 @@ subcategory: "Hive"
 draft: false
 ---
 
-Apache hive is an open-source, distributed, fault-tolerant [data warehouse](https://www.nitendratech.com/database/enterprise-data-warehouse/) framework that is used to efficiently store and process large datasets. Using a data warehouse, data can be stored in a central location that allows organizations to make informed and data-driven decisions. It is used to read, write and manage large data sets that are directly on top of the [Hadoop Distributed File System(HDFS)](https://www.nitendratech.com/hadoop/hadoop-hdfs/) or any other data storage system such as HBase, S3, or Azure.
+Apache hive is an open-source, distributed, fault-tolerant [data warehouse](/blog/enterprise-data-warehouse/) framework that is used to efficiently store and process large datasets. Using a data warehouse, data can be stored in a central location that allows organizations to make informed and data-driven decisions. It is used to read, write and manage large data sets that are directly on top of the [Hadoop Distributed File System(HDFS)](/blog/hadoop-hdfs/) or any other data storage system such as HBase, S3, or Azure.
 
-Hive allows developers to write queries in Hive Query Language (HQL) that are similar to SQL. Using HQL, one can write statements to read and write petabytes scale of data for query and analysis. It is used for providing data summarization, query, and analysis for [Big data](https://www.nitendratech.com/bigdata/big-data/) sets.
+Hive allows developers to write queries in Hive Query Language (HQL) that are similar to SQL. Using HQL, one can write statements to read and write petabytes scale of data for query and analysis. It is used for providing data summarization, query, and analysis for [Big data](/blog/big-data/) sets.
 
 Hive was designed by Facebook initially so that developers don't have to write low-level map-reduce cod to do analysis. Instead, they can bypass Java and use SQL-like queries for any batch or ad-hoc analysis. This is a cost-effective and scalable solution, as Hive can be used both on-premise and in the cloud.
 
 Currently, Hive is being provided by various cloud providers like AWS and Azure. It is used by many organizations to run their batch through ETL to ELT jobs. Hive is mainly targeted toward those developers who are more comfortable writing SQL queries, as it abstracts the complexity of Hadoop underneath it.
 
-Hive is not a relational database, but is mainly used for [ETL (Extract, Transform, and Load)](https://www.nitendratech.com/database/etl-process/) tools and is best suited for batch jobs like OLAP workloads. In Hive, we first create the table and database and load data on these tables.
+Hive is not a relational database, but is mainly used for [ETL (Extract, Transform, and Load)](/blog/etl-process/) tools and is best suited for batch jobs like OLAP workloads. In Hive, we first create the table and database and load data on these tables.
 
-It is best used for batch jobs over large sets of immutable data (like [server logs](https://www.nitendratech.com/technology/log-file/) or [Access Logs](https://www.nitendratech.com/technology/access-logs/)). Hive is schema on reading rather than schema on write. It means that it doesn't check data during loading, but does check when a query is issued.
+It is best used for batch jobs over large sets of immutable data (like [server logs](/blog/log-files/) or [Access Logs](/blog/access-logs/)). Hive is schema on reading rather than schema on write. It means that it doesn't check data during loading, but does check when a query is issued.
 
-Hive is used for summarization, ad-hoc analysis and data mining, spam detection, and ad optimization. One of the main advantages of the hive is that it is [SQL](https://www.nitendratech.com/database/learn-sql/) in nature. Hive stores its database metadata in Hive metastore.
+Hive is used for summarization, ad-hoc analysis and data mining, spam detection, and ad optimization. One of the main advantages of the hive is that it is [SQL](/blog/learn-sql/) in nature. Hive stores its database metadata in Hive metastore.
 
 ## Hive Architecture
 

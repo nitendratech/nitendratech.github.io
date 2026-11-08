@@ -16,7 +16,7 @@ The modern data stack is a mixture of tools, technologies, and techniques that f
 - **Data Integration:** Data integration tools are used to ingest, extract, transform, and load data from various sources into a centralized data warehouse or data lake. These tools ensure that data are consistent, have good quality, are accessible, and enable seamless data flow and integration across the organization.
 - **Data Warehouse:** A data warehouse is a central repository for structured and processed data. It provides a scalable and optimized environment for storing, organizing, and querying data. Modern data warehouses like Snowflake and Google BigQuery offer cloud-based solutions with built-in scalability, performance, and security. Some traditional data warehouse solutions such as Teradata have started providing cloud-based solutions that can be implemented in organizations that have been using traditional technology stacks for a long time.
 - **Data Modelling:** Data modeling illustrates the relationship between the data types, the way the data is grouped and organized, and to know about the kinds of data being used. It helps the business and technologist to understand the data being used and its importance from a business point of view. It includes designing data schemas, defining relationships, and creating data models that align with business requirements. Tools like dbt(data build tool) enable engineers and architects to develop scalable and maintainable data models.
-- **Data Transformation:** It is the process of cleansing, enriching, and aggregating raw data to a suitable data format that can be used for further analysis. There are Tools like [Apache Spark](https://www.nitendratech.com/spark/apache-spark/), Apache Beam, or [SQL](https://www.nitendratech.com/database/learn-sql/)-based transformations that allow organizations to apply complex changes, handle large volumes of data, and perform data cleansing operations.
+- **Data Transformation:** It is the process of cleansing, enriching, and aggregating raw data to a suitable data format that can be used for further analysis. There are Tools like [Apache Spark](/blog/apache-spark/), Apache Beam, or [SQL](/blog/learn-sql/)-based transformations that allow organizations to apply complex changes, handle large volumes of data, and perform data cleansing operations.
 - **Data Visualization:** Once the data collected from various platforms is transformed, data visualization tools help to create expressive and interactive visualizations. Platforms like Tableau, Power BI, or Looker allow users to perform exploratory analysis, uncover insights, and communicate findings through intuitive dashboards and reports. These dashboards are very popular among Product Owners(PO) and business owners.
 - **Data Governance and Security:** One of the key advantages of using a modern data stack is that it always emphasizes data governance and security to ensure compliance, privacy, and data protection. This includes implementing access controls, data encryption, auditing mechanisms, and sticking to various regulatory requirements.
 
@@ -52,7 +52,7 @@ There are many organizations across technology and other industries that are ado
 
 This organization uses various tools for various purposes.
 
-- **Apache Spark/[Apache Hive](https://www.nitendratech.com/hive/apache-hive/)** for Data Processing
+- **Apache Spark/[Apache Hive](/blog/apache-hive/)** for Data Processing
 - **Apache Cassandra** for Distributed Data Storage
 - **Apache Presto** for Interactive Analysis
 - **Kubernetes** for Container Orchestration
@@ -60,7 +60,7 @@ This organization uses various tools for various purposes.
 - **Apache Storm** for Real-time analytics
 - **Apache Flink** for real-time analytics or Stream Processing
 - **Google Big Query** for data warehousing
-- **Apache [Hadoop](https://www.nitendratech.com/hadoop/apache-hadoop/) [HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/) /s3/Azure** file system for data storage
+- **Apache [Hadoop](/blog/apache-hadoop/) [HDFS](/blog/hadoop-hdfs/) /s3/Azure** file system for data storage
 - **Apache Airflow** for Workflow Orchestration
 - **Apache Superset** for Data Visualization
 - **Apache Druid** for real-time analytics

@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "Data Warehouse"
 ---
 
-There are many layers in [Enterprise Data warehouse(EDW)](https://www.nitendratech.com/database/enterprise-data-warehouse/) such as Integration/Semantic/Performance which serve their own purpose. In this blog post, we would go into detail about each of these layers.
+There are many layers in [Enterprise Data warehouse(EDW)](/blog/enterprise-data-warehouse/) such as Integration/Semantic/Performance which serve their own purpose. In this blog post, we would go into detail about each of these layers.
 
 ## Integration Layer
 
@@ -29,7 +29,7 @@ A semantic data access layer provides ease of use for BI(Business Intelligence) 
 - It manages database locking.
 - Provides a logical, more straightforward view of data for business users and applications; reduces the learning curve to use the data.
 - Protects/isolate application code and user queries from changes to physical table structures.
-- Allow joins to be done in the [database](https://www.nitendratech.com/database/learn-database/) in parallel instead of in the application to improve performance. This layer is intended to improve the usability of the data and make access to the data easy for both ad hoc users and BI Tools. All access to Integration Layer tables and Performance Layer tables will be through views. This is the external view of the Data Warehouse.
+- Allow joins to be done in the [database](/blog/learn-database/) in parallel instead of in the application to improve performance. This layer is intended to improve the usability of the data and make access to the data easy for both ad hoc users and BI Tools. All access to Integration Layer tables and Performance Layer tables will be through views. This is the external view of the Data Warehouse.
 
 ### Types of Semantic Views
 
@@ -37,7 +37,7 @@ A semantic data access layer provides ease of use for BI(Business Intelligence) 
 
 This view is the One-to-One view on the base table and includes the below views.
 
-- Views with write permissions for [ETL (Extract Transform Load)](https://www.nitendratech.com/database/etl-process/) and ELT (Extract Load Transform) applications
+- Views with write permissions for [ETL (Extract Transform Load)](/blog/etl-process/) and ELT (Extract Load Transform) applications
 - Views that provide read access to base tables.
 - Views that define corporate metrics and logical structures that are used across business areas.
 

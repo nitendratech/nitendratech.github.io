@@ -6,9 +6,9 @@ category: "Data Engineering"
 subcategory: "Apache Flume"
 ---
 
-Apache Flume is an Apache open source project used for moving massive quantities of streaming data into HDFS. It collects log data from the web server logs files and aggregates it in [HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/) for analysis.
+Apache Flume is an Apache open source project used for moving massive quantities of streaming data into HDFS. It collects log data from the web server logs files and aggregates it in [HDFS](/blog/hadoop-hdfs/) for analysis.
 
-It supports multiple sources like –'tail', System logs, [Apache Access Logs,](https://www.nitendratech.com/technology/access-logs/) and Apache log4j. Furthermore, it provides end-to-end reliability because of its transactional approach to the data flow.
+It supports multiple sources like –'tail', System logs, [Apache Access Logs,](/blog/access-logs/) and Apache log4j. Furthermore, it provides end-to-end reliability because of its transactional approach to the data flow.
 
 ## Flume Core Components
 
@@ -33,7 +33,7 @@ In the memory-based channel, events are read from the source into memory and pas
 
 ### JDBC (Java Database Connectivity) Channel
 
-[JDBC](https://www.nitendratech.com/programming/learn-jdbc/) channel stores the events in an embedded Derby database.
+[JDBC](/blog/learn-jdbc/) channel stores the events in an embedded Derby database.
 
 ### File Channel
 

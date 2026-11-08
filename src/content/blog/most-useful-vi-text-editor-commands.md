@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Linux"
 ---
 
-`Vi` editor, which is short for Visual Editor, is the default Text Editor that comes with the majority of Linux distributions. Vi text editor is available in the majority of the commercial and open-source versions of Linux Distributions. Once you learn this text editor, you can use it in many Linux distributions. Commands used in Vi editor are case-sensitive. This blog post will show you the most useful Vi Text Editor Commands that one can use while writing a [bash script](https://www.nitendratech.com/linux/bash-script/).
+`Vi` editor, which is short for Visual Editor, is the default Text Editor that comes with the majority of Linux distributions. Vi text editor is available in the majority of the commercial and open-source versions of Linux Distributions. Once you learn this text editor, you can use it in many Linux distributions. Commands used in Vi editor are case-sensitive. This blog post will show you the most useful Vi Text Editor Commands that one can use while writing a [bash script](/blog/bash-script/).
 
 ## Operation Modes
 

@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "SQL"
 ---
 
-The fill factor in the Microsoft SQL server is the setting that specifies the percentage of space on each leaf-level page to be filled with [data](https://www.nitendratech.com/datascience/data-explained/) when the index is created or rebuilt. It controls the amount of free space left on the pages to reduce fragmentation and improve performance in the [database](https://www.nitendratech.com/database/learn-database/).
+The fill factor in the Microsoft SQL server is the setting that specifies the percentage of space on each leaf-level page to be filled with [data](/blog/data-explained/) when the index is created or rebuilt. It controls the amount of free space left on the pages to reduce fragmentation and improve performance in the [database](/blog/learn-database/).
 
 ## Important Points of Fill Factor in Database
 

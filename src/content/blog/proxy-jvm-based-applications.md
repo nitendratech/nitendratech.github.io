@@ -11,7 +11,7 @@ A proxy server, also known as a "proxy" or "application-level gateway", is a com
 
 As a software developer, one has to work on the development of multiple web applications or web services using Java or Scala. The majority of the production environment has some proxy set up in their server. Developers need to include the same setup in their code too in order to access URLs behind a firewall proxy and needs to exclude URL that does not need the proxy to access it.
 
-To use this code in Scala and [Java](https://www.nitendratech.com/java/java-programming-language/) one needs to `java.util.Properties` library in their application.
+To use this code in Scala and [Java](/blog/java-programming-language/) one needs to `java.util.Properties` library in their application.
 
 Use the following code snippet in your application to set up a proxy.
 

@@ -7,7 +7,7 @@ subcategory: "Hadoop"
 draft: false
 ---
 
-Task Tracker is a daemon in the [Hadoop](https://www.nitendratech.com/hadoop/apache-hadoop/) cluster node that accepts various tasks from Job Tracker. These tasks range from Map, Reduce, or Shuffle operations. They also run their own Java Virtual Machine(JVM) processes. The task tracker is responsible for monitoring the task instances. It captures the output and exit codes and sends notifications to the Job tracker regardless of the fact that the job succeeded or not.
+Task Tracker is a daemon in the [Hadoop](/blog/apache-hadoop/) cluster node that accepts various tasks from Job Tracker. These tasks range from Map, Reduce, or Shuffle operations. They also run their own Java Virtual Machine(JVM) processes. The task tracker is responsible for monitoring the task instances. It captures the output and exit codes and sends notifications to the Job tracker regardless of the fact that the job succeeded or not.
 
 It is pre-configured with a number of slots that indicates the number of tasks it can accept. When the job tracker tries to schedule tasks, it tries to look for a task tracker in the same data node that might have an empty slot. If no task tracker is found in the same data node, the job tracker tries to find a task tracker with an empty slot in the same rack instead.
 

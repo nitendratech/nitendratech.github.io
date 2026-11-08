@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Shell Scripting"
 ---
 
-Even though BASH is not a typed language like another programming language, it provides different ways to create variables. Variables in [Bash scripts](https://www.nitendratech.com/linux/bash-script/) can only contain String or numerical values.
+Even though BASH is not a typed language like another programming language, it provides different ways to create variables. Variables in [Bash scripts](/blog/bash-script/) can only contain String or numerical values.
 
 ```bash
 my_name='Nitendra'

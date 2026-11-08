@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Shell Scripting"
 ---
 
-There are times when you need to execute a long-running data ingestion job or a complex [Extract, Transform, Load(ETL)](https://www.nitendratech.com/database/etl-process/) data pipeline in the background. You can use the feature Shell provides to run [Bash scripts](https://www.nitendratech.com/linux/bash-script/) and function in the background.
+There are times when you need to execute a long-running data ingestion job or a complex [Extract, Transform, Load(ETL)](/blog/etl-process/) data pipeline in the background. You can use the feature Shell provides to run [Bash scripts](/blog/bash-script/) and function in the background.
 
 There are two popular ways of doing it; either using an ampersand(&) in the script or function or using the nohup command. Let's create a Bash script that has a function that runs in the background.
 

@@ -19,7 +19,7 @@ Bash provided all the tools and features for performing this activity on a daily
 
 ## What is Bash?
 
-Bash is a Unix shell written by Brian Fox as part of the GNU Project. It was developed as a free software replacement for the Bourne shell. It was released in 1989 and has been distributed as the [Linux](https://www.nitendratech.com/linux/linux-operating-system/) and macOS default shell terminal for some time. In this blog post, we will read about the basic introduction to Bash (Bourne Again Shell), which is the default shell environment for most GNU/Linux systems.
+Bash is a Unix shell written by Brian Fox as part of the GNU Project. It was developed as a free software replacement for the Bourne shell. It was released in 1989 and has been distributed as the [Linux](/blog/linux-operating-system/) and macOS default shell terminal for some time. In this blog post, we will read about the basic introduction to Bash (Bourne Again Shell), which is the default shell environment for most GNU/Linux systems.
 
 ## What is a Bash Script?
 

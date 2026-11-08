@@ -7,11 +7,11 @@ subcategory: "YARN"
 draft: false
 ---
 
-YARN stands for Yet Another Resource Negotiator. It is a centralized cluster resource management and job scheduling platform to deliver scalable operations across the cluster. It was introduced in Hadoop 2 to help [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) and is the next-generation computation and resource management framework. Furthermore, it allows multiple data processing engines such as [SQL (Structured Query Language)](https://www.nitendratech.com/database/learn-sql/), real-time streaming, data science, graph processing, and batch processing to handle data stored in a single platform.
+YARN stands for Yet Another Resource Negotiator. It is a centralized cluster resource management and job scheduling platform to deliver scalable operations across the cluster. It was introduced in Hadoop 2 to help [MapReduce](/blog/hadoop-mapreduce-framework/) and is the next-generation computation and resource management framework. Furthermore, it allows multiple data processing engines such as [SQL (Structured Query Language)](/blog/learn-sql/), real-time streaming, data science, graph processing, and batch processing to handle data stored in a single platform.
 
 We can utilize the available resources efficiently and run multiple applications by using YARN. All the applications running within YARN will share a common resource, making the cluster efficient. We can run other jobs that do not follow the MapReduce model using YARN. It does not care about the type of application being executed and also does not keep historical information about the execution on the cluster.
 
-In the Hadoop Stack, Apache Yarn sits on top of [HDFS (Hadoop distributed File system)](https://www.nitendratech.com/hadoop/hadoop-hdfs/) and acts as a mediator between HDFS and processing engines(Tez and [Spark](https://www.nitendratech.com/spark/apache-spark/)).
+In the Hadoop Stack, Apache Yarn sits on top of [HDFS (Hadoop distributed File system)](/blog/hadoop-hdfs/) and acts as a mediator between HDFS and processing engines(Tez and [Spark](/blog/apache-spark/)).
 
 ![yarn_architecture](/images/yarn_arch.png)
 

@@ -10,11 +10,11 @@ Apache Hadoop 3 incorporated a number of enhancements over the Hadoop-2.x. We wi
 
 ## Java Version Change
 
-Apache Hadoop 3 needs Java 8 as the minimum version for Java. Java 8 run time version is used to compile all the Hadoop jar files. All the [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) jobs written using Java 7 or below need to be upgraded to Java 8.
+Apache Hadoop 3 needs Java 8 as the minimum version for Java. Java 8 run time version is used to compile all the Hadoop jar files. All the [MapReduce](/blog/hadoop-mapreduce-framework/) jobs written using Java 7 or below need to be upgraded to Java 8.
 
 ## Support for Erasure Coding in HDFS
 
-The default 3x replication provided by the Hadoop platform has 200% overhead in storage space and other resources like network bandwidth, as replication is expensive. Big Data-based applications have both cold and warm data sets, with low Input/Output activities for some of these data sets. If we allocated additional block replicas for these types of data sets, it would be a waste of resources. That's why Hadoop 3 introduced Erasure coding in place of replication of data in [HDFS (Hadoop Distributed File System).](https://www.nitendratech.com/hadoop/hadoop-hdfs/)
+The default 3x replication provided by the Hadoop platform has 200% overhead in storage space and other resources like network bandwidth, as replication is expensive. Big Data-based applications have both cold and warm data sets, with low Input/Output activities for some of these data sets. If we allocated additional block replicas for these types of data sets, it would be a waste of resources. That's why Hadoop 3 introduced Erasure coding in place of replication of data in [HDFS (Hadoop Distributed File System).](/blog/hadoop-hdfs/)
 
 Erasure coding is a method for durably storing data with significant space savings compared to replication. It has been traditionally used in storing colder and less frequently accessed data. It would provide the same level of fault tolerance with much less storage space.
 

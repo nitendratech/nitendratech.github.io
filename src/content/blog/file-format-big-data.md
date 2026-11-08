@@ -22,7 +22,7 @@ There are mainly three types of performance to consider when choosing a file for
 
 - **Write performance**
 
-  We need to check how fast the data will be written in [Hadoop](https://www.nitendratech.com/hadoop/hadoop-tutorials/) Cluster.
+  We need to check how fast the data will be written in [Hadoop](/blog/hadoop-tutorials/) Cluster.
 
 - **Partial read performance**
 

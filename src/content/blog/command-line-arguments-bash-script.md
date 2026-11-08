@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Shell Scripting"
 ---
 
-[Shell script](https://www.nitendratech.com/linux/bash-script/) command line supports passing arguments(also called parameters) like any other scripting Language. Command-line arguments consist of one or more words, which are separated by balls blanks or TABS. In this blog post, we will see how arguments can be passed to scripts while calling and can be accessed within the script.
+[Shell script](/blog/bash-script/) command line supports passing arguments(also called parameters) like any other scripting Language. Command-line arguments consist of one or more words, which are separated by balls blanks or TABS. In this blog post, we will see how arguments can be passed to scripts while calling and can be accessed within the script.
 
 ## Syntax and Example
 

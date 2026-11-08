@@ -12,11 +12,11 @@ Data Ingestion or Data Processing is a framework or a process in which data from
 
 There can be multiple destinations for the data ingestion process. This destination can vary depending upon the organization and the requirement of the data ingestion task. Some common destinations are given below.
 
-- [Data Warehouse](https://www.nitendratech.com/database/enterprise-data-warehouse/)
+- [Data Warehouse](/blog/enterprise-data-warehouse/)
 - Data Mart
-- [Data Lake](https://www.nitendratech.com/bigdata/learn-datalake/)
-- [SQL (Structured Query Language) Database](https://www.nitendratech.com/database/relational-database/)
-- [NoSQL(Non-Relational) Database](https://www.nitendratech.com/database/nosql-databases/)
+- [Data Lake](/blog/learn-datalake/)
+- [SQL (Structured Query Language) Database](/blog/relational-database/)
+- [NoSQL(Non-Relational) Database](/blog/nosql-databases/)
 
 ## Source of Data Ingestion Process
 
@@ -72,10 +72,10 @@ Here are the popular tools for Data ingestion.
 
 ### Open Source Software
 
-- [Apache Spark](https://www.nitendratech.com/spark/apache-spark/)
-- [Apache Kafka](https://www.nitendratech.com/kafka/apache-kafka/)
-- [Apache Nifi](https://www.nitendratech.com/bigdata/apache-nifi/)
-- [Apache Sqoop](https://www.nitendratech.com/bigdata/apache-sqoop-tutorial/)
+- [Apache Spark](/blog/apache-spark/)
+- [Apache Kafka](/blog/apache-kafka/)
+- [Apache Nifi](/blog/apache-nifi/)
+- [Apache Sqoop](/blog/apache-sqoop-tutorial/)
 - Apache Flume
 - Apache Samza
 - Apache Storm

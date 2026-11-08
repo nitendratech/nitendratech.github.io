@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "SQL"
 ---
 
-SQL Stands for Structured Query Language(SQL). SQL UNION combines the results of two or more queries into a single result set in a [database](https://www.nitendratech.com/database/learn-database/) that includes all the rows that belong to all queries in the union.
+SQL Stands for Structured Query Language(SQL). SQL UNION combines the results of two or more queries into a single result set in a [database](/blog/learn-database/) that includes all the rows that belong to all queries in the union.
 
 ```sql
 SELECT 1 AS [Column1], 2 AS [Column2] UNION SELECT 3 AS [Column1], 4 AS [Column2]

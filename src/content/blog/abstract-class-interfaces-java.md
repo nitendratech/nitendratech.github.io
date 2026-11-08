@@ -7,7 +7,7 @@ subcategory: "Java"
 draft: false
 ---
 
-An abstract class is a [java](https://www.nitendratech.com/java/java-programming-language/) class that has one or more abstract methods (nobody). It cannot be instantiated and defines an interface that has to be implemented by all its subclasses.
+An abstract class is a [java](/blog/java-programming-language/) class that has one or more abstract methods (nobody). It cannot be instantiated and defines an interface that has to be implemented by all its subclasses.
 
 ## Abstract classes vs. Interfaces
 

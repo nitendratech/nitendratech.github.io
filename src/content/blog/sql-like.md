@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "SQL"
 ---
 
-The [SQL](https://www.nitendratech.com/database/learn-sql/)-like operator is used in `WHERE` the clause that compares a column value to similar values using wildcard operations. LIKE operator is used to filtering records and pattern matching for columns that are of `VARCHAR` data type. It can be used with `SELECT`, `INSERT`, `UPDATE` or `DELETE` statement in SQL.
+The [SQL](/blog/learn-sql/)-like operator is used in `WHERE` the clause that compares a column value to similar values using wildcard operations. LIKE operator is used to filtering records and pattern matching for columns that are of `VARCHAR` data type. It can be used with `SELECT`, `INSERT`, `UPDATE` or `DELETE` statement in SQL.
 
 We can also use the `NOT` operator with like when we want to negate the results of `LIKE` operator. It excludes rows from the result set that contains a specified pattern.
 

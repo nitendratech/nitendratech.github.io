@@ -10,7 +10,7 @@ Accurate, consistent, and timely available data in an organization are essential
 
 ## What is Data Quality?
 
-Data quality is a measure that makes sure the [data](https://www.nitendratech.com/datascience/data-explained/) fits the purpose of its organization. It is an important aspect of data governance that makes sure that the organization's data is fit for its purpose to be used by all the lines of business. It can also be the development and implementation of certain activities that utilize the quality management technique in the data to make it fit all the lines of business of the organization. Data is considered to be of high quality if it fits its intended use and accurately represents real-world scenarios consistently.
+Data quality is a measure that makes sure the [data](/blog/data-explained/) fits the purpose of its organization. It is an important aspect of data governance that makes sure that the organization's data is fit for its purpose to be used by all the lines of business. It can also be the development and implementation of certain activities that utilize the quality management technique in the data to make it fit all the lines of business of the organization. Data is considered to be of high quality if it fits its intended use and accurately represents real-world scenarios consistently.
 
 ## Data Quality Issues
 

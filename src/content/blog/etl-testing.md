@@ -8,7 +8,7 @@ subcategory: "ETL"
 
 ## What is ETL?
 
-[ETL](https://www.nitendratech.com/database/etl-process/) stands for Extract, Transform and Load. It is used for extracting data from different sources and transforming it and loading the data for the end-users to access. These end users can be a database or any downstream users who want to access the data.
+[ETL](/blog/etl-process/) stands for Extract, Transform and Load. It is used for extracting data from different sources and transforming it and loading the data for the end-users to access. These end users can be a database or any downstream users who want to access the data.
 
 ## Why is ETL Testing?
 

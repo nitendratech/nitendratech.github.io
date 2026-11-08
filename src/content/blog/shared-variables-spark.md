@@ -7,7 +7,7 @@ subcategory: "Spark"
 draft: false
 ---
 
-Shared variables are an abstraction in [Apache Spark](https://www.nitendratech.com/spark/apache-spark/) which is used in parallel operations in different nodes. When Spark runs a function in parallel as a set of tasks on different nodes, it ships a copy of each variable used in the function to each task. Sometimes, a variable needs to be shared across tasks, or between tasks and the driver program.
+Shared variables are an abstraction in [Apache Spark](/blog/apache-spark/) which is used in parallel operations in different nodes. When Spark runs a function in parallel as a set of tasks on different nodes, it ships a copy of each variable used in the function to each task. Sometimes, a variable needs to be shared across tasks, or between tasks and the driver program.
 
 Spark supports two types of shared variables: broadcast variables and accumulators.
 

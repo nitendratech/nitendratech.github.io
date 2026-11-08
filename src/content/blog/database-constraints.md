@@ -6,9 +6,9 @@ category: "Data Engineering"
 subcategory: "Databases"
 ---
 
-Database Constraints are rules/restrictions that are applied to the [database](https://www.nitendratech.com/database/learn-database/) table columns to limit the type of data that can be persisted in a table. It provides a way to implement business logic and rules in the database. It also prevents errors and can improve the accuracy and reliability of the database as a whole.
+Database Constraints are rules/restrictions that are applied to the [database](/blog/learn-database/) table columns to limit the type of data that can be persisted in a table. It provides a way to implement business logic and rules in the database. It also prevents errors and can improve the accuracy and reliability of the database as a whole.
 
-Database Constraints can be applied for single or multiple fields in an [SQL](https://www.nitendratech.com/database/learn-sql/) table during the creation of a table or after creating using the `ALTER TABLE` command.
+Database Constraints can be applied for single or multiple fields in an [SQL](/blog/learn-sql/) table during the creation of a table or after creating using the `ALTER TABLE` command.
 
 ## Common constraints
 

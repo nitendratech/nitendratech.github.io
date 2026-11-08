@@ -25,11 +25,11 @@ There are mainly four main components that comprise Apache Hadoop.
 
 - **Hadoop Distributed File System(HDFS)**
 
-[Hadoop Distributed File System or HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/) is a distributed file system that is designed for storing very large files with streaming data access patterns, running on clusters of commodity hardware.
+[Hadoop Distributed File System or HDFS](/blog/hadoop-hdfs/) is a distributed file system that is designed for storing very large files with streaming data access patterns, running on clusters of commodity hardware.
 
 - **MapReduce Framework**
 
-[MapReduce Framework](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) is the parallel programming model for processing an enormous amount of data that splits the input dataset into independent chunks, which are processed by the map tasks in a completely parallel manner. The Hadoop framework sorts the outputs of the maps, which are then inputted into the reduced tasks. Typically, both the input and the output of the job are stored in a file system. The framework takes care of scheduling tasks, monitoring them, and re-executing the failed tasks.
+[MapReduce Framework](/blog/hadoop-mapreduce-framework/) is the parallel programming model for processing an enormous amount of data that splits the input dataset into independent chunks, which are processed by the map tasks in a completely parallel manner. The Hadoop framework sorts the outputs of the maps, which are then inputted into the reduced tasks. Typically, both the input and the output of the job are stored in a file system. The framework takes care of scheduling tasks, monitoring them, and re-executing the failed tasks.
 
 - **Hadoop Common Library**
 
@@ -37,7 +37,7 @@ These are the common Java-based libraries that can be used across all the Hadoop
 
 - **Yet Another Resource Negotiator (YARN)**
 
-[YARN stands for Yet Another Resource Negotiator](https://www.nitendratech.com/hadoop/hadoop-yarn/), which is a Hadoop Cluster resource management and job scheduling component. It was introduced in Hadoop 2 to help [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) and is the next-generation computation and resource management framework. It allows multiple data processing engines such as [SQL (Structured Query Language)](https://www.nitendratech.com/database/learn-sql/), real-time streaming, data science, and batch processing to handle data stored in a single platform.
+[YARN stands for Yet Another Resource Negotiator](/blog/hadoop-yarn/), which is a Hadoop Cluster resource management and job scheduling component. It was introduced in Hadoop 2 to help [MapReduce](/blog/hadoop-mapreduce-framework/) and is the next-generation computation and resource management framework. It allows multiple data processing engines such as [SQL (Structured Query Language)](/blog/learn-sql/), real-time streaming, data science, and batch processing to handle data stored in a single platform.
 
 ## How Does Hadoop Work?
 
@@ -63,7 +63,7 @@ Today's Apache Hadoop Ecosystem is quite bigger than what it was back in 2011. T
 
 Apache Hadoop is not a database, but a framework that is used to process massive amounts of data through parallel computing. NoSQL databases like Apache HBase and Apache Cassandra can sit on top of HDFS in the Hadoop framework.
 
-Apache HBase is an open-source, non-relational, distributed database modeled after Google's BigTable. It sits on top of [HDFS (Hadoop Distributed File System)](https://www.nitendratech.com/hadoop/hadoop-hdfs/), providing BigTable-like capabilities for Hadoop. It is a column-oriented key-value data store and has been idolized widely because of its lineage with Hadoop and [HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/).
+Apache HBase is an open-source, non-relational, distributed database modeled after Google's BigTable. It sits on top of [HDFS (Hadoop Distributed File System)](/blog/hadoop-hdfs/), providing BigTable-like capabilities for Hadoop. It is a column-oriented key-value data store and has been idolized widely because of its lineage with Hadoop and [HDFS](/blog/hadoop-hdfs/).
 
 The Hadoop ecosystem uses a computing framework called MapReduce that takes the intensive data processes and spreads the computation across commodity hardware known as the Hadoop cluster. With the arrival of Hadoop, big data processing time has been reduced from 20 hours in an RDBMS (Relational Database Management System) to 5 minutes across the Hadoop cluster made from commodity Hardware.
 

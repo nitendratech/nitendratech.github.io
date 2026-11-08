@@ -11,9 +11,9 @@ Speculative execution is a way of coping with individual machine performance. Th
 
 ## Why Speculative Execution Needed in Hadoop?
 
-In the [Hadoop](https://www.nitendratech.com/hadoop/apache-hadoop/) framework, JobTracker makes different Task Trackers process the same input. Whichever copy of the task finishes first becomes the definitive copy. If there are other copies of data running at the same time, the Task tracker will abandon the task and disregard its outputs. The Reducers then receive their inputs from whichever Mapper completed successfully, first. If a node appears to be running slow, the master node can redundantly execute another instance of the same task and the first output will be taken. This process is called Speculative execution.
+In the [Hadoop](/blog/apache-hadoop/) framework, JobTracker makes different Task Trackers process the same input. Whichever copy of the task finishes first becomes the definitive copy. If there are other copies of data running at the same time, the Task tracker will abandon the task and disregard its outputs. The Reducers then receive their inputs from whichever Mapper completed successfully, first. If a node appears to be running slow, the master node can redundantly execute another instance of the same task and the first output will be taken. This process is called Speculative execution.
 
-When input data is copied into [HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/) (Hadoop Distributed File System), it is partitioned and stored in different nodes in the Hadoop cluster. When the client submits the [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) jobs, MapReduce jobs will calculate the number of input splits needed for this job. The same number of Mappers as the Input Splits runs in parallel on the data nodes on the data nodes where split data is present.
+When input data is copied into [HDFS](/blog/hadoop-hdfs/) (Hadoop Distributed File System), it is partitioned and stored in different nodes in the Hadoop cluster. When the client submits the [MapReduce](/blog/hadoop-mapreduce-framework/) jobs, MapReduce jobs will calculate the number of input splits needed for this job. The same number of Mappers as the Input Splits runs in parallel on the data nodes on the data nodes where split data is present.
 
 Let's say some data nodes in the Hadoop cluster have gone bad and are not responding or not executing the task. This can happen because of hardware failure or network issues. In this situation, these map tasks running on bad data nodes can be slower than the other map tasks running on other data nodes. As the reducer starts the execution, after all, the mapper provides the intermediate output, mapper jobs running on bad data nodes can cause a delay in the execution of the reducer and thus delay the whole MapReduce job. These bad nodes can cause the reduction to slow its execution time. To avoid this scenario in a production setting, the Hadoop framework has a concept of speculative execution.
 
@@ -32,7 +32,7 @@ If we want to configure Speculative execution in the Spark job, we use the below
 
 ## Advantages of Speculative Execution
 
-In many [production environments](https://www.nitendratech.com/hadoop/hadoop-execution-modes/), we can have large-scale clusters with thousands of nodes running MapReduce or the related Hadoop jobs at the same time. Problems like hardware failure and network clusters are common in large-scale clusters. So, it makes sense to run duplicate tasks in case one server might fail.
+In many [production environments](/blog/hadoop-execution-modes/), we can have large-scale clusters with thousands of nodes running MapReduce or the related Hadoop jobs at the same time. Problems like hardware failure and network clusters are common in large-scale clusters. So, it makes sense to run duplicate tasks in case one server might fail.
 
 ## Conclusion
 

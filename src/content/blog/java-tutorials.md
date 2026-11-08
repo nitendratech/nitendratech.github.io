@@ -13,18 +13,18 @@ This page will guide you through different topics one needs for learning Java Pr
 
 ## Basics
 
-- [Java Programming Language](https://www.nitendratech.com/java/java-programming-language/)
-- [What are Java Variables?](https://www.nitendratech.com/java/java-variables/)
-- [Java Data Types](https://www.nitendratech.com/java/java-data-types/)
+- [Java Programming Language](/blog/java-programming-language/)
+- [What are Java Variables?](/blog/java-variables/)
+- [Java Data Types](/blog/java-data-types/)
 
 ## Advanced
 
-- [JVM Monitoring tools](https://www.nitendratech.com/java/jvm-monitoring-tools/)
-- [Proxy in JVM based Applications](https://www.nitendratech.com/java/proxy-jvm-based-applications/)
-- [Atlassian JIRA REST Java Client(JRJC) Library](https://www.nitendratech.com/java/atlassian-jira-rest-jrjc-library/)
-- [Difference between Abstract Class and Interfaces in Java](https://www.nitendratech.com/java/abstract-class-interfaces-java/)
-- [Difference between Overloading Vs Overriding in Java](https://www.nitendratech.com/java/overloading-overriding-java/)
-- [HashTable vs HashMap in Java](https://www.nitendratech.com/java/hashtable-hashmap-java/)
+- [JVM Monitoring tools](/blog/jvm-monitoring-tools/)
+- [Proxy in JVM based Applications](/blog/proxy-jvm-based-applications/)
+- [Atlassian JIRA REST Java Client(JRJC) Library](/blog/atlassian-jira-rest-jrjc-library/)
+- [Difference between Abstract Class and Interfaces in Java](/blog/abstract-class-interfaces-java/)
+- [Difference between Overloading Vs Overriding in Java](/blog/overloading-overriding-java/)
+- [HashTable vs HashMap in Java](/blog/hashtable-hashmap-java/)
 
 ---
 

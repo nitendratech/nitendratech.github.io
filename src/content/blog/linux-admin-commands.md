@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Linux"
 ---
 
-This blog lists some important [Linux](https://www.nitendratech.com/linux/bash-script/) Admin commands useful for monitoring Linux processes.
+This blog lists some important [Linux](/blog/bash-script/) Admin commands useful for monitoring Linux processes.
 
 ## List All Processes
 

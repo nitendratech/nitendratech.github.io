@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "SQL"
 ---
 
-[SQL](https://www.nitendratech.com/database/learn-sql/) Join is to combine data from two or more tables based on a common field among them. Joins indicate how SQL should use data from one table to select the rows in another table. By using joins, you can retrieve data from two or more tables based on logical relationships between the tables in a [database](https://www.nitendratech.com/database/learn-database/). In this blog post, we will give an introduction to SQL Joins.
+[SQL](/blog/learn-sql/) Join is to combine data from two or more tables based on a common field among them. Joins indicate how SQL should use data from one table to select the rows in another table. By using joins, you can retrieve data from two or more tables based on logical relationships between the tables in a [database](/blog/learn-database/). In this blog post, we will give an introduction to SQL Joins.
 
 ```sql
 SELECT a.Column1, b.Column2 FROM TableA a INNER JOIN TableB b ON a.Id = b.AFKId

@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "SQL"
 ---
 
-A query is a request for data or information from a [database](https://www.nitendratech.com/database/learn-database/) table or combination of tables. This data may be generated as results returned by Structured Query Language (SQL) or as pictorials, graphs, or complex results, e.g., trend analyses from data-mining tools.
+A query is a request for data or information from a [database](/blog/learn-database/) table or combination of tables. This data may be generated as results returned by Structured Query Language (SQL) or as pictorials, graphs, or complex results, e.g., trend analyses from data-mining tools.
 
 This post shows the commonly used Database Queries.
 

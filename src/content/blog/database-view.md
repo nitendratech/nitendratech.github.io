@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "Databases"
 ---
 
-[A database](https://www.nitendratech.com/database/learn-database/) view is like a subset/snapshot of tables that are stored logically in a database. It is a virtual table that contains rows and columns similar to a real table. It contains a query that reads the data from the underlying table when the view is accessed. Database views do not contain data of their own but derive data from base tables. Base tables can be either tables or other views. All operations performed on a view actually affect the base tables.
+[A database](/blog/learn-database/) view is like a subset/snapshot of tables that are stored logically in a database. It is a virtual table that contains rows and columns similar to a real table. It contains a query that reads the data from the underlying table when the view is accessed. Database views do not contain data of their own but derive data from base tables. Base tables can be either tables or other views. All operations performed on a view actually affect the base tables.
 
 Views are mainly used to implement table and field-level security and hide complicated queries.
 
@@ -40,7 +40,7 @@ Database Views is not allocated storage space as it does not contain any data. T
 
 ## How do You create a Database View?
 
-We can create views using `CREATE VIEW` statement in our [SQL](https://www.nitendratech.com/database/learn-sql/) query. We can give a virtual table name to the view, a list of column names, and the query to specify the contents of the view.
+We can create views using `CREATE VIEW` statement in our [SQL](/blog/learn-sql/) query. We can give a virtual table name to the view, a list of column names, and the query to specify the contents of the view.
 
 Below is the syntax for creating views.
 

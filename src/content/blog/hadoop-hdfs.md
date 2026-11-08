@@ -7,11 +7,11 @@ subcategory: "HDFS"
 draft: false
 ---
 
-HDFS or Hadoop Distributed File System is a distributed file system that is designed for storing and processing very large files with streaming data access patterns running on clusters of commodity hardware. HFDS is one of the components of the [Apache Hadoop framework](https://www.nitendratech.com/hadoop/apache-hadoop/), whereas the other components are MapReduce and YARN (Yet Another Resource Negotiator)
+HDFS or Hadoop Distributed File System is a distributed file system that is designed for storing and processing very large files with streaming data access patterns running on clusters of commodity hardware. HFDS is one of the components of the [Apache Hadoop framework](/blog/apache-hadoop/), whereas the other components are MapReduce and YARN (Yet Another Resource Negotiator)
 
 It was created and implemented by Google; it was known as the Google File System (GFS). It is designed such that it can handle large amounts of data and reduces the overall input/output operations on the network. Likewise, it also increases the scalability and availability of the cluster because of data replication and fault tolerance.
 
-When input files are ingested into the Hadoop framework, they are divided into a block size of 64 MB or 128 MB and are distributed among Hadoop clusters. Block size can be pre-defined in the cluster configuration file or can be passed as a custom parameter while submitting a [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) job. This storage strategy helps Hadoop framework store large files having a bigger size than the disk capacity of each node. It enables HDFS to store data from terabytes to petabytes scale.
+When input files are ingested into the Hadoop framework, they are divided into a block size of 64 MB or 128 MB and are distributed among Hadoop clusters. Block size can be pre-defined in the cluster configuration file or can be passed as a custom parameter while submitting a [MapReduce](/blog/hadoop-mapreduce-framework/) job. This storage strategy helps Hadoop framework store large files having a bigger size than the disk capacity of each node. It enables HDFS to store data from terabytes to petabytes scale.
 
 ## Purpose of HDFS
 

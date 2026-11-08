@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Linux"
 ---
 
-Linux is a family of free and open-source software operating systems built around the Linux kernel. This blog post includes the concept of paths in a Linux environment that one can use while writing the [Bash script.](https://www.nitendratech.com/linux/bash-script/)
+Linux is a family of free and open-source software operating systems built around the Linux kernel. This blog post includes the concept of paths in a Linux environment that one can use while writing the [Bash script.](/blog/bash-script/)
 
 ## Path on Linux
 

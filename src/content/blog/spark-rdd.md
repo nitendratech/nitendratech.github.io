@@ -7,7 +7,7 @@ subcategory: "Spark"
 draft: false
 ---
 
-Resilient Distributed Dataset (RDD) is the fault-tolerant and immutable primary data structure/abstraction in [Apache Spark](https://www.nitendratech.com/spark/apache-spark/). It is a distributed collection of objects. The term 'resilient' in 'Resilient Distributed Dataset' refers to the fact that a lost partition can be reconstructed automatically by Spark by recomputing it from the RDDs that it was computed from.
+Resilient Distributed Dataset (RDD) is the fault-tolerant and immutable primary data structure/abstraction in [Apache Spark](/blog/apache-spark/). It is a distributed collection of objects. The term 'resilient' in 'Resilient Distributed Dataset' refers to the fact that a lost partition can be reconstructed automatically by Spark by recomputing it from the RDDs that it was computed from.
 
 It is a read-only collection of objects that is partitioned across multiple machines in a cluster. Datasets in RDD are divided into logical partitions across the nodes of the cluster that can be operated in parallel with a low-level API that offers transformation and actions.
 

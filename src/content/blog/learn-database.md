@@ -8,7 +8,7 @@ subcategory: "Databases"
 
 ## What is Data?
 
-Before we learn about databases, we need to first understand what [data](https://www.nitendratech.com/datascience/data-explained/) is. Data is information or facts related to an object that is under consideration. In other words, data can be a collection of a distinct small unit of information or fact. It can be in a variety of forms like text, numbers, media, bytes, binary data, etc. For example, data for an individual can be a person's name, height, weight age, ethnicity, hair color, date of birth, and mattress. Data can also be pictures, images, or files. It can be stored on a piece of paper or in the form of electronic memory. The word 'Data' is derived from the word 'datum' which means a single piece of information.
+Before we learn about databases, we need to first understand what [data](/blog/data-explained/) is. Data is information or facts related to an object that is under consideration. In other words, data can be a collection of a distinct small unit of information or fact. It can be in a variety of forms like text, numbers, media, bytes, binary data, etc. For example, data for an individual can be a person's name, height, weight age, ethnicity, hair color, date of birth, and mattress. Data can also be pictures, images, or files. It can be stored on a piece of paper or in the form of electronic memory. The word 'Data' is derived from the word 'datum' which means a single piece of information.
 
 ## Understanding Database
 

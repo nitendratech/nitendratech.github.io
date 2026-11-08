@@ -40,7 +40,7 @@ E-commerce-based retailers can use the CEP engine to offer personalized recommen
 
 There is a lot of software that can be used to build CEP-based applications. There are some tools that are vendor-based, whereas some are open sources. We need to choose the right software for the right use case. This choice depends upon the budget and skill set of the engineers that work in your company. Below is some common and popular software.
 
-- [Apache Spark Streaming](https://www.nitendratech.com/spark/spark-tutorials/)
+- [Apache Spark Streaming](/blog/spark-tutorials/)
 - Apache Samza
 - Apache Flink
 - Apache Twitter

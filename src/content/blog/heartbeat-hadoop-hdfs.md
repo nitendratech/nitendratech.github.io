@@ -9,11 +9,11 @@ draft: false
 
 ## What is HeartBeat?
 
-In [Hadoop](https://www.nitendratech.com/hadoop/apache-hadoop/) framework `heartbeat` is a signal that is sent by DataNode to NameNode and also by Task Tracker to the Job tracker. DataNode sends the signal to NameNode, periodically, indicating that it is alive. This signal is taken as a sign of vitality by NameNode. If there is no response to the signal, there might be some issue with the DataNode or the Task Tracker.
+In [Hadoop](/blog/apache-hadoop/) framework `heartbeat` is a signal that is sent by DataNode to NameNode and also by Task Tracker to the Job tracker. DataNode sends the signal to NameNode, periodically, indicating that it is alive. This signal is taken as a sign of vitality by NameNode. If there is no response to the signal, there might be some issue with the DataNode or the Task Tracker.
 
 The default interval for the heartbeat is 3 seconds in the Hadoop framework. If the DataNode does not send the heartbeat signal to the NameNode for more than 10 minutes, it is considered to be dead or unavailable. This condition is known as `Heartbeat Lost` condition.
 
-If there is a network partition in the Hadoop cluster, it can cause the subset of DataNode to lose connectivity to NameNode. NameNode knows about this condition by finding out that the Heartbeat message is absent. When this happens, the NameNode marks the DataNode as dead and does not forward any Input/Output request to it. It means any data that was registered to a dead DataNode is not available to [HDFS (Hadoop Distributed File System)](https://www.nitendratech.com/hadoop/hadoop-hdfs/) anymore. NameNode constantly checks if the DataNode is alive or dead. If it seems that when a data node is dead, the data block residing on that data node is replicated as necessary.
+If there is a network partition in the Hadoop cluster, it can cause the subset of DataNode to lose connectivity to NameNode. NameNode knows about this condition by finding out that the Heartbeat message is absent. When this happens, the NameNode marks the DataNode as dead and does not forward any Input/Output request to it. It means any data that was registered to a dead DataNode is not available to [HDFS (Hadoop Distributed File System)](/blog/hadoop-hdfs/) anymore. NameNode constantly checks if the DataNode is alive or dead. If it seems that when a data node is dead, the data block residing on that data node is replicated as necessary.
 
 Data is replicated in HDFS in one of the below conditions.
 

@@ -11,9 +11,9 @@ In this blog post, we will go through the important Apache Spark Interview quest
 
 ## What is Apache Spark?
 
-Apache Spark is a distributed, in-memory, and disk-based optimized, open-source framework that does real-time analytics using [Resilient Distributed Data (RDD)](https://www.nitendratech.com/spark/spark-rdd/) sets. It includes a streaming library, and a rich set of programming interfaces to make data processing and transformation easier. It is not a database like an RDBMS (Relational Database Management Systems) or NoSQL (Non-Relational) database, but a data processing engine. Apache Spark is 100% open-source software as part of **Apache** Software Foundation, which is a vendor-independent platform. That’s why it is free to use for personal or commercial purposes.
+Apache Spark is a distributed, in-memory, and disk-based optimized, open-source framework that does real-time analytics using [Resilient Distributed Data (RDD)](/blog/spark-rdd/) sets. It includes a streaming library, and a rich set of programming interfaces to make data processing and transformation easier. It is not a database like an RDBMS (Relational Database Management Systems) or NoSQL (Non-Relational) database, but a data processing engine. Apache Spark is 100% open-source software as part of **Apache** Software Foundation, which is a vendor-independent platform. That’s why it is free to use for personal or commercial purposes.
 
-The Spark engine runs in a variety of environments, from cloud services to [Hadoop](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) as a standalone instance or Mesos clusters. It is used to perform ETL (Extract, Transform, and Load), interactive queries (SQL), advanced analytics (e.g. machine learning), and streaming over large datasets in a wide range of data stores like [HDFS (Hadoop Distributed File System)](https://www.nitendratech.com/hadoop/hadoop-hdfs/), Cassandra, HBase,  and Amazon S3. It supports a variety of popular development languages including Java, Python, Scala, and R.
+The Spark engine runs in a variety of environments, from cloud services to [Hadoop](/blog/hadoop-mapreduce-framework/) as a standalone instance or Mesos clusters. It is used to perform ETL (Extract, Transform, and Load), interactive queries (SQL), advanced analytics (e.g. machine learning), and streaming over large datasets in a wide range of data stores like [HDFS (Hadoop Distributed File System)](/blog/hadoop-hdfs/), Cassandra, HBase,  and Amazon S3. It supports a variety of popular development languages including Java, Python, Scala, and R.
 
 It was originally developed in the MPLab at the University of California, Berkeley. This project was donated to Apache Software Foundation later which maintains this project today.
 
@@ -45,7 +45,7 @@ Spark allows Integration with Hadoop and files included in HDFS.
 - It has an independent language (Scala) interpreter and hence comes with an interactive language shell.
 - Spark consists of RDDs (Resilient Distributed Datasets), which can be cached across computing nodes in a cluster.
 - It supports multiple analytic tools that are used for interactive query analysis, real-time analysis, and graph processing.
-- Allows integration with Hadoop and files included in [HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/).
+- Allows integration with Hadoop and files included in [HDFS](/blog/hadoop-hdfs/).
 - It provides lightning-fast processing speed for certain Use cases
 
 When it comes to Big Data processing, speed always matters, and Spark runs Hadoop clusters way faster than others. Spark makes this possible by reducing the number of reading/writing operations on the disc. It stores this intermediate processing data in memory.
@@ -56,7 +56,7 @@ In addition to simple “map” and “reduce” operations, Spark supports SQL 
 
 - **Real-time stream processing**
 
-Spark can handle real-time streaming data. [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) primarily handles and processes previously stored data even though there are other frameworks to obtain real-time streaming. Spark does this in the best way possible.
+Spark can handle real-time streaming data. [MapReduce](/blog/hadoop-mapreduce-framework/) primarily handles and processes previously stored data even though there are other frameworks to obtain real-time streaming. Spark does this in the best way possible.
 
 ## Explain how Apache Spark runs its job.
 
@@ -211,7 +211,7 @@ This list keeps on growing with each version of Apache Spark.
 
 ## What is RDD (Resilient Distributed Datasets) in Apache Spark?
 
-Resilient Distributed Dataset (RDD)  is the fault-tolerant primary data structure/abstraction in [Apache Spark](https://www.nitendratech.com/spark/apache-spark/) which is an immutable distributed collection of objects. The term ‘resilient’ in ‘Resilient Distributed Dataset’ refers to the fact that a lost partition can be reconstructed automatically by Spark by recomputing it from the RDDs that it was computed from.
+Resilient Distributed Dataset (RDD)  is the fault-tolerant primary data structure/abstraction in [Apache Spark](/blog/apache-spark/) which is an immutable distributed collection of objects. The term ‘resilient’ in ‘Resilient Distributed Dataset’ refers to the fact that a lost partition can be reconstructed automatically by Spark by recomputing it from the RDDs that it was computed from.
 
 It is a read-only collection of objects that is partitioned across multiple machines in a cluster. Datasets in RDD are divided into logical partitions across the nodes of the cluster that can be operated in parallel with a low-level API that offers transformations and actions. As it is immutable, we cannot change the original RDD, but can only transform the existing RDDs into new ones using different transformations.
 

@@ -11,7 +11,7 @@ To start an Apache Spark application, we need to create an entry point using a S
 
 ## Spark Context
 
-Spark Context is the main entry point for [Apache Spark](https://www.nitendratech.com/spark/apache-spark/) before Spark 2.0, which represents the connection to a Spark cluster. It can be used to create RDDs, accumulators, and broadcast variables on that cluster.
+Spark Context is the main entry point for [Apache Spark](/blog/apache-spark/) before Spark 2.0, which represents the connection to a Spark cluster. It can be used to create RDDs, accumulators, and broadcast variables on that cluster.
 
 We can only have one SparkContext active per JVM (Java Virtual Machine). We need to stop the active SparkContext before creating a new one.
 

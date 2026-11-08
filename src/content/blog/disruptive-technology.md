@@ -53,7 +53,7 @@ Blockchain provides various features such as security and transparency, which in
 
 ### Internet of Things (IoT)
 
-IoT is the network of various devices that are connected through the internet. It helps to connect various devices and develop relationships between them, and collects [data](https://www.nitendratech.com/datascience/data-explained/) between them.
+IoT is the network of various devices that are connected through the internet. It helps to connect various devices and develop relationships between them, and collects [data](/blog/data-explained/) between them.
 
 The use of IoT has increased currently nowadays, converting it into an efficient and reliable solution.
 

@@ -7,7 +7,7 @@ subcategory: "AWS"
 draft: false
 ---
 
-AWS, or Amazon Web Services, is a subsidiary of Amazon that provides various [cloud computing](https://www.nitendratech.com/technology/cloud-computing/) options. It provides certain on-demand resources for hosting web services, storage, networking, databases, and other resources over the Internet with a pay-as-the-user-go pricing system.
+AWS, or Amazon Web Services, is a subsidiary of Amazon that provides various [cloud computing](/blog/cloud-computing/) options. It provides certain on-demand resources for hosting web services, storage, networking, databases, and other resources over the Internet with a pay-as-the-user-go pricing system.
 
 ## Features of AWS-based cloud Infrastructure
 

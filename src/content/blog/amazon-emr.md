@@ -11,7 +11,7 @@ In this blog post, we will review the Essential AWS EMR interview questions freq
 
 ## What is Amazon EMR?
 
-Amazon EMR (previously known as Amazon elastic MapReduce) is a managed data cluster platform that simplifies running [Apache Hadoop,](https://www.nitendratech.com/hadoop/hadoop-tutorials/) [Spark](https://www.nitendratech.com/spark/spark-tutorials/), and other distributed data processing frameworks on AWS to process and analyze vast amounts of data. Amazon EMR allows the transformation and transfer of large amounts of data into and out of other AWS data stores and databases, such as Amazon Simple Storage Service and Amazon DynamoDB.
+Amazon EMR (previously known as Amazon elastic MapReduce) is a managed data cluster platform that simplifies running [Apache Hadoop,](/blog/hadoop-tutorials/) [Spark](/blog/spark-tutorials/), and other distributed data processing frameworks on AWS to process and analyze vast amounts of data. Amazon EMR allows the transformation and transfer of large amounts of data into and out of other AWS data stores and databases, such as Amazon Simple Storage Service and Amazon DynamoDB.
 
 ## What are the key components of Amazon EMR?
 
@@ -23,7 +23,7 @@ Amazon EMR has three key components.
 
 ## How Does Amazon EMR handle data storage and processing?
 
-It uses Amazon S3 for long-term storage and [HDFS (Hadoop distributed File System)](https://www.nitendratech.com/hadoop/hadoop-hdfs/) for temporary storage during processing. It uses an AWS EC2 instance to process the data in the AWS cluster.
+It uses Amazon S3 for long-term storage and [HDFS (Hadoop distributed File System)](/blog/hadoop-hdfs/) for temporary storage during processing. It uses an AWS EC2 instance to process the data in the AWS cluster.
 
 ## Does Amazon EMR have an Auto Scaling feature?
 
@@ -61,7 +61,7 @@ In Amazon EMR, core nodes store data through HDFS and Data processing. Task node
 
 Amazon EMR supports three file systems in the storage layer.
 
-- [HDFS(Hadoop Distributed File System)](https://www.nitendratech.com/hadoop/hadoop-hdfs/)
+- [HDFS(Hadoop Distributed File System)](/blog/hadoop-hdfs/)
 - EMR File System (EMRFS)
 - Local file system
 
@@ -69,12 +69,12 @@ Amazon EMR supports three file systems in the storage layer.
 
 Amazon EMR supports two data processing frameworks.
 
-- [Hadoop MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/)
+- [Hadoop MapReduce](/blog/hadoop-mapreduce-framework/)
 - Apache Spark
 
 ## What are different applications supported by Amazon EMR?
 
-Amazon EMR supports many applications to process workloads, leverage machine learning algorithms, and develop stream processing applications and data warehouses. These applications are mainly [Hive](https://www.nitendratech.com/hive/hive-tutorials/), pig, and Spark libraries ([Spark SQL](https://www.nitendratech.com/spark/apache-spark-sql/), MLib and Graphx) while using Java as a programming language.
+Amazon EMR supports many applications to process workloads, leverage machine learning algorithms, and develop stream processing applications and data warehouses. These applications are mainly [Hive](/blog/hive-tutorials/), pig, and Spark libraries ([Spark SQL](/blog/apache-spark-sql/), MLib and Graphx) while using Java as a programming language.
 
 ## What are the different Big data-based open-source applications supported in Amazon EMR?
 

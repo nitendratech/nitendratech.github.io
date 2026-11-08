@@ -9,7 +9,7 @@ draft: false
 
 ## Hadoop Block Size Configuration and Components
 
-Block is defined as the smallest site/location on the hard drive that is available to read and write data. Data in [HDFS(Hadoop Distributed File System](https://www.nitendratech.com/hadoop/introduction-hadoop-hdfs/) is split into blocks distributed across cluster nodes. The whole file is divided into small blocks and then stored as separate units.
+Block is defined as the smallest site/location on the hard drive that is available to read and write data. Data in [HDFS(Hadoop Distributed File System](/blog/hadoop-hdfs/) is split into blocks distributed across cluster nodes. The whole file is divided into small blocks and then stored as separate units.
 
 Each block is replicated multiple times for fault tolerance. The default is to replicate each block three times and are stored on different nodes. HDFS utilizes the local file system to store each HDFS block as a separate file. It is designed to reliably store very large files across machines in large clusters.
 

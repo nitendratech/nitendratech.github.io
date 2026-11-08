@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "Data Warehouse"
 ---
 
-Metadata is the information that describes other data or, simply, it is data about the [data](https://www.nitendratech.com/datascience/data-explained/). It is the descriptive, administrative, and structural data that defines a firm's data assets. It specifically identifies the attributes, properties, and tags that will describe and classify information. Furthermore, it represents different data information such as type of asset, author, date originated, workflow state, and usage within the Enterprise, among numerous others. Metadata in the data warehouse is collected to improve the support of the environment and to orient users to the meaning of the data.
+Metadata is the information that describes other data or, simply, it is data about the [data](/blog/data-explained/). It is the descriptive, administrative, and structural data that defines a firm's data assets. It specifically identifies the attributes, properties, and tags that will describe and classify information. Furthermore, it represents different data information such as type of asset, author, date originated, workflow state, and usage within the Enterprise, among numerous others. Metadata in the data warehouse is collected to improve the support of the environment and to orient users to the meaning of the data.
 
 ## Benefits of Using Metadata
 

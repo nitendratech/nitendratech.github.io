@@ -7,7 +7,7 @@ subcategory: "Java"
 draft: false
 ---
 
-Even though HashTable and HashMap both are data-structure based upon Hashing and implementation of Map Interface, there are many differences among them. We will read about the main difference between them when implemented in [Java](https://www.nitendratech.com/java/java-programming-language/) Programming Language.
+Even though HashTable and HashMap both are data-structure based upon Hashing and implementation of Map Interface, there are many differences among them. We will read about the main difference between them when implemented in [Java](/blog/java-programming-language/) Programming Language.
 
 ## Hashtable vs HashMap
 

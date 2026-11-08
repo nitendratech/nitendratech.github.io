@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Linux"
 ---
 
-Once you start working on Linux and writing a [Shell script](https://www.nitendratech.com/linux/bash-script/), you will notice that all files and directories on Linux have a standard set of access permissions. These access permissions control who can access what files, and provide a fundamental level of security to the files and directories in a system. Let's go through this topic in this blog post.
+Once you start working on Linux and writing a [Shell script](/blog/bash-script/), you will notice that all files and directories on Linux have a standard set of access permissions. These access permissions control who can access what files, and provide a fundamental level of security to the files and directories in a system. Let's go through this topic in this blog post.
 
 On Linux, each file and directory have three owners: User, Group, and Other.
 

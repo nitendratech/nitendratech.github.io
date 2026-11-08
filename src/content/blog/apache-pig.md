@@ -7,7 +7,7 @@ subcategory: "Apache Pig"
 draft: false
 ---
 
-Apache Pig is a platform for analyzing [Big data sets](https://www.nitendratech.com/bigdata/big-data/) that consists of a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs. The data flow in a pipeline step by step and data can be stored at any point in the pipeline, It allows users to analyze large unstructured data sets by transforming and applying functions on the data set.
+Apache Pig is a platform for analyzing [Big data sets](/blog/big-data/) that consists of a high-level language for expressing data analysis programs, coupled with infrastructure for evaluating these programs. The data flow in a pipeline step by step and data can be stored at any point in the pipeline, It allows users to analyze large unstructured data sets by transforming and applying functions on the data set.
 
 It can be used to process complex data flows and extend them with custom code. A job can be written to collect web server logs, use external programs to fetch geolocation data for the users' IP addresses, and join the new set of Geo-located web traffic to click maps stored as JSON, web analytic data in CSV (comma-separated values) format, and spreadsheets from the advertising department to build a rich view of user behavior overlaid with advertising effectiveness.
 
@@ -50,18 +50,18 @@ Below are some limitations Apache pig has when its architecture and working mech
 
 ## Advantage of Apache Pig over MapReduce
 
-Apache Pig provides a scripting language for describing operations like reading, filtering, transforming, joining, and writing data – exactly the operations that [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) was originally designed for.
+Apache Pig provides a scripting language for describing operations like reading, filtering, transforming, joining, and writing data – exactly the operations that [MapReduce](/blog/hadoop-mapreduce-framework/) was originally designed for.
 
 Rather than expressing these operations in thousands of lines of Java code that uses MapReduce directly, Apache Pig lets users express them in a language, not unlike a bash or Perl script.
 
-Pig is excellent for prototyping and rapidly developing [MapReduce-based](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) jobs, as opposed to coding MapReduce jobs in Java itself.
+Pig is excellent for prototyping and rapidly developing [MapReduce-based](/blog/hadoop-mapreduce-framework/) jobs, as opposed to coding MapReduce jobs in Java itself.
 
 ## Use cases of Apache Pig
 
 - Data processing for web search platforms.
 - Ad hoc queries across large data sets.
 - Rapid prototyping of algorithms for processing large data sets.
-- Complex data flows to process [web server logs](https://www.nitendratech.com/technology/log-file/), web analytic data in CSV format, and spreadsheets from the advertising department
+- Complex data flows to process [web server logs](/blog/log-files/), web analytic data in CSV format, and spreadsheets from the advertising department
 
 ## Conclusion
 

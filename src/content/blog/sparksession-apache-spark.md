@@ -7,11 +7,11 @@ subcategory: "Spark"
 draft: false
 ---
 
-SparkSession has been the main entry point to [Spark applications](https://www.nitendratech.com/spark/apache-spark/) since Spark 2.0. Before Spark 2.0 Spark Context was the main entry point for any Spark applications. We see how to start a SparkSession in a Spark application, along with some important properties.
+SparkSession has been the main entry point to [Spark applications](/blog/apache-spark/) since Spark 2.0. Before Spark 2.0 Spark Context was the main entry point for any Spark applications. We see how to start a SparkSession in a Spark application, along with some important properties.
 
 SparkSession provides a single point of entry to interact with the underlying Spark APIs and functions. It allows the Spark application to interact with the DataFrame and Dataset API. It also contains all the functionalities that are available as part of SparkContext. Furthermore, it is being created using `SparkSession.builder()` builder patterns.
 
-If we want to use APIs of SQL, [Hive](https://www.nitendratech.com/hive/apache-hive/), and Streaming, we don't need to create separate Spark contexts. Instead, we can use SparkSession and access all of this API.
+If we want to use APIs of SQL, [Hive](/blog/apache-hive/), and Streaming, we don't need to create separate Spark contexts. Instead, we can use SparkSession and access all of this API.
 
 We can also add Spark's various config properties while invoking SparkSession using the `config` method.
 
@@ -21,7 +21,7 @@ If we want to create a SparkSession using Scala/Java or Python, we need to use t
 
 ### Using Scala
 
-Let's see an example of SparkSession using [Scala](https://www.nitendratech.com/scala/scala-programming-language/).
+Let's see an example of SparkSession using [Scala](/blog/scala-programming-language/).
 
 ```scala
 val sparkSession = SparkSession.builder()
@@ -33,7 +33,7 @@ val sparkSession = SparkSession.builder()
 
 ### Using Java
 
-Let's see an example of SparkSession using [Java](https://www.nitendratech.com/java/java-programming-language/).
+Let's see an example of SparkSession using [Java](/blog/java-programming-language/).
 
 ```java
 SparkSession sparkSession = SparkSession.config("spark.executor.memory", "2g")

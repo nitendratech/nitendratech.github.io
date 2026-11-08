@@ -19,7 +19,7 @@ In this blog post, we will look at some of the frequent and important AWS Glue I
 
 - **Data Catalog:** It is a central metadata repository that stores information about various data sources and their transformations.
 - **ETL Engine:** It is a serverless and scalable data processing engine for running Glue jobs.
-- **Development Endpoint:** It is an interactive environment provided by Glue for developing and testing [ETL](https://www.nitendratech.com/database/etl-process/) Scripts
+- **Development Endpoint:** It is an interactive environment provided by Glue for developing and testing [ETL](/blog/etl-process/) Scripts
 
 **Question: What are different programming languages supported by AWS Glue?**
 

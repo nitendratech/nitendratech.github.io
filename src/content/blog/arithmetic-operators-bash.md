@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Shell Scripting"
 ---
 
-[Bash](https://www.nitendratech.com/linux/bash-script/) provides different operators that we can use in our Bash Script.
+[Bash](/blog/bash-script/) provides different operators that we can use in our Bash Script.
 
 - **Arithmetic**
 - **Assignment**
@@ -16,7 +16,7 @@ subcategory: "Shell Scripting"
 
 ## Arithmetic Operator
 
-Bash provides multiple operations through which we can perform Mathematical/Arithmetic operations on [variables](https://www.nitendratech.com/linux/bash-variables/).
+Bash provides multiple operations through which we can perform Mathematical/Arithmetic operations on [variables](/blog/bash-variables/).
 
 | Operator | Description |
 | --- | --- |

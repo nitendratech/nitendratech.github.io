@@ -7,7 +7,7 @@ subcategory: "Java"
 draft: false
 ---
 
-As [Java](https://www.nitendratech.com/java/java-programming-language/) is a strongly typed language, everything has a type in Java. Here, strongly typed means every variable/expression has a type and every type is strictly defined. Java compiler checks all the expressions and variables to make sure that the types are compatible without any errors. Java has two types of data types, Primitive and Non-Primitive type.
+As [Java](/blog/java-programming-language/) is a strongly typed language, everything has a type in Java. Here, strongly typed means every variable/expression has a type and every type is strictly defined. Java compiler checks all the expressions and variables to make sure that the types are compatible without any errors. Java has two types of data types, Primitive and Non-Primitive type.
 
 ## Primitive Data Types
 

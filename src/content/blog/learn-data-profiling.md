@@ -9,12 +9,12 @@ draft: false
 
 ## 1. Introduction
 
-In the modern digital ecosystem, **[data](https://www.nitendratech.com/datascience/data-explained/)** has become one of the most valuable business assets. Yet, without structure, accuracy, and consistency, even the most extensive datasets lose their potential to generate **actionable insights**.
+In the modern digital ecosystem, **[data](/blog/data-explained/)** has become one of the most valuable business assets. Yet, without structure, accuracy, and consistency, even the most extensive datasets lose their potential to generate **actionable insights**.
 
 **Data Profiling** plays a crucial role in understanding, validating, and improving data quality before it's used in analytical, operational, or machine learning systems.
 
 > **Definition:**
-> Data Profiling is one of the most important components of the **[ETL (Extract, Transform, Load)](https://www.nitendratech.com/database/etl-process/)** process used to analyze the source data. With profiling, organizations understand the *structure, quality, and relationships* in their datasets—ensuring that downstream analytics and decisions are based on trustworthy information.
+> Data Profiling is one of the most important components of the **[ETL (Extract, Transform, Load)](/blog/etl-process/)** process used to analyze the source data. With profiling, organizations understand the *structure, quality, and relationships* in their datasets—ensuring that downstream analytics and decisions are based on trustworthy information.
 
 If data is not managed and profiled properly, it leads to poor decision-making, inaccurate reports, and millions of dollars in wasted time, money, and untapped potential.
 
@@ -39,7 +39,7 @@ In the era of **cloud-native data lakes** and **distributed data systems**, prof
 
 There are many benefits of data profiling, among which some of the important ones are listed below.
 
-- **Improves [Data Quality:](https://www.nitendratech.com/database/data-quality/)** Detects missing values, anomalies, and duplicates early.
+- **Improves [Data Quality:](/blog/data-quality/)** Detects missing values, anomalies, and duplicates early.
 - **Ensures Schema Consistency:** Aligns data structure across multiple systems.
 - **Enhances Data Integration:** Enables smooth source-to-target mapping in **ETL pipelines**.
 - **Strengthens Data Governance:** Supports **metadata management**, lineage tracking, and compliance with **GDPR** or **HIPAA**.
@@ -94,7 +94,7 @@ Modern **data engineering platforms** offer multiple tools for automated profili
 
 ### 6.1. Open Source Tools
 
-- **[Apache Spark](https://www.nitendratech.com/spark/apache-spark/) + Pandas Profiling (YData):** Ideal for distributed profiling.
+- **[Apache Spark](/blog/apache-spark/) + Pandas Profiling (YData):** Ideal for distributed profiling.
 - **Great Expectations:** Defines data validation and expectation rules.
 - **OpenRefine:** Cleans and explores unstructured datasets.
 - **Talend Data Quality:** Integrates profiling within ETL workflows.
@@ -122,7 +122,7 @@ These metrics guide **data cleansing**, **deduplication**, and **transformation*
 
 ## 8. How to Integrate Data Profiling in Modern Data Architecture
 
-In **[cloud](https://www.nitendratech.com/technology/cloud-computing/) data platforms** (AWS, Azure, GCP, Databricks), profiling is deeply integrated with **data governance** and **observability** systems. Below are some of the best practices while integrating the data profiling in modern data architecture.
+In **[cloud](/blog/cloud-computing/) data platforms** (AWS, Azure, GCP, Databricks), profiling is deeply integrated with **data governance** and **observability** systems. Below are some of the best practices while integrating the data profiling in modern data architecture.
 
 - Automate profiling via **Apache Airflow**, **Databricks Workflows**, or **AWS Step Functions**.
 - Store profiling metadata in **AWS Glue Data Catalog** or **Apache Atlas**.
@@ -161,7 +161,7 @@ Leading companies address these challenges using **AI-driven observability**, **
 
 ## 10. Conclusion
 
-**Data Profiling** is the cornerstone of modern [**data engineering**,](https://www.nitendratech.com/datascience/data-engineering/) **ETL**, and **data governance**. It transforms raw, unreliable data into trusted assets for analytics, business intelligence, and machine learning.
+**Data Profiling** is the cornerstone of modern [**data engineering**,](/blog/data-engineering/) **ETL**, and **data governance**. It transforms raw, unreliable data into trusted assets for analytics, business intelligence, and machine learning.
 
 By integrating **profiling automation**, defining **data quality metrics**, and embedding these steps within **CI/CD pipelines**, organizations can confidently scale analytics and AI systems across hybrid and multi-cloud environments.
 
@@ -171,9 +171,9 @@ As data ecosystems evolve, **profiling** will remain a key enabler for **data-dr
 
 ### Recommended Reading
 
-- [Data Lake Lifecycle and Architecture](https://www.nitendratech.com/bigdata/data-lake-lifecycle/)
-- [Building Modern ETL Pipelines with Apache Spark](https://www.nitendratech.com/bigdata/apache-spark-etl/)
-- [Data Quality Frameworks for Cloud Data Lakes](https://www.nitendratech.com/bigdata/data-quality-frameworks/)
+- [Data Lake Lifecycle and Architecture](/blog/learn-datalake/)
+- Building Modern ETL Pipelines with Apache Spark
+- [Data Quality Frameworks for Cloud Data Lakes](/blog/improving-data-quality/)
 
 **Author:** *Nitendra Gautam*
 *Data Engineer | Cloud & Big Data Architect | AI/ML Enthusiast*

@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "Data Quality"
 ---
 
-As [data](https://www.nitendratech.com/datascience/data-explained/) is frequently updated within an organization, achieving [quality data](https://www.nitendratech.com/database/data-quality/) requires constant monitoring and measurement as well as improvement actions. In addition to defect correction for quality data, it also requires prevention and reporting. The following table shows four important reasons why the quality of data in an organization has deteriorated in the past few years.
+As [data](/blog/data-explained/) is frequently updated within an organization, achieving [quality data](/blog/data-quality/) requires constant monitoring and measurement as well as improvement actions. In addition to defect correction for quality data, it also requires prevention and reporting. The following table shows four important reasons why the quality of data in an organization has deteriorated in the past few years.
 
 | Cause | Explanation |
 | --- | --- |
@@ -33,7 +33,7 @@ Statistical analysis helps to analyze patterns of data using their distribution,
 
 ### Maintain a data stewardship program
 
-[Data steward](https://www.nitendratech.com/database/data-steward/)/Data Governance must ensure that the data that are captured within the organization are accurate and consistent throughout the organization so that users within that organization can rely on that data.
+[Data steward](/blog/data-steward/)/Data Governance must ensure that the data that are captured within the organization are accurate and consistent throughout the organization so that users within that organization can rely on that data.
 
 ### Improve the Data Capture Process
 
@@ -41,7 +41,7 @@ Improving the data capture process is a fundamental step in a data quality impro
 
 - Originally captured
 - Pulled into a data integration process
-- Loaded into an integrated data store (e.g. [Data warehouse](https://www.nitendratech.com/database/enterprise-data-warehouse/))
+- Loaded into an integrated data store (e.g. [Data warehouse](/blog/enterprise-data-warehouse/))
 - Apply Modern Data Management Principles and Technology
 
 There are different powerful software available that can assist users with technical aspects of data quality improvement. This software employs advanced techniques such as pattern matching, fuzzy logic, and other expert systems to analyze data for quality problems, identify and eliminate redundant data, and integrate data from multiple sources.

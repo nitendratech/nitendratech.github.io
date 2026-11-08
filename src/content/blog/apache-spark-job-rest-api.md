@@ -7,7 +7,7 @@ subcategory: "Spark"
 draft: false
 ---
 
-When working with [Apache Spark](https://www.nitendratech.com/spark/apache-spark/), there are times when you need to trigger a Spark job on demand from outside the cluster. There are two ways in which we can submit [Apache spark](https://www.nitendratech.com/spark/apache-spark/) job in a cluster.
+When working with [Apache Spark](/blog/apache-spark/), there are times when you need to trigger a Spark job on demand from outside the cluster. There are two ways in which we can submit [Apache spark](/blog/apache-spark/) job in a cluster.
 
 - **Spark Submit from within the Spark cluster**
 

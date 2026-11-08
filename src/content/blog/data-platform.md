@@ -8,7 +8,7 @@ subcategory: "Data Platforms"
 
 ## Introduction to Data Platform
 
-A Data Platform is a centralized system that provides an integrated and scalable solution for managing various types of [data](https://www.nitendratech.com/datascience/data-explained/) such as structured, semi-structured, and unstructured data. It consists of different tools, technology, and infrastructure that are used for meeting an organization's need for ingestion, preparation, storage, delivery, governance, compliance as well as security of the data. A data platform manages a variety of structures of data across the enterprise that includes IT and Technical operations, various lines of business, and data coming from internal and external clients.
+A Data Platform is a centralized system that provides an integrated and scalable solution for managing various types of [data](/blog/data-explained/) such as structured, semi-structured, and unstructured data. It consists of different tools, technology, and infrastructure that are used for meeting an organization's need for ingestion, preparation, storage, delivery, governance, compliance as well as security of the data. A data platform manages a variety of structures of data across the enterprise that includes IT and Technical operations, various lines of business, and data coming from internal and external clients.
 
 A data platform is part of the modern data stack, as it consists of different techniques and tools that are developed and supported by different vendors. It mainly consists of data storage, data processing, and data analysis layers.
 

@@ -7,7 +7,7 @@ subcategory: "System Design"
 draft: false
 ---
 
-When designing or architecting a [software application](https://www.nitendratech.com/programming/learn-computer-science/), a system can be designed as stateless or stateful, with its own strength and weaknesses. Fundamental difference between the system is how the system process request or manages data. In this blog post, we will explore the design principles, use cases their advantages of stateless and Stateful systems,
+When designing or architecting a [software application](/blog/learn-computer-science/), a system can be designed as stateless or stateful, with its own strength and weaknesses. Fundamental difference between the system is how the system process request or manages data. In this blog post, we will explore the design principles, use cases their advantages of stateless and Stateful systems,
 
 ## Stateless Systems
 
@@ -31,7 +31,7 @@ In Stateless system, each request is created a standalone request without remain
 
 - Web Servers
 - Developing RESTful APIs
-- Useful in [Microservices](https://www.nitendratech.com/programming/learn-microservices/) architecture
+- Useful in [Microservices](/blog/learn-microservices/) architecture
 
 ## Stateful Systems
 

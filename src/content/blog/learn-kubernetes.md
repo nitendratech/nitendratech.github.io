@@ -7,7 +7,7 @@ subcategory: "Kubernetes"
 draft: false
 ---
 
-Kubernetes is an open-source orchestration platform that automates the deployment, scaling, and management of [containerized](https://www.nitendratech.com/technology/learn-containerization/) applications. It was originally developed by Google and is now maintained by the cloud native computing foundation(CNCF). It is also known as `k8s` in short form. Furthermore, it has become one of the most popular tools for container orchestration.
+Kubernetes is an open-source orchestration platform that automates the deployment, scaling, and management of [containerized](/blog/learn-containerization/) applications. It was originally developed by Google and is now maintained by the cloud native computing foundation(CNCF). It is also known as `k8s` in short form. Furthermore, it has become one of the most popular tools for container orchestration.
 
 Kubernetes provides a variety of extensible and flexible sets of APIs, along with a large ecosystem of tools and plugins. With Kubernetes, one can easily deploy and manage containers across a cluster of machines, automatically scaling your applications depending upon the demand. This makes it ideal for an organization to manage its cloud-native and modern applications that must be designed with distribution, resiliency, and scalability in mind.
 

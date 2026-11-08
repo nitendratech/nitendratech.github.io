@@ -7,7 +7,7 @@ subcategory: "Hadoop"
 draft: false
 ---
 
-[Apache Hadoop](https://www.nitendratech.com/hadoop/apache-hadoop/) can be used in multiple modes to achieve a different set of tasks. There are three modes in which a [Hadoop MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) application can be executed.
+[Apache Hadoop](/blog/apache-hadoop/) can be used in multiple modes to achieve a different set of tasks. There are three modes in which a [Hadoop MapReduce](/blog/hadoop-mapreduce-framework/) application can be executed.
 
 - Local (Standalone) mode
 - Pseudo-Distributed Mode
@@ -21,7 +21,7 @@ It is the default mode of Hadoop and is also called the Local mode. This mode ex
 
 When we decompress the Hadoop source package, it is unknown of the hardware setup. In this case, Hadoop uses minimal settings from the configuration files- `mapred-site.xml`, `core-site.xml`, `hdfs-site.xml`. We don't need to change any settings from these files.
 
-When configuration files are empty, Hadoop will completely run on the local machine. So, it will not use [HDFS (Hadoop Distributed File System)](https://www.nitendratech.com/hadoop/hadoop-hdfs/) or launch any Hadoop demons. It's mainly used for debugging and testing MapReduce applications without having any additional complexity of interacting with the daemons.
+When configuration files are empty, Hadoop will completely run on the local machine. So, it will not use [HDFS (Hadoop Distributed File System)](/blog/hadoop-hdfs/) or launch any Hadoop demons. It's mainly used for debugging and testing MapReduce applications without having any additional complexity of interacting with the daemons.
 
 ## Pseudo-Distributed Mode (Single Node Cluster)
 

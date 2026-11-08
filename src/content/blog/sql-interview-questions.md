@@ -15,11 +15,11 @@ In this blog post, we will go through important SQL Interview questions and answ
 
 **Question: What do you understand by Relational Data Management System(RDBMS)?**
 
-**Answer:** RDBMS stands for Relational Data Management System. A [database](https://www.nitendratech.com/database/learn-database/) is called a relational data model, as it represents the relationship between one or more databases. The relationship is known as the relational database model. It provides flexibility and allows one database to be about another database. This database uses a particular structure such as rows and columns to store, identify, access data, and relate to other data in the database. We can use Structured Query Language or SQL to access the data from Relational Databases easily.
+**Answer:** RDBMS stands for Relational Data Management System. A [database](/blog/learn-database/) is called a relational data model, as it represents the relationship between one or more databases. The relationship is known as the relational database model. It provides flexibility and allows one database to be about another database. This database uses a particular structure such as rows and columns to store, identify, access data, and relate to other data in the database. We can use Structured Query Language or SQL to access the data from Relational Databases easily.
 
 **Question: What is SQL?**
 
-**Answer:** SQL stands for Structured Query Language. [SQL](https://www.nitendratech.com/database/learn-sql/) is a programming language used to retrieve, manipulate, and store data from [relational database management systems (RDBMS)](https://www.nitendratech.com/database/relational-database/).
+**Answer:** SQL stands for Structured Query Language. [SQL](/blog/learn-sql/) is a programming language used to retrieve, manipulate, and store data from [relational database management systems (RDBMS)](/blog/relational-database/).
 
 SQL is ANSI (American National Standards Institute) and International Organization for Standardization (ISO) standard-certified language that can be used for interacting with a variety of databases. It is a declarative language where we give certain instructions or operations without giving specific details about how to complete that task.
 
@@ -163,7 +163,7 @@ SELECT MAX(<column_name>) FROM table_name WHERE <sql_condition>;
 
 **Question: What is View in SQL?**
 
-**Answer:** [A database](https://www.nitendratech.com/database/learn-database/) view is like a subset/snapshot of tables that are stored logically in a database. It is a virtual table that contains rows and columns similar to a real table. It is created by using a query that reads the data from the underlying table when the view is accessed.
+**Answer:** [A database](/blog/learn-database/) view is like a subset/snapshot of tables that are stored logically in a database. It is a virtual table that contains rows and columns similar to a real table. It is created by using a query that reads the data from the underlying table when the view is accessed.
 
 Let's take an example.
 
@@ -175,7 +175,7 @@ This query creates a view called customer_order_view, which combines data from t
 
 **Question: How do You create a Database View?**
 
-**Answer:** We can create views using `CREATE VIEW` statement in our [SQL](https://www.nitendratech.com/database/learn-sql/) query. We can give a virtual table name to the view, a list of column names, and a query to specify the contents of the view.
+**Answer:** We can create views using `CREATE VIEW` statement in our [SQL](/blog/learn-sql/) query. We can give a virtual table name to the view, a list of column names, and a query to specify the contents of the view.
 
 Below is the syntax for creating views.
 
@@ -278,7 +278,7 @@ Here, `INSERT`, `UPDATE`, and `DELETE` are `DML` statements.
 
 **Question: What is Join in SQL?**
 
-**Answer:** [SQL](https://www.nitendratech.com/database/learn-sql/) Join is a query in SQL that is used to combine data from two or more tables based on a common field among them. Joins indicate how SQL should use data from one table to select the rows in another table. By using joins, you can retrieve data from two or more tables based on logical relationships between the tables in a [database](https://www.nitendratech.com/database/learn-database/).
+**Answer:** [SQL](/blog/learn-sql/) Join is a query in SQL that is used to combine data from two or more tables based on a common field among them. Joins indicate how SQL should use data from one table to select the rows in another table. By using joins, you can retrieve data from two or more tables based on logical relationships between the tables in a [database](/blog/learn-database/).
 
 **Question: What are the different types of Join in SQL?**
 

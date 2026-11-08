@@ -9,7 +9,7 @@ draft: false
 
 ## What is Data Analysis?
 
-Data Analysis is a process that involves understanding or defining the problem, identifying the needed [data](https://www.nitendratech.com/datascience/data-explained/) sources, gathering, cleaning, and exploring the gathered data sources, performing exploratory data analysis, and identifying patterns and trends in the data to gain insights and present the findings to stakeholders clearly and concisely.
+Data Analysis is a process that involves understanding or defining the problem, identifying the needed [data](/blog/data-explained/) sources, gathering, cleaning, and exploring the gathered data sources, performing exploratory data analysis, and identifying patterns and trends in the data to gain insights and present the findings to stakeholders clearly and concisely.
 
 ## How do you clean the data?
 

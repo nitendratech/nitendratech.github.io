@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "SQL"
 ---
 
-We use the `ORDER BY` clause in [SQL](https://www.nitendratech.com/database/learn-sql/)-based SELECT statement. We use this clause when we want to sort the rows returned by a SELECT statement in either ascending or descending order in the table.
+We use the `ORDER BY` clause in [SQL](/blog/learn-sql/)-based SELECT statement. We use this clause when we want to sort the rows returned by a SELECT statement in either ascending or descending order in the table.
 
 ORDER by clause in SQL sorts the data in ascending order by default if we don't mention ASC or DESC in the clause. If we use DESC in the order by clause, we get the resulting rows in descending order.
 

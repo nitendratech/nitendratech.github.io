@@ -7,7 +7,7 @@ subcategory: "MapReduce"
 draft: false
 ---
 
-There are 3 types of joins, Reduce-Side joins, Map-Side joins, and memory-backed Joins that can be used to join Tables in [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/).
+There are 3 types of joins, Reduce-Side joins, Map-Side joins, and memory-backed Joins that can be used to join Tables in [MapReduce](/blog/hadoop-mapreduce-framework/).
 
 ## Map Side Join
 
@@ -20,7 +20,7 @@ Joining at the map side performs the join before data reaches the map function. 
 
 ## Reduce Side Join
 
-A reduce side join occurs on the reducer side and is also called a Re-partitioned join or repartitioned sort-merge join. In fact, it is the most used join type in the [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) framework. This type of join would be performed at a reduce side and thus have to go through a sort and shuffle phase, which would incur network overhead.
+A reduce side join occurs on the reducer side and is also called a Re-partitioned join or repartitioned sort-merge join. In fact, it is the most used join type in the [MapReduce](/blog/hadoop-mapreduce-framework/) framework. This type of join would be performed at a reduce side and thus have to go through a sort and shuffle phase, which would incur network overhead.
 
 ## Memory Backed Join
 

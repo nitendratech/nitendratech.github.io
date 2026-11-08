@@ -7,7 +7,7 @@ subcategory: "Scala"
 draft: false
 ---
 
-A Case class in Scala [programming language](https://www.nitendratech.com/programming/programming-langauge/) is a class with a case modifier. It is used to conveniently store and match the contents of a class.
+A Case class in Scala [programming language](/blog/programming-langauge/) is a class with a case modifier. It is used to conveniently store and match the contents of a class.
 
 ```scala
 case class Person (name: String, address: String)

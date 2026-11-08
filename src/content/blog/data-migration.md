@@ -9,7 +9,7 @@ draft: false
 
 ## What is Data Migration?
 
-Data migration is the process of migrating the data from one system to another or one location to another, or from one data format to another. With the modernization effort going on in various industries, many companies are trying to migrate their existing [data](https://www.nitendratech.com/datascience/data-explained/) from private cluster to cloud based environment. In this blog post, we'll delve into the explore data migration process, its importance, challenge and best practices.
+Data migration is the process of migrating the data from one system to another or one location to another, or from one data format to another. With the modernization effort going on in various industries, many companies are trying to migrate their existing [data](/blog/data-explained/) from private cluster to cloud based environment. In this blog post, we'll delve into the explore data migration process, its importance, challenge and best practices.
 
 ## Types of Data Migration?
 

@@ -21,7 +21,7 @@ The below diagram shows the several ways in which computer is being used in toda
 
 Computer Science is the study of computers and their computational systems. In Computer science, we mainly focus on software and software systems and the method to develop that software,
 
-In the field of computer science, one needs to learn about programming, coding, statistical skills, and managerial skills. There are some people who want to understand the basics of computer science; some who want to learn for the better. In order to succeed in the computer science field, one needs to be better at algorithms, and data structures. We need to decide what [data](https://www.nitendratech.com/datascience/data-explained/) structure to use for certain types of applications, how to use it, and where to use it. We need to design and analyze algorithms that are used for developing various computer software.
+In the field of computer science, one needs to learn about programming, coding, statistical skills, and managerial skills. There are some people who want to understand the basics of computer science; some who want to learn for the better. In order to succeed in the computer science field, one needs to be better at algorithms, and data structures. We need to decide what [data](/blog/data-explained/) structure to use for certain types of applications, how to use it, and where to use it. We need to design and analyze algorithms that are used for developing various computer software.
 
 ## Topics that need to be learned for computer science
 
@@ -31,7 +31,7 @@ Below is the list of topics that one must be familiar with when they want to sta
 - Computer Systems and Networks
 - Algorithms and Data Structures
 - Computer Networking
-- [Databases Systems](https://www.nitendratech.com/database/learn-database/)
+- [Databases Systems](/blog/learn-database/)
 - Languages and Compilers
 - Mathematics
 - Computer Architectures

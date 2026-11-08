@@ -7,7 +7,7 @@ subcategory: "Spark"
 draft: false
 ---
 
-[Apache Spark](https://www.nitendratech.com/spark/apache-spark/) is an open-source cluster-computing framework. This post will explain the steps for installing the prebuilt version of Apache Spark 2.1.1 as a stand-alone cluster in a Linux system. I have used Ubuntu as a debain based OS for this post.
+[Apache Spark](/blog/apache-spark/) is an open-source cluster-computing framework. This post will explain the steps for installing the prebuilt version of Apache Spark 2.1.1 as a stand-alone cluster in a Linux system. I have used Ubuntu as a debain based OS for this post.
 
 ## Install open SSH server and client and another prerequisite
 

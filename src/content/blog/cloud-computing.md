@@ -7,13 +7,13 @@ subcategory: "Cloud Computing"
 draft: false
 ---
 
-We have seen in the last decades that [data](https://www.nitendratech.com/datascience/data-explained/) and information can be processed efficiently when computing and storage systems are combined through the concept of the cloud. Users can connect and run their applications on these large farms of computers that are connected to the internet. There has been tremendous improvement in internet speed which have resulted in the spread of data centers in different geographical location.
+We have seen in the last decades that [data](/blog/data-explained/) and information can be processed efficiently when computing and storage systems are combined through the concept of the cloud. Users can connect and run their applications on these large farms of computers that are connected to the internet. There has been tremendous improvement in internet speed which have resulted in the spread of data centers in different geographical location.
 
 Currently, we see that all the big Information technology companies like Amazon, Google, IBM, and Microsoft provide these cloud services to the public. This is done in the same manner as companies are providing public utilities like water and electricity to the public.
 
 ## What is Cloud Computing?
 
-Cloud computing is a delivery mechanism of various services along with the needed servers, storage, [database](https://www.nitendratech.com/database/learn-database/), software, analytics, and intelligence over the internet at a massive scale. Customers pay for the cloud services they used. This enables the organization to lower its operating cost and run its platform economically and at scale. Cloud computing is the storage and retrieval of data and applications from remote locations over the internet. It is the on-demand availability of data storage and computes power from the computer system resources without having to manage it yourself. In Cloud computing, we use the services provided and maintained by the third party to host the applications instead of hosting locally or on-premise.
+Cloud computing is a delivery mechanism of various services along with the needed servers, storage, [database](/blog/learn-database/), software, analytics, and intelligence over the internet at a massive scale. Customers pay for the cloud services they used. This enables the organization to lower its operating cost and run its platform economically and at scale. Cloud computing is the storage and retrieval of data and applications from remote locations over the internet. It is the on-demand availability of data storage and computes power from the computer system resources without having to manage it yourself. In Cloud computing, we use the services provided and maintained by the third party to host the applications instead of hosting locally or on-premise.
 
 ## Types of Cloud Computing
 
@@ -96,7 +96,7 @@ There are many cloud computing platform that exists today. An organization's req
 
 ## Best Programming Languages for Cloud Computing
 
-There are many [programming languages](https://www.nitendratech.com/programming/programming-langauge/) supported by cloud computing platforms. This programming language differs from cloud platform by platform. Here we will see the top programming languages supported by most of the cloud computing platforms.
+There are many [programming languages](/blog/programming-langauge/) supported by cloud computing platforms. This programming language differs from cloud platform by platform. Here we will see the top programming languages supported by most of the cloud computing platforms.
 
 - Java
 - Python

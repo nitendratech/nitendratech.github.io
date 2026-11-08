@@ -55,7 +55,7 @@ There are many technologies for application containerization besides docker.
 Containerization has been one of the most popular technologies in recent years to be used by large companies. Some of the biggest technology companies using containerization include.
 
 - Google
-- [Amazon](https://www.nitendratech.com/technology/learn-aws/)
+- [Amazon](/blog/learn-aws/)
 - Microsoft
 - IBM
 - Netflix

@@ -6,9 +6,9 @@ category: "Data Engineering"
 subcategory: "SQL"
 ---
 
-A transaction is a logical atomic unit of [database](https://www.nitendratech.com/database/learn-database/) operations that is executed as a single unit. It can have a single or multiple statements. [SQL](https://www.nitendratech.com/database/learn-sql/)-based transaction satisfies the [ACID](https://www.nitendratech.com/database/acid-property-database/)-based property which makes the transaction atomic, consistent, isolated, and durable operation. A transaction as a whole can be committed or rolled back from the database.
+A transaction is a logical atomic unit of [database](/blog/learn-database/) operations that is executed as a single unit. It can have a single or multiple statements. [SQL](/blog/learn-sql/)-based transaction satisfies the [ACID](/blog/acid-property-database/)-based property which makes the transaction atomic, consistent, isolated, and durable operation. A transaction as a whole can be committed or rolled back from the database.
 
-Each database transaction is isolated from other transactions. When the transaction executes successfully and satisfies all the database constraints, it persists in storage. A transaction can have `insert` or `delete` or `UPDATE` statement that will perform these operations on underlying [data](https://www.nitendratech.com/datascience/data-explained/). The transaction ends when it is either committed or rolled back by using `COMMIT` or `ROLLBACK` statement. If any statement in the transactional block throws an error, the entire transaction is rolled back.
+Each database transaction is isolated from other transactions. When the transaction executes successfully and satisfies all the database constraints, it persists in storage. A transaction can have `insert` or `delete` or `UPDATE` statement that will perform these operations on underlying [data](/blog/data-explained/). The transaction ends when it is either committed or rolled back by using `COMMIT` or `ROLLBACK` statement. If any statement in the transactional block throws an error, the entire transaction is rolled back.
 
 ## Transaction Controls
 

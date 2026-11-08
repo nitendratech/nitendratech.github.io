@@ -7,7 +7,7 @@ subcategory: "Data Privacy"
 draft: false
 ---
 
-In today's modern and digital age of data-driven movements, [data](https://www.nitendratech.com/datascience/data-explained/) plays a crucial role in our personal and professional lives. Everything we do generates data in this digital world, both public and private. Data are generated from our devices connected through networks, smart cars, payment systems, smart homes, shopping habits, and transportation systems. These data are used to gather intelligence by finding patterns in them and then making decisions directly impacting the individual day-to-day lives.
+In today's modern and digital age of data-driven movements, [data](/blog/data-explained/) plays a crucial role in our personal and professional lives. Everything we do generates data in this digital world, both public and private. Data are generated from our devices connected through networks, smart cars, payment systems, smart homes, shopping habits, and transportation systems. These data are used to gather intelligence by finding patterns in them and then making decisions directly impacting the individual day-to-day lives.
 
 Many of the software companies and organizations collection these data spend the predominant amount of time and effort to protect these private data, ensuring that sensitive information remains confidential and secure. While they act as a guardian of the privacy of the data, they also need to make sure that the data stored in the computer is secure and does not fall into the wrong hands.
 
@@ -15,7 +15,7 @@ In this blog post, we will learn about the role of computer security in safeguar
 
 ## Why is Data Privacy important?
 
-[Data privacy](https://www.nitendratech.com/datascience/data-privacy/) is a process in which the personal or sensitive information of an individual is protected and controlled from unauthorized access, use, or being disclosed publicly. It encompasses the idea of an individual having a fundamental right that dictates how their data is collected, stored, and shared with individuals. In this interconnected world, data is considered as the new currency. With the exponential data growth in this digital era, the need for robust data privacy measures has become imperative to protect personal data or Personally identifiable information (PII) data.
+[Data privacy](/blog/data-privacy/) is a process in which the personal or sensitive information of an individual is protected and controlled from unauthorized access, use, or being disclosed publicly. It encompasses the idea of an individual having a fundamental right that dictates how their data is collected, stored, and shared with individuals. In this interconnected world, data is considered as the new currency. With the exponential data growth in this digital era, the need for robust data privacy measures has become imperative to protect personal data or Personally identifiable information (PII) data.
 
 ## What is Personal Data or Personally identifiable information (PII) data?
 

@@ -7,7 +7,7 @@ subcategory: "Data Governance"
 draft: false
 ---
 
-Managing metadata is an integral part of the overall data governance standard. An efficient way to do this is to establish data stewardship for [metadata](https://www.nitendratech.com/bigdata/metadata-big-data-applications/). It will ensure that data will remain consistent throughout the enterprise and provide [big data](https://www.nitendratech.com/bigdata/big-data/) analytics decisions with accuracy. It also provides the users of this data with value and a context for understanding the data and its components.
+Managing metadata is an integral part of the overall data governance standard. An efficient way to do this is to establish data stewardship for [metadata](/blog/metadata-big-data-applications/). It will ensure that data will remain consistent throughout the enterprise and provide [big data](/blog/big-data/) analytics decisions with accuracy. It also provides the users of this data with value and a context for understanding the data and its components.
 
 ## Responsibilities of Metadata Stewards.
 

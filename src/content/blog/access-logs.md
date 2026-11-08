@@ -7,7 +7,7 @@ subcategory: "Logging"
 draft: false
 ---
 
-As more and more people have started using the internet, online applications, and software have increased drastically within the last decade. With this, there has been an increase in digital footprints left by internet-based users from millions to billions. These footprints consist of web usage data that is recorded in the form of access logs on web servers. The rate at which [log files](https://www.nitendratech.com/technology/log-file/) are produced in modern distributed applications ranges from several terabytes to petabytes per day.
+As more and more people have started using the internet, online applications, and software have increased drastically within the last decade. With this, there has been an increase in digital footprints left by internet-based users from millions to billions. These footprints consist of web usage data that is recorded in the form of access logs on web servers. The rate at which [log files](/blog/log-files/) are produced in modern distributed applications ranges from several terabytes to petabytes per day.
 
 Application servers within internet-based companies store and record different types of logs, ranging from system and access logs. Among these logs, access logs contain information related to user navigational behavior and user access patterns. This blog posts on the Combined Log Format (CLF), which is the most popular access logs format in the current market.
 

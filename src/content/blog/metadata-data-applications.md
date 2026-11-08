@@ -20,7 +20,7 @@ According to Forrester, metadata is important because it is the foundation for m
 
 - **Easier interaction with the data**
 
-  It allows users to interact with the data through the higher-level logical abstraction of a table, rather than as a mere collection of files on file-based storage systems like [HDFS (Hadoop Distributed File System)](https://www.nitendratech.com/hadoop/introduction-hadoop-hdfs/) or AWS S3, or Azure platform. This table can be a Non-Relational database like HBase or a relational database like Oracle. In order to discover or interact with data visually, users don’t need to be concerned about where or how the data is stored.
+  It allows users to interact with the data through the higher-level logical abstraction of a table, rather than as a mere collection of files on file-based storage systems like [HDFS (Hadoop Distributed File System)](/blog/hadoop-hdfs/) or AWS S3, or Azure platform. This table can be a Non-Relational database like HBase or a relational database like Oracle. In order to discover or interact with data visually, users don’t need to be concerned about where or how the data is stored.
 
 - **Supplies Information About Data**
 

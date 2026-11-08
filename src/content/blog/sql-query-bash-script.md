@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "SQL"
 ---
 
-While working as a developer, one needs to automate some existing [Structured Query Language (SQL)](https://www.nitendratech.com/database/learn-sql/) queries using bash script without accessing the interactive MySQL prompt. In this blog post, I will show the different ways to run SQL queries using Bash Script or using a command line. I will be using the MySQL database in this blog.
+While working as a developer, one needs to automate some existing [Structured Query Language (SQL)](/blog/learn-sql/) queries using bash script without accessing the interactive MySQL prompt. In this blog post, I will show the different ways to run SQL queries using Bash Script or using a command line. I will be using the MySQL database in this blog.
 
 Before following this blog post, please make sure that you have a MySQL client and server installed. Use the below command to check if MySQL is installed on your machine.
 

@@ -7,7 +7,7 @@ subcategory: "Docker"
 draft: false
 ---
 
-[Docker](https://www.nitendratech.com/interview/docker-interview-questions/) is a development platform used to build, run, compile, and share applications in a containerized environment. [Containerization](https://www.nitendratech.com/technology/learn-containerization/) is the process of packaging all the application dependencies and configurations together so that the same container can be run in various environments.
+[Docker](/blog/docker-interview-questions/) is a development platform used to build, run, compile, and share applications in a containerized environment. [Containerization](/blog/learn-containerization/) is the process of packaging all the application dependencies and configurations together so that the same container can be run in various environments.
 
 As a developer, we need to work on many virtual machines. I used mainly VMware and Virtual box when I was using windows. When you work on virtual machines in Mac OS X, you can use Docker to work with virtual machines. If we want to use docker on Mac, Docker desktop is the best tool to use.
 

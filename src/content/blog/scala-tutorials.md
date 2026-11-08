@@ -15,16 +15,16 @@ This page will guide you through different topics one needs for learning Java Pr
 
 ## Basics
 
-- [Scala Programming Language](https://www.nitendratech.com/scala/scala-programming-language/)
-- [Scala Variables](https://www.nitendratech.com/scala/scala-variables/)
-- [Scala Functions and Methods](https://www.nitendratech.com/scala/scala-functions-methods/)
-- [Scala Class and Objects](https://www.nitendratech.com/scala/scala-class-objects/)
+- [Scala Programming Language](/blog/scala-programming-language/)
+- [Scala Variables](/blog/scala-variables/)
+- [Scala Functions and Methods](/blog/scala-functions/)
+- [Scala Class and Objects](/blog/scala-class-objects/)
 
 ## Advanced
 
-- [Scala Case Classes And Pattern Matching](https://www.nitendratech.com/scala/scala-case-classes-pattern-matching/)
-- [Options in Scala](https://www.nitendratech.com/scala/options-scala/)
-- [Understanding Scala Collections](https://www.nitendratech.com/scala/understanding-scala-collections/)
+- [Scala Case Classes And Pattern Matching](/blog/scala-case-classes-pattern-matching/)
+- [Options in Scala](/blog/options-scala/)
+- [Understanding Scala Collections](/blog/understanding-scala-collections/)
 
 ---
 

@@ -6,9 +6,9 @@ category: "Data Engineering"
 subcategory: "Apache Sqoop"
 ---
 
-Apache Sqoop is a top-level open-source project from Apache Software Foundation. It enables users to transfer bulk data between the Hadoop ecosystem and relational databases. Here Hadoop ecosystem includes [Hadoop Distributed File System (HDFS)](https://www.nitendratech.com/hadoop/hadoop-hdfs/), [Hive](https://www.nitendratech.com/hive/apache-hive/), [HBase](https://www.nitendratech.com/bigdata/apache-hbase/), HCatalog, etc. Relational databases supported at this time are MySQL, PostgreSQL, Oracle, SQL Server, Teradata, and DB2.
+Apache Sqoop is a top-level open-source project from Apache Software Foundation. It enables users to transfer bulk data between the Hadoop ecosystem and relational databases. Here Hadoop ecosystem includes [Hadoop Distributed File System (HDFS)](/blog/hadoop-hdfs/), [Hive](/blog/apache-hive/), [HBase](/blog/apache-hbase/), HCatalog, etc. Relational databases supported at this time are MySQL, PostgreSQL, Oracle, SQL Server, Teradata, and DB2.
 
-Apache Sqoop is similar to the DistCP (Distributed Copy) utility that is available in Hadoop. The DistCP utility can be used to transfer data between clusters, whereas Sqoop can be used to transfer data only between Hadoop and [RDBMS](https://www.nitendratech.com/database/relational-database/). It supports file systems like flat files(CSV/TSV), binary formats like (Avro and Hadoop Sequence files).
+Apache Sqoop is similar to the DistCP (Distributed Copy) utility that is available in Hadoop. The DistCP utility can be used to transfer data between clusters, whereas Sqoop can be used to transfer data only between Hadoop and [RDBMS](/blog/relational-database/). It supports file systems like flat files(CSV/TSV), binary formats like (Avro and Hadoop Sequence files).
 
 ## Check Sqoop Version
 

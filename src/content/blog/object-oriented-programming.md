@@ -105,8 +105,8 @@ A Java class is an example of encapsulation.
 
 There are many programming languages based on object-oriented design. I have listed down some popular ones.
 
-- [Java](https://www.nitendratech.com/java/java-tutorials/)
-- [Scala](https://www.nitendratech.com/scala/scala-tutorials/)
+- [Java](/blog/java-tutorials/)
+- [Scala](/blog/scala-tutorials/)
 - Python
 - JavaScript
 - C ++

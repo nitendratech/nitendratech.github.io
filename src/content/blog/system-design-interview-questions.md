@@ -51,7 +51,7 @@ A CDN or Content Delivery Network is a group of geographically distributed serve
 
 TTL or Time to Live is a mechanism that is used to limit the lifetime of data on a computer or the network. Once the predefined time or counter has elapsed, this data is discarded.
 
-In terms of distributed computing, it is commonly used in Non-Relational or [NoSQL](https://www.nitendratech.com/database/nosql-databases/) databases like Apache Hbase, Cassandra, and time-series databases. We need to create a timestamp-based column when designing the data models for the NoSQL database. This timestamp-based column is used as a basis to determine the TTL for the data in that schema. Once the designated time has expired, this data is deleted.
+In terms of distributed computing, it is commonly used in Non-Relational or [NoSQL](/blog/nosql-databases/) databases like Apache Hbase, Cassandra, and time-series databases. We need to create a timestamp-based column when designing the data models for the NoSQL database. This timestamp-based column is used as a basis to determine the TTL for the data in that schema. Once the designated time has expired, this data is deleted.
 
 ## What is the Single Point of Failure(SPOF) in a Distributed System?
 
@@ -134,7 +134,7 @@ WAL or Write ahead logging is a popular concept in computer science for assuring
 
 Durability is an achiever in an application as the mutation is written to the WAL before applying any change to the database. This is done so that, we can recover the mutation in case of any crash or server failure. The WAL that persisted before is used to bring the database to an earlier state if any crash occurs by replaying the logs.
 
-This WAL can be used to roll back the data in case of a power outage or failure. Data files can be rolled forward if there are any uncommitted transactions or rolled back in case of power failure. This technique makes sure that no transaction gets flushed to the disk until the transactions are recorded to disk as logs to maintain the [ACID property](https://www.nitendratech.com/database/acid-property-database/) of the transaction,
+This WAL can be used to roll back the data in case of a power outage or failure. Data files can be rolled forward if there are any uncommitted transactions or rolled back in case of power failure. This technique makes sure that no transaction gets flushed to the disk until the transactions are recorded to disk as logs to maintain the [ACID property](/blog/acid-property-database/) of the transaction,
 
 These logs are written in segments until an allotted size is reached. Once the file crosses the allotted size, WAL starts a new segment. This makes it easier for the Database Administration(DBA)/ Infrastructure Engineer /Site Reliability Engineer to truncate the logs based on their timestamp or their usability.
 
@@ -150,7 +150,7 @@ Most database software uses one form of WAL to maintain the transaction backup. 
 
 ## What is Hadoop Distributed File System (HDFS)
 
-[HDFS or Hadoop Distributed File System,](https://www.nitendratech.com/hadoop/hadoop-hdfs/) is a distributed file system for [Apache Hadoop](https://www.nitendratech.com/hadoop/apache-hadoop/)that handles large data sets while running on commodity hardware. It can handle structured, unstructured, and semi-structured data while supporting streaming/batch data access patterns to the application that runs on top of it. It was built around the idea that the most efficient data processing pattern in a distributed environment would be the “write once, read many times” pattern. HDFS was created based on the paper published by Google where they give details about Google File System(GFS) and MapReduce algorithm.
+[HDFS or Hadoop Distributed File System,](/blog/hadoop-hdfs/) is a distributed file system for [Apache Hadoop](/blog/apache-hadoop/)that handles large data sets while running on commodity hardware. It can handle structured, unstructured, and semi-structured data while supporting streaming/batch data access patterns to the application that runs on top of it. It was built around the idea that the most efficient data processing pattern in a distributed environment would be the “write once, read many times” pattern. HDFS was created based on the paper published by Google where they give details about Google File System(GFS) and MapReduce algorithm.
 
 ## What is a Cyclic redundancy check?
 
@@ -158,7 +158,7 @@ CRC or Cyclic redundancy check is a code that detects the error on a periodic ba
 
 ## What is Database Replication?
 
-[Database](https://www.nitendratech.com/database/learn-database/) replication is a process in which data from the central database is copied to one or more databases. The database whose data is copied to another database is called a publisher database whereas the database getting the data is known as the Subscriber database. This process is followed to make sure the database is distributed in a different data center or geographical location so that users connecting to any of the databases see the same data and work on it.
+[Database](/blog/learn-database/) replication is a process in which data from the central database is copied to one or more databases. The database whose data is copied to another database is called a publisher database whereas the database getting the data is known as the Subscriber database. This process is followed to make sure the database is distributed in a different data center or geographical location so that users connecting to any of the databases see the same data and work on it.
 
 ## What are Sockets in Networking?
 
@@ -166,7 +166,7 @@ A socket is one endpoint to the two-way communication link that is used as a com
 
 ## What is a CAP Theorem in Distributed Systems?
 
-The [CAP theorem](https://www.nitendratech.com/database/cap-theorem/) or Brewer theorem is a fundamental theorem presented by Eric Brewer in 2000 AD, who was a computer science professor at UC Berkeley. He presented this conjecture during a talk show on distributed computing principles. According to this theorem, a distributed system can only have two of three properties at the same time; Consistency, Availability, and Partition tolerance. This theorem formalizes the trade-off in the distributed system between these properties.
+The [CAP theorem](/blog/cap-theorem/) or Brewer theorem is a fundamental theorem presented by Eric Brewer in 2000 AD, who was a computer science professor at UC Berkeley. He presented this conjecture during a talk show on distributed computing principles. According to this theorem, a distributed system can only have two of three properties at the same time; Consistency, Availability, and Partition tolerance. This theorem formalizes the trade-off in the distributed system between these properties.
 
 ## What is Scalability?
 

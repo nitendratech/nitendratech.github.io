@@ -9,9 +9,9 @@ draft: false
 
 ## Precision Marketing
 
-Precision marketing is a technique that focuses on delivering tailored and relevant products and services to a specific individual or group of people. It is also known as personalized or Targeted Marketing. Its goal is to utilize the data-driven technique to reach the correct set of audiences and the right message at the right time. This marketing is possible through collecting various types of [data](https://www.nitendratech.com/datascience/data-explained/) like demographics, behavior, location data, behavior data, and geographical information of the customers.
+Precision marketing is a technique that focuses on delivering tailored and relevant products and services to a specific individual or group of people. It is also known as personalized or Targeted Marketing. Its goal is to utilize the data-driven technique to reach the correct set of audiences and the right message at the right time. This marketing is possible through collecting various types of [data](/blog/data-explained/) like demographics, behavior, location data, behavior data, and geographical information of the customers.
 
-It uses various technologies and techniques such as [machine learning](https://www.nitendratech.com/datascience/machine-learning/) and Artificial Intelligence to analyze large datasets and automate personalized messaging at scale. This technique allows businesses to improve customer relationships and reduce spending on an advertisement that might not resonate with the intended audience.
+It uses various technologies and techniques such as [machine learning](/blog/machine-learning/) and Artificial Intelligence to analyze large datasets and automate personalized messaging at scale. This technique allows businesses to improve customer relationships and reduce spending on an advertisement that might not resonate with the intended audience.
 
 ## Key Components of Precision Marketing
 

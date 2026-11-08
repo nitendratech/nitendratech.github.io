@@ -9,7 +9,7 @@ draft: false
 
 ## Introduction to Data Lake
 
-A Data Lake is a centralized data-centric storage architecture that is used for persisting a variety of [data](https://www.nitendratech.com/datascience/data-explained/) in its raw, unfiltered, and untransformed format. It is used as a single point of storage for all the raw and curated enterprise data sets. These data sets can be used for various use cases like reporting, visualization, analytics, and machine learning purposes.
+A Data Lake is a centralized data-centric storage architecture that is used for persisting a variety of [data](/blog/data-explained/) in its raw, unfiltered, and untransformed format. It is used as a single point of storage for all the raw and curated enterprise data sets. These data sets can be used for various use cases like reporting, visualization, analytics, and machine learning purposes.
 
 Data Lake stores information from multiple access points. This platform is a distributed, highly scalable data store that can scale horizontally with changing data needs. We can set up Time-to-Live (TTL) for the entries in the Data lake to purge the data after the appropriate time if needed.
 

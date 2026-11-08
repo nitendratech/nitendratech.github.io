@@ -7,7 +7,7 @@ subcategory: "Hive"
 draft: false
 ---
 
-[Apache hive](https://www.nitendratech.com/hive/apache-hive/) is a data warehousing tool in which we use a [Structured Query Language(SQL)](https://www.nitendratech.com/database/learn-sql/) like language called Hive Query Language(HQL) to perform various [ETL](https://www.nitendratech.com/database/etl-process/) tasks on given data. Hive is one of the [Apache Hadoop](https://www.nitendratech.com/hadoop/apache-hadoop/) stacks that allows users to manage and process huge amounts of data. As many developers are familiar with SQL, they can easily write complex queries using HQL to perform certain analysis tasks.
+[Apache hive](/blog/apache-hive/) is a data warehousing tool in which we use a [Structured Query Language(SQL)](/blog/learn-sql/) like language called Hive Query Language(HQL) to perform various [ETL](/blog/etl-process/) tasks on given data. Hive is one of the [Apache Hadoop](/blog/apache-hadoop/) stacks that allows users to manage and process huge amounts of data. As many developers are familiar with SQL, they can easily write complex queries using HQL to perform certain analysis tasks.
 
 Apache Hive provides two types of function, namely built-in functions and UDF (User Defined Function). It has a [comprehensive library](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+UDF) of built-in functions that have different functions. There are times when a given requirement needs functionality for which no in-build function exists in the hive. In this scenario, we have to write a User-defined function
 

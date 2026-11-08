@@ -7,7 +7,7 @@ subcategory: "Hive"
 draft: false
 ---
 
-[Apache Hive](https://www.nitendratech.com/hive/apache-hive/) is a data warehouse infrastructure project built on top of Apache Hadoop for providing data summarization, ad-hoc queries, data aggregation, and analysis of datasets. The Hive Query Language (HiveQL) is a query language for Hive to process and analyze structured data stored in Apache Hadoop and perform analysis on top of it.
+[Apache Hive](/blog/apache-hive/) is a data warehouse infrastructure project built on top of Apache Hadoop for providing data summarization, ad-hoc queries, data aggregation, and analysis of datasets. The Hive Query Language (HiveQL) is a query language for Hive to process and analyze structured data stored in Apache Hadoop and perform analysis on top of it.
 
 ## Changing the default Metastore in Hive
 

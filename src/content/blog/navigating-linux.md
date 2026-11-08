@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Linux"
 ---
 
-`cd` command, also known as `chdir` (change directory), is a command-line shell command. It is used in navigating the Linux/Unix system and is widely used when writing [Shell Script](https://www.nitendratech.com/linux/bash-script/).
+`cd` command, also known as `chdir` (change directory), is a command-line shell command. It is used in navigating the Linux/Unix system and is widely used when writing [Shell Script](/blog/bash-script/).
 
 ## Change from Present Working Directory to another directory
 

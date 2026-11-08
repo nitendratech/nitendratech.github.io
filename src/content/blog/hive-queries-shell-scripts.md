@@ -11,7 +11,7 @@ When working with a Big data platform like Apache Hive, a certain task such as d
 
 In this blog, we will load movie data which is in CSV format into hive tables using Shell scripts. During the development of this script, I will demonstrate the below steps.
 
-- Copying the data from the Local Linux path to [HDFS](https://www.nitendratech.com/hadoop/introduction-hadoop-hdfs/)
+- Copying the data from the Local Linux path to [HDFS](/blog/hadoop-hdfs/)
 - Creating a Hive Internal/Managed Table
 - Create a Hive external Table
 

@@ -7,7 +7,7 @@ subcategory: "REST APIs"
 draft: false
 ---
 
-There are mainly six HTTP methods defined by [REST. API](https://www.nitendratech.com/programming/restful-web-services/) We would go through each of them in this blog.
+There are mainly six HTTP methods defined by [REST. API](/blog/restful-web-services/) We would go through each of them in this blog.
 
 ## GET
 

@@ -7,7 +7,7 @@ subcategory: "Java"
 draft: false
 ---
 
-This is one of the most common interview questions of all time when applying for a [Java](https://www.nitendratech.com/java/java-programming-language/) developer position. We will see the difference between Overloading and Overriding in this blog post.
+This is one of the most common interview questions of all time when applying for a [Java](/blog/java-programming-language/) developer position. We will see the difference between Overloading and Overriding in this blog post.
 
 ## OverLoading
 

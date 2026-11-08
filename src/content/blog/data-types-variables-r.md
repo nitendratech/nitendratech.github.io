@@ -20,7 +20,7 @@ R is a free software environment for statistical computing and graphics. It comp
 
 ## Data Structures in R
 
-R intuitively decides variable type in the background and assigns a class to the variable. R has a variety of [data](https://www.nitendratech.com/datascience/data-explained/) types and is case-sensitive when defining variables. A variable named ‘a’ is not the same as ‘A’.
+R intuitively decides variable type in the background and assigns a class to the variable. R has a variety of [data](/blog/data-explained/) types and is case-sensitive when defining variables. A variable named ‘a’ is not the same as ‘A’.
 
 - Atomic Vectors (numerical, Integer, character, logical)
 - Matrix

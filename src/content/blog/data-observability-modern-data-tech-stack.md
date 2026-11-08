@@ -8,7 +8,7 @@ subcategory: "Data Observability"
 
 ## Introduction
 
-In today's data-driven technology landscape, organization rely on [data pipelines](https://www.nitendratech.com/datascience/data-pipeline/) to fuel their decision process and business decisions. However, with the rise in volume of [data](https://www.nitendratech.com/datascience/data-explained/) and velocity in which it's increasing maintaining quality, reliability and trust worthiness of the data in cloud environment have become a challenging task. This is where data observability comes into play that allows the team to monitor, understand and optimize their data workflows.
+In today's data-driven technology landscape, organization rely on [data pipelines](/blog/data-pipeline/) to fuel their decision process and business decisions. However, with the rise in volume of [data](/blog/data-explained/) and velocity in which it's increasing maintaining quality, reliability and trust worthiness of the data in cloud environment have become a challenging task. This is where data observability comes into play that allows the team to monitor, understand and optimize their data workflows.
 
 ## What is Data Observability?
 

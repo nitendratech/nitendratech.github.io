@@ -7,27 +7,27 @@ subcategory: "Hadoop"
 draft: false
 ---
 
-Apache Hadoop/[HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/) and HBase are both parts of the [Big data](https://www.nitendratech.com/bigdata/big-data/) framework. They both are used to store a massive amount of data. In spite of this similarity, they have a lot of differences.
+Apache Hadoop/[HDFS](/blog/hadoop-hdfs/) and HBase are both parts of the [Big data](/blog/big-data/) framework. They both are used to store a massive amount of data. In spite of this similarity, they have a lot of differences.
 
 ## Apache Hadoop
 
-It is an open-source Big Data Analytics framework used for processing large data sets across clusters of low-cost servers using simple [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) programming models. It is designed to scale up from one server to multiple servers, offering computation and storage at the local level.
+It is an open-source Big Data Analytics framework used for processing large data sets across clusters of low-cost servers using simple [MapReduce](/blog/hadoop-mapreduce-framework/) programming models. It is designed to scale up from one server to multiple servers, offering computation and storage at the local level.
 
 Furthermore, it is made up of two components.
 
 - **HDFS (Hadoop Distributed File System)**
 
-[HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/) is a distributed file system that is designed for storing very large files with streaming data access patterns, running on clusters of commodity hardware. It was originally created and implemented by Google, where it was known as the Google File System (GFS). HDFS is designed such that it can handle large amounts of data and reduces the overall input/output operations on the network. It also increases the scalability and availability of the cluster because of data replication and fault tolerance
+[HDFS](/blog/hadoop-hdfs/) is a distributed file system that is designed for storing very large files with streaming data access patterns, running on clusters of commodity hardware. It was originally created and implemented by Google, where it was known as the Google File System (GFS). HDFS is designed such that it can handle large amounts of data and reduces the overall input/output operations on the network. It also increases the scalability and availability of the cluster because of data replication and fault tolerance
 
 - **MapReduce Programming Model**
 
-[MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) is a parallel programming model that is used for processing large chunks of data. It splits the input datasets from the disk into independent chunks if these data cannot be stored on one single node. It first executes the mapping tasks to process the split input data in a parallel manner and sorts the output of the map function and sends the result to reduce tasks as their input.
+[MapReduce](/blog/hadoop-mapreduce-framework/) is a parallel programming model that is used for processing large chunks of data. It splits the input datasets from the disk into independent chunks if these data cannot be stored on one single node. It first executes the mapping tasks to process the split input data in a parallel manner and sorts the output of the map function and sends the result to reduce tasks as their input.
 
 HDFS lacks the random read/write capability, as it is a distributed File system. HDFS is good for sequential data access, but does not perform well for random read/write access.
 
 ## Apache HBase
 
-[Apache HBase](https://www.nitendratech.com/bigdata/apache-hbase/) is a [non-relational (NoSQL)](https://www.nitendratech.com/database/nosql-databases/) wide column database that sits on top of HDFS and is part of the Apache Hadoop Big Data Ecosystem. It runs on top of your Hadoop cluster and provides you random real-time read/write access to your data.
+[Apache HBase](/blog/apache-hbase/) is a [non-relational (NoSQL)](/blog/nosql-databases/) wide column database that sits on top of HDFS and is part of the Apache Hadoop Big Data Ecosystem. It runs on top of your Hadoop cluster and provides you random real-time read/write access to your data.
 
 Apache Hadoop and HBase support both structured and unstructured data. It stores data as key/value pairs in a columnar fashion, while HDFS can store data in various formats (flat files, compressed format).
 

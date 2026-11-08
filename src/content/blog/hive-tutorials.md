@@ -13,17 +13,17 @@ This page will guide you through different topics one needs for learning Hive an
 
 ## Basic Concepts
 
-- [Introduction to Apache Hive](https://www.nitendratech.com/hive/apache-hive/)
-- [Introduction to Hive Query Language](https://www.nitendratech.com/hive/hive-query-language/)
-- [Types of Table in Apache Hive](https://www.nitendratech.com/hive/apache-hive-tables/)
-- [Partitions in Apache Hive](https://www.nitendratech.com/hive/partitions-apache-hive/)
+- [Introduction to Apache Hive](/blog/apache-hive/)
+- [Introduction to Hive Query Language](/blog/hive-query-language/)
+- [Types of Table in Apache Hive](/blog/apache-hive-tables/)
+- [Partitions in Apache Hive](/blog/partitions-apache-hive/)
 
 ## Advanced Concepts
 
-- [Hive Vectorization Technique](https://www.nitendratech.com/hive/hive-vectorization-technique/)
-- [Apache Hive 3 Architecture](https://www.nitendratech.com/hive/apache-hive-3-architecture/)
-- [Running Hive Queries using Shell scripts](https://www.nitendratech.com/hive/hive-queries-shell-scripts/)
-- [Installing Apache Hive in Ubuntu](https://www.nitendratech.com/hive/apache-hive-ubuntu/)
+- [Hive Vectorization Technique](/blog/hive-vectorization-technique/)
+- [Apache Hive 3 Architecture](/blog/apache-hive-3-architecture/)
+- [Running Hive Queries using Shell scripts](/blog/hive-queries-shell-scripts/)
+- [Installing Apache Hive in Ubuntu](/blog/apache-hive-ubuntu/)
 
 ---
 

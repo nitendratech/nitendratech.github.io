@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "Apache Pig"
 ---
 
-When the Big Data developers develop the [Apache Pig](https://www.nitendratech.com/bigdata/apache-pig/) scripts and execute them, the code gets compiled through the Pig Latin compiler. Once the code gets compiled, it goes through various stages to get the results. We can run Apache Pig Latin code and Pig statements using various modes. We will go through all the Apache Pig execution modes in detail in this blog post.
+When the Big Data developers develop the [Apache Pig](/blog/apache-pig/) scripts and execute them, the code gets compiled through the Pig Latin compiler. Once the code gets compiled, it goes through various stages to get the results. We can run Apache Pig Latin code and Pig statements using various modes. We will go through all the Apache Pig execution modes in detail in this blog post.
 
 | Execution Modes | Interactive | Batch |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ Note: Spark local mode is experimental. There are some queries that just error o
 
 ## Map Reduce Mode
 
-We use this mode to run Apache Pig in [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) mode. It is the default mode in Pig, which needs a Hadoop cluster and HDFS installation
+We use this mode to run Apache Pig in [MapReduce](/blog/hadoop-mapreduce-framework/) mode. It is the default mode in Pig, which needs a Hadoop cluster and HDFS installation
 
 ```bash
 #Two ways to invoke pig
@@ -72,7 +72,7 @@ pig -x tez
 
 ## Spark Mode
 
-It is used to run Pig in [Spark](https://www.nitendratech.com/spark/apache-spark/) mode. We need access to Spark, Yarn, or Mesos cluster, and HDFS installation to run Pig in Spark mode. We also need to enable Yarn auxiliary service to use this mode.
+It is used to run Pig in [Spark](/blog/apache-spark/) mode. We need access to Spark, Yarn, or Mesos cluster, and HDFS installation to run Pig in Spark mode. We also need to enable Yarn auxiliary service to use this mode.
 
 ```bash
 pig -x spark

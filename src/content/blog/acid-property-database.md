@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "Databases"
 ---
 
-In a relational database, multiple transactions are used in [SQL (Structured Query Language)](https://www.nitendratech.com/database/learn-sql/) which can be one or multiple statements. A transaction is a single logical unit in which database content is either retrieved or modified. Transaction happens in reading or writing operations in a database. For a transaction to happen in a relational database, it needs to flow through a set of properties known as ACID. It stands for Atomicity, Consistency, Isolation, and Durability. It guarantees that [database](https://www.nitendratech.com/database/learn-database/) transactions are processed reliably in an application.
+In a relational database, multiple transactions are used in [SQL (Structured Query Language)](/blog/learn-sql/) which can be one or multiple statements. A transaction is a single logical unit in which database content is either retrieved or modified. Transaction happens in reading or writing operations in a database. For a transaction to happen in a relational database, it needs to flow through a set of properties known as ACID. It stands for Atomicity, Consistency, Isolation, and Durability. It guarantees that [database](/blog/learn-database/) transactions are processed reliably in an application.
 
 In this blog post, we will discuss these ACID properties in detail.
 

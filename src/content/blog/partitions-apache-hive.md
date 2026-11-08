@@ -9,7 +9,7 @@ draft: false
 
 Partitions are fundamentally horizontal slices of data that allow large sets of data to be segmented into more manageable chunks. They are virtual columns acting as storage units but, not part of the data itself, and are derived on load. Partition keys in each Table will determine how the data is stored. It also allows the user to efficiently identify the rows that satisfy certain criteria. When the table with partitions is defined, the underlying structure is changed such that subdirectories are created for each slicer or partitioning column.
 
-The partitions are a physical segmenting of the data, where the partition is maintained in the directory system. [Hive](https://www.nitendratech.com/hive/apache-hive/) queries use the metadata to determine where the partition is located. So, if you can make the directory structure match the query, it should find the data you want.
+The partitions are a physical segmenting of the data, where the partition is maintained in the directory system. [Hive](/blog/apache-hive/) queries use the metadata to determine where the partition is located. So, if you can make the directory structure match the query, it should find the data you want.
 
 In this example, we create a hive table named partitioned_user, which has a partition column named date. Since the date of the column is String format, it can have any values, such as `20200201` or `03232020`.
 

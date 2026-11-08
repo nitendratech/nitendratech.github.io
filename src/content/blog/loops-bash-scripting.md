@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Shell Scripting"
 ---
 
-Loops in [Bash Scripting](https://www.nitendratech.com/linux/bash-script/) are the process of repeating the same script or logic many numbers of times. It works best when it is used for any of the below operations.
+Loops in [Bash Scripting](/blog/bash-script/) are the process of repeating the same script or logic many numbers of times. It works best when it is used for any of the below operations.
 
 - Performing the same set of operations on a different number of input files (e.g., counting the number of records for all the files present in a certain directory)
 - Running the same set of operations at a certain interval (e.g., scanning directories for new files every 5 minutes)

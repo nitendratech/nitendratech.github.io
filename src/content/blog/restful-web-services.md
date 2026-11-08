@@ -67,7 +67,7 @@ Clients make state transitions only through actions that are dynamically identif
 
 ## REST API Response Headers
 
-[REST](https://www.nitendratech.com/programming/restful-web-services/) API headers play an important part in API development, as they represent the meta-data associated with connecting to the API.
+[REST](/blog/restful-web-services/) API headers play an important part in API development, as they represent the meta-data associated with connecting to the API.
 
 Each of the supported rest API methods can be overridden if you set the `X-http-method-override` header. The `Accept` and `Content-Type` request headers are required for proper data formatting. These request headers have the following valid values:
 

@@ -13,7 +13,7 @@ In this blog post, we have compiled important data engineering interview questio
 
 **Question: What is Data engineering?**
 
-**Answer:** Data engineering is a field where [data](https://www.nitendratech.com/datascience/data-explained/) is formatted by designing and building data pipelines and transported to end-users or downstream.
+**Answer:** Data engineering is a field where [data](/blog/data-explained/) is formatted by designing and building data pipelines and transported to end-users or downstream.
 
 **Question: What is a Data Engineer?**
 
@@ -32,18 +32,18 @@ In this blog post, we have compiled important data engineering interview questio
 
 **Answer:** Different organizations have various roles for Data engineers. Following are some generic tasks data engineers do in their day-to-day jobs.
 
-- Building and managing data pipelines to store the data efficiently in a [Data lake](https://www.nitendratech.com/bigdata/learn-datalake/) or similar repository
+- Building and managing data pipelines to store the data efficiently in a [Data lake](/blog/learn-datalake/) or similar repository
 - Analyzing the data based on organization data governance rules and regulations
 - Curating BRD (Business Ready Data) for reporting and analytics needs
 - Ingest, Store, Aggregate, and Validate the data
-- Perform [Extract, Transform, and Load(ETL)](https://www.nitendratech.com/database/etl-process/) Operations on top of data
+- Perform [Extract, Transform, and Load(ETL)](/blog/etl-process/) Operations on top of data
 - Makes sure the ingested data is compliant in terms of data governance and security policies
 
 **Question: What are different Programming Languages used by Data Engineers?**
 
 **Answer:** Data Engineers use programming languages like Java, Scala, Python, and R to develop data pipelines to handle data.
 
-They also use query language like [SQL (Structured Query Language)](https://www.nitendratech.com/database/learn-sql/) to extract the data from the [RDBMS](https://www.nitendratech.com/database/relational-database/) like Oracle Database, MySQL, MS SQL Server, etc
+They also use query language like [SQL (Structured Query Language)](/blog/learn-sql/) to extract the data from the [RDBMS](/blog/relational-database/) like Oracle Database, MySQL, MS SQL Server, etc
 
 **Question: What are the different Data storage and formats Data engineers work with?**
 
@@ -56,7 +56,7 @@ They also use query language like [SQL (Structured Query Language)](https://www.
 
 **Question: What is an ETL Process?**
 
-**Answer:** [ETL](https://www.nitendratech.com/database/etl-process/) stands for Extract, Transform, and Load. It is a process through which data can be moved from one system to another system, like a single repository or a data warehouse. Various transformations are applied to the data during the movement so that data in the target system is standardized.
+**Answer:** [ETL](/blog/etl-process/) stands for Extract, Transform, and Load. It is a process through which data can be moved from one system to another system, like a single repository or a data warehouse. Various transformations are applied to the data during the movement so that data in the target system is standardized.
 
 **Question: What are different ETL tools used by Data Engineers?** 
 
@@ -134,7 +134,7 @@ Some popular cloud platforms are given below.
 
 **Question: What are different Data Quality Issues an organization faces?**
 
-**Answer:** Below are some frequent and important issues related to [data quality](https://www.nitendratech.com/database/data-quality/) that the organization faces.
+**Answer:** Below are some frequent and important issues related to [data quality](/blog/data-quality/) that the organization faces.
 
 - Duplicate Data
 - Incomplete Data
@@ -228,7 +228,7 @@ There are mainly two components in HDFS that are given below
 
 **Question: What are the Hadoop execution Modes??**
 
-**Answer:** [Apache Hadoop](https://www.nitendratech.com/hadoop/apache-hadoop/) can be used in multiple modes to achieve a different set of tasks. There are three modes in which a [Hadoop Mapreduce ](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/)application can be executed.
+**Answer:** [Apache Hadoop](/blog/apache-hadoop/) can be used in multiple modes to achieve a different set of tasks. There are three modes in which a [Hadoop Mapreduce ](/blog/hadoop-mapreduce-framework/)application can be executed.
 
 - Local or Standalone Mode
 - Pseudo Distributed Mode
@@ -248,11 +248,11 @@ There are mainly two components in HDFS that are given below
 
 **Question: What is Block in Hadoop?**
 
-**Answer:** Block is defined as the smallest site/location on the hard drive that is available to read and write data. Data in [HDFS(Hadoop Distributed File System](https://www.nitendratech.com/hadoop/introduction-hadoop-hdfs/)) is split into blocks distributed across cluster nodes. The whole file is divided into small blocks and then stored as separate units.
+**Answer:** Block is defined as the smallest site/location on the hard drive that is available to read and write data. Data in [HDFS(Hadoop Distributed File System](/blog/hadoop-hdfs/)) is split into blocks distributed across cluster nodes. The whole file is divided into small blocks and then stored as separate units.
 
 **Question: What is Yet Another Resource Negotiator(YARN)?**
 
-**Answer:** YARN stands for Yet Another Resource Negotiator, which is a Hadoop Cluster resource management and job scheduling component. It was introduced in Hadoop 2 to help [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) and is the next-generation computation and resource management framework. It allows multiple data processing engines such as [SQL (Structured Query Language)](https://www.nitendratech.com/database/learn-sql/), real-time streaming, data science, and batch processing to handle data stored on a single platform. It helps to manage resources and provides an execution environment for all the jobs that get executed in Hadoop.
+**Answer:** YARN stands for Yet Another Resource Negotiator, which is a Hadoop Cluster resource management and job scheduling component. It was introduced in Hadoop 2 to help [MapReduce](/blog/hadoop-mapreduce-framework/) and is the next-generation computation and resource management framework. It allows multiple data processing engines such as [SQL (Structured Query Language)](/blog/learn-sql/), real-time streaming, data science, and batch processing to handle data stored on a single platform. It helps to manage resources and provides an execution environment for all the jobs that get executed in Hadoop.
 
 There are mainly two components in YARN. They are ResourseManager and NodeManager.
 
@@ -266,7 +266,7 @@ There are mainly two components in YARN. They are ResourseManager and NodeManage
 
 **Question: What is Heartbeat in the Hadoop Framework?**
 
-**Answer:** In the Hadoop framework `[heartbeat](https://www.nitendratech.com/hadoop/heartbeat-hadoop-hdfs/)` is a signal that is sent by DataNode to NameNode and also by Task Tracker to the Job tracker. DataNode sends the signal to NameNode, periodically, indicating that it is alive. This signal is taken as a sign of vitality by NameNode. If there is no response to the signal, there might be some issue with the DataNode or the Task Tracker.
+**Answer:** In the Hadoop framework `[heartbeat](/blog/heartbeat-hadoop-hdfs/)` is a signal that is sent by DataNode to NameNode and also by Task Tracker to the Job tracker. DataNode sends the signal to NameNode, periodically, indicating that it is alive. This signal is taken as a sign of vitality by NameNode. If there is no response to the signal, there might be some issue with the DataNode or the Task Tracker.
 
 **Question: What are two messages that NameNode gets from DataNode?**
 
@@ -333,18 +333,18 @@ There are mainly two components in YARN. They are ResourseManager and NodeManage
 
 **Question: What is Apache Spark?**
 
-**Answer:** [Apache Spark](https://www.nitendratech.com/spark/apache-spark/) is a distributed, in-memory, and disk-based optimized, open-source framework that does real-time analytics using [Resilient Distributed Data (RDD)](https://www.nitendratech.com/spark/spark-rdd/) sets. It includes a streaming library, and a rich set of programming interfaces to make data processing and transformation easier.
+**Answer:** [Apache Spark](/blog/apache-spark/) is a distributed, in-memory, and disk-based optimized, open-source framework that does real-time analytics using [Resilient Distributed Data (RDD)](/blog/spark-rdd/) sets. It includes a streaming library, and a rich set of programming interfaces to make data processing and transformation easier.
 
-It is not a database like an [RDBMS (Relational Database Management Systems)](https://www.nitendratech.com/database/relational-database/) or [NoSQL (Non-Relational) ](https://www.nitendratech.com/database/nosql-databases/)database, but a data processing engine. Apache Spark is 100% open-source software as part of **Apache** Software Foundation, which is a vendor-independent platform. That’s why it is free to use for personal or commercial purposes.
+It is not a database like an [RDBMS (Relational Database Management Systems)](/blog/relational-database/) or [NoSQL (Non-Relational) ](/blog/nosql-databases/)database, but a data processing engine. Apache Spark is 100% open-source software as part of **Apache** Software Foundation, which is a vendor-independent platform. That’s why it is free to use for personal or commercial purposes.
 
 **Question: What are the key features of Apache Spark?**
 
-**Answer:** [Apache Spark ](https://www.nitendratech.com/spark/apache-spark/)allows Integration with Hadoop and files included in HDFS.
+**Answer:** [Apache Spark ](/blog/apache-spark/)allows Integration with Hadoop and files included in HDFS.
 
 - It has an independent language (Scala) interpreter and hence comes with an interactive language shell.
-- Spark consists of [RDDs (Resilient Distributed Datasets)](https://www.nitendratech.com/spark/spark-rdd/), which can be cached across computing nodes in a cluster.
+- Spark consists of [RDDs (Resilient Distributed Datasets)](/blog/spark-rdd/), which can be cached across computing nodes in a cluster.
 - It supports multiple analytic tools that are used for interactive query analysis, real-time analysis, and graph processing.
-- Allows integration with Hadoop and files included in [HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/).
+- Allows integration with Hadoop and files included in [HDFS](/blog/hadoop-hdfs/).
 - It provides lightning-fast processing speed for certain Use cases
 
 When it comes to Big Data processing, speed always matters, and Spark runs Hadoop clusters way faster than others. Spark makes this possible by reducing the number of reading/writing operations on the disc. It stores this intermediate processing data in memory.
@@ -355,7 +355,7 @@ In addition to simple “map” and “reduce” operations, Spark supports SQL 
 
 - **Real-time stream processing**
 
-Spark can handle real-time streaming data. [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) primarily handles and processes previously stored data, even though there are other frameworks to obtain real-time streaming. Spark does this in the best way possible.
+Spark can handle real-time streaming data. [MapReduce](/blog/hadoop-mapreduce-framework/) primarily handles and processes previously stored data, even though there are other frameworks to obtain real-time streaming. Spark does this in the best way possible.
 
 **Question: What are the different use cases of Apache Spark?**
 
@@ -368,15 +368,15 @@ Spark can handle real-time streaming data. [MapReduce](https://www.nitendratech.
 
 **Question: What is Apache Hive?**
 
-**Answer:** Apache Hive is a [Data Warehousing](https://www.nitendratech.com/database/enterprise-data-warehouse/) Infrastructure built on top of Hadoop and provides table abstraction on top of data resident in [HDFS(Hadoop Distributed File System) ](https://www.nitendratech.com/hadoop/hadoop-hdfs/)as explained on their official page. It is used for providing data summarization, query, and analysis for[ Big data](https://www.nitendratech.com/bigdata/big-data/) sets.
+**Answer:** Apache Hive is a [Data Warehousing](/blog/enterprise-data-warehouse/) Infrastructure built on top of Hadoop and provides table abstraction on top of data resident in [HDFS(Hadoop Distributed File System) ](/blog/hadoop-hdfs/)as explained on their official page. It is used for providing data summarization, query, and analysis for[ Big data](/blog/big-data/) sets.
 
-You can check this blog post on [Apache Hive ](https://www.nitendratech.com/hive/apache-hive/)for more information.
+You can check this blog post on [Apache Hive ](/blog/apache-hive/)for more information.
 
 **Question: Why do we use Hive?**
 
-**Answer:** Hive is used for summarization, ad-hoc analysis and data mining, spam detection, and ad optimization. One of the main advantages of the hive is that it is [SQL](https://www.nitendratech.com/database/learn-sql/) in nature. Hive stores its database metadata in Hive metastore.
+**Answer:** Hive is used for summarization, ad-hoc analysis and data mining, spam detection, and ad optimization. One of the main advantages of the hive is that it is [SQL](/blog/learn-sql/) in nature. Hive stores its database metadata in Hive metastore.
 
-It is best used for batch jobs over large sets of immutable data (like [server logs ](https://www.nitendratech.com/technology/log-file/)or [Access Logs](https://www.nitendratech.com/technology/access-logs/)). Hive is schema on reading rather than schema on writing. It means that it doesn’t check data during loading, but does check when a query is issued.
+It is best used for batch jobs over large sets of immutable data (like [server logs ](/blog/log-files/)or [Access Logs](/blog/access-logs/)). Hive is schema on reading rather than schema on writing. It means that it doesn’t check data during loading, but does check when a query is issued.
 
 **Question: What is the benefit when a Distributed Cache is used?**
 
@@ -393,15 +393,15 @@ It is best used for batch jobs over large sets of immutable data (like [server l
 
 **Question: What is a Database?**
 
-**Answer:**  A [Database](https://www.nitendratech.com/database/learn-database/) is a collection of instruction information or data that are organized and stored in a computer-based system. The main purpose of the database is to store, collect, and retrieve information to be used by database-related applications. As data in the database is stored in a specific format, different client software can access the data at the same time.
+**Answer:**  A [Database](/blog/learn-database/) is a collection of instruction information or data that are organized and stored in a computer-based system. The main purpose of the database is to store, collect, and retrieve information to be used by database-related applications. As data in the database is stored in a specific format, different client software can access the data at the same time.
 
 **Question: What do you understand by Relational Data Management System(RDBMS)?**
 
-**Answer:** RDBMS stands for Relational Data Management System. A [database](https://www.nitendratech.com/database/learn-database/) is called a relational data model, as it represents the relationship between one or more databases. The relationship is known as the relational database model. It provides flexibility and allows one database to be about another database. This database uses a particular structure such as rows and columns to store, identify, access data, and relate to other data. We can use [Structured Query Language or SQL](https://www.nitendratech.com/database/learn-sql/) to access the data from Relational Databases easily.
+**Answer:** RDBMS stands for Relational Data Management System. A [database](/blog/learn-database/) is called a relational data model, as it represents the relationship between one or more databases. The relationship is known as the relational database model. It provides flexibility and allows one database to be about another database. This database uses a particular structure such as rows and columns to store, identify, access data, and relate to other data. We can use [Structured Query Language or SQL](/blog/learn-sql/) to access the data from Relational Databases easily.
 
 **Question: What is SQL?**
 
-**Answer:** SQL stands for Structured Query Language. [SQL](https://www.nitendratech.com/database/learn-sql/) is a programming language used to retrieve, manipulate, and store data from[ relational database management systems (RDBMS)](https://www.nitendratech.com/database/relational-database/).
+**Answer:** SQL stands for Structured Query Language. [SQL](/blog/learn-sql/) is a programming language used to retrieve, manipulate, and store data from[ relational database management systems (RDBMS)](/blog/relational-database/).
 
 SQL is ANSI (American National Standards Institute) and International Organization for Standardization (ISO) standard-certified language that can be used for interacting with a variety of databases. It is a declarative language where we give certain instructions or operations without giving specific details about how to complete that task.
 
@@ -516,7 +516,7 @@ SELECT deptId, count(*) from student GROUP BY deptId HAVING COUNT (*)> 10.
 
 **Question: Are you aware of a tool called Talend?**
 
-**Answer:**  It is an open-source data integration platform that is used for [ETL](https://www.nitendratech.com/database/etl-process/), checking the quality of the data and managing the data. It provides a wide range of connectors that can connect various data sources and destinations such as databases, and S3 through the JDBC data connector.
+**Answer:**  It is an open-source data integration platform that is used for [ETL](/blog/etl-process/), checking the quality of the data and managing the data. It provides a wide range of connectors that can connect various data sources and destinations such as databases, and S3 through the JDBC data connector.
 
 **Question: What do you understand by Informatica PowerCenter?**
 

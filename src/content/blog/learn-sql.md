@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "SQL"
 ---
 
-SQL or Structured Query Language is a special-purpose programming language designed for managing data held in a [relational database management system (RDBMS)](https://www.nitendratech.com/database/relational-database/). It provides various ways of manipulating and creating databases using SQL queries. Here, the query is defined as a request for data or information from database tables or combination tables.
+SQL or Structured Query Language is a special-purpose programming language designed for managing data held in a [relational database management system (RDBMS)](/blog/relational-database/). It provides various ways of manipulating and creating databases using SQL queries. Here, the query is defined as a request for data or information from database tables or combination tables.
 
 ## Types of Language in SQL
 
@@ -65,7 +65,7 @@ Data Control Language, or DCL, is the SQL command that deals with the rights and
 
 ### Transaction Control Language(TCL)
 
-Transaction Control Language or TCL deals with the transaction within the [database](https://www.nitendratech.com/database/learn-database/).
+Transaction Control Language or TCL deals with the transaction within the [database](/blog/learn-database/).
 
 **TCL Commands**
 

@@ -30,8 +30,8 @@ Extraction is the first part of the ETL process involves extracting the data fro
 
 When creating a data warehouse in an organization, data is consolidated from different sources, It might be possible that these data sources might keep data in different formats. Some important data sources are given below.
 
-- [Relational database (SQL)](https://www.nitendratech.com/database/learn-sql/)
-- [Non-Relational Database (NoSQL)](https://www.nitendratech.com/database/nosql-databases/)
+- [Relational database (SQL)](/blog/learn-sql/)
+- [Non-Relational Database (NoSQL)](/blog/nosql-databases/)
 - API (Application Programming Interface) Call
 - Flat files like CSV (Comma Separated Values) and TSV (Tab Separated Values)
 - Semi-Structured files like JSON and XML

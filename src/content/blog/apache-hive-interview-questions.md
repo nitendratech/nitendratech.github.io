@@ -7,19 +7,19 @@ subcategory: "Interview Questions"
 draft: false
 ---
 
-In this blog post, we will look at some of the most frequent and important Apache Hive interview questions and answers that come up during an interview. If you are looking for interview questions related to Hive query language(HQL), you can check my other [blog post](https://www.nitendratech.com/interview/hql-interview-questions/).
+In this blog post, we will look at some of the most frequent and important Apache Hive interview questions and answers that come up during an interview. If you are looking for interview questions related to Hive query language(HQL), you can check my other [blog post](/blog/hql-interview-questions/).
 
 ## What is Apache Hive?
 
-Apache Hive is a [Data Warehousing](https://www.nitendratech.com/database/enterprise-data-warehouse/) Infrastructure built on top of Hadoop and provides table abstraction on top of data resident in [HDFS(Hadoop Distributed File System)](https://www.nitendratech.com/hadoop/hadoop-hdfs/)as explained on their official page. It is used for providing data summarization, query, and analysis for[Big data](https://www.nitendratech.com/bigdata/big-data/) sets.
+Apache Hive is a [Data Warehousing](/blog/enterprise-data-warehouse/) Infrastructure built on top of Hadoop and provides table abstraction on top of data resident in [HDFS(Hadoop Distributed File System)](/blog/hadoop-hdfs/)as explained on their official page. It is used for providing data summarization, query, and analysis for[Big data](/blog/big-data/) sets.
 
-You can check this blog post on [Apache hive](https://www.nitendratech.com/hive/apache-hive/)for more information.
+You can check this blog post on [Apache hive](/blog/apache-hive/)for more information.
 
 ## Why do we use Hive?
 
-Hive is used for summarization, ad-hoc analysis and data mining, spam detection, and ad optimization. One of the main advantages of the hive is that it is [SQL](https://www.nitendratech.com/database/learn-sql/) in nature. Hive stores its database metadata in Hive metastore.
+Hive is used for summarization, ad-hoc analysis and data mining, spam detection, and ad optimization. One of the main advantages of the hive is that it is [SQL](/blog/learn-sql/) in nature. Hive stores its database metadata in Hive metastore.
 
-It is best used for batch jobs over large sets of immutable data (like [server logs](https://www.nitendratech.com/technology/log-file/)or [Access Logs](https://www.nitendratech.com/technology/access-logs/)). Hive is schema on read rather than schema on write. It means that it doesn’t check data during loading, but does check data when a query is issued.
+It is best used for batch jobs over large sets of immutable data (like [server logs](/blog/log-files/)or [Access Logs](/blog/access-logs/)). Hive is schema on read rather than schema on write. It means that it doesn’t check data during loading, but does check data when a query is issued.
 
 ## What is the use of Hive in the Apache Hadoop ecosystem?
 
@@ -417,7 +417,7 @@ Hive mainly has four namespaces, in which Hive variables can be used
 
 ## Conclusion
 
-In this blog post, we read answers to different Hive interview questions. If you want to see what type of interview questions are being asked about Hive query language, you can visit [this](https://www.nitendratech.com/interview/hql-interview-questions/)blog post on HQL interview questions.
+In this blog post, we read answers to different Hive interview questions. If you want to see what type of interview questions are being asked about Hive query language, you can visit [this](/blog/hql-interview-questions/)blog post on HQL interview questions.
 
 Please share this blog post on social media and leave a comment with any questions or suggestions.
 

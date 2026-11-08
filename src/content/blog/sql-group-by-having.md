@@ -6,13 +6,13 @@ category: "Data Engineering"
 subcategory: "SQL"
 ---
 
-In [RDBMS](https://www.nitendratech.com/database/relational-database/), both the `GROUP BY` and `HAVING` clauses are used in combination with aggregate functions to perform operations on grouped data. However, they are used for different purposes in a query.
+In [RDBMS](/blog/relational-database/), both the `GROUP BY` and `HAVING` clauses are used in combination with aggregate functions to perform operations on grouped data. However, they are used for different purposes in a query.
 
 In this blog post, we will go through the major difference between SQL Group BY and HAVING Clause. We will also look at some examples while going over the differences.
 
 ## GROUP BY Clause:
 
-The `GROUP BY` clause is used to group rows that have the same values in specified columns into summary rows, like a summary report. It is typically used with aggregate functions (e.g., SUM, AVG, COUNT) to perform calculations on each group of rows. The `GROUP BY` clause comes before the `HAVING` clause in a [Structured Query Language(SQL) query](https://www.nitendratech.com/database/learn-sql/).
+The `GROUP BY` clause is used to group rows that have the same values in specified columns into summary rows, like a summary report. It is typically used with aggregate functions (e.g., SUM, AVG, COUNT) to perform calculations on each group of rows. The `GROUP BY` clause comes before the `HAVING` clause in a [Structured Query Language(SQL) query](/blog/learn-sql/).
 
 ### Example of GROUP BY Clause
 
@@ -38,7 +38,7 @@ In summary, `GROUP BY` clause is used to group rows based on specified columns a
 
 ## Conclusion
 
-In this blog post, we went through the major difference between GROUP BY and HAVING Clause in a [database](https://www.nitendratech.com/database/learn-database/) while going through examples.
+In this blog post, we went through the major difference between GROUP BY and HAVING Clause in a [database](/blog/learn-database/) while going through examples.
 
 ---
 

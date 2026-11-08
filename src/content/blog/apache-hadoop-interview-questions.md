@@ -13,7 +13,7 @@ As skills related to Apache Hadoop and big data are in demand right now, let's l
 
 **Question: What exactly is Apache Hadoop?**
 
-**Answer:** [Apache Hadoop](https://www.nitendratech.com/hadoop/apache-hadoop/) is an open-source distributed processing framework that is used to store and process large datasets whose size ranges from gigabytes to petabytes of data. This framework uses multiple commodity hardware to process a large amount of data quickly in comparison to traditional software. It is a build-up to scale up from one server to multiple servers, each of them offering computation and storage at the local level. It provides high availability and fault tolerance regardless of the fact whether the hardware used is low-end or high-end. This framework is written in Java and consists of features such as Distributed File System and MapReduce Processing.
+**Answer:** [Apache Hadoop](/blog/apache-hadoop/) is an open-source distributed processing framework that is used to store and process large datasets whose size ranges from gigabytes to petabytes of data. This framework uses multiple commodity hardware to process a large amount of data quickly in comparison to traditional software. It is a build-up to scale up from one server to multiple servers, each of them offering computation and storage at the local level. It provides high availability and fault tolerance regardless of the fact whether the hardware used is low-end or high-end. This framework is written in Java and consists of features such as Distributed File System and MapReduce Processing.
 
 **Question: Who created Apache Hadoop?**
 
@@ -25,10 +25,10 @@ Apache Hadoop is distributed based on the license provided by the Apache Foundat
 
 **Answer:** There are four main components of Apache Hadoop.
 
-- [Hadoop Distributed File System(HDFS)](https://www.nitendratech.com/hadoop/hadoop-hdfs/)
-- [MapReduce Framework](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/)
+- [Hadoop Distributed File System(HDFS)](/blog/hadoop-hdfs/)
+- [MapReduce Framework](/blog/hadoop-mapreduce-framework/)
 - Hadoop Common Library
-- [Yet Another Resource Negotiator(YARN)](https://www.nitendratech.com/hadoop/hadoop-yarn/)
+- [Yet Another Resource Negotiator(YARN)](/blog/hadoop-yarn/)
 - Resource Manager
 - Node Manager
 
@@ -46,7 +46,7 @@ Apache Hadoop is distributed based on the license provided by the Apache Foundat
 
 **Question: What is MapReduce Framework?**
 
-**Answer:** Hadoop MapReduce is a Big data processing/programming framework that consists of the MapReduce programming model and [Hadoop Distributed File System(HDFS)](https://www.nitendratech.com/hadoop/hadoop-hdfs/). It is the parallel programming model for processing an enormous amount of data that splits the input dataset into independent chunks, which are processed by the map tasks in a completely parallel manner. The Hadoop framework sorts the outputs of the maps, which are then input to the reduced tasks. Typically, both the input and the output of the job are stored in a file system. The framework takes care of scheduling tasks, monitoring them, and re-executing the failed tasks.
+**Answer:** Hadoop MapReduce is a Big data processing/programming framework that consists of the MapReduce programming model and [Hadoop Distributed File System(HDFS)](/blog/hadoop-hdfs/). It is the parallel programming model for processing an enormous amount of data that splits the input dataset into independent chunks, which are processed by the map tasks in a completely parallel manner. The Hadoop framework sorts the outputs of the maps, which are then input to the reduced tasks. Typically, both the input and the output of the job are stored in a file system. The framework takes care of scheduling tasks, monitoring them, and re-executing the failed tasks.
 
 **Question: What are the features of the Hadoop Framework?**
 
@@ -64,7 +64,7 @@ Apache Hadoop is distributed based on the license provided by the Apache Foundat
 
 **Question: What is Yet Another Resource Negotiator (YARN)**?
 
-**Answer**: YARN stands for Yet Another Resource Negotiator, which is a Hadoop Cluster resource management and job scheduling component. It was introduced in Hadoop 2 to help [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) and is the next-generation computation and resource management framework. It allows multiple data processing engines such as [SQL (Structured Query Language)](https://www.nitendratech.com/database/learn-sql/), real-time streaming, data science, and batch processing to handle data stored on a single platform. It helps to manage resources and provides an execution environment for all the jobs that get executed in Hadoop.
+**Answer**: YARN stands for Yet Another Resource Negotiator, which is a Hadoop Cluster resource management and job scheduling component. It was introduced in Hadoop 2 to help [MapReduce](/blog/hadoop-mapreduce-framework/) and is the next-generation computation and resource management framework. It allows multiple data processing engines such as [SQL (Structured Query Language)](/blog/learn-sql/), real-time streaming, data science, and batch processing to handle data stored on a single platform. It helps to manage resources and provides an execution environment for all the jobs that get executed in Hadoop.
 
 There are mainly two components in YARN. They are ResourseManager and NodeManager.
 
@@ -86,7 +86,7 @@ There are mainly two components in YARN. They are ResourseManager and NodeManage
 
 **Question: What are different Hadoop Execution Modes?**
 
-**Answer:** [Apache Hadoop](https://www.nitendratech.com/hadoop/apache-hadoop/) can be used in multiple modes to achieve a different set of tasks. There are three modes in which a [Hadoop MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) application can be executed.
+**Answer:** [Apache Hadoop](/blog/apache-hadoop/) can be used in multiple modes to achieve a different set of tasks. There are three modes in which a [Hadoop MapReduce](/blog/hadoop-mapreduce-framework/) application can be executed.
 
 - Local or Standalone Mode
 - Pseudo Distributed Mode

@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "Hadoop"
 ---
 
-[Hadoop Distributed File System (HDFS)](https://www.nitendratech.com/hadoop/introduction-hadoop-hdfs/) is a highly fault-tolerant distributed file system that runs on commodity hardware. File System Shell includes several commands that directly interact with the HDFS and other file systems such as S3 File System, HFTP (Hadoop File System Implementation) File System which are also supported by HDFS. I will introduce some of the most useful Hadoop HDFS commands in this blog post.
+[Hadoop Distributed File System (HDFS)](/blog/hadoop-hdfs/) is a highly fault-tolerant distributed file system that runs on commodity hardware. File System Shell includes several commands that directly interact with the HDFS and other file systems such as S3 File System, HFTP (Hadoop File System Implementation) File System which are also supported by HDFS. I will introduce some of the most useful Hadoop HDFS commands in this blog post.
 
 ## Creating a directory in HDFS
 

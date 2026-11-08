@@ -6,13 +6,13 @@ category: "Engineering Leadership"
 subcategory: "Data Careers"
 ---
 
-The basic job of a data analyst is to collect, store, and analyze [data](https://www.nitendratech.com/datascience/data-explained/) and draw some insights from it. Size/Volume/Complexity of data depends upon the type of company/industry in which one is working on.
+The basic job of a data analyst is to collect, store, and analyze [data](/blog/data-explained/) and draw some insights from it. Size/Volume/Complexity of data depends upon the type of company/industry in which one is working on.
 
-Most small-scale companies will not have a large volume of data that needs to be analyzed. Microsoft Excel or similar spreadsheet solutions can be used to process or summarize data. One caveat of Microsoft Excel is that it cannot be used to summarize data with millions of records. In this scenario, one should have the skills to query the database tables directly using [Structured Query Language(SQL)](https://www.nitendratech.com/database/learn-sql/) and summarize the data. Most of the time you need to use SELECT statement, GROUP BY, ORDER BY, JOIN, UNION, and other complex queries and SQL functions to summarize it.
+Most small-scale companies will not have a large volume of data that needs to be analyzed. Microsoft Excel or similar spreadsheet solutions can be used to process or summarize data. One caveat of Microsoft Excel is that it cannot be used to summarize data with millions of records. In this scenario, one should have the skills to query the database tables directly using [Structured Query Language(SQL)](/blog/learn-sql/) and summarize the data. Most of the time you need to use SELECT statement, GROUP BY, ORDER BY, JOIN, UNION, and other complex queries and SQL functions to summarize it.
 
 There are different kinds of organizations (commercial and non-commercial ones) that need to analyze their data to derive intuition and future directions from them. The analysis and tools needed by a data analyst depend upon the complexity and size of the data. One can use either Spreadsheet or SQL for simple analysis. If the data is big and complex, they might have used some big data technologies that can deal with unstructured data.
 
-If the size of the data is big in a company to be called [big data](https://www.nitendratech.com/bigdata/big-data/), it would be stored in the Data Warehouse based on Hadoop or a similar solution. Once you are good with SQL, you can also learn [HQL (Hive Query Language)](https://www.nitendratech.com/hive/hive-query-language/) which is a data warehouse solution Language on top of [Hadoop](https://www.nitendratech.com/hadoop/hadoop-tutorials/)/HDFS.
+If the size of the data is big in a company to be called [big data](/blog/big-data/), it would be stored in the Data Warehouse based on Hadoop or a similar solution. Once you are good with SQL, you can also learn [HQL (Hive Query Language)](/blog/hive-query-language/) which is a data warehouse solution Language on top of [Hadoop](/blog/hadoop-tutorials/)/HDFS.
 
 ## Examples of Data Analysis in Organizations
 
@@ -56,7 +56,7 @@ If you work in a typical tech company with millions or billions of dollars of re
 
 **Microsoft Excel:** It is a widely used tool by Data Analysts, Data Engineers, Data Scientists, and their managers. Make sure you learn different ways in which Excel can be used for data analysis.
 
-**SQL or Structured Query Language:** SQL is a powerful language using which a data analyst can pull data from tables having a thousand, a million, or a billion records. Once you learn SQL properly, you can use it to query data from a Data Warehouse built on either [RDBMS](https://www.nitendratech.com/database/relational-database/) (Relational Database management System) like Oracle, MS-SQL, or Hive based on the Hadoop stack.
+**SQL or Structured Query Language:** SQL is a powerful language using which a data analyst can pull data from tables having a thousand, a million, or a billion records. Once you learn SQL properly, you can use it to query data from a Data Warehouse built on either [RDBMS](/blog/relational-database/) (Relational Database management System) like Oracle, MS-SQL, or Hive based on the Hadoop stack.
 
 HQL or Hive Query Language is used along with Big data tools, which is a similar language to SQL. Knowing SQL and HQL will make you take on data analyst or Big data analyst solutions pretty easily.
 

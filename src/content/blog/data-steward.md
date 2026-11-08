@@ -10,7 +10,7 @@ As information technology (IT) businesses have grown and matured, organizations 
 
 ## Who is a Data Steward?
 
-A [data](https://www.nitendratech.com/datascience/data-explained/) steward is a person who is responsible for managing the content and metadata of data elements. They incorporate processes, policies, and guidelines to make sure that the data within the organization complies with the different regulatory requirements. They make sure that the metadata of the data is managed properly. This can include capturing or documenting the various information related to the data, also known as metadata. Some important metadata Data Steward help documents are given below.
+A [data](/blog/data-explained/) steward is a person who is responsible for managing the content and metadata of data elements. They incorporate processes, policies, and guidelines to make sure that the data within the organization complies with the different regulatory requirements. They make sure that the metadata of the data is managed properly. This can include capturing or documenting the various information related to the data, also known as metadata. Some important metadata Data Steward help documents are given below.
 
 - Data Models (Physical /Logical)
 - Data Definition/Glossary

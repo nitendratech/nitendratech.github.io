@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Linux"
 ---
 
-We can automate different tasks in Linux including generating reports, monitoring processes, automating backups, submitting Spark jobs, and many more. There are times when jobs fail and a report needs to be generated and sent through email. We can use the Linux mail command to accomplish this task either on the command line or through [bash script](https://www.nitendratech.com/linux/bash-script/), Perl, and Python.
+We can automate different tasks in Linux including generating reports, monitoring processes, automating backups, submitting Spark jobs, and many more. There are times when jobs fail and a report needs to be generated and sent through email. We can use the Linux mail command to accomplish this task either on the command line or through [bash script](/blog/bash-script/), Perl, and Python.
 
 When we want to send email from a Linux command line or bash script, we commonly use the `mail` or `sendmail` command. Before using this command, we need to have a Simple Mail Transfer Protocol (SMTP) server configured in our system, as they rely on an SMTP server to send email.
 

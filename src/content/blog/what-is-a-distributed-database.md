@@ -6,11 +6,11 @@ category: "Data Engineering"
 subcategory: "Databases"
 ---
 
-In the Current world, [Data](https://www.nitendratech.com/datascience/data-explained/) is the new gold or oil for many organizations. It is a lifeline for many businesses as it provides valuable information to a different line of business. An organization can have various types of data stored in persisted storage like a database. In order to do that, one needs a database that can meet the growing need of the organization. As a normal database cannot withstand the high volume of data that gets generated nowadays, organizations are resorting to distributed databases that allow storing the needed data in the right format.
+In the Current world, [Data](/blog/data-explained/) is the new gold or oil for many organizations. It is a lifeline for many businesses as it provides valuable information to a different line of business. An organization can have various types of data stored in persisted storage like a database. In order to do that, one needs a database that can meet the growing need of the organization. As a normal database cannot withstand the high volume of data that gets generated nowadays, organizations are resorting to distributed databases that allow storing the needed data in the right format.
 
 ## What is a Distributed Database?
 
-A distributed [database](https://www.nitendratech.com/database/learn-database/) is a group of databases that are spread physically across various locations and are connected together by a data communications network. As the databases are all connected together, they perform and act like a single logical unit of databases.
+A distributed [database](/blog/learn-database/) is a group of databases that are spread physically across various locations and are connected together by a data communications network. As the databases are all connected together, they perform and act like a single logical unit of databases.
 
 Administrative tasks of the distributed database are executed centrally through a corporate IT resource. As the databases are connected through a network, Users at various geographical locations can access the data at different geographical locations. Computers or machine that hosts a distributed database might be a normal PC to a supercomputer.
 
@@ -38,9 +38,9 @@ As data is stored at multiple locations, the database is not dependent on any lo
 
 Distribute databases are able to maintain consistency throughout all the nodes in their network. It means changes from one node are propagated to another node, providing the same view of data for all customers.
 
-- Manages Distributed [ACID](https://www.nitendratech.com/database/acid-property-database/) and Non-ACID compliance Transactions
+- Manages Distributed [ACID](/blog/acid-property-database/) and Non-ACID compliance Transactions
 
-It provides various services like concurrency controls, disaster recovery mechanisms, failure recovery, and commit protocols for handling transactions in both [SQL](https://www.nitendratech.com/database/learn-sql/) and [NoSQL](https://www.nitendratech.com/database/nosql-databases/) databases.
+It provides various services like concurrency controls, disaster recovery mechanisms, failure recovery, and commit protocols for handling transactions in both [SQL](/blog/learn-sql/) and [NoSQL](/blog/nosql-databases/) databases.
 
 - Provides high throughput
 - Low Latency with geographically distributed server

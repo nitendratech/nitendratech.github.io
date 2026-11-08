@@ -7,7 +7,7 @@ subcategory: "Java"
 draft: false
 ---
 
-JDK 8 version of [Java](https://www.nitendratech.com/java/java-programming-language/) introduced Java Mission Control, Java Flight Recorder, and `jcmd` utility for diagnosing problems with JVM and Java applications. Oracle Java documentation suggests using the `jcmd` tool instead of earlier tools like `jstack`, `jinfo`, and `jmap` utilities for enhanced diagnostics and reduced performance overhead.
+JDK 8 version of [Java](/blog/java-programming-language/) introduced Java Mission Control, Java Flight Recorder, and `jcmd` utility for diagnosing problems with JVM and Java applications. Oracle Java documentation suggests using the `jcmd` tool instead of earlier tools like `jstack`, `jinfo`, and `jmap` utilities for enhanced diagnostics and reduced performance overhead.
 
 Below Tables lists, the tools as given in oracle [website](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr025.html) are designed for monitoring applications that are running.
 

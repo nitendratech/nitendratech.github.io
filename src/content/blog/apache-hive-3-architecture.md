@@ -11,15 +11,15 @@ With the introduction of Apache Hive 3, Apache Hadoop has introduced different n
 
 ## Execution Engine changes
 
-The previous version of Hadoop 1 and 2 had [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) as one of the engines in Apache Hive. Apache Tez is the default Hive execution engine in Apache Hive 3. MapReduce is not supported in the new version of Hive. It supports directed acyclic graphs (DAGs) and data transfer primitives which improve [SQL(Structured Query Language)](https://www.nitendratech.com/database/learn-sql/) queries using Hive.
+The previous version of Hadoop 1 and 2 had [MapReduce](/blog/hadoop-mapreduce-framework/) as one of the engines in Apache Hive. Apache Tez is the default Hive execution engine in Apache Hive 3. MapReduce is not supported in the new version of Hive. It supports directed acyclic graphs (DAGs) and data transfer primitives which improve [SQL(Structured Query Language)](/blog/learn-sql/) queries using Hive.
 
 Hive query gets executed in the below steps.
 
-1. Hive compiles the given query written in [HQL (Hive Query Language)](https://www.nitendratech.com/hive/hive-query-language/)
+1. Hive compiles the given query written in [HQL (Hive Query Language)](/blog/hive-query-language/)
 2. Apache Tez executes the query
-3. [YARN](https://www.nitendratech.com/hadoop/hadoop-yarn-commands/) (Yet Another Resource Negotiator) allocates the required resources for applications across the Hadoop cluster and enables authorization for Hive jobs in YARN queues
-4. Apache Hive updates the data in [HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/) or the Hive warehouse depending upon whether the table type is Internal or external table
-5. Hive returns the results over the [JDBC (Java Database Connectivity)](https://www.nitendratech.com/programming/LEARN-jdbc/) connection once all of these steps are executed,
+3. [YARN](/blog/hadoop-yarn-commands/) (Yet Another Resource Negotiator) allocates the required resources for applications across the Hadoop cluster and enables authorization for Hive jobs in YARN queues
+4. Apache Hive updates the data in [HDFS](/blog/hadoop-hdfs/) or the Hive warehouse depending upon whether the table type is Internal or external table
+5. Hive returns the results over the [JDBC (Java Database Connectivity)](/blog/learn-jdbc/) connection once all of these steps are executed,
 
 ### Design changes that affect security
 
@@ -32,7 +32,7 @@ Hive 3 meets customer demands for concurrency improvements, ACID support for GDP
 
 ### Transaction processing changes and Improvements
 
-Hive 3 has mature versions of [ACID (Atomicity, Consistency, Isolation, and Durability)](https://www.nitendratech.com/database/acid-property-database/) transaction processing and LLAP(Live Long and Process) capability. [ACID](https://www.nitendratech.com/database/acid-property-database/)-based tables facilitate compliance with the right to be forgotten requirement of the GDPR (General Data Protection Regulation). Maintenance becomes easier in Hive 3 since we do not need to bucket ACID tables.
+Hive 3 has mature versions of [ACID (Atomicity, Consistency, Isolation, and Durability)](/blog/acid-property-database/) transaction processing and LLAP(Live Long and Process) capability. [ACID](/blog/acid-property-database/)-based tables facilitate compliance with the right to be forgotten requirement of the GDPR (General Data Protection Regulation). Maintenance becomes easier in Hive 3 since we do not need to bucket ACID tables.
 
 ### Hive client changes
 

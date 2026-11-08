@@ -11,7 +11,7 @@ In this blog post, we will go over the Important data warehouse interview questi
 
 **Question: What is a Data Warehouse?**
 
-**Answer:** A [data warehouse](https://www.nitendratech.com/database/enterprise-data-warehouse/) is a repository of integrating data that are extracted from different data sources.
+**Answer:** A [data warehouse](/blog/enterprise-data-warehouse/) is a repository of integrating data that are extracted from different data sources.
 
 **Question: What are the different tiers in Data Warehouse architecture?**
 

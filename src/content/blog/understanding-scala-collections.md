@@ -7,7 +7,7 @@ subcategory: "Scala"
 draft: false
 ---
 
-Scala Collections is a container [data](https://www.nitendratech.com/datascience/data-explained/) structure that contains zero or more elements. Scala provides several collection classes.
+Scala Collections is a container [data](/blog/data-explained/) structure that contains zero or more elements. Scala provides several collection classes.
 
 ## Base Classes
 

@@ -24,7 +24,7 @@ It is the process of searching, gathering, and processing data so that it can be
 
 ### Avro
 
-[Avro](https://www.nitendratech.com/bigdata/big-data-storage-formats/) is a data serialization system that can be used for encoding the Hadoop files and is used for parsing data.
+[Avro](/blog/big-data-storage-formats/) is a data serialization system that can be used for encoding the Hadoop files and is used for parsing data.
 
 ### Audits
 
@@ -100,11 +100,11 @@ Governance provides the oversight of data assets, standards, and policies for th
 
 ### Hadoop
 
-Apache Hadoop is the open-source data processing library as part of the Apache Software Foundation. It uses a framework that allows for the distributed processing of large data sets across clusters of computers using a simple programming model called [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/).
+Apache Hadoop is the open-source data processing library as part of the Apache Software Foundation. It uses a framework that allows for the distributed processing of large data sets across clusters of computers using a simple programming model called [MapReduce](/blog/hadoop-mapreduce-framework/).
 
 ### HDFS (Hadoop Distributed File system)
 
-[HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/) is the distributed, scalable, Java-based file system used for storing large volumes of unstructured in Hadoop. It is the storage layer in the Hadoop framework.
+[HDFS](/blog/hadoop-hdfs/) is the distributed, scalable, Java-based file system used for storing large volumes of unstructured in Hadoop. It is the storage layer in the Hadoop framework.
 
 ## I
 
@@ -116,7 +116,7 @@ It is that type of Database that relies on memory for data storage.
 
 ### Kerberos
 
-[Kerberos](https://www.nitendratech.com/bigdata/security-bigdata/) provides Single Sign-On(SSO) via a ticket-based authentication mechanism. T
+[Kerberos](/blog/security-bigdata/) provides Single Sign-On(SSO) via a ticket-based authentication mechanism. T
 
 ## M
 
@@ -126,7 +126,7 @@ It is the data processing framework in Apache Hadoop. Not only that, but it main
 
 ### Metadata
 
-[Metadata](https://www.nitendratech.com/bigdata/metadata-big-data-applications/) is the information that describes other data, or, simply speaking, it is data about the data. It is the descriptive, administrative, and structural data that defines a firm’s data assets.
+[Metadata](/blog/metadata-big-data-applications/) is the information that describes other data, or, simply speaking, it is data about the data. It is the descriptive, administrative, and structural data that defines a firm’s data assets.
 
 ## N
 
@@ -150,11 +150,11 @@ RDBMS stands for Relational Database Management System. It stores data in the fo
 
 ### Serialization
 
-[Serialization](https://www.nitendratech.com/bigdata/big-data-storage-formats/) refers to the process of turning data structures into byte streams, either for storage or transmission over a network.
+[Serialization](/blog/big-data-storage-formats/) refers to the process of turning data structures into byte streams, either for storage or transmission over a network.
 
 ### Sequence Files
 
-[Sequence files](https://www.nitendratech.com/bigdata/big-data-storage-formats/) store data in a binary format with a similar structure to CSV. Like CSV, sequence files do not store metadata with the data, so the only schema evolution option is appending new fields.
+[Sequence files](/blog/big-data-storage-formats/) store data in a binary format with a similar structure to CSV. Like CSV, sequence files do not store metadata with the data, so the only schema evolution option is appending new fields.
 
 ### Stream Processing
 

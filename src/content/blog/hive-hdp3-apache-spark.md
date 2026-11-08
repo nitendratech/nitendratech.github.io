@@ -7,7 +7,7 @@ subcategory: "Spark"
 draft: false
 ---
 
-If you are switching from Hortwonwork Data Platform(HDP) 2.6 To 3.0+, you will have a hard time accessing [Hive](https://www.nitendratech.com/hive/hive-query-language/) Tables through the [Apache Spark](https://www.nitendratech.com/spark/apache-spark/) shell. HDP 3 introduced something called Hive Warehouse Connector (HWC) which is a Spark library/plugin that is launched with the Spark application. You need to understand how to use HWC to access Spark tables from Hive in HDP 3.0 and later. You can also export tables to Hive from Spark and vice versa using this connector.
+If you are switching from Hortwonwork Data Platform(HDP) 2.6 To 3.0+, you will have a hard time accessing [Hive](/blog/hive-query-language/) Tables through the [Apache Spark](/blog/apache-spark/) shell. HDP 3 introduced something called Hive Warehouse Connector (HWC) which is a Spark library/plugin that is launched with the Spark application. You need to understand how to use HWC to access Spark tables from Hive in HDP 3.0 and later. You can also export tables to Hive from Spark and vice versa using this connector.
 
 In HDP 3.0 and later, Spark and Hive use independent catalogs for accessing SparkSQL or Hive tables on the same or different platforms. Both Spark and Hive have a different catalog in HDP 3.0 and later. A table created by Spark resides in the Spark catalog, whereas the table created by Hive resides in the Hive catalog. When we create a database in the new platform, it will fall under the catalog namespace, which is similar to how tables belong to the database namespace. These tables are interoperable when we use the Hive warehouse connector.
 
@@ -30,7 +30,7 @@ The spark thrift server is not supported.
 Below are some operations supported by the Hive Warehouse connection.
 
 - Describing a Table
-- Creating a table for [ORC-formatted](https://www.nitendratech.com/bigdata/columnar-data-storage/) data
+- Creating a table for [ORC-formatted](/blog/columnar-data-storage/) data
 - Selecting Hive data and retrieving a Data Frame
 - Writing a Data Frame to Hive in Batch
 - Executing a Hive update statement

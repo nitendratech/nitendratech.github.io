@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "Databases"
 ---
 
-Each [database](https://www.nitendratech.com/database/learn-database/) has one or more tables having rows and columns. Keys in the Database are columns or groups of columns that are used to identify rows in tables. These keys might or might not be unique.
+Each [database](/blog/learn-database/) has one or more tables having rows and columns. Keys in the Database are columns or groups of columns that are used to identify rows in tables. These keys might or might not be unique.
 
 ## Types of Keys in Database
 

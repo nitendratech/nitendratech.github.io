@@ -9,7 +9,7 @@ draft: false
 
 ## Background
 
-When I was working with [Kafka](https://www.nitendratech.com/kafka/apache-kafka/), I did a lot of research into event-driven messaging and event-based architecture. While doing this research, I stumbled upon Apache NiFi, which helps to create complex data flows for a distributed or Internet of Things (IoT) based application. I decided to do this write-up which introduces NiFi which will be a key player in the IoT-based application in the future.
+When I was working with [Kafka](/blog/apache-kafka/), I did a lot of research into event-driven messaging and event-based architecture. While doing this research, I stumbled upon Apache NiFi, which helps to create complex data flows for a distributed or Internet of Things (IoT) based application. I decided to do this write-up which introduces NiFi which will be a key player in the IoT-based application in the future.
 
 ## Introduction
 

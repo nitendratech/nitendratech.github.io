@@ -8,9 +8,9 @@ subcategory: "Databases"
 
 ## What is a Database Index in SQL?
 
-An index in the [database](https://www.nitendratech.com/database/learn-database/) is a data structure that has content that can point to the location of the data in the table. We can create an index using one or more columns of a table. It optimizes retrieval, searches, insertion, and deletion in the database. The main goal of the index is to make it faster to search through table records and find the row or group of rows as needed. An index can be applied to a column or a view. We can also have a table with single or multiple indexes.
+An index in the [database](/blog/learn-database/) is a data structure that has content that can point to the location of the data in the table. We can create an index using one or more columns of a table. It optimizes retrieval, searches, insertion, and deletion in the database. The main goal of the index is to make it faster to search through table records and find the row or group of rows as needed. An index can be applied to a column or a view. We can also have a table with single or multiple indexes.
 
-The database can use available indexes to locate the requested rows efficiently. Indexes are useful when [SQL (Structured Query Language)](https://www.nitendratech.com/database/learn-sql/) query needs to find a specific row or range of rows. They do not have any logical or physical relation to the data in the table. It means that we can create and drop indexes with no effect on the tables or other indexes. Applications will function normally when we drop an index.
+The database can use available indexes to locate the requested rows efficiently. Indexes are useful when [SQL (Structured Query Language)](/blog/learn-sql/) query needs to find a specific row or range of rows. They do not have any logical or physical relation to the data in the table. It means that we can create and drop indexes with no effect on the tables or other indexes. Applications will function normally when we drop an index.
 
 ## How is the Index stored in the Database?
 

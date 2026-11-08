@@ -9,9 +9,9 @@ draft: false
 
 ## What is Metadata in Big Data Platforms?
 
-Metadata is the information that describes other [data](https://www.nitendratech.com/datascience/data-explained/), or, simply speaking, it is data about the data. It is the descriptive, administrative, and structural data that defines a firm’s data assets. It can streamline and enhance the process of collecting, integrating, and analyzing big data sources.
+Metadata is the information that describes other [data](/blog/data-explained/), or, simply speaking, it is data about the data. It is the descriptive, administrative, and structural data that defines a firm’s data assets. It can streamline and enhance the process of collecting, integrating, and analyzing big data sources.
 
-Metadata plays an important role in [Big data](https://www.nitendratech.com/bigdata/big-data/) platforms like [Apache Hadoop](https://www.nitendratech.com/hadoop/apache-hadoop/), where it helps to maintain lineage and provides the map and linkage between source and target systems It also provides valuable information regarding that data. Some important metadata related to big data applications can be the type of asset, author, date originated, workflow state, and usage within the Enterprise, among numerous others.
+Metadata plays an important role in [Big data](/blog/big-data/) platforms like [Apache Hadoop](/blog/apache-hadoop/), where it helps to maintain lineage and provides the map and linkage between source and target systems It also provides valuable information regarding that data. Some important metadata related to big data applications can be the type of asset, author, date originated, workflow state, and usage within the Enterprise, among numerous others.
 
 When we discuss metadata from the perspective of the Hadoop ecosystem, it can fall into one of the below categories.
 
@@ -19,11 +19,11 @@ When we discuss metadata from the perspective of the Hadoop ecosystem, it can fa
 
 This metadata is stored in a separate metadata repository and can include the following information:
 
-- Location of a data set (e.g., directory in [HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/) or the HBase table name)
+- Location of a data set (e.g., directory in [HDFS](/blog/hadoop-hdfs/) or the HBase table name)
 - Schema associated with the data set
 - Information about the Column name, Column Data type (String, Long, Float)
 - Information related to the partition and sorting properties of the data sets
-- [Format of the data sets](https://www.nitendratech.com/bigdata/big-data-storage-formats/) (CSV(Comma Separated Values), TSV (Tab Separated Values), Sequence, Parquet, Avro, etc.)
+- [Format of the data sets](/blog/big-data-storage-formats/) (CSV(Comma Separated Values), TSV (Tab Separated Values), Sequence, Parquet, Avro, etc.)
 
 ### Metadata about files on HDFS
 

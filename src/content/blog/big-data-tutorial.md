@@ -12,48 +12,48 @@ This page will guide you through different topics one needs for learning Big dat
 
 ## Big Data Basics
 
-- [What is Big Data and its History?](https://www.nitendratech.com/bigdata/big-data/)
-- [Big Data Sources](https://www.nitendratech.com/bigdata/big-data-sources/)
-- [Important Big Data Hadoop Terms Everyone Should Know](https://www.nitendratech.com/bigdata/important-big-data-terms/)
-- [Why Do Organizations Need Data Analysts?](https://www.nitendratech.com/bigdata/organizations-data-analysts/)
-- [What is an Edge Node?](https://www.nitendratech.com/bigdata/edge-node/)
-- [What is Complex Even Processing?](https://www.nitendratech.com/bigdata/complex-event-processing/)
+- [What is Big Data and its History?](/blog/big-data/)
+- [Big Data Sources](/blog/big-data-sources/)
+- [Important Big Data Hadoop Terms Everyone Should Know](/blog/important-big-data-terms/)
+- [Why Do Organizations Need Data Analysts?](/blog/organizations-data-analysts/)
+- [What is an Edge Node?](/blog/edge-node/)
+- [What is Complex Even Processing?](/blog/complex-event-processing/)
 
 ## Advanced Topics
 
-- [What is DataLake?](https://www.nitendratech.com/bigdata/learn-datalake/)
-- [Metadata Governance for Big Data](https://www.nitendratech.com/bigdata/metadata-governance-bigdata/)
-- [Metadata For Big Data Applications](https://www.nitendratech.com/bigdata/metadata-big-data-applications/)
-- [Big Data Storage Formats](https://www.nitendratech.com/bigdata/big-data-storage-formats/)
-- [How to Choose file format in Big Data Framework?](https://www.nitendratech.com/bigdata/file-format-big-data/)
-- [How to Secure Big Data Cluster?](https://www.nitendratech.com/bigdata/security-bigdata/)
-- [What is Data Ingestion Process?](https://www.nitendratech.com/bigdata/data-ingestion/)
-- [What is Flat File?](https://www.nitendratech.com/bigdata/flat-file/)
-- [Modern Data Stack for Data-Driven Organizations](https://www.nitendratech.com/bigdata/modern-data-stack/)
-- [What is Data Platform?](https://www.nitendratech.com/bigdata/data-platform/)
-- [What is Data Engineering ? How to Start Career in Data Engineering?](https://www.nitendratech.com/datascience/data-engineering/)
+- [What is DataLake?](/blog/learn-datalake/)
+- [Metadata Governance for Big Data](/blog/metadata-governance-bigdata/)
+- [Metadata For Big Data Applications](/blog/metadata-big-data-applications/)
+- [Big Data Storage Formats](/blog/big-data-storage-formats/)
+- [How to Choose file format in Big Data Framework?](/blog/file-format-big-data/)
+- [How to Secure Big Data Cluster?](/blog/security-bigdata/)
+- [What is Data Ingestion Process?](/blog/data-ingestion/)
+- [What is Flat File?](/blog/flat-file/)
+- [Modern Data Stack for Data-Driven Organizations](/blog/modern-data-stack/)
+- [What is Data Platform?](/blog/data-platform/)
+- [What is Data Engineering ? How to Start Career in Data Engineering?](/blog/data-engineering/)
 
 ## Big Data Uses
 
-- [Big Data Technology in Agriculture](https://www.nitendratech.com/bigdata/big-data-agriculture/)
-- [Big Data Analytics in Cancer](https://www.nitendratech.com/bigdata/big-data-cancer/)
+- [Big Data Technology in Agriculture](/blog/big-data-agriculture/)
+- [Big Data Analytics in Cancer](/blog/big-data-cancer/)
 
 ## Apache Pig
 
-- [Introduction to Apache Pig](https://www.nitendratech.com/bigdata/apache-pig/)
-- [Apache Pig execution Modes](https://www.nitendratech.com/bigdata/apache-pig-execution-modes/)
+- [Introduction to Apache Pig](/blog/apache-pig/)
+- [Apache Pig execution Modes](/blog/apache-pig-execution-modes/)
 
 ## Apache HBase
 
-- [Columnar Data Storage](https://www.nitendratech.com/bigdata/columnar-data-storage/)
-- [What is Apache Hbase?](https://www.nitendratech.com/bigdata/apache-hbase/)
-- [Apache Hbase Data Model](https://www.nitendratech.com/bigdata/apache-hbase-data-model/)
+- [Columnar Data Storage](/blog/columnar-data-storage/)
+- [What is Apache Hbase?](/blog/apache-hbase/)
+- [Apache Hbase Data Model](/blog/apache-hbase-data-model/)
 
 ## Big Data Technologies
 
-- [What is Apache Flume?](https://www.nitendratech.com/bigdata/apache-flume/)
-- [Introduction to Apache NiFi](https://www.nitendratech.com/bigdata/apache-nifi/)
-- [Apache Sqoop Tutorial](https://www.nitendratech.com/bigdata/apache-sqoop-tutorial/)
-- [Data Observability in Modern Data Tech Stack](https://www.nitendratech.com/bigdata/data-observability-modern-data-tech-stack/)
+- [What is Apache Flume?](/blog/apache-flume/)
+- [Introduction to Apache NiFi](/blog/apache-nifi/)
+- [Apache Sqoop Tutorial](/blog/apache-sqoop-tutorial/)
+- [Data Observability in Modern Data Tech Stack](/blog/data-observability-modern-data-tech-stack/)
 
 *Originally published on nitendratech.com on 2021-09-08, updated 2024-08-03.*

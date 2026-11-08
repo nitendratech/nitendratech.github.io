@@ -6,11 +6,11 @@ category: "Data Engineering"
 subcategory: "Data Warehouse"
 ---
 
-A data warehouse or an Enterprise Data Warehouse(EDW) is a centralized storage platform that contains historical data as well as current data. It is a process for collecting, storing, and delivering decision-support data that is derived from a transaction/relational [database](https://www.nitendratech.com/database/relational-database).
+A data warehouse or an Enterprise Data Warehouse(EDW) is a centralized storage platform that contains historical data as well as current data. It is a process for collecting, storing, and delivering decision-support data that is derived from a transaction/relational [database](/blog/relational-database/).
 
 As a Data Warehouse includes data from different sources, it helps to separate the analytics workload from the transaction workload. It is designed for query and analysis rather than transaction processing so that businesses can consolidate data from several sources. An ideal ETL-based data warehousing solution uses staging, data integration, and access layers to house its key functions.
 
-In addition to being an [RDBMS (Relational Database Management System)](https://www.nitendratech.com/database/relational-database/), a data warehouse can often consist of an [ETL (Extract, Transform, and Load)](https://www.nitendratech.com/database/etl-process/) solution, an OLAP (Online Analytical Processing) engine, client analysis tools, and can manage the process of gathering data and delivering it to business clients.
+In addition to being an [RDBMS (Relational Database Management System)](/blog/relational-database/), a data warehouse can often consist of an [ETL (Extract, Transform, and Load)](/blog/etl-process/) solution, an OLAP (Online Analytical Processing) engine, client analysis tools, and can manage the process of gathering data and delivering it to business clients.
 
 ## Data Warehouse Components
 

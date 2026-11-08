@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "Databases"
 ---
 
-A [database](https://www.nitendratech.com/database/learn-database/) is called a relational data model, as it represents the relationship between one or more databases. The relationship is known as the relational database model. It provides flexibility and allows one database to have a relation to another database. It can access the data from many databases at one time over the network.
+A [database](/blog/learn-database/) is called a relational data model, as it represents the relationship between one or more databases. The relationship is known as the relational database model. It provides flexibility and allows one database to have a relation to another database. It can access the data from many databases at one time over the network.
 
 ## Properties of Relational Data Model
 

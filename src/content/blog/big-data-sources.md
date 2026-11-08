@@ -7,15 +7,15 @@ subcategory: "Big Data Fundamentals"
 draft: false
 ---
 
-Digital [data](https://www.nitendratech.com/datascience/data-explained/) is now everywhere—in every sector, in every economy, in every organization, and user of digital technology. While this topic might once have concerned only a few data geeks, [big data](https://www.nitendratech.com/bigdata/big-data/) is now relevant to leaders across every sector, and consumers of products and services stand to benefit from its application. The ability to store, aggregate, and combine data and then use the results to perform deep analyses has become ever more accessible as trends such as Moore's Law in computing, its equivalent in digital storage, and cloud computing continue to lower costs and other technical barriers.
+Digital [data](/blog/data-explained/) is now everywhere—in every sector, in every economy, in every organization, and user of digital technology. While this topic might once have concerned only a few data geeks, [big data](/blog/big-data/) is now relevant to leaders across every sector, and consumers of products and services stand to benefit from its application. The ability to store, aggregate, and combine data and then use the results to perform deep analyses has become ever more accessible as trends such as Moore's Law in computing, its equivalent in digital storage, and cloud computing continue to lower costs and other technical barriers.
 
 The amount of data in our world has been exploding. Different companies capture trillions of bytes of information about their customers, suppliers, and operations, and millions of networked sensors are being embedded in the physical world in devices such as mobile phones and automobiles. We are seeing an increase in data size over the last decade. It is estimated that by 2025, there will be more than 150 zettabytes of data collected worldwide. This collected big data is extremely helpful to organizations who want to analyze it and get insights from it. Before organizations can extract insights from the data, they need to collect it first. As we know, data is massive and exists in various forms. In this blog post, we will explore the sources of Big Data and its types.
 
 ## Main Sources of Big Data
 
-Although [Big data](https://www.nitendratech.com/bigdata/big-data/) originates from multiple sources, the most common ones are below.
+Although [Big data](/blog/big-data/) originates from multiple sources, the most common ones are below.
 
-- Climate information data collected from [IOT (Internet of Things)](https://www.nitendratech.com/technology/internet-of-things/) based Sensors
+- Climate information data collected from [IOT (Internet of Things)](/blog/internet-of-things/) based Sensors
 - Digital Pictures (Pinterest)
 - Digital Audio (Spotify, Pandora, Apple Music, Amazon Music)
 - Digital videos (Netflix, HBO Max, Hulu, Disney)
@@ -38,7 +38,7 @@ With cloud computing and the socialization of the Internet, unstructured data pe
 
 ## Categories of Sources of Big Data
 
-Multimedia and individuals with smartphones and social network sites will continue to fuel exponential growth. [Big data](https://www.nitendratech.com/bigdata/big-data/) is large pools of data that can be captured, communicated, aggregated, stored, and analyzed and is now part of every sector and function of the global economy. Like other essential factors of production such as hard assets and human capital, it is increasingly the case that much of modern economic activity, innovation, and growth couldn't take place without data.
+Multimedia and individuals with smartphones and social network sites will continue to fuel exponential growth. [Big data](/blog/big-data/) is large pools of data that can be captured, communicated, aggregated, stored, and analyzed and is now part of every sector and function of the global economy. Like other essential factors of production such as hard assets and human capital, it is increasingly the case that much of modern economic activity, innovation, and growth couldn't take place without data.
 
 All of these sources of data can be categorized into three main sections.
 

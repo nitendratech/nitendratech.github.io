@@ -7,7 +7,7 @@ subcategory: "Spark"
 draft: false
 ---
 
-Data locality refers to how close data is to the code processing it. Having the code and the data together tends to make computations faster in [Apache Spark](https://www.nitendratech.com/spark/apache-spark/). If the code and data are separated, either one has to move to the other. Moving the serialized code through the network is faster than moving the data through the network. As the size of the code is smaller than the data itself, this helps in the use of fewer network resources.
+Data locality refers to how close data is to the code processing it. Having the code and the data together tends to make computations faster in [Apache Spark](/blog/apache-spark/). If the code and data are separated, either one has to move to the other. Moving the serialized code through the network is faster than moving the data through the network. As the size of the code is smaller than the data itself, this helps in the use of fewer network resources.
 
 There are several levels of locality based on the data's current location. Below are the locality levels in order from closest to farthest.
 

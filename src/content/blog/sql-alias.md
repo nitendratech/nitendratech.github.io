@@ -8,9 +8,9 @@ subcategory: "SQL"
 
 ## What does alias mean in SQL?
 
-[SQL (Structured Query Language)](https://www.nitendratech.com/database/learn-sql/) aliases are used for giving a temporary name to a column or a table for the purpose of a particular SQL query. They are mainly used to make SQL queries more readable. They are created explicitly using an AS keyword and exist during only the duration of that query. During that period when SQL query runs, a table name or column name can be renamed by using an alias. This renaming using SQL is temporary and does not reflect any change in the original table or databases.
+[SQL (Structured Query Language)](/blog/learn-sql/) aliases are used for giving a temporary name to a column or a table for the purpose of a particular SQL query. They are mainly used to make SQL queries more readable. They are created explicitly using an AS keyword and exist during only the duration of that query. During that period when SQL query runs, a table name or column name can be renamed by using an alias. This renaming using SQL is temporary and does not reflect any change in the original table or databases.
 
-SQL alias is supported by most [RDBMS (Relational Database Management Systems).](https://www.nitendratech.com/database/relational-database/)
+SQL alias is supported by most [RDBMS (Relational Database Management Systems).](/blog/relational-database/)
 
 ## How does an alias work in SQL?
 

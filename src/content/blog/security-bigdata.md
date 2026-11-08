@@ -7,13 +7,13 @@ subcategory: "Big Data Security"
 draft: false
 ---
 
-Big data refers to datasets whose size, volume, and structure are beyond the ability of traditional software tools and database systems to store, process, and analyze within reasonable timeframes. The influx of big data and the need to move this information throughout an organization has created a massive new target for hackers and other cybercriminals. This data, which previously was unusable by various organizations is now highly valuable and is subject to privacy laws and compliance regulations, and must always be protected. [Big data](https://www.nitendratech.com/bigdata/big-data/) security is a term used for the different tools and techniques used to protect data and any backend processes from outside attacks and thefts.
+Big data refers to datasets whose size, volume, and structure are beyond the ability of traditional software tools and database systems to store, process, and analyze within reasonable timeframes. The influx of big data and the need to move this information throughout an organization has created a massive new target for hackers and other cybercriminals. This data, which previously was unusable by various organizations is now highly valuable and is subject to privacy laws and compliance regulations, and must always be protected. [Big data](/blog/big-data/) security is a term used for the different tools and techniques used to protect data and any backend processes from outside attacks and thefts.
 
-[Hadoop](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) and similar [NoSQL](https://www.nitendratech.com/database/nosql-databases/)(Not only SQL) data stores are used in many organizations of large and small sizes to collect, manage, and analyze large data sets. They were not designed with comprehensive security in mind even though, these tools are popular among large and small organizations. In this blog post, we will learn about the best ways to secure a Big Data Cluster and implement it optimally.
+[Hadoop](/blog/hadoop-mapreduce-framework/) and similar [NoSQL](/blog/nosql-databases/)(Not only SQL) data stores are used in many organizations of large and small sizes to collect, manage, and analyze large data sets. They were not designed with comprehensive security in mind even though, these tools are popular among large and small organizations. In this blog post, we will learn about the best ways to secure a Big Data Cluster and implement it optimally.
 
 ## Data Security in Hadoop Framework
 
-In a Hadoop-based ecosystem, there are mainly two ways to process and ingest data; push or pull-based architecture. Hadoop framework can be used to handle these data for different use cases. However, managing petabytes of data in a single centralized cluster can be dangerous as data is the most valuable asset of a company. Hadoop uses a distributed file system called [Hadoop Distributed File System(HDFS)](https://www.nitendratech.com/hadoop/hadoop-hdfs/) to store petabytes of data.
+In a Hadoop-based ecosystem, there are mainly two ways to process and ingest data; push or pull-based architecture. Hadoop framework can be used to handle these data for different use cases. However, managing petabytes of data in a single centralized cluster can be dangerous as data is the most valuable asset of a company. Hadoop uses a distributed file system called [Hadoop Distributed File System(HDFS)](/blog/hadoop-hdfs/) to store petabytes of data.
 
 Hadoop security is about securing the below items.
 
@@ -119,7 +119,7 @@ Replication aims to provide a close resemblance to the production system by repl
 
 ## Best Techniques for Encrypting Big Data
 
-External or external leakage of data is a crucial business concern in any organization. It is a challenging task for any organization to secure sensitive and critical business data and personally identifiable in a [Big Data](https://www.nitendratech.com/bigdata/big-data/) cluster as data is stored across various formats after passing through different data pipelines.
+External or external leakage of data is a crucial business concern in any organization. It is a challenging task for any organization to secure sensitive and critical business data and personally identifiable in a [Big Data](/blog/big-data/) cluster as data is stored across various formats after passing through different data pipelines.
 
 ### Types of Encryption Techniques
 

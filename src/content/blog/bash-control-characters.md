@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Shell Scripting"
 ---
 
-Control characters are codes or numbers in a character set that does not represent a written symbol. They are building blocks of Bash scripts which are like metacharacters having a special meaning. Below are the common separators and Control characters used in [Bash scripts](https://www.nitendratech.com/linux/bash-script/).
+Control characters are codes or numbers in a character set that does not represent a written symbol. They are building blocks of Bash scripts which are like metacharacters having a special meaning. Below are the common separators and Control characters used in [Bash scripts](/blog/bash-script/).
 
 | Control Characters | Description |
 | --- | --- |

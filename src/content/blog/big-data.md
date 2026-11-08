@@ -56,8 +56,8 @@ Apache Hadoop is an open-source framework that is used for processing large data
 
 Hadoop mainly consists of two components.
 
-- A distributed file system is known as [HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/) (Hadoop Distributed File System)
-- [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) programming model to process that data.
+- A distributed file system is known as [HDFS](/blog/hadoop-hdfs/) (Hadoop Distributed File System)
+- [MapReduce](/blog/hadoop-mapreduce-framework/) programming model to process that data.
 
 For details on this framework and related components, refer to my other blog post on the Hadoop MapReduce framework.
 

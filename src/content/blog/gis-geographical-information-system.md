@@ -7,7 +7,7 @@ subcategory: "GIS"
 draft: false
 ---
 
-GIS stands for Geographical Information System. It is a system that allows users to add a map with geospatial referencing data such as latitude or longitude, along with other additional layers of information. It allows for creating, managing, analyzing, and map of all types of [data](https://www.nitendratech.com/datascience/data-explained/). Furthermore, it allows connecting location data to the existing map with additional descriptive information. This information related to location is used for geospatial referencing. This spatial data along with other data allows representing the data in a visual form which allows us to study patterns in them.
+GIS stands for Geographical Information System. It is a system that allows users to add a map with geospatial referencing data such as latitude or longitude, along with other additional layers of information. It allows for creating, managing, analyzing, and map of all types of [data](/blog/data-explained/). Furthermore, it allows connecting location data to the existing map with additional descriptive information. This information related to location is used for geospatial referencing. This spatial data along with other data allows representing the data in a visual form which allows us to study patterns in them.
 
 ## Important Components of GIS
 

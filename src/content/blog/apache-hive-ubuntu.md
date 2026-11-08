@@ -136,7 +136,7 @@ Figure: Check Hadoop and Hive Version
 
 ### Create Hive Warehouse directory and initialize Derby
 
-Let's configure the directory information in [Hadoop Distributed File System(HDFS)](https://www.nitendratech.com/hadoop/introduction-hadoop-hdfs/) where the hive can store its data.
+Let's configure the directory information in [Hadoop Distributed File System(HDFS)](/blog/hadoop-hdfs/) where the hive can store its data.
 
 ```bash
 hdfs dfs -mkdir -p /user/hive/warehouse

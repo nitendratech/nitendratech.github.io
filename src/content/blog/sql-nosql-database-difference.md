@@ -6,11 +6,11 @@ category: "Data Engineering"
 subcategory: "Databases"
 ---
 
-A relational database is a digital database based on the relational model of data and uses [Structured Query Language (SQL)](https://www.nitendratech.com/database/learn-sql/) and follows [ACID (Atomicity, Consistency, Isolation, Durability)](https://www.nitendratech.com/database/acid-property-database/) property strictly.
+A relational database is a digital database based on the relational model of data and uses [Structured Query Language (SQL)](/blog/learn-sql/) and follows [ACID (Atomicity, Consistency, Isolation, Durability)](/blog/acid-property-database/) property strictly.
 
 SQL databases have been a primary data storage mechanism for more than four decades. Usage exploded in the late 1990s with the rise of web applications and open-source options such as MySQL, PostgreSQL, and SQLite.
 
-[NoSQL](https://www.nitendratech.com/database/nosql-databases/) or Non-Relational databases have existed since the 1960s, but have recently been gaining traction with popular options such as MongoDB, CouchDB, Redis, and Apache Cassandra. They are a data storage system that was designed for unstructured data which does not follow an ACID property like a traditional RDBMS but follows a property called [CAP](https://www.nitendratech.com/technology/cap-theorem/) theorem.
+[NoSQL](/blog/nosql-databases/) or Non-Relational databases have existed since the 1960s, but have recently been gaining traction with popular options such as MongoDB, CouchDB, Redis, and Apache Cassandra. They are a data storage system that was designed for unstructured data which does not follow an ACID property like a traditional RDBMS but follows a property called [CAP](/blog/cap-theorem/) theorem.
 
 We will explore the difference between SQL and NoSQL in this blog post.
 

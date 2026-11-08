@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Shell Scripting"
 ---
 
-A function is a small piece of code or command which can be used multiple times in a script. A function in bash can be created using the `function` keyword. It is one of the best ways to make a [Bash script](https://www.nitendratech.com/linux/bash-script/) modular, as small chunks of code are easier to develop and maintain.
+A function is a small piece of code or command which can be used multiple times in a script. A function in bash can be created using the `function` keyword. It is one of the best ways to make a [Bash script](/blog/bash-script/) modular, as small chunks of code are easier to develop and maintain.
 
 ## The syntax for function creation.
 

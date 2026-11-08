@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Shell Scripting"
 ---
 
-`date` command on Linux can be used to display the current time and date. It is one of the most useful tools when working with [bash script](https://www.nitendratech.com/linux/bash-script/), as it is available on all Linux Systems. It allows you to display and configure the current date and time in different formats as needed.
+`date` command on Linux can be used to display the current time and date. It is one of the most useful tools when working with [bash script](/blog/bash-script/), as it is available on all Linux Systems. It allows you to display and configure the current date and time in different formats as needed.
 
 ## Syntax
 

@@ -11,7 +11,7 @@ There are many challenges like Input/Output(I/O) and network-related bottlenecks
 
 ## Why Do We Need Data Compression?
 
-In data-intensive [Hadoop](https://www.nitendratech.com/hadoop/apache-hadoop/) workloads, Input/Output or I/O operation and network data transfer take a considerably longer amount of time to complete. Furthermore, the internal MapReduce "Shuffle" process is also under huge I/O pressure, as it has too often "spilled out" intermediate data to local disks before advancing from the Map phase to the Reduce Phase.
+In data-intensive [Hadoop](/blog/apache-hadoop/) workloads, Input/Output or I/O operation and network data transfer take a considerably longer amount of time to complete. Furthermore, the internal MapReduce "Shuffle" process is also under huge I/O pressure, as it has too often "spilled out" intermediate data to local disks before advancing from the Map phase to the Reduce Phase.
 
 For any Hadoop cluster, disk, I/O, and network bandwidth are considered precious resources, which should be allocated accordingly. So the use of compressed files for storage not only saves disk space but also speeds up data transfer across the network. Also, when running a large volume of MapReduce jobs, a combination of data compression and decreased network load brings significant performance improvements as the I/O and network resource consumption are reduced throughout the MapReduce process pipeline.
 
@@ -19,13 +19,13 @@ For any Hadoop cluster, disk, I/O, and network bandwidth are considered precious
 
 Using data compression in the Hadoop framework is usually a tradeoff between I/O and speed of computation. When enabled to compression, it reduces I/O and network usage. Compression happens when MapReduce reads the data or when it writes it out.
 
-When the [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) job is fired up against compressed data, CPU utilization generally increases as data must be decompressed before the files can be processed by the Map and Reduce Tasks. Because of this, decompression usually increases the time of the job. However, it has been found that in many cases, overall job performance improves when compression is enabled in multiple phases of job configuration.
+When the [MapReduce](/blog/hadoop-mapreduce-framework/) job is fired up against compressed data, CPU utilization generally increases as data must be decompressed before the files can be processed by the Map and Reduce Tasks. Because of this, decompression usually increases the time of the job. However, it has been found that in many cases, overall job performance improves when compression is enabled in multiple phases of job configuration.
 
 ## Data Compression Supported by Apache Hadoop Framework
 
 The Hadoop framework supports many compression formats for both input and output data. A compression format or a codec (coder-decoder) is a set of compiled, ready-to-use Java libraries that a developer can invoke programmatically to perform data compression and decompression in the MapReduce job. Each of these codecs implements an algorithm for compression and decompression and also has different characteristics.
 
-Among the different data compression formats, some are splittable, which can further enhance performance when reading and processing large compressed files. So when a single large file is stored in [HDFS](https://www.nitendratech.com/hadoop/hadoop-hdfs/), it is split into many data blocks and distributed across many nodes. If the file has been compressed by using the splittable algorithms, data blocks can be decompressed in parallel by using several [MapReduce](https://www.nitendratech.com/hadoop/hadoop-mapreduce-framework/) tasks. However, if the file has been compressed by an algorithm that cannot be split, Hadoop must pull blocks together and use a single MapReduce task to decompress them.
+Among the different data compression formats, some are splittable, which can further enhance performance when reading and processing large compressed files. So when a single large file is stored in [HDFS](/blog/hadoop-hdfs/), it is split into many data blocks and distributed across many nodes. If the file has been compressed by using the splittable algorithms, data blocks can be decompressed in parallel by using several [MapReduce](/blog/hadoop-mapreduce-framework/) tasks. However, if the file has been compressed by an algorithm that cannot be split, Hadoop must pull blocks together and use a single MapReduce task to decompress them.
 
 Some compression techniques are explained below:
 

@@ -41,7 +41,7 @@ NoSQL has been added recently as a separate type of database.
 
 **Question: What do you understand by Relational Data Management System(RDBMS)?**
 
-**Answer:** RDBMS stands for Relational Data Management System. A [database](https://www.nitendratech.com/database/learn-database/) is called a relational data model, as it represents the relationship between one or more databases. The relationship is known as the relational database model. It provides flexibility and allows one database to be about another database. This database uses a particular structure such as rows and columns to store, identify, access data, and relate to other data in the database. We can use the Structured Query Language or SQL to easily access the data from Relational Database.
+**Answer:** RDBMS stands for Relational Data Management System. A [database](/blog/learn-database/) is called a relational data model, as it represents the relationship between one or more databases. The relationship is known as the relational database model. It provides flexibility and allows one database to be about another database. This database uses a particular structure such as rows and columns to store, identify, access data, and relate to other data in the database. We can use the Structured Query Language or SQL to easily access the data from Relational Database.
 
 **Question: What are the Examples of Relational Databases?**
 
@@ -57,7 +57,7 @@ NoSQL has been added recently as a separate type of database.
 
 **Question: What are the properties of a transaction in a Relational Database?**
 
-**Answer:** Transactions in relational databases follow certain properties known as [ACID](https://www.nitendratech.com/database/acid-property-database/). They are given below.
+**Answer:** Transactions in relational databases follow certain properties known as [ACID](/blog/acid-property-database/). They are given below.
 
 - Atomicity
 - Consistency
@@ -98,7 +98,7 @@ NoSQL has been added recently as a separate type of database.
 
 **Question: What is an ACID property in the Database?**
 
-**Answer:** In a relational database, multiple transactions are used in [SQL (Structured Query Language)](https://www.nitendratech.com/database/learn-sql/) which can be one or multiple statements. For a transaction to happen in a relational database, it needs to follow a set of properties known as [ACID](https://www.nitendratech.com/database/acid-property-database/). It stands for Atomicity, Consistency, Isolation, and Durability. It guarantees that [database](https://www.nitendratech.com/database/learn-database/) transactions are processed reliably in an application. It helps to maintain the integrity and consistency of data in a database.
+**Answer:** In a relational database, multiple transactions are used in [SQL (Structured Query Language)](/blog/learn-sql/) which can be one or multiple statements. For a transaction to happen in a relational database, it needs to follow a set of properties known as [ACID](/blog/acid-property-database/). It stands for Atomicity, Consistency, Isolation, and Durability. It guarantees that [database](/blog/learn-database/) transactions are processed reliably in an application. It helps to maintain the integrity and consistency of data in a database.
 
 **Question: What is a transaction in a Database?**
 
@@ -106,7 +106,7 @@ NoSQL has been added recently as a separate type of database.
 
 **Question: What is an Enterprise Data Warehouse(EDW)?**
 
-**Answer:** A data warehouse or an [Enterprise Data Warehouse(EDW)](https://www.nitendratech.com/database/enterprise-data-warehouse/) is a centralized storage platform that contains historical data as well as current data. It is a process for collecting, storing, and delivering decision-support data that is derived from a transaction/relational [database](https://www.nitendratech.com/database/relational-database).
+**Answer:** A data warehouse or an [Enterprise Data Warehouse(EDW)](/blog/enterprise-data-warehouse/) is a centralized storage platform that contains historical data as well as current data. It is a process for collecting, storing, and delivering decision-support data that is derived from a transaction/relational [database](/blog/relational-database/).
 
 **Question: What is Dimension in the Database?**
 
@@ -114,7 +114,7 @@ NoSQL has been added recently as a separate type of database.
 
 **Question: What is a Slowly Changing Database(SCD)?**
 
-**Answer:** A[Slowly changing Dimension or SCD](https://www.nitendratech.com/database/slowly-changing-dimensions/)is a technique as part of the Change Data Capture (CDC) process that is used to track changes for certain columns over time. SCD is a dimension that stores and manages both current and historical data over time in a data warehouse. It is dimensions that change slowly over time, rather than changing on a regular schedule, time-base.
+**Answer:** A[Slowly changing Dimension or SCD](/blog/slowly-changing-dimensions/)is a technique as part of the Change Data Capture (CDC) process that is used to track changes for certain columns over time. SCD is a dimension that stores and manages both current and historical data over time in a data warehouse. It is dimensions that change slowly over time, rather than changing on a regular schedule, time-base.
 
 **Question: What is Normalization in a Database?**
 

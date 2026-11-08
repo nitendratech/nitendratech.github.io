@@ -7,7 +7,7 @@ subcategory: "Hive"
 draft: false
 ---
 
-[Apache Hive](https://www.nitendratech.com/hive/apache-hive/) has mainly two types of tables: Managed and External tables.
+[Apache Hive](/blog/apache-hive/) has mainly two types of tables: Managed and External tables.
 
 ## Managed Table:
 

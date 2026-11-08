@@ -6,7 +6,7 @@ category: "Data Engineering"
 subcategory: "SQL"
 ---
 
-In [RDBMS](https://www.nitendratech.com/database/relational-database/), we can use the `INSERT INTO` statement to insert one or more records into a table.
+In [RDBMS](/blog/relational-database/), we can use the `INSERT INTO` statement to insert one or more records into a table.
 
 When the database adds a new row, it checks for all the integrity constraints and data types defined in the table. Some of these constraints can be foreign key constraints, primary key constraints, not null constraints. If there are any issues with satisfying these constraints and data types, the database will throw an error and will not insert any new row into the table.
 

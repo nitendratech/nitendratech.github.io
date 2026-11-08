@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Linux"
 ---
 
-The `ls` command is one of the basic and common commands that all [Linux](https://www.nitendratech.com/linux/basic-linux-commands/) users should know. It is mainly used to list information about files and directories within the Linux file system. The `ls` utility is a part of the GNU core utilities which are installed on all Linux distributions like Ubuntu, Red Hat, Fedora, and Mac OSX. This command is the most commonly used command while writing a [Bash script.](https://www.nitendratech.com/linux/bash-script/)
+The `ls` command is one of the basic and common commands that all Linux users should know. It is mainly used to list information about files and directories within the Linux file system. The `ls` utility is a part of the GNU core utilities which are installed on all Linux distributions like Ubuntu, Red Hat, Fedora, and Mac OSX. This command is the most commonly used command while writing a [Bash script.](/blog/bash-script/)
 
 ```bash
 ~$ cd ~

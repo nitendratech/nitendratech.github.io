@@ -7,7 +7,7 @@ subcategory: "Kafka"
 draft: false
 ---
 
-In the earlier blog, we read about [Apache Kafka](https://www.nitendratech.com/kafka/apache-kafka/) and its architecture. In this blog post, we will learn about Apache Kafka’s Important components.
+In the earlier blog, we read about [Apache Kafka](/blog/apache-kafka/) and its architecture. In this blog post, we will learn about Apache Kafka’s Important components.
 
 ## Zookeeper
 

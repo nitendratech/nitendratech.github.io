@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Linux"
 ---
 
-CP utility is used to copy files and directories in Linux based Operating system. It needs two mandatory arguments along with any optional parameters. Those two arguments are the source and destination location. This command is used most frequently while automating a task using [bash scripts](https://www.nitendratech.com/linux/bash-script/).
+CP utility is used to copy files and directories in Linux based Operating system. It needs two mandatory arguments along with any optional parameters. Those two arguments are the source and destination location. This command is used most frequently while automating a task using [bash scripts](/blog/bash-script/).
 
 ## Copying files from source to destination
 

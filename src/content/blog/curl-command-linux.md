@@ -6,7 +6,7 @@ category: "Core Tech & Programming"
 subcategory: "Linux"
 ---
 
-`curl` is a command or tool that can transfer data from or to a server using any of the supported protocols. curl supports most of the major protocols and is mainly used for automating the file transfer task, as manual intervention is not needed by this command. In this blog post, we will learn about using `Curl` command using the command line and [bash script](https://www.nitendratech.com/linux/bash-script/).
+`curl` is a command or tool that can transfer data from or to a server using any of the supported protocols. curl supports most of the major protocols and is mainly used for automating the file transfer task, as manual intervention is not needed by this command. In this blog post, we will learn about using `Curl` command using the command line and [bash script](/blog/bash-script/).
 
 ## Protocol Supported by Curl
 

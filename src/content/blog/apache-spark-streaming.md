@@ -9,7 +9,7 @@ draft: false
 
 Apache Spark Streaming is an extension of the core API Spark provides that allows developers/data scientists to process data in real time. The source of the data can be Flume. Kafka, streaming files and Amazon Kinesis. Processed data through streaming APIs can be persisted to databases, written to file systems, and published to live dashboards.
 
-[Apache Spark](https://www.nitendratech.com/spark/apache-spark/) provides a unified engine that natively supports both batch and streaming workloads. Spark Streaming's execution model is advantageous over traditional streaming systems for its fast recovery from failures, dynamic load balancing, streaming and interactive analytics, and native integration.
+[Apache Spark](/blog/apache-spark/) provides a unified engine that natively supports both batch and streaming workloads. Spark Streaming's execution model is advantageous over traditional streaming systems for its fast recovery from failures, dynamic load balancing, streaming and interactive analytics, and native integration.
 
 ## Spark Streaming Use Cases
 

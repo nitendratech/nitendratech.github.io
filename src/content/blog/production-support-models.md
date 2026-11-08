@@ -9,8 +9,8 @@ draft: false
 
 In today's world, many businesses and companies are developing their applications in-house to support their business and improve the customer experience. The company needs to provide continuous support to sustain the application in real time after these applications are built. When the user base in applications grows, and it becomes more complex, they need more support to maintain it. Due to this reason, software companies have a production support team to make sure these applications run the whole time. This application can differ in variety depending on the organization or the team. Some of the common applications and their pattern are listed below.
 
-- [SQL query](https://www.nitendratech.com/database/learn-sql/) for generating reports
-- [Hadoop](https://www.nitendratech.com/hadoop/apache-hadoop/)-based jobs for analyzing data
+- [SQL query](/blog/learn-sql/) for generating reports
+- [Hadoop](/blog/apache-hadoop/)-based jobs for analyzing data
 - Python-based code for Machine Learning Model
 - Java and Spring-based REST API
 - Scala-based Apache spark jobs for ETL Jobs
