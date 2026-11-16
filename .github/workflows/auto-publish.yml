@@ -1,0 +1,85 @@
+name: Auto-publish scheduled posts
+
+# Publishes queued posts at 6:20 AM Central, Mon-Fri.
+# 12:20 UTC == 6:20 AM CST (UTC-6, winter). The schedule ends Dec 23, 2026,
+# so it stays on CST; it would shift an hour when daylight time returns.
+#
+# How it works: scheduled posts wait in scheduled/ (not built into the site).
+# Each run moves every post whose pubDate is today or earlier into
+# src/content/blog/, commits, and deploys. Nothing is queued here that
+# hasn't already been approved — queueing happens by pushing into scheduled/.
+on:
+  schedule:
+    - cron: '20 12 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    outputs:
+      moved: ${{ steps.move.outputs.moved }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Move due posts into the blog
+        id: move
+        run: |
+          python3 - <<'PY'
+          import os
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          today = datetime.now(ZoneInfo("America/Chicago")).date().isoformat()
+          queue = "scheduled"
+          dest = "src/content/blog"
+          moved = []
+          if os.path.isdir(queue):
+              for name in sorted(os.listdir(queue)):
+                  if not name.endswith(".md"):
+                      continue
+                  text = open(os.path.join(queue, name)).read()
+                  pub = None
+                  for line in text.splitlines():
+                      if line.startswith("pubDate:"):
+                          pub = line.split(":", 1)[1].strip()
+                          break
+                  if pub and pub <= today:
+                      os.rename(os.path.join(queue, name), os.path.join(dest, name))
+                      moved.append(name)
+          print(f"Today (Chicago): {today}; moved {len(moved)}: {moved}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"moved={'true' if moved else 'false'}\n")
+          PY
+      - name: Commit and push
+        if: steps.move.outputs.moved == 'true'
+        run: |
+          git config user.name "nitendratech-auto-publish"
+          git config user.email "nitendratech-auto-publish@users.noreply.github.com"
+          git add -A
+          git commit -m "Auto-publish scheduled posts"
+          git push
+
+  build:
+    needs: publish
+    if: needs.publish.outputs.moved == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your repository using git
+        uses: actions/checkout@v4
+      - name: Install, build, and upload your site
+        uses: withastro/action@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
