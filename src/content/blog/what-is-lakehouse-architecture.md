@@ -22,7 +22,7 @@ Cheap object storage (S3, Azure Data Lake Storage, Google Cloud Storage) holding
 
 The standard workaround was a two-system architecture — lake for storage and ML, warehouse for BI, data copied between them. It worked, at the price of duplicate storage, duplicated pipelines, and numbers that never quite matched.
 
-## What a lakehouse is
+## What is a lakehouse 
 
 A lakehouse keeps the lake's storage model — open files on object storage — and adds the warehouse's guarantees through an **open table format**: Delta Lake, Apache Iceberg, or Apache Hudi. The table format is a metadata layer that tracks which files make up a table at each version, making possible:
 

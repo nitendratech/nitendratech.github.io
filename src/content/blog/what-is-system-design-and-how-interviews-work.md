@@ -38,23 +38,24 @@ What the interview does **not** test is memorization. Nobody expects you to reci
 
 A useful time budget for a 45-minute round:
 
-- **First 5 minutes: clarify.** Restate the problem, ask about users, data volume, read/write patterns, latency, and freshness. Agree on the scope before designing anything.
-- **Next 10 minutes: requirements and scope.** Write down functional requirements (what the system must do) and non-functional ones (how fast, how available, how much data). Do a quick back-of-the-envelope estimate so the design has numbers behind it.
-- **Next 15 minutes: high-level design.** Sketch the major components and data flow. Name the storage, the queue, the compute, the API. Keep it simple enough to explain in one breath.
-- **Next 10 minutes: deep dive.** Pick the two or three hardest parts — usually consistency, partitioning, or failure handling — and design them properly.
-- **Last 5 minutes: trade-offs and questions.** Say what you would change at 10x scale, what you deliberately left out, and ask the interviewer a question about how the real system handles it.
+- **First 5 minutes: Clarify.**  Restate the problem, ask about users, data volume, read/write patterns, latency, and freshness. Agree on the scope before designing anything.
+- **Next 10 minutes: Requirements and scope.**  Write down functional requirements (what the system must do) and non-functional ones (how fast, how available, how much data). Do a quick back-of-the-envelope estimate so the design has numbers behind it.
+- **Next 15 minutes: High-level design.**  Sketch the major components and data flow. Name the storage, the queue, the compute, the API. Keep it simple enough to explain in one breath.
+- **Next 10 minutes: Deep dive.** Pick the two or three hardest parts — usually consistency, partitioning, or failure handling — and design them properly.
+- **Last 5 minutes: Trade-offs and questions.** Say what you would change at 10x scale, what you deliberately left out, and ask the interviewer a question about how the real system handles it.
 
 The exact split matters less than the discipline: never spend 30 minutes on the diagram and discover in the last five that you never discussed failure modes.
 
-## How to Prepare
+## How to Prepare for the interview 
 
-Preparation has three stages, in order.
+There are three stages to prepare for the interview which are listed below in order.
 
-**Stage 1: foundations.** Learn the building blocks and the vocabulary: scaling, consistency models, caching, partitioning, messaging, storage types, observability. That is what the foundations post in this series covers. You cannot design a system without names for its parts.
 
-**Stage 2: real systems.** Study how real systems are built. Read engineering blogs from companies that run data platforms at scale. For each system, ask: what was the requirement, what did they choose, and what did they give up? A design you understand deeply is worth ten designs you skimmed.
+**Stage 1: Foundations.**  Learn the building blocks and the vocabulary: scaling, consistency models, caching, partitioning, messaging, storage types, observability. That is what the foundations post in this series covers. You cannot design a system without names for its parts.
 
-**Stage 3: practice.** Design systems out loud, on paper or a whiteboard, with a timer. Start with the classic prompts, then move to data engineering ones: a batch platform, a streaming pipeline, a feature store, a metrics layer. After each practice round, write down the trade-offs you missed. The gaps repeat — that is how you know what to study next.
+**Stage 2: Real systems.** Study how real systems are built. Read engineering blogs from companies that run data platforms at scale. For each system, ask: what was the requirement, what did they choose, and what did they give up? A design you understand deeply is worth ten designs you skimmed.
+
+**Stage 3: Practice.**  Design systems out loud, on paper or a whiteboard, with a timer. Start with the classic prompts, then move to data engineering ones: a batch platform, a streaming pipeline, a feature store, a metrics layer. After each practice round, write down the trade-offs you missed. The gaps repeat — that is how you know what to study next.
 
 **Data engineering example:** Your preparation should include the systems you already run. Take a pipeline you built, and practice describing it as if it were an interview question: requirements, scale, components, the hardest trade-off, and what you would change at 10x volume. That rehearsal turns your experience into interview answers.
 
@@ -94,21 +95,27 @@ Walk through the framework on a data engineering problem: design search for a da
 ## Interview Questions
 
 **Q: What is a system design interview, and how is it different from a coding interview?**
+
 A: A coding interview tests whether you can solve a well-defined problem with code. A system design interview tests whether you can turn a vague, open-ended requirement into an architecture — clarifying requirements, choosing components, reasoning about scale and failure, and defending trade-offs. There is no single right answer, and communication matters as much as the design.
 
 **Q: How should I start answering a system design question?**
+
 A: Clarify before designing. Restate the problem, ask about users, data volume, read/write patterns, latency, and freshness, and agree on scope. Then estimate scale with rough numbers. Only then sketch components. Candidates who start drawing boxes first are solving a problem they invented.
 
 **Q: What does a good system design answer sound like?**
+
 A: It sounds like reasoning, not recitation. "Given 20 TB a day and a morning deadline, I'll land raw data first, process incrementally, and gate publication on quality checks — because a full refresh wouldn't fit the window, and silent bad data is worse than late data." Requirements, numbers, choices, trade-offs, in that order.
 
 **Q: How do I prepare for system design interviews as a data engineer?**
+
 A: Three stages: foundations first (scaling, consistency, caching, partitioning, storage), then real systems (read engineering blogs and understand the trade-offs behind real architectures), then timed practice out loud — including your own pipelines reframed as interview questions.
 
 **Q: What is the RESHADED framework for?**
+
 A: It is a repeatable 45-minute roadmap for an open-ended design problem: clarify goals, determine scope, design for scale, start simple and iterate, consider data structures, and describe trade-offs. Its value is structure under pressure — it stops you from skipping requirements and jumping straight to components.
 
 **Q: What should I do if the interviewer changes a requirement halfway through?**
+
 A: Treat it as the test it is. Acknowledge the change, say which parts of your design it affects, and adjust only those parts. "If reads jump 10x, the bottleneck moves to the serving layer, so I'd add a cache and read replicas — the ingestion design doesn't change." Adapting calmly is exactly what the interviewer wants to see.
 
 ## Common Mistakes
