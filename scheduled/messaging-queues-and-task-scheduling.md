@@ -2,7 +2,7 @@
 title: "Messaging, Queues, and Task Scheduling"
 description: "How distributed queues and pub-sub systems work, what delivery guarantees really mean, and how to design a task scheduler that runs reliably every night."
 pubDate: 2026-11-24
-category: data-engineering
+category: "Data Engineering"
 subcategory: System Design
 draft: false
 ---

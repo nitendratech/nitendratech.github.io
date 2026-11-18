@@ -2,7 +2,7 @@
 title: "Back-of-the-Envelope Calculations for Data Engineers"
 description: "How to estimate servers, storage, bandwidth, and latency with rough numbers — the powers of ten, latency figures, and worked examples interviewers expect you to do on the spot."
 pubDate: 2026-11-18
-category: data-engineering
+category: "Data Engineering"
 subcategory: System Design
 draft: false
 ---

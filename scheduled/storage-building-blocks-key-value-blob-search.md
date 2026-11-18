@@ -2,7 +2,7 @@
 title: "Storage Building Blocks: Key-Value Stores, Blob Stores, Distributed Search"
 description: "How the three storage building blocks work: key-value stores with partitioning and versioning, blob stores with chunking and deduplication, and distributed search with inverted indexes."
 pubDate: 2026-11-26
-category: data-engineering
+category: "Data Engineering"
 subcategory: System Design
 draft: false
 ---

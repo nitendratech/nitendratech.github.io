@@ -2,7 +2,7 @@
 title: "What Is System Design? Interviews, Prep, and the RESHADED Method"
 description: "What system design interviews actually test, how to prepare for them as a data engineer, and how to use a structured 45-minute framework to reason through any design problem."
 pubDate: 2026-11-16
-category: data-engineering
+category: "Data Engineering"
 subcategory: System Design
 draft: false
 ---

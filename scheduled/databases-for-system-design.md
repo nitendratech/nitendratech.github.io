@@ -2,7 +2,7 @@
 title: "Databases for System Design: SQL vs NoSQL, Replication, Partitioning"
 description: "How to choose a database by access pattern, how replication and partitioning actually work, and the consistency trade-offs interviewers probe — explained with data engineering examples."
 pubDate: 2026-11-19
-category: data-engineering
+category: "Data Engineering"
 subcategory: System Design
 draft: false
 ---

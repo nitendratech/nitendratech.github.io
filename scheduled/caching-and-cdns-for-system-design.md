@@ -2,7 +2,7 @@
 title: "Caching and CDNs: Distributed Cache, Eviction, and Content Delivery"
 description: "How distributed caches and CDNs work, when data goes stale, and how to design caching that survives real traffic — with data engineering examples."
 pubDate: 2026-11-23
-category: data-engineering
+category: "Data Engineering"
 subcategory: System Design
 draft: false
 ---

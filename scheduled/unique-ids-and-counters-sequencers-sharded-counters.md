@@ -2,7 +2,7 @@
 title: "Unique IDs and Counters: Sequencers and Sharded Counters"
 description: "How distributed systems generate unique IDs and count things at scale: UUIDs, Snowflake-style time-ordered IDs, causality and clock skew, and sharded counters."
 pubDate: 2026-11-30
-category: data-engineering
+category: "Data Engineering"
 subcategory: System Design
 draft: false
 ---
