@@ -7,7 +7,6 @@ subcategory: System Design
 draft: false
 ---
 
-
 ## What Are Non-Functional Requirements?
 
 Every system has two kinds of requirements. Functional requirements say what the system must do: ingest files, run transformations, serve query results. Non-functional requirements say how well it must do it: how often it must be up, how fast it must respond, how much it must handle, and what happens when something fails.
