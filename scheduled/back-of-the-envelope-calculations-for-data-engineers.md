@@ -7,8 +7,6 @@ subcategory: System Design
 draft: false
 ---
 
-*Focus keyword: back-of-the-envelope calculations system design. Research basis: system design foundations draft and the Grokking course structure (Educative) — topics covered in my own words, not copied from the course.*
-
 ## Why Estimates Matter in an Interview
 
 Every system design interview has a moment where the interviewer expects you to do rough math out loud. "Design a pipeline for 20 TB a day" is not a complete requirement until you convert it: 20 TB a day is about 230 MB/s on average, or about 1.4 GB/s if it all lands in a four-hour nightly window. That one conversion decides whether you need a single machine or a cluster, a 1 Gbps link or a 25 Gbps one.

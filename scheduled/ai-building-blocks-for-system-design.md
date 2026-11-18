@@ -7,8 +7,6 @@ subcategory: System Design
 draft: false
 ---
 
-*Focus keyword: AI building blocks model serving retrieval evaluation. Research basis: system design study guide from the knowledge base (AI building blocks section) and the System Design Foundations post on this site. This post covers the AI components themselves; the RAG pipeline and ML feature platform drafts on this site cover the end-to-end pipelines that use them.*
-
 ## What Are AI Building Blocks?
 
 Most AI systems are assembled from three reusable components. **Model serving** takes a trained model and answers requests with predictions. **Retrieval** finds the relevant context — documents, features, or examples — that the model needs to answer well. **Evaluation** measures whether the system is actually good, offline and in production.

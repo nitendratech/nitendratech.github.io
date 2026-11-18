@@ -7,8 +7,6 @@ subcategory: System Design
 draft: false
 ---
 
-*Focus keyword: key-value store blob store distributed search. Research basis: system design foundations draft (NitendraTech, Nov 2026) and the knowledge-base system design guide; topics follow the Grokking foundations and building-blocks structure, written in original words.*
-
 ## Three Stores, Three Access Patterns
 
 There is no best storage system. There is a best store for each way data is read: look something up by a key, fetch a large object by name, or find all documents containing a word. Those three access patterns map to three building blocks — key-value stores, blob stores, and distributed search — and every large system is some combination of them.

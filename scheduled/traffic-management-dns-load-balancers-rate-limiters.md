@@ -7,8 +7,6 @@ subcategory: System Design
 draft: false
 ---
 
-*Focus keyword: traffic management DNS load balancer rate limiter. Research basis: system design foundations draft (NitendraTech, Nov 2026) and the knowledge-base system design guide; topics follow the Grokking foundations and building-blocks structure, written in original words.*
-
 ## Why Traffic Management Comes First
 
 Every request your system ever serves passes through the same front door: DNS resolves a name to an address, a load balancer picks a server, and a rate limiter decides whether the request is allowed in at all. Get this layer wrong and nothing behind it matters — the best pipeline in the world is useless if clients cannot reach it, or if one abusive client can starve everyone else.

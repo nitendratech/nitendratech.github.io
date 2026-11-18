@@ -7,8 +7,6 @@ subcategory: System Design
 draft: false
 ---
 
-*Focus keyword: unique ID generator sharded counter sequencer. Research basis: system design foundations draft (NitendraTech, Nov 2026) and the knowledge-base system design guide; topics follow the Grokking foundations and building-blocks structure, written in original words.*
-
 ## Trivial Until It Isn't
 
 Generating a unique ID sounds like the easiest problem in system design — until ten thousand machines need to do it at the same time, without talking to each other, and the IDs still have to sort in the order they were created. Counting sounds even easier — until a single counter has to absorb a million increments a second. Both problems look trivial at small scale and both have the same root cause at large scale: coordination is expensive, so the design has to minimize it.

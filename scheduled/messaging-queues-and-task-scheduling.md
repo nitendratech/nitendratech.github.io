@@ -7,8 +7,6 @@ subcategory: System Design
 draft: false
 ---
 
-*Focus keyword: messaging queues and task scheduling design. Research basis: system design study guide from the knowledge base (Glassdoor system design guide) and the foundations post on this site. Goes one level deeper than the foundations overview on messaging and the building-blocks table.*
-
 ## What Is a Message Queue?
 
 **Definition:** A message queue decouples producers from consumers. A producer writes a message and moves on; a consumer reads it when it is ready. The queue absorbs the difference in speed between the two sides, which is the entire point: without it, a fast producer either blocks or overwhelms a slow consumer.

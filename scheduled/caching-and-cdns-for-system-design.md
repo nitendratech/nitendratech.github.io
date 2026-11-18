@@ -7,8 +7,6 @@ subcategory: System Design
 draft: false
 ---
 
-*Focus keyword: distributed cache and CDN design. Research basis: system design study guide from the knowledge base (Glassdoor system design guide) and the foundations post on this site. Goes one level deeper than the foundations overview on caching.*
-
 ## What Is a Cache, Really?
 
 **Definition:** A cache is a fast store that keeps copies of frequently used data close to where it is needed, so the slow system behind it is asked less often. Caching is the single highest-leverage performance technique in system design — and the one most likely to cause a subtle, hard-to-diagnose bug.

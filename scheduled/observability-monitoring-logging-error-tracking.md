@@ -7,8 +7,6 @@ subcategory: System Design
 draft: false
 ---
 
-*Focus keyword: observability monitoring logging tracing. Research basis: system design study guide from the knowledge base (monitoring, observability, and tracing sections) and the System Design Foundations post on this site. This post goes one level deeper on the observability components; the foundations post covers the overview.*
-
 ## What Is Observability?
 
 Observability is the ability to understand what a system is doing from the outside, using the signals it emits. A system is observable when you can answer "what is broken, where, and why" without adding new instrumentation in the middle of an incident.

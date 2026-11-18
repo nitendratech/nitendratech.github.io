@@ -7,8 +7,6 @@ subcategory: System Design
 draft: false
 ---
 
-*Focus keyword: databases for system design. Research basis: system design study guide from the knowledge base (Glassdoor system design guide) and the foundations post on this site. Goes one level deeper than the foundations overview on storage, replication, and consistency.*
-
 ## What Does "Pick a Database" Mean in System Design?
 
 In a system design interview, "pick a database" is never a brand question. It is an access-pattern question. The interviewer wants to hear you reason from how the data will be read and written — point lookups or full scans, single rows or billions, strong consistency or stale-is-fine — to the storage engine that fits, and then explain what you give up.
