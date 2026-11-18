@@ -2,12 +2,11 @@
 title: "Non-Functional Requirements: Availability, Reliability, Scalability, Fault Tolerance"
 description: "What availability, reliability, scalability, and fault tolerance actually mean, how to measure them with SLIs and SLOs, and how each one shows up in a data platform."
 pubDate: 2026-11-17
-category: data-engineering
+category: "Data Engineering"
 subcategory: System Design
 draft: false
 ---
 
-*Focus keyword: non-functional requirements system design. Research basis: system design foundations draft and the Grokking course structure (Educative) — topics covered in my own words, not copied from the course.*
 
 ## What Are Non-Functional Requirements?
 
