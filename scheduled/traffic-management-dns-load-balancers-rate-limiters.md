@@ -1,7 +1,7 @@
 ---
 title: "Traffic Management: DNS, Load Balancers, and Rate Limiters"
 description: "How requests reach your system and stay under control: DNS resolution and routing, load balancer tiers and algorithms, and rate limiter design with token bucket and leaky bucket."
-pubDate: 2026-11-25
+pubDate: 2026-11-30
 category: "Data Engineering"
 subcategory: System Design
 draft: false

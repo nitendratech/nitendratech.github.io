@@ -1,7 +1,7 @@
 ---
 title: "Observability: Distributed Monitoring, Logging, and Error Tracking"
 description: "How to design the observability building blocks — metrics and monitoring, distributed logging, tracing, and server-side and client-side error tracking — with data engineering examples."
-pubDate: 2026-12-01
+pubDate: 2027-01-06
 category: "Data Engineering"
 subcategory: System Design
 draft: false
