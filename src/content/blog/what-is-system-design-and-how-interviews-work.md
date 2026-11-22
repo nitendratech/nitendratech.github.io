@@ -1,5 +1,5 @@
 ---
-title: "What Is System Design? Interviews, Prep, and the RESHADED Method"
+title: "What Is System Design? Interviews, Prep"
 description: "What system design interviews actually test, how to prepare for them as a data engineer, and how to use a structured 45-minute framework to reason through any design problem."
 pubDate: 2026-11-16
 category: "Data Engineering"
@@ -58,23 +58,6 @@ There are three stages to prepare for the interview which are listed below in or
 **Stage 3: Practice.**  Design systems out loud, on paper or a whiteboard, with a timer. Start with the classic prompts, then move to data engineering ones: a batch platform, a streaming pipeline, a feature store, a metrics layer. After each practice round, write down the trade-offs you missed. The gaps repeat — that is how you know what to study next.
 
 **Data engineering example:** Your preparation should include the systems you already run. Take a pipeline you built, and practice describing it as if it were an interview question: requirements, scale, components, the hardest trade-off, and what you would change at 10x volume. That rehearsal turns your experience into interview answers.
-
-## The RESHADED Framework
-
-RESHADED is a named 45-minute interview framework from Educative's system design course. Its purpose is to give you a repeatable roadmap for any open-ended design problem, so you never freeze when the interviewer changes a constraint halfway through.
-
-This post does not invent or claim a letter-by-letter expansion of the name. What matters is the structure it enforces, which maps directly onto the six steps from the foundations post:
-
-1. **Clarify the goals.** What exactly are we building, for whom, at what scale? Ask questions before designing.
-2. **Determine the scope.** Functional requirements and non-functional ones — latency, availability, data volume.
-3. **Design for scale.** Pick components — storage, partitioning, caching — sized to the numbers from step 2.
-4. **Start simple, then iterate.** A working simple design beats a complex one you cannot explain. Add complexity only where the requirements demand it.
-5. **Consider data structures and algorithms.** The right structure is part of the design: a heap for top-K, a hash ring for partitioning.
-6. **Describe the trade-offs.** Every choice costs something. Say what you gave up and why.
-
-The value of a named framework is not the letters. It is that it stops you from skipping steps under pressure. The most common failure in these interviews is not a wrong component choice — it is jumping to components before the requirements exist. A framework is a checklist against that mistake.
-
-**How to use it in practice:** At the start of the interview, tell the interviewer your plan in one sentence — "I'll clarify requirements, estimate scale, sketch the high-level design, then deep-dive into the hardest parts." That single sentence buys you structure for the whole round, and it tells the interviewer you have done this before.
 
 ## A Worked Mini-Example: Design a Data Catalog Search Service
 
