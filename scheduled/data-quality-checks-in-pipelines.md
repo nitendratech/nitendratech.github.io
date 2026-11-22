@@ -1,7 +1,7 @@
 ---
 title: "Data Quality Checks in Pipelines: A Practical Guide"
 description: "Quality as a gate, not a dashboard. The checks every pipeline needs — schema, freshness, volume, uniqueness, validity, reconciliation — where to run them, and what to do when they fail."
-pubDate: 2026-12-18
+pubDate: 2026-12-17
 category: "Data Engineering"
 subcategory: "Data Quality"
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "PySpark Interview Questions and Answers for Data Engineers"
 description: "The PySpark questions that actually come up in data engineering interviews — DataFrames, partitioning, shuffles, skew, and production debugging — with clear, practical answers."
-pubDate: 2026-12-14
+pubDate: 2026-12-10
 category: "Data Engineering"
 subcategory: "Spark"
 draft: false

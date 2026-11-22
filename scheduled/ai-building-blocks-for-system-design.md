@@ -1,7 +1,7 @@
 ---
 title: "AI Building Blocks for System Design"
 description: "How to design the reusable AI components — model serving, retrieval and vector search, and evaluation — with data engineering examples and interview trade-offs."
-pubDate: 2027-01-11
+pubDate: 2026-12-14
 category: "Data Engineering"
 subcategory: System Design
 draft: false

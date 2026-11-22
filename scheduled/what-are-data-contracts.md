@@ -1,7 +1,7 @@
 ---
 title: "What are Data Contracts in Data Engineering?"
 description: "A data contract is an explicit agreement between data producers and consumers — schema, semantics, quality, and freshness — enforced by tests instead of discovered by outages. What goes in one, and how teams adopt them."
-pubDate: 2026-12-09
+pubDate: 2026-12-03
 category: "Data Engineering"
 subcategory: "Data Governance"
 draft: false

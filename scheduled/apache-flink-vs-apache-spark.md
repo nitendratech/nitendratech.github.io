@@ -1,7 +1,7 @@
 ---
 title: "Apache Flink vs Apache Spark: Which One to Use for Stream Processing?"
 description: "Flink and Spark are the two standard stream processing engines, built from opposite directions — streaming-first vs batch-first. An honest comparison of processing models, state, latency, ecosystem, and the questions that actually decide the choice."
-pubDate: 2026-12-07
+pubDate: 2026-11-30
 category: "Data Engineering"
 subcategory: "Streaming"
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "Apache Iceberg vs Delta Lake: Choosing an Open Table Format"
 description: "Iceberg and Delta Lake both bring ACID transactions, time travel, and schema evolution to data lakes. An honest comparison — architecture, engine support, and the factors that should actually decide the choice."
-pubDate: 2026-12-16
+pubDate: 2026-12-14
 category: "Cloud & Architecture"
 subcategory: "Data Lakehouse"
 draft: false

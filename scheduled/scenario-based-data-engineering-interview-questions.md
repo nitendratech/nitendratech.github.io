@@ -1,7 +1,7 @@
 ---
 title: "Scenario-Based Data Engineering Interview Questions"
 description: "Senior interviews are mostly scenarios: the slow job, the broken pipeline, the late file, the duplicate load. How to work through the scenarios that recur — with a method, not memorized answers."
-pubDate: 2026-12-11
+pubDate: 2026-12-07
 category: "Data Engineering"
 subcategory: "Interview Prep"
 draft: false

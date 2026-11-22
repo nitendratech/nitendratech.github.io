@@ -1,7 +1,7 @@
 ---
 title: "SQL Coding Interview Questions for Data Engineers (With Solutions)"
 description: "Interviews test SQL by making you write it. The coding problems that recur — Nth highest salary, duplicates, running totals, month-over-month change, and gaps — each with a clean, explained solution."
-pubDate: 2026-11-27
+pubDate: 2026-11-23
 category: "Core Tech & Programming"
 subcategory: "SQL"
 draft: false

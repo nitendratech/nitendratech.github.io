@@ -1,7 +1,7 @@
 ---
 title: "What is Apache Flink?"
 description: "Apache Flink is a distributed stream processing framework built for stateful, event-time computation over unbounded data. What it is, how it works, its core concepts, and where it fits next to Kafka and Spark."
-pubDate: 2026-12-23
+pubDate: 2026-12-24
 category: "Data Engineering"
 subcategory: "Flink"
 draft: false
