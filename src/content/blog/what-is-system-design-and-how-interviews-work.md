@@ -75,32 +75,6 @@ Walk through the framework on a data engineering problem: design search for a da
 
 **Trade-offs:** The index is eventually consistent with the catalog — a table created a minute ago may not appear yet, and that is acceptable for search. If the index is lost, it can be rebuilt from the catalog, so durability lives in the catalog, not the index.
 
-## Interview Questions
-
-**Q: What is a system design interview, and how is it different from a coding interview?**
-
-A: A coding interview tests whether you can solve a well-defined problem with code. A system design interview tests whether you can turn a vague, open-ended requirement into an architecture — clarifying requirements, choosing components, reasoning about scale and failure, and defending trade-offs. There is no single right answer, and communication matters as much as the design.
-
-**Q: How should I start answering a system design question?**
-
-A: Clarify before designing. Restate the problem, ask about users, data volume, read/write patterns, latency, and freshness, and agree on scope. Then estimate scale with rough numbers. Only then sketch components. Candidates who start drawing boxes first are solving a problem they invented.
-
-**Q: What does a good system design answer sound like?**
-
-A: It sounds like reasoning, not recitation. "Given 20 TB a day and a morning deadline, I'll land raw data first, process incrementally, and gate publication on quality checks — because a full refresh wouldn't fit the window, and silent bad data is worse than late data." Requirements, numbers, choices, trade-offs, in that order.
-
-**Q: How do I prepare for system design interviews as a data engineer?**
-
-A: Three stages: foundations first (scaling, consistency, caching, partitioning, storage), then real systems (read engineering blogs and understand the trade-offs behind real architectures), then timed practice out loud — including your own pipelines reframed as interview questions.
-
-**Q: What is the RESHADED framework for?**
-
-A: It is a repeatable 45-minute roadmap for an open-ended design problem: clarify goals, determine scope, design for scale, start simple and iterate, consider data structures, and describe trade-offs. Its value is structure under pressure — it stops you from skipping requirements and jumping straight to components.
-
-**Q: What should I do if the interviewer changes a requirement halfway through?**
-
-A: Treat it as the test it is. Acknowledge the change, say which parts of your design it affects, and adjust only those parts. "If reads jump 10x, the bottleneck moves to the serving layer, so I'd add a cache and read replicas — the ingestion design doesn't change." Adapting calmly is exactly what the interviewer wants to see.
-
 ## Common Mistakes
 
 - **Designing before clarifying.** Jumping to components without requirements is the single most common failure. Five minutes of questions saves thirty minutes of designing the wrong system.
@@ -116,6 +90,8 @@ A: Treat it as the test it is. Acknowledge the change, say which parts of your d
 - Use a structured framework so pressure never makes you skip the requirements step.
 - Your own pipelines, reframed as interview questions, are your best preparation material.
 - Every design choice costs something. Say what you gave up.
+
+The interview questions for this topic are in a separate post: [What Is System Design Interview Questions and Answers](/blog/what-is-system-design-interview-questions/).
 
 ## Resources
 
