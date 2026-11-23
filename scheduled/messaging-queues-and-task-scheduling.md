@@ -88,26 +88,6 @@ The design questions:
 
 **The trade-off to say out loud:** "A scheduler's job is not to run tasks — it is to guarantee that each task runs exactly once, in order, for the right logical date, and to make failures visible instead of silent."
 
-## Interview Questions
-
-**1. "What is the difference between a queue and a pub-sub system?"**
-A queue delivers each message to one consumer; pub-sub delivers each message to every subscriber. Use a queue to distribute work across workers, pub-sub to broadcast an event to independent systems. A commit log like Kafka gives you both: each consumer group is a subscriber, and the group splits work across its members.
-
-**2. "How do you achieve exactly-once processing?"**
-You do not achieve exactly-once delivery — you achieve effectively-once processing: at-least-once delivery plus an idempotent consumer. Key writes by message ID, use conditional writes or upserts, and let duplicates collapse into no-ops. Kafka's exactly-once semantics are this pattern, built from idempotent producers and transactions.
-
-**3. "What is a dead-letter queue, and when do you need one?"**
-A queue where messages go after failing all retries. Without one, a single poison message blocks the consumer forever. With one, bad messages are quarantined for inspection while the rest of the stream flows.
-
-**4. "How do you handle a consumer that falls behind?"**
-First, let the log buffer: a pull-based consumer reads less and the backlog waits on disk. Then scale the consumer — more partitions, more members in the group. If the lag is unbounded, shed low-priority load or sample. Never buffer unbounded data in memory.
-
-**5. "Design a scheduler that runs a nightly ETL pipeline. How do you guarantee each task runs exactly once?"**
-Model the pipeline as a DAG of tasks parameterized by logical date, never wall-clock time. Keep a persistent record of task instances with states, and claim each run under a lock or lease so two scheduler instances cannot both start it. Make every task idempotent, so a retry for the same date produces the same output.
-
-**6. "Why does Kafka order messages only within a partition?"**
-Because ordering across partitions would require coordination between brokers on every write, which destroys throughput. Ordering within a partition is free — it is just append order in one log. So the design rule is: put everything that must be ordered on the same key, and the same key always lands on the same partition.
-
 ## Common Mistakes
 
 - **Promising exactly-once delivery.** It does not exist. Say effectively-once, and show the idempotency mechanism.
@@ -122,6 +102,8 @@ Because ordering across partitions would require coordination between brokers on
 - A DLQ is not optional. One poison message without a quarantine path stops the whole stream.
 - Backpressure should slow the producer or buffer on disk, never buffer unbounded data in memory.
 - A scheduler guarantees exactly-once execution per logical date: persistent run records, a claim lock, and idempotent tasks parameterized by date, not by wall clock.
+
+The interview questions for this topic are in a separate post: [Messaging, Queues, and Task Scheduling Interview Questions and Answers](/blog/messaging-queues-and-task-scheduling-interview-questions/).
 
 ## Resources
 

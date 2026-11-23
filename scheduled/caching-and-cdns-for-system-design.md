@@ -85,26 +85,6 @@ The failure modes worth naming in an interview:
 
 **Data engineering example:** A lookup service that caches customer records in Redis and reads from Postgres on a miss has all four failure modes available. The one that bites data teams most often is stale reads after a pipeline backfill: the backfill rewrites history in Postgres, the cache still holds the old values, and dashboards disagree with the warehouse until the TTL expires. The fix is explicit invalidation keyed to the backfill job, not a shorter TTL.
 
-## Interview Questions
-
-**1. "Design a distributed cache. How do you place data across nodes?"**
-Hash the key to choose a node, ideally with consistent hashing so adding or removing a node moves only a fraction of the keys. Replicate each key to one or two neighbors so a node failure does not lose the entry outright — and remember that losing cache entries is acceptable, because the backing store is the source of truth.
-
-**2. "When would you use LFU instead of LRU?"**
-When a small set of hot items dominates traffic. LRU can be polluted by a one-time scan that touches everything once and evicts the hot set; LFU keeps the frequently used items because frequency, not recency, is the signal.
-
-**3. "What is cache stampede, and how do you prevent it?"**
-When a popular entry expires and many requests miss at once, all hitting the database to recompute the same value. Prevent it by locking the first requester while others wait, adding jitter to TTLs so entries do not expire together, or refreshing entries probabilistically before expiry.
-
-**4. "How do you keep a cache consistent with the database?"**
-TTLs bound staleness to a known window and are the simplest reliable answer. Explicit invalidation on write is stronger but depends on every write path remembering to invalidate. Versioned keys are the most robust: a new version is a new key, and old versions expire by TTL.
-
-**5. "How does a CDN decide what to cache, and what can go wrong?"**
-Static, cacheable content with cache-control headers is cached at the edge; personalized or dynamic content passes through to the origin. What goes wrong: a purge that does not propagate leaves one region stale, and caching personalized content by mistake leaks one user's data to another.
-
-**6. "Your cache node dies. What happens?"**
-Its entries are gone, and the next reads for those keys hit the backing store and repopulate the cache. The risk is the repopulation storm — every request missing at once — so the design should warm the cache gradually or accept degraded latency during recovery.
-
 ## Common Mistakes
 
 - **Treating the cache as the source of truth.** A cache may lose data at any time. If losing it is a disaster, it belongs in a database, not a cache.
@@ -119,6 +99,8 @@ Its entries are gone, and the next reads for those keys hit the backing store an
 - TTLs bound staleness to a known number; explicit invalidation is stronger but only as reliable as every write path.
 - A CDN is a cache with geography: cache static content aggressively at the edge, keep personalized content at the origin.
 - Cache keys must capture everything that makes a response unique, or one user's data becomes another user's answer.
+
+The interview questions for this topic are in a separate post: [Caching and CDNs Interview Questions and Answers](/blog/caching-and-cdns-for-system-design-interview-questions/).
 
 ## Resources
 

@@ -79,23 +79,6 @@ This post goes one level deeper than the foundations overview. For each componen
 
 Trace a single request and the three components line up: the client resolves the name through DNS, which steers it to the nearest healthy region. At the region edge, the rate limiter checks the client's token bucket. The global load balancer hands the request to a regional L7 balancer, which routes by path — metadata lookups to the light pool, heavy queries to the dedicated pool — using least connections. If a server fails its health check, it leaves rotation; if a region fails, DNS stops returning it.
 
-## Interview Questions
-
-**1. How does DNS-based load balancing work, and what are its limits?**
-Return multiple A records and clients spread across them; use geo-DNS or latency-based routing to steer by location. Its limits: TTLs delay changes, the client picks the address, there is no load awareness, and there is no feedback loop. Use it for region steering, not server balancing.
-
-**2. When would you pick an L4 load balancer over an L7 one, and vice versa?**
-L4 when you need speed and protocol independence — TCP traffic like Kafka brokers, or millions of connections where inspecting requests is too expensive. L7 when routing must understand the request — path-based routing, TLS termination, cookie-based affinity, or real application health checks.
-
-**3. Design a rate limiter for 10,000 requests per second per user.**
-Token bucket per user, counters in Redis with atomic increments, bucket capacity sized to allow a short burst (e.g., 200 tokens) refilling at 10,000 per second. Enforce at the API gateway, return 429 with Retry-After on rejection, and decide the fail-open vs fail-closed policy for a Redis outage.
-
-**4. How do you load balance long-lived connections, like WebSockets or Kafka clients?**
-Round-robin fails here because connections persist — the first servers fill up and stay full. Use least connections, or consistent hashing so a reconnecting client returns to the same server. For Kafka, clients connect to a bootstrap broker and are then directed to the partition leader, so the balancer's job is mostly discovery and health, not per-message routing.
-
-**5. What happens when the load balancer itself fails?**
-It becomes the single point of failure, so you run it redundantly: multiple balancer instances behind anycast IPs or DNS failover, across availability zones. Health-check the balancers themselves, and keep the data-plane configuration — backends, weights, rules — in a store that survives a balancer restart.
-
 ## Common Mistakes
 
 - **Treating DNS as instant configuration.** A DNS change with a one-hour TTL takes an hour to reach most clients. Lower the TTL before a migration, not during it.
@@ -111,6 +94,8 @@ It becomes the single point of failure, so you run it redundantly: multiple bala
 - Token bucket allows bursts, leaky bucket smooths them; pick by what the downstream can tolerate.
 - A rate limiter needs a stated policy for its own outage: fail open or fail closed, decided in advance.
 - Each traffic layer has one job: DNS steers, the limiter protects, the balancer spreads. Don't make one do another's work.
+
+The interview questions for this topic are in a separate post: [Traffic Management Interview Questions and Answers](/blog/traffic-management-interview-questions/).
 
 ## Resources
 

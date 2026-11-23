@@ -77,23 +77,6 @@ This post designs each one: the data model, how it scales, how it survives failu
 
 The interview skill is matching the access pattern to the store before discussing any implementation detail. A candidate who starts with "what does a read look like" is already ahead of one who starts with a product name.
 
-## Interview Questions
-
-**1. Design a key-value store like DynamoDB.**
-Partition by consistent hashing with virtual nodes; replicate each key to the next N nodes on the ring; use quorum reads/writes (R + W > N) for consistency, hinted handoff for temporary failures, gossip for failure detection, and anti-entropy with Merkle trees for repair. Version with vector clocks or last-write-wins, and store with an LSM-tree for write throughput.
-
-**2. How does a blob store handle a 100 GB upload?**
-Split the object into chunks (e.g., 8–16 MB), upload chunks in parallel with a checksum per chunk, retry only failed chunks, and commit with a manifest listing the chunks in order. The metadata service records the manifest atomically — the upload is not visible until the commit succeeds.
-
-**3. Why is the metadata service the hardest part of a blob store?**
-Chunks are interchangeable and dumb; the index mapping names to chunks, versions, and permissions must be strongly consistent, available, and able to list billions of keys. It is a distributed database problem hiding inside a storage API, and it is where consistency bugs and scaling limits actually live.
-
-**4. How does an inverted index work, and how do you shard it?**
-Tokenize documents into terms; each term maps to a posting list of document IDs. Queries intersect or union posting lists, then rank with BM25. Shard by document (scatter-gather across all shards, even load) or by term (only relevant shards touched, but popular terms become hot shards). Document sharding is the usual default.
-
-**5. When would you use a key-value store instead of a relational database or a blob store?**
-KV when access is by a single key at high throughput with no joins — feature lookups, session state, dedup tables. Relational when you need transactions and queries across related rows. Blob when the unit is a large file and the access is by name. If the requirement mentions "all records where X," the KV store is the wrong answer.
-
 ## Common Mistakes
 
 - **Treating a key-value store as a relational database.** Needing secondary indexes, range scans, or joins means the data model is wrong for the store — pick the store by the query pattern, not by familiarity.
@@ -108,6 +91,8 @@ KV when access is by a single key at high throughput with no joins — feature l
 - Search is an inverted index plus sharding and merging; the write cost buys read speed.
 - Match the store to the read pattern first: key lookup, file fetch, or content search.
 - Hot keys, metadata bottlenecks, and treating one store as another are the failure modes interviewers probe for.
+
+The interview questions for this topic are in a separate post: [Storage Building Blocks Interview Questions and Answers](/blog/storage-building-blocks-interview-questions/).
 
 ## Resources
 

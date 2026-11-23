@@ -71,28 +71,6 @@ The **feedback loop** is what makes the composition a system rather than a pipel
 
 **The trade-off to say out loud:** "The blocks are simple; the system is the composition and the feedback loop. I design the interfaces between blocks — the feature contract, the retrieval API, the eval gate — before I optimize any single block."
 
-## Interview Questions
-
-**1. How would you design a model serving system with a 100 ms latency budget?**
-
-Keep the model warm in memory, batch requests dynamically with a small wait window, cache repeated inputs, and autoscale on queue depth rather than CPU. Put a load balancer in front of replicas, run canary releases for new versions, and define a fallback — cached result or a simpler model — for when the primary is slow or down.
-
-**2. How does vector search work, and why use approximate nearest neighbor?**
-
-Text is embedded into dense vectors, and search returns the vectors closest to the query. Exact search over millions of vectors is too slow, so ANN indexes trade a little recall for speed: HNSW builds a navigable graph, IVF searches only the nearest clusters. Then a reranker reorders the shortlist for quality.
-
-**3. How do you keep a retrieval index fresh and correct?**
-
-Treat index updates as a data pipeline: chunk, embed, and write idempotently so retries do not duplicate entries. Re-embed only changed chunks. Apply metadata and permission filters at retrieval time, never after generation, so restricted content is never exposed to the model.
-
-**4. How do you evaluate a RAG system?**
-
-Offline, against a golden dataset: retrieval recall and precision, plus groundedness and faithfulness of the generated answers, with LLM-as-judge backed by human spot-checks. Online, through user feedback and A/B tests. Put the offline eval in CI/CD as a deployment gate, and feed production failures back into the golden dataset.
-
-**5. What is training-serving skew, and how do you prevent it?**
-
-Skew is when the model gets different inputs in production than it saw in training — usually because the feature pipeline changed. Prevent it by defining features once and serving them from the same definitions in training and production, versioning features with the model, and monitoring feature distributions in production against the training baseline.
-
 ## Common Mistakes
 
 - **Serving a model with no fallback and no canary**, so a bad deploy or a slow model becomes a full outage instead of a controlled rollback.
@@ -108,6 +86,8 @@ Skew is when the model gets different inputs in production than it saw in traini
 - Retrieval freshness and permission filtering are the real design work — a stale or leaky index is worse than none.
 - Evaluation is a system component: golden datasets, offline metrics, LLM-as-judge with human checks, and a CI/CD gate.
 - The feedback loop — production interactions becoming new training and eval data — is what turns a pipeline into a system.
+
+The interview questions for this topic are in a separate post: [AI Building Blocks Interview Questions and Answers](/blog/ai-building-blocks-interview-questions/).
 
 ## Resources
 

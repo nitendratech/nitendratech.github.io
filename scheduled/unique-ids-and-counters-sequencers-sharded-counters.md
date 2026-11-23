@@ -71,23 +71,6 @@ This post covers three linked topics: how to generate unique IDs without a centr
 
 Design the like count for a post that might get a million likes in an hour. A single database row fails on write contention. A sharded counter with, say, 100 shards spreads the writes; a read sums 100 rows, which is cheap enough to cache for a few seconds. Likes need IDs too — a Snowflake-style ID per like gives ordering for the "recent likers" list and a dedup key so a retried tap does not double-count. The total shown to users is a cached, slightly stale sum; the exact count lives in the shards and is recomputed on read. Three concepts, one design, each chosen for what it is good at.
 
-## Interview Questions
-
-**1. Design a unique ID generator for 10,000 IDs per second across multiple data centers.**
-Snowflake-style 64-bit IDs: timestamp + data-center/machine ID + per-millisecond sequence. Worker IDs assigned centrally at startup (e.g., from ZooKeeper or a config service). Handles 10k/sec easily — one worker can generate thousands per millisecond from its sequence counter. Clock regression handled by waiting or failing loudly, stated up front.
-
-**2. Why can't you just use a database auto-increment?**
-It is a single point of failure and contention, it does not survive sharding (two shards both issue 7), it leaks the total count, and it couples ID generation to database availability. It is the right answer for one database and the wrong one for a distributed system.
-
-**3. What breaks when the clock moves backwards in a Snowflake-style generator?**
-IDs can repeat (same timestamp, same sequence) or sort out of order. Mitigations: refuse to generate until the clock catches up, keep a logical sequence that continues from the last issued value, or detect the regression and raise an alert. The choice depends on whether stalling or failing is worse for the caller.
-
-**4. Design a like counter for a viral post — why sharded counters?**
-One row cannot absorb a million increments an hour — writes serialize on a lock. Shard into N rows, increment a random shard per like, read by summing. Accept a slightly stale total and cache it. Add idempotency keys so a retried tap does not double-count.
-
-**5. How do you count exactly once in a streaming pipeline?**
-Key the count by an idempotent event ID: the consumer records which IDs it has counted (dedup table) and increments only for new ones, or writes counts transactionally with the offsets it has processed. A plain increment on retry double-counts — exactly-once counting is an idempotency problem, not an arithmetic one.
-
 ## Common Mistakes
 
 - **Confusing uniqueness with ordering.** A random UUID is unique and tells you nothing about order. If the design needs sorting or range scans, the ID scheme must carry a timestamp.
@@ -102,6 +85,8 @@ Key the count by an idempotent event ID: the consumer records which IDs it has c
 - Wall-clock order is approximate; causal order needs a logical clock and still says nothing about real time.
 - A counter is a hot partition waiting to happen — shard it, accept a stale total, and cache the read.
 - Exactly-once counting is an idempotency problem: dedup by event ID or count transactionally with offsets.
+
+The interview questions for this topic are in a separate post: [Unique IDs and Counters Interview Questions and Answers](/blog/unique-ids-and-counters-interview-questions/).
 
 ## Resources
 
