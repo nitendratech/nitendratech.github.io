@@ -107,26 +107,6 @@ Problem: a platform adds 2 TB of new curated data per day. How much storage does
 
 **Step 4 — the raw zone.** The curated 146 TB is the small number. The raw zone at 20 TB a day uncompressed is 7.3 PB a year — fifty times the curated size. That is why raw retention is a business decision: keep 90 days hot, tier the rest to cold storage, and delete on a schedule. A design that keeps everything forever is a design that never did this calculation.
 
-## Interview Questions
-
-**Q: How many servers do I need to handle 10,000 requests per second?**
-A: It depends on what each request costs. Use Little's Law: concurrent requests = arrival rate × response time. At 10,000 requests per second with 10 ms service time, about 100 requests are in flight. If one server handles 50 concurrent requests, you need at least 2 servers — plus redundancy, so 3 or 4. The honest answer always starts with the per-request cost, not the request count.
-
-**Q: How much storage do I need for 1 TB a day over a year?**
-A: 1 TB × 365 = 365 TB before anything else. Then state the assumptions: 3x replication makes it about 1.1 PB; Parquet at roughly 5x compression brings the curated copy to about 73 TB. The interviewer wants the multiplication and the stated assumptions, not a single number.
-
-**Q: What is the difference between throughput and latency?**
-A: Latency is how long one request takes; throughput is how many requests complete per second. A system can have low latency and low throughput (one fast worker), or high latency and high throughput (many slow workers in parallel). In an interview, p99 latency matters more than the average, because the average hides the slow requests your users actually feel.
-
-**Q: Why does p99 matter more than average latency?**
-A: Because averages hide tails. An API with 100 ms average latency and 5-second p99 is fine for most requests and unusable for 1 in 100 — and at 10,000 requests per second, 1 in 100 is 100 angry users a second. Design and capacity decisions should be made against a high percentile, usually p99, not the mean.
-
-**Q: How do you estimate bandwidth for a file upload service?**
-A: Multiply requests by payload size, and design for peak, not average. One million uploads a day at 10 MB each is 10 TB a day, about 115 MB/s on average — but if uploads cluster in a few peak hours, the peak rate is several times that. Then convert bytes to bits: 115 MB/s is roughly 1 Gbps. State the peak assumption explicitly.
-
-**Q: What is Little's Law, and when do you use it?**
-A: Concurrent requests = arrival rate × response time. Use it whenever you need to size concurrency: connection pools, thread pools, worker counts. It tells you how many requests are in flight at once, which is what your servers, queues, and pools actually have to hold.
-
 ## Common Mistakes
 
 - **Confusing bits and bytes.** Network speeds are in bits per second: 1 Gbps is 125 MB/s. Quoting 1 GB/s for a 1 Gbps link overstates capacity by 8x and invalidates the whole estimate.
@@ -143,6 +123,8 @@ A: Concurrent requests = arrival rate × response time. Use it whenever you need
 - Little's Law (concurrency = rate × response time) sizes pools, workers, and connections.
 - Storage estimates must state replication and compression assumptions.
 - p99 latency matters more than the average — averages hide the requests users actually feel.
+
+The interview questions for this topic are in a separate post: [Back-of-the-Envelope Calculations Interview Questions and Answers](/blog/back-of-the-envelope-calculations-interview-questions/).
 
 ## Resources
 

@@ -103,26 +103,6 @@ The discipline matters because it converts arguments into numbers: "p99 refresh 
 
 Different parts of the same platform need different levels of each — durability and scale for the raw zone, availability and latency for serving, reliability above all for regulatory pipelines. Assign the characteristics per component instead of declaring the whole system "highly available and reliable."
 
-## Interview Questions
-
-**Q: What is the difference between availability and reliability?**
-A: Availability is the fraction of time the system is up and serving. Reliability is the probability it behaves correctly while up. A pipeline can be 100% available and unreliable if it runs on time but drops records. Availability is about uptime; reliability is about correctness, durability, and consistency.
-
-**Q: What does 99.9% availability mean in practice?**
-A: Three nines allows about 8.76 hours of downtime per year, or roughly 43 minutes per month. Each additional nine cuts the budget by about 10x — four nines is 52.6 minutes per year. The point is that nines are a budget: you spend them on maintenance, deploys, and failures, and exceeding them is what an error budget measures.
-
-**Q: What is an SLO, and how is it different from an SLA?**
-A: An SLI is what you measure, an SLO is the target you set for it, and an SLA is the SLO written into a contract with consequences. Example: SLI is the fraction of refreshes completed by 7 AM, SLO is 99.9%, and the SLA is the agreement with the business that promises it. The SLO is an engineering target; the SLA is a business commitment.
-
-**Q: How do you design a system to be fault-tolerant?**
-A: Three ingredients: redundancy (more than one of everything critical), isolation (a failure in one part cannot cascade), and graceful degradation (the system does something useful instead of nothing). Plus detection — health checks and alerting — because an unnoticed failure is not tolerated, it is silent. In a batch platform that means task retries, quarantine for bad data, and publishing stale data with a banner instead of publishing nothing.
-
-**Q: What is the difference between scalability and performance?**
-A: Performance is how fast one unit of work completes — latency and throughput at the current load. Scalability is how the system behaves as load grows: can it handle 10x the data without redesign or proportional cost growth? A system can be fast and unscalable (a single machine that answers in 10 ms but cannot grow) or scalable and slow (a cluster that handles any load at high latency). Interviews ask about both.
-
-**Q: What failure model should I assume in a design interview?**
-A: Say it out loud. The usual assumption is crash failures — machines stop silently — plus detection for corruption through checksums and reconciliation. Byzantine failures (machines behaving arbitrarily) are rarely the right assumption for a data platform interview, but naming the model shows you understand that fault tolerance depends on what you assume can go wrong.
-
 ## Common Mistakes
 
 - **Promising nines without a budget.** Saying "the system will be 99.99% available" without saying what that costs in redundancy, or which components the nines apply to, is a number without a design behind it.
@@ -139,6 +119,8 @@ A: Say it out loud. The usual assumption is crash failures — machines stop sil
 - Fault tolerance means redundancy, isolation, and graceful degradation — plus detection.
 - SLIs, SLOs, and SLAs turn adjectives into numbers with owners and budgets.
 - Assign each characteristic per component, not to the system as a whole.
+
+The interview questions for this topic are in a separate post: [Non-Functional Requirements Interview Questions and Answers](/blog/non-functional-requirements-interview-questions/).
 
 ## Resources
 

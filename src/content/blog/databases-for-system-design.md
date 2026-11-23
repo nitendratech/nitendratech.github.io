@@ -84,26 +84,6 @@ The NoSQL families each solve a different problem:
 
 **The reasoning:** individual trip lookups by trip ID are point reads — a key-value or wide-column store partitioned by trip ID. Monthly aggregates scan billions of rows by date — a columnar store partitioned by month. Finance totals need strong consistency — a relational database for the ledger, or an append-only log with a reconciliation job. One system cannot do all three well, so the design uses three stores and a pipeline that keeps them in sync. That is the answer: not a brand, but a mapping from access pattern to store, with the sync mechanism named.
 
-## Interview Questions
-
-**1. "When would you choose a NoSQL database over a relational database?"**
-When the access pattern is a single-key lookup at massive scale, when the schema changes constantly, or when write volume exceeds what one leader can handle. If the workload needs joins, ad-hoc queries, or multi-row transactions, the relational database is still the right answer — NoSQL is not a default.
-
-**2. "Explain the difference between synchronous and asynchronous replication."**
-Synchronous replication waits for follower acknowledgement before confirming a write, so an acknowledged write survives a leader crash — at the cost of latency on every write. Asynchronous replication confirms first and replicates after, so it is fast but has a window where a crash loses acknowledged writes. Most systems let you choose per operation.
-
-**3. "What is a quorum, and why does R + W > N matter?"**
-With N replicas, a write that succeeds on W replicas and a read that consults R replicas overlap when R + W > N, so the read is guaranteed to see the latest write. It is how you buy strong consistency without waiting for every replica.
-
-**4. "Your database has a hot partition. What do you do?"**
-First, confirm it is a key problem, not a capacity problem. Then change the key: use a composite key, salt the hot key with a suffix to spread it, or split the partition. For a timestamp key where all writes hit the newest range, add a bucketing component to the key so writes spread across partitions.
-
-**5. "How would you store data for a system that needs both point lookups and heavy analytics?"**
-Two stores, not one. A key-value or wide-column store for point lookups by ID, and a columnar store for analytics, kept in sync by a pipeline. The alternative — one store doing both badly — is the answer to avoid.
-
-**6. "What is eventual consistency, and when is it acceptable?"**
-Reads converge to the latest write after a delay. It is acceptable when staleness has no business consequence: feeds, recommendations, dashboards, search indexes. It is not acceptable for money, inventory, or anything where two readers must agree right now.
-
 ## Common Mistakes
 
 - **Naming a brand instead of an access pattern.** "Use Cassandra" is not an answer. "Point lookups by ID at high write volume, so a wide-column store partitioned by ID" is.
@@ -118,6 +98,8 @@ Reads converge to the latest write after a delay. It is acceptable when stalenes
 - The partition key decides both your parallelism and your hot spots; hash for even distribution, range for ordered scans, consistent hashing for growth.
 - Strong consistency is a cost paid only where the business requires it; name the weaker guarantee everywhere else.
 - One system rarely serves every access pattern — design the stores and the pipeline that keeps them in sync.
+
+The interview questions for this topic are in a separate post: [Databases for System Design Interview Questions and Answers](/blog/databases-for-system-design-interview-questions/).
 
 ## Resources
 
