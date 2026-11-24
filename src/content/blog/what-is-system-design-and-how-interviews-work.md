@@ -10,17 +10,17 @@ draft: false
 
 ## What Is System Design?
 
-System design is the skill of turning a vague requirement into an architecture. Someone says "build a pipeline that processes 20 TB a day" or "design a video analytics platform," and you have to decide what the components are, how data flows between them, where it is stored, and what breaks first when things go wrong.
+System design is the skill of turning a vague requirement into an architecture. If someone says "build a pipeline that processes 20 TB a day" or "design a video analytics platform," and you have to decide what the components are, how data flows between them, where it is stored, and what breaks first when things go wrong. These are the questions that turns requirement into problem system and a relevant architecture.
 
-For a data engineer, this is not an abstract exercise. Every pipeline you have built already is a distributed system. A Spark job is a coordination problem. A Kafka topic is a partitioning decision. A Delta Lake table is a storage and consistency choice. System design is the vocabulary for explaining why you built things the way you did — and for designing the next system before you build it.
+This is not an abstract exercise for a data engineer. For an data engineer, every pipeline you have built already is a distributed system, a Spark job is a coordination problem, a Kafka topic is a partitioning decision and a Delta Lake table is a storage and consistency choice. System design is the vocabulary for explaining why you built things the way you did — and for designing the next system before you build it.
 
 This post is the starting point of the series. It covers what the interview is, what it actually tests, how to prepare, and the structured method to use inside the interview itself. The companion foundations post covers the building blocks (scaling, consistency, caching, partitioning, storage); this post covers the game itself.
 
 ## What System Design Interviews Actually Test
 
-A system design interview is usually 45 to 60 minutes, open-ended, and has no single right answer. The interviewer gives you a problem — "design a URL shortener," "design a data platform for a ride-sharing company" — and watches how you think. Four things are being evaluated, and only one of them is technical knowledge.
+A system design interview is usually 45 to 60 minutes, open-ended, and has no single right answer. The interviewer gives you a problem like "design a URL shortener," "design a data platform for a ride-sharing company" — and watches how you think. There are four things interviewer evaluates in an interview and  only one of them is technical knowledge.
 
-**Reasoning through ambiguity.** Real requirements are incomplete. The interviewer expects you to notice the gaps and ask: how many users, how much data, how fresh must it be, what does "done" look like? A candidate who starts drawing boxes before clarifying the problem has already failed, because they are solving a problem they invented.
+**Reasoning through ambiguity.** In the real world, real requirements are generally incomplete. The interviewer expects you to notice the gaps and ask: how many users, how much data, how fresh the data must be, what does "done" look like? A candidate who starts drawing boxes before clarifying the problem has already failed, because they are solving a problem they invented.
 
 **Communication under pressure.** You have to think out loud, draw a diagram, and keep the interviewer following your reasoning. A clear diagram with a narrated trade-off beats a perfect architecture the interviewer cannot follow. If you go quiet for five minutes and emerge with a finished design, the interviewer has no evidence of how you think.
 
