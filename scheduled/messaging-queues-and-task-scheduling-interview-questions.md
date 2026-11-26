@@ -1,7 +1,7 @@
 ---
 title: "Messaging, Queues, and Task Scheduling Interview Questions and Answers"
 description: "Interview questions and answers on messaging, queues, and task scheduling — queue vs pub-sub, effectively-once processing, dead-letter queues, lag, and ordering."
-pubDate: 2026-11-26
+pubDate: 2026-11-27
 category: "Data Engineering"
 subcategory: System Design
 draft: false

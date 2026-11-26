@@ -1,7 +1,7 @@
 ---
 title: "What is Great Expectations?"
 description: "Great Expectations is the most-named data quality framework in top-payer data engineering postings: Expectations, Suites, Checkpoints, and Data Docs. What it is, how it validates pipelines, and where it fits next to dbt tests."
-pubDate: 2026-11-26
+pubDate: 2026-11-27
 category: "Data Engineering"
 subcategory: "Data Quality"
 draft: false
