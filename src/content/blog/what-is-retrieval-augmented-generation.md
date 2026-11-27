@@ -15,20 +15,23 @@ A large language model (LLM) knows only what it was trained on. It does not know
 
 RAG is an architecture with two steps:
 
-1. **Retrieval** — when a user asks a question, the system first searches a knowledge base (documents, manuals, tickets, database records) and finds the pieces of information most relevant to the question.
+1. **Retrieval** — When a user asks a question, the system first searches a knowledge base (documents, manuals, tickets, database records) and finds the pieces of information most relevant to the question.
+
 2. **Generation** — those retrieved pieces are placed into the prompt as context, and the LLM generates its answer using that context.
 
 The model is no longer answering from memory alone. It is answering from your data, supplied fresh at query time. That one change gives three practical benefits:
 
-- **Current answers** — update the knowledge base and the answers update; no retraining.
-- **Private data** — the model can answer questions about documents it never saw in training.
-- **Grounded answers** — the system can show which source documents an answer came from, which is essential for trust.
+- **Current answers** — Update the knowledge base and the answers update; no retraining.
+- **Private data** — The model can answer questions about documents it never saw in training.
+- **Grounded answers** — The system can show which source documents an answer came from, which is essential for trust.
 
 ## How a RAG system works
 
 A RAG system has two halves: an **indexing pipeline** that runs ahead of time, and a **query flow** that runs when a user asks something.
 
 ### The indexing pipeline (offline)
+
+This pipeline consists of below steps.
 
 1. **Ingest** — collect the source documents: PDFs, web pages, wiki pages, database rows, tickets.
 2. **Chunk** — split documents into smaller pieces (chunks). A whole manual is too large and too mixed in topic to retrieve precisely; a few paragraphs on one topic retrieve well.
@@ -47,9 +50,13 @@ A RAG system has two halves: an **indexing pipeline** that runs ahead of time, a
 RAG looks like an AI topic, but most of the work is data engineering:
 
 - **Ingestion pipelines** that keep the knowledge base fresh as sources change — increasingly with change data capture and incremental updates rather than full reloads.
+
 - **Chunking strategy** — fixed-size splitting is the naive approach; splitting on document structure (sections, headings, paragraphs) retrieves noticeably better. This single decision affects answer quality more than many model choices.
+
 - **Embedding management** — changing the embedding model means re-embedding everything; embeddings must be versioned like any other data product.
+
 - **Metadata and permissions** — retrieval must respect who is allowed to see what. Permission-aware retrieval (filtering by the user's access before anything reaches the prompt) is a correctness requirement, not an enhancement.
+
 - **Evaluation** — RAG systems need their own quality checks: are the right chunks being retrieved (retrieval quality), and is the answer faithful to them (groundedness)? Without measurement, quality regressions are invisible.
 
 ## RAG vs fine-tuning
@@ -57,6 +64,7 @@ RAG looks like an AI topic, but most of the work is data engineering:
 A common question: why not just fine-tune the model on your data? They solve different problems.
 
 - **Fine-tuning** changes the model's behavior — tone, format, task style. It is slow and expensive to repeat, and it is a poor way to store facts that change.
+
 - **RAG** supplies facts at query time. It is updatable, auditable, and respects permissions.
 
 Most production systems use RAG for knowledge and light fine-tuning, if any, for behavior.
@@ -64,7 +72,9 @@ Most production systems use RAG for knowledge and light fine-tuning, if any, for
 ## Challenges to know
 
 - **Retrieval quality is the ceiling** — if the right chunk isn't retrieved, the model cannot use it. Most "the AI gave a wrong answer" incidents are retrieval failures, not model failures.
+
 - **Stale indexes** — an index refreshed weekly answers with last week's data. Freshness SLAs belong in the design.
+
 - **Chunking and context limits** — too-small chunks lose meaning; too-large chunks waste the context window and dilute relevance.
 
 ## Key takeaways
