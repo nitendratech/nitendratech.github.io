@@ -14,7 +14,7 @@ For twenty years, organizations ran two systems side by side: a data warehouse f
 
 ### The data warehouse
 
-Structured, schema-first, and excellent for SQL reporting — but expensive to store data in, closed in format, and a poor fit for unstructured data, streaming, and machine learning. Data must be transformed *before* loading, so anything not modeled in advance is simply not there when you need it.
+Datawarehouse is Structured, schema-first, and excellent for SQL reporting — but expensive to store data in, closed in format, and a poor fit for unstructured data, streaming, and machine learning. Data must be transformed *before* loading, so anything not modeled in advance is simply not there when you need it.
 
 ### The data lake
 
